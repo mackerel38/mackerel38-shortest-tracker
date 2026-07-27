@@ -30,27 +30,67 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Restore tracker state cache
+        uses: actions/cache@v4
+        with:
+          path: .tracker-cache
+          key: shortest-tracker-state-${{ github.run_id }}
+          restore-keys: |
+            shortest-tracker-state-
+
+      - name: Prepare runtime state
+        shell: bash
+        run: |
+          mkdir -p .tracker-cache state
+          if [[ -f .tracker-cache/tracker-state.json ]]; then
+            cp .tracker-cache/tracker-state.json state/tracker-state.json
+          fi
+
       - name: Update tracker data
         run: python scripts/update_tracker.py
 
+      - name: Preserve runtime state
+        shell: bash
+        run: |
+          cp state/tracker-state.json .tracker-cache/tracker-state.json
+
+      - name: Detect Shortest changes
+        id: changes
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- docs/data/tracker.json)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+
+            if git ls-files --error-unmatch state/tracker-state.json >/dev/null 2>&1; then
+              git restore --source=HEAD -- state/tracker-state.json
+            else
+              rm -f state/tracker-state.json
+            fi
+          fi
+
       - name: Commit tracker data
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state/tracker-state.json docs/data/tracker.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update shortest tracker data"
-            git push
-          fi
+          git commit -m "Update shortest tracker data"
+          git push
 
       - name: Configure Pages
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs
 
       - name: Deploy Pages
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         id: deployment
         uses: actions/deploy-pages@v4

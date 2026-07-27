@@ -658,6 +658,9 @@ def main() -> int:
         raise TrackerError("AtCoder Problemsのデータ形式が不正です")
 
     state = load_state()
+    initial_run = state is None
+    original_state = None if state is None else json.loads(json.dumps(state))
+
     if state is None:
         print("初期データを作成します。")
         state = initialize(merged, now_epoch)
@@ -691,8 +694,26 @@ def main() -> int:
         )
     )
 
-    public = build_public(state, problems, now_epoch)
+    comparable_state = json.loads(json.dumps(state))
+    comparable_state.pop("last_checked_epoch", None)
+
+    comparable_original = None
+    if original_state is not None:
+        comparable_original = json.loads(json.dumps(original_state))
+        comparable_original.pop("last_checked_epoch", None)
+
+    tracker_changed = initial_run or comparable_state != comparable_original
+
+    # 最終確認時刻を含む内部状態は毎回保存する。
+    # GitHub Actions側でキャッシュに退避し、Shortestに変化がない場合は
+    # リポジトリへコミットしない。
     save_json(STATE_PATH, state)
+
+    if not tracker_changed:
+        print("Shortestの変化はありません。公開データは更新しません。")
+        return 0
+
+    public = build_public(state, problems, now_epoch)
     save_json(PUBLIC_PATH, public)
 
     summary = public["summary"]
