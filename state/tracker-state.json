@@ -18484,9 +18484,9 @@
       "contest_id": "abc385",
       "epoch_second": null,
       "language": null,
-      "length": 248,
-      "submission_id": 61322362,
-      "user_id": "teruteru_source"
+      "length": 237,
+      "submission_id": 77892851,
+      "user_id": "hamu_chan"
     },
     "abc386_a": {
       "contest_id": "abc386",
@@ -75142,7 +75142,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785132803,
+  "last_checked_epoch": 1785135085,
   "target_user": "mackerel38",
   "version": 1
 }

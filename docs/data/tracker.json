@@ -1293,12 +1293,12 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785132803,
-  "generated_iso": "2026-07-27T06:13:23+00:00",
+  "generated_epoch": 1785135085,
+  "generated_iso": "2026-07-27T06:51:25+00:00",
   "losses": [],
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
-    "導入後、mackerel38が保持していたShortestを他ユーザーがさらに短い提出で更新した場合だけ奪取履歴に記録します。",
+    "導入後の獲得・自己更新・奪取は提出時刻順に追跡します。",
     "導入以前の奪取履歴は記録しません。"
   ],
   "problems": [
