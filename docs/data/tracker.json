@@ -1122,8 +1122,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785118603,
-  "generated_iso": "2026-07-27T02:16:43+00:00",
+  "generated_epoch": 1785119735,
+  "generated_iso": "2026-07-27T02:35:35+00:00",
   "losses": [],
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
