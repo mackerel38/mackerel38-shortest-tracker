@@ -96,6 +96,22 @@
       "submission_id": 52044195,
       "user_id": "c_r_5"
     },
+    "APG4bPython_cf": {
+      "contest_id": "APG4bPython",
+      "epoch_second": 1785147620,
+      "language": "Python (CPython 3.13.7)",
+      "length": 308,
+      "submission_id": 77899916,
+      "user_id": "TyouTsuho"
+    },
+    "APG4bPython_ci": {
+      "contest_id": "APG4bPython",
+      "epoch_second": 1785149695,
+      "language": "Python (CPython 3.13.7)",
+      "length": 196,
+      "submission_id": 77900441,
+      "user_id": "outbreakman"
+    },
     "APG4bPython_cj": {
       "contest_id": "APG4bPython",
       "epoch_second": null,
@@ -41244,9 +41260,9 @@
       "contest_id": "awc0111",
       "epoch_second": null,
       "language": null,
-      "length": 91,
-      "submission_id": 77491292,
-      "user_id": "reRollyPolly"
+      "length": 77,
+      "submission_id": 77894063,
+      "user_id": "mackerel38"
     },
     "awc0111_b": {
       "contest_id": "awc0111",
@@ -41638,6 +41654,46 @@
       "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 362,
       "submission_id": 77796580,
+      "user_id": "mackerel38"
+    },
+    "awc0121_a": {
+      "contest_id": "awc0121",
+      "epoch_second": 1785150275,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 57,
+      "submission_id": 77900730,
+      "user_id": "mackerel38"
+    },
+    "awc0121_b": {
+      "contest_id": "awc0121",
+      "epoch_second": 1785153961,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 45,
+      "submission_id": 77902639,
+      "user_id": "mackerel38"
+    },
+    "awc0121_c": {
+      "contest_id": "awc0121",
+      "epoch_second": 1785150605,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 64,
+      "submission_id": 77900954,
+      "user_id": "mackerel38"
+    },
+    "awc0121_d": {
+      "contest_id": "awc0121",
+      "epoch_second": 1785151587,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 139,
+      "submission_id": 77901478,
+      "user_id": "mackerel38"
+    },
+    "awc0121_e": {
+      "contest_id": "awc0121",
+      "epoch_second": 1785150871,
+      "language": "Perl (perl 5.38.2)",
+      "length": 92,
+      "submission_id": 77901108,
       "user_id": "mackerel38"
     },
     "awtf2024_a": {
@@ -73487,6 +73543,11 @@
     "acquired:awc0112_c:77892087",
     "acquired:awc0112_d:77892400",
     "acquired:awc0112_e:77892427",
+    "acquired:awc0121_a:77900730",
+    "acquired:awc0121_b:77900875",
+    "acquired:awc0121_c:77900954",
+    "acquired:awc0121_d:77901478",
+    "acquired:awc0121_e:77901108",
     "baseline:abc365_g:77875986",
     "baseline:abc464_c:77887326",
     "baseline:abc464_d:77887441",
@@ -73547,7 +73608,9 @@
     "baseline:awc0120_d:77796310",
     "baseline:awc0120_e:77796580",
     "improved:abc464_f:77889546",
-    "improved:awc0112_e:77892705"
+    "improved:awc0112_e:77892705",
+    "improved:awc0121_b:77902214",
+    "improved:awc0121_b:77902639"
   ],
   "events": [
     {
@@ -74585,6 +74648,104 @@
       "previous_user_id": "blueberry1001",
       "problem_id": "awc0110_d",
       "submission_id": 77898939
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785150275,
+      "event_type": "acquired",
+      "language": "AWK (GNU awk 5.2.1)",
+      "new_length": 57,
+      "new_user_id": "mackerel38",
+      "previous_length": 182,
+      "previous_submission_id": 77900652,
+      "previous_user_id": "orangekid",
+      "problem_id": "awc0121_a",
+      "submission_id": 77900730
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785150466,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 58,
+      "new_user_id": "mackerel38",
+      "previous_length": 136,
+      "previous_submission_id": 77900666,
+      "previous_user_id": "kidodesuyo",
+      "problem_id": "awc0121_b",
+      "submission_id": 77900875
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785150605,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 64,
+      "new_user_id": "mackerel38",
+      "previous_length": 1649,
+      "previous_submission_id": 77900851,
+      "previous_user_id": "shingo0909",
+      "problem_id": "awc0121_c",
+      "submission_id": 77900954
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785150871,
+      "event_type": "acquired",
+      "language": "Perl (perl 5.38.2)",
+      "new_length": 92,
+      "new_user_id": "mackerel38",
+      "previous_length": null,
+      "previous_submission_id": null,
+      "previous_user_id": null,
+      "problem_id": "awc0121_e",
+      "submission_id": 77901108
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785151587,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 139,
+      "new_user_id": "mackerel38",
+      "previous_length": 317,
+      "previous_submission_id": 77901041,
+      "previous_user_id": "sigtuna",
+      "problem_id": "awc0121_d",
+      "submission_id": 77901478
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785153074,
+      "event_type": "improved",
+      "language": "A言語 (interpreter af48a2a)",
+      "new_length": 46,
+      "new_user_id": "mackerel38",
+      "previous_length": 58,
+      "previous_submission_id": 77900875,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0121_b",
+      "submission_id": 77902214
+    },
+    {
+      "contest_id": "awc0121",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785153961,
+      "event_type": "improved",
+      "language": "A言語 (interpreter af48a2a)",
+      "new_length": 45,
+      "new_user_id": "mackerel38",
+      "previous_length": 46,
+      "previous_submission_id": 77902214,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0121_b",
+      "submission_id": 77902639
     }
   ],
   "ever_held": {
@@ -74839,6 +75000,15 @@
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 116,
       "target_submission_id": 77898759
+    },
+    "awc0111_a": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 77,
+      "target_submission_id": 77894063
     },
     "awc0111_b": {
       "acquisition_count": 1,
@@ -75235,10 +75405,55 @@
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 362,
       "target_submission_id": 77796580
+    },
+    "awc0121_a": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785150275,
+      "last_acquired_epoch": 1785150275,
+      "target_epoch_second": 1785150275,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 57,
+      "target_submission_id": 77900730
+    },
+    "awc0121_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785150466,
+      "last_acquired_epoch": 1785150466,
+      "target_epoch_second": 1785153961,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 45,
+      "target_submission_id": 77902639
+    },
+    "awc0121_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785150605,
+      "last_acquired_epoch": 1785150605,
+      "target_epoch_second": 1785150605,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 64,
+      "target_submission_id": 77900954
+    },
+    "awc0121_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785151587,
+      "last_acquired_epoch": 1785151587,
+      "target_epoch_second": 1785151587,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 139,
+      "target_submission_id": 77901478
+    },
+    "awc0121_e": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785150871,
+      "last_acquired_epoch": 1785150871,
+      "target_epoch_second": 1785150871,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 92,
+      "target_submission_id": 77901108
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785147180,
+  "last_checked_epoch": 1785158580,
   "target_user": "mackerel38",
   "version": 1
 }
