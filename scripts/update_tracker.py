@@ -129,6 +129,50 @@ def same_user(left: str | None, right: str | None) -> bool:
     return isinstance(left, str) and isinstance(right, str) and left.lower() == right.lower()
 
 
+def shortest_rank(snapshot: dict[str, Any] | None) -> tuple[int, int] | None:
+    if not isinstance(snapshot, dict):
+        return None
+    length = snapshot.get("length")
+    submission_id = snapshot.get("submission_id")
+    if not isinstance(length, int) or not isinstance(submission_id, int):
+        return None
+    return (length, submission_id)
+
+
+def is_strictly_better(
+    candidate: dict[str, Any] | None,
+    previous: dict[str, Any] | None,
+) -> bool:
+    candidate_rank = shortest_rank(candidate)
+    previous_rank = shortest_rank(previous)
+    return (
+        candidate_rank is not None
+        and previous_rank is not None
+        and candidate_rank < previous_rank
+    )
+
+
+def is_valid_loss_event(event: dict[str, Any]) -> bool:
+    if event.get("event_type") != "lost":
+        return False
+    if not same_user(event.get("previous_user_id"), TARGET_USER):
+        return False
+    if same_user(event.get("new_user_id"), TARGET_USER):
+        return False
+    if not isinstance(event.get("epoch_second"), int):
+        return False
+
+    previous = {
+        "length": event.get("previous_length"),
+        "submission_id": event.get("previous_submission_id"),
+    }
+    current = {
+        "length": event.get("new_length"),
+        "submission_id": event.get("submission_id"),
+    }
+    return is_strictly_better(current, previous)
+
+
 def event_key(event_type: str, problem_id: str, submission_id: int) -> str:
     return f"{event_type}:{problem_id}:{submission_id}"
 
@@ -236,6 +280,14 @@ def process_transition(
         )
         remember_target_hold(state, problem_id, current)
     elif previous_target and not current_target:
+        epoch = current.get("epoch_second")
+        initialized_at = int(state.get("initialized_at") or 0)
+        if (
+            not isinstance(epoch, int)
+            or epoch < initialized_at
+            or not is_strictly_better(current, previous)
+        ):
+            return
         add_event(
             state,
             event_type="lost",
@@ -254,6 +306,51 @@ def process_transition(
             detected_by_reconcile=detected_by_reconcile,
         )
         update_target_best(state, problem_id, current)
+
+
+def sanitize_state(state: dict[str, Any]) -> None:
+    cleaned_events: list[dict[str, Any]] = []
+    for event in state.get("events", []):
+        if not isinstance(event, dict):
+            continue
+        if event.get("event_type") == "lost" and not is_valid_loss_event(event):
+            continue
+        cleaned_events.append(event)
+
+    state["events"] = cleaned_events
+    state["event_keys"] = sorted(
+        {
+            event_key(
+                str(event.get("event_type") or ""),
+                str(event.get("problem_id") or ""),
+                int(event.get("submission_id") or 0),
+            )
+            for event in cleaned_events
+            if event.get("event_type")
+            and event.get("problem_id")
+            and isinstance(event.get("submission_id"), int)
+        }
+    )
+
+    # merged-problems.json が新着提出APIより遅れている場合、
+    # より長い古い提出へ巻き戻された状態を修復する。
+    for problem_id, held in state.get("ever_held", {}).items():
+        if not isinstance(held, dict):
+            continue
+        current = state.get("current", {}).get(problem_id)
+        if not isinstance(current, dict) or same_user(current.get("user_id"), TARGET_USER):
+            continue
+
+        target_snapshot = {
+            "submission_id": held.get("target_submission_id"),
+            "user_id": TARGET_USER,
+            "contest_id": current.get("contest_id"),
+            "length": held.get("target_length"),
+            "epoch_second": held.get("target_epoch_second"),
+            "language": held.get("target_language"),
+        }
+        if is_strictly_better(target_snapshot, current):
+            state["current"][problem_id] = target_snapshot
 
 
 def fetch_target_submissions(needed_ids: set[int]) -> dict[int, dict[str, Any]]:
@@ -469,10 +566,24 @@ def reconcile(
             state["current"][problem_id] = authoritative
             continue
 
-        detail = recent_by_id.get(int(authoritative["submission_id"]))
-        if detail is not None:
-            authoritative.update(submission_snapshot(detail))
+        # merged-problems.json は新着提出APIより更新が遅れることがある。
+        # 現在記録している提出より悪い値なら、古いスナップショットなので無視する。
+        if previous is not None and not is_strictly_better(authoritative, previous):
+            continue
 
+        detail = recent_by_id.get(int(authoritative["submission_id"]))
+        if detail is None:
+            # 提出日時を確認できない変化は奪取履歴に入れない。
+            # 現在値だけを同期し、1970年表示や過去分の誤登録を防ぐ。
+            state["current"][problem_id] = authoritative
+            if same_user(authoritative.get("user_id"), TARGET_USER):
+                if previous is not None and same_user(previous.get("user_id"), TARGET_USER):
+                    update_target_best(state, problem_id, authoritative)
+                else:
+                    remember_target_hold(state, problem_id, authoritative)
+            continue
+
+        authoritative.update(submission_snapshot(detail))
         process_transition(
             state,
             problem_id,
@@ -598,7 +709,7 @@ def build_public(
     losses = [
         enrich_event(event, metadata)
         for event in state["events"]
-        if event.get("event_type") == "lost"
+        if is_valid_loss_event(event)
     ]
     losses.sort(
         key=lambda event: (
@@ -642,7 +753,7 @@ def build_public(
         "notes": [
             "初回導入時は、その時点で保持していたShortestを登録します。",
             "導入後の獲得・自己更新・奪取は提出時刻順に追跡します。",
-            "導入以前にすでに奪われた履歴は、後続の過去履歴復元機能で追加予定です。",
+            "導入以前の奪取履歴は記録しません。",
         ],
     }
 
@@ -660,6 +771,8 @@ def main() -> int:
     state = load_state()
     initial_run = state is None
     original_state = None if state is None else json.loads(json.dumps(state))
+    if state is not None:
+        sanitize_state(state)
 
     if state is None:
         print("初期データを作成します。")

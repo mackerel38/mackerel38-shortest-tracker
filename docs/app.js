@@ -23,10 +23,14 @@ function escapeHtml(value) {
 }
 
 function dateText(epoch) {
-  if (!Number.isFinite(Number(epoch))) {
+  if (epoch === null || epoch === undefined || epoch === "") {
     return "不明";
   }
-  return formatter.format(new Date(Number(epoch) * 1000));
+  const value = Number(epoch);
+  if (!Number.isFinite(value) || value <= 0) {
+    return "不明";
+  }
+  return formatter.format(new Date(value * 1000));
 }
 
 function link(url, text, className = "") {
