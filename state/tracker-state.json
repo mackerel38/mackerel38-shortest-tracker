@@ -41204,25 +41204,25 @@
       "contest_id": "awc0109",
       "epoch_second": null,
       "language": null,
-      "length": 117,
-      "submission_id": 77304717,
-      "user_id": "moon17"
+      "length": 79,
+      "submission_id": 77899163,
+      "user_id": "mackerel38"
     },
     "awc0109_d": {
       "contest_id": "awc0109",
       "epoch_second": null,
       "language": null,
-      "length": 394,
-      "submission_id": 77304835,
-      "user_id": "moon17"
+      "length": 261,
+      "submission_id": 77899230,
+      "user_id": "mackerel38"
     },
     "awc0109_e": {
       "contest_id": "awc0109",
       "epoch_second": null,
       "language": null,
-      "length": 633,
-      "submission_id": 77306903,
-      "user_id": "moon17"
+      "length": 337,
+      "submission_id": 77899309,
+      "user_id": "mackerel38"
     },
     "awc0110_a": {
       "contest_id": "awc0110",
@@ -75093,6 +75093,33 @@
       "target_length": 100,
       "target_submission_id": 77900348
     },
+    "awc0109_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 79,
+      "target_submission_id": 77899163
+    },
+    "awc0109_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 261,
+      "target_submission_id": 77899230
+    },
+    "awc0109_e": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 337,
+      "target_submission_id": 77899309
+    },
     "awc0110_a": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785142337,
@@ -75581,7 +75608,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785174693,
+  "last_checked_epoch": 1785181460,
   "target_user": "mackerel38",
   "version": 1
 }
