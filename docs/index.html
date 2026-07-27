@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>mackerel38 Shortest Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">AtCoder Shortest history</p>
+      <h1>mackerel38 Shortest Tracker</h1>
+      <p class="subtitle">
+        Shortestを保持した問題と、奪取された履歴を記録します。
+      </p>
+    </div>
+    <p id="updated" class="updated">データを読み込み中...</p>
+  </header>
+
+  <main>
+    <section id="summary" class="summary" aria-label="集計"></section>
+
+    <nav class="tabs" aria-label="表示切替">
+      <button class="tab active" data-tab="problems" type="button">
+        保持経験のある問題
+      </button>
+      <button class="tab" data-tab="losses" type="button">
+        Shortest奪取リスト
+      </button>
+    </nav>
+
+    <section id="problems-panel" class="panel active">
+      <div class="controls">
+        <label>
+          <span>検索</span>
+          <input id="search" type="search" placeholder="問題名・ID・保持者">
+        </label>
+        <label>
+          <span>状態</span>
+          <select id="status-filter">
+            <option value="all">すべて</option>
+            <option value="holding">現在保持中</option>
+            <option value="lost">奪取済み</option>
+          </select>
+        </label>
+        <label>
+          <span>並び順</span>
+          <select id="sort">
+            <option value="acquired-desc">獲得日時の新しい順</option>
+            <option value="bytes-asc">mackerel38のBytesが小さい順</option>
+            <option value="problem-asc">問題ID順</option>
+          </select>
+        </label>
+      </div>
+
+      <p id="problem-count" class="result-count"></p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>状態</th>
+              <th>問題</th>
+              <th>mackerel38の提出</th>
+              <th>獲得日時</th>
+              <th>Bytes</th>
+              <th>言語</th>
+              <th>現在の保持者</th>
+              <th>現在の提出日時</th>
+              <th>現在のBytes</th>
+              <th>現在の言語</th>
+            </tr>
+          </thead>
+          <tbody id="problems-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="losses-panel" class="panel">
+      <p id="loss-count" class="result-count"></p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>奪取日時</th>
+              <th>問題</th>
+              <th>奪取したユーザー</th>
+              <th>変更前</th>
+              <th>変更後</th>
+              <th>差</th>
+              <th>言語</th>
+              <th>提出</th>
+            </tr>
+          </thead>
+          <tbody id="losses-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="notes">
+      <h2>記録について</h2>
+      <ul id="notes"></ul>
+    </section>
+  </main>
+</body>
+</html>

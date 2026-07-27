@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "target_user": "mackerel38",
+  "generated_epoch": null,
+  "generated_iso": null,
+  "summary": {
+    "ever_held_count": 0,
+    "holding_count": 0,
+    "lost_count": 0,
+    "loss_event_count": 0
+  },
+  "problems": [],
+  "losses": [],
+  "acquisitions": [],
+  "notes": [
+    "GitHub Actionsを初回実行するとデータが作成されます。"
+  ]
+}

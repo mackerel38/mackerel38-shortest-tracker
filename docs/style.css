@@ -1,0 +1,300 @@
+:root {
+  font-family:
+    Inter, "Noto Sans JP", "Yu Gothic UI", "Yu Gothic", Meiryo, sans-serif;
+  color: #172033;
+  background: #f4f6fb;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  color: #215dc6;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.hero {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem max(1.25rem, calc((100vw - 1500px) / 2));
+  color: white;
+  background:
+    radial-gradient(circle at top right, rgba(255, 209, 102, 0.4), transparent 36%),
+    linear-gradient(135deg, #18243c, #263f70);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: #ffd166;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 4vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 1rem 0 0;
+  color: #dce7ff;
+}
+
+.updated {
+  margin: 0;
+  color: #dce7ff;
+  white-space: nowrap;
+}
+
+main {
+  width: min(1500px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1.5rem 0 4rem;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: -2.3rem;
+}
+
+.summary-card {
+  padding: 1.25rem;
+  border: 1px solid #dfe5f0;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(31, 46, 78, 0.09);
+}
+
+.summary-card p {
+  margin: 0;
+  color: #65718a;
+  font-weight: 700;
+}
+
+.summary-card strong {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.75rem 0 1rem;
+}
+
+.tab {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccd5e6;
+  border-radius: 999px;
+  background: white;
+  color: #34415b;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-color: #215dc6;
+  background: #215dc6;
+  color: white;
+}
+
+.panel {
+  display: none;
+}
+
+.panel.active {
+  display: block;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: minmax(260px, 2fr) repeat(2, minmax(170px, 1fr));
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #dfe5f0;
+  border-radius: 14px;
+  background: white;
+}
+
+.controls label {
+  display: grid;
+  gap: 0.4rem;
+  color: #556178;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.72rem 0.8rem;
+  border: 1px solid #cbd4e4;
+  border-radius: 9px;
+  background: white;
+  color: #172033;
+  font: inherit;
+}
+
+.result-count {
+  margin: 1rem 0 0.6rem;
+  color: #65718a;
+  font-size: 0.9rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #dfe5f0;
+  border-radius: 14px;
+  background: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 0.78rem 0.9rem;
+  border-bottom: 1px solid #e8ecf3;
+  text-align: left;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8f9fc;
+  color: #4c5870;
+  font-size: 0.78rem;
+}
+
+tbody tr:hover {
+  background: #f7f9fd;
+}
+
+.number {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.problem-link,
+.user-link {
+  font-weight: 700;
+}
+
+.status {
+  display: inline-flex;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.status.holding {
+  color: #0a6847;
+  background: #d9f7ea;
+}
+
+.status.lost {
+  color: #a0372d;
+  background: #fde4e1;
+}
+
+.notes {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #dfe5f0;
+  border-radius: 14px;
+  background: white;
+}
+
+.notes h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.notes ul {
+  margin-bottom: 0;
+  padding-left: 1.3rem;
+  color: #5d6980;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #e7ebf4;
+    background: #101621;
+  }
+
+  .summary-card,
+  .controls,
+  .table-wrap,
+  .notes,
+  .tab,
+  input,
+  select {
+    border-color: #303b50;
+    background: #192131;
+    color: #e7ebf4;
+  }
+
+  th {
+    background: #20293a;
+    color: #bfc8da;
+  }
+
+  th,
+  td {
+    border-bottom-color: #30394b;
+  }
+
+  tbody tr:hover {
+    background: #202a3d;
+  }
+
+  .summary-card p,
+  .result-count,
+  .controls label,
+  .notes ul {
+    color: #aeb8ca;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .updated {
+    white-space: normal;
+  }
+
+  .summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}
