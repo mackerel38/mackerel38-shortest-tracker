@@ -1502,8 +1502,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785168011,
-  "generated_iso": "2026-07-27T16:00:11+00:00",
+  "generated_epoch": 1785174693,
+  "generated_iso": "2026-07-27T17:51:33+00:00",
   "losses": [
     {
       "contest_id": "abc468",
@@ -3295,6 +3295,50 @@
       "acquisition_count": 1,
       "current_epoch_second": null,
       "current_language": null,
+      "current_length": 100,
+      "current_submission_id": 77900348,
+      "current_submission_url": "https://atcoder.jp/contests/awc0108/submissions/77900348",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "problem_id": "awc0108_e",
+      "problem_index": "E",
+      "problem_name": "Streetlight Inspection",
+      "problem_title": "E. Streetlight Inspection",
+      "problem_url": "https://atcoder.jp/contests/awc0108/tasks/awc0108_e",
+      "status": "holding",
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 100,
+      "target_submission_id": 77900348,
+      "target_submission_url": "https://atcoder.jp/contests/awc0108/submissions/77900348"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": null,
+      "current_language": null,
+      "current_length": 44,
+      "current_submission_id": 77900232,
+      "current_submission_url": "https://atcoder.jp/contests/awc0108/submissions/77900232",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": null,
+      "last_acquired_epoch": null,
+      "problem_id": "awc0108_b",
+      "problem_index": "B",
+      "problem_name": "Password Verification",
+      "problem_title": "B. Password Verification",
+      "problem_url": "https://atcoder.jp/contests/awc0108/tasks/awc0108_b",
+      "status": "holding",
+      "target_epoch_second": null,
+      "target_language": null,
+      "target_length": 44,
+      "target_submission_id": 77900232,
+      "target_submission_url": "https://atcoder.jp/contests/awc0108/submissions/77900232"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": null,
+      "current_language": null,
       "current_length": 482,
       "current_submission_id": 77894382,
       "current_submission_url": "https://atcoder.jp/contests/abc463/submissions/77894382",
@@ -3315,8 +3359,8 @@
     }
   ],
   "summary": {
-    "ever_held_count": 81,
-    "holding_count": 80,
+    "ever_held_count": 83,
+    "holding_count": 82,
     "loss_event_count": 1,
     "lost_count": 1
   },
