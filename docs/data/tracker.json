@@ -1,6 +1,25 @@
 {
   "acquisitions": [
     {
+      "contest_id": "awc0113",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785267823,
+      "event_type": "acquired",
+      "language": "Uiua (uiua 0.16.2)",
+      "new_length": 59,
+      "new_user_id": "mackerel38",
+      "previous_length": 61,
+      "previous_submission_id": 77505745,
+      "previous_user_id": "shogo314",
+      "problem_id": "awc0113_b",
+      "problem_index": "B",
+      "problem_name": "Watering the Lawn",
+      "problem_title": "B. Watering the Lawn",
+      "problem_url": "https://atcoder.jp/contests/awc0113/tasks/awc0113_b",
+      "submission_id": 77926665,
+      "submission_url": "https://atcoder.jp/contests/awc0113/submissions/77926665"
+    },
+    {
       "contest_id": "abc467",
       "detected_by_reconcile": false,
       "epoch_second": 1785245039,
@@ -1806,8 +1825,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785274376,
-  "generated_iso": "2026-07-28T21:32:56+00:00",
+  "generated_epoch": 1785278594,
+  "generated_iso": "2026-07-28T22:43:14+00:00",
   "losses": [
     {
       "contest_id": "abc467",
@@ -1854,6 +1873,28 @@
     "導入以前の奪取履歴は記録しません。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785267823,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 59,
+      "current_submission_id": 77926665,
+      "current_submission_url": "https://atcoder.jp/contests/awc0113/submissions/77926665",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785267823,
+      "last_acquired_epoch": 1785267823,
+      "problem_id": "awc0113_b",
+      "problem_index": "B",
+      "problem_name": "Watering the Lawn",
+      "problem_title": "B. Watering the Lawn",
+      "problem_url": "https://atcoder.jp/contests/awc0113/tasks/awc0113_b",
+      "status": "holding",
+      "target_epoch_second": 1785267823,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 59,
+      "target_submission_id": 77926665,
+      "target_submission_url": "https://atcoder.jp/contests/awc0113/submissions/77926665"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1785248412,
@@ -4848,8 +4889,8 @@
     }
   ],
   "summary": {
-    "ever_held_count": 136,
-    "holding_count": 135,
+    "ever_held_count": 137,
+    "holding_count": 136,
     "loss_event_count": 2,
     "lost_count": 1
   },

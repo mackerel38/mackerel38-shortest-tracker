@@ -41362,11 +41362,11 @@
     },
     "awc0113_b": {
       "contest_id": "awc0113",
-      "epoch_second": null,
-      "language": null,
-      "length": 61,
-      "submission_id": 77505745,
-      "user_id": "shogo314"
+      "epoch_second": 1785267823,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 59,
+      "submission_id": 77926665,
+      "user_id": "mackerel38"
     },
     "awc0113_c": {
       "contest_id": "awc0113",
@@ -73612,6 +73612,7 @@
     "acquired:awc0112_c:77892087",
     "acquired:awc0112_d:77892400",
     "acquired:awc0112_e:77892427",
+    "acquired:awc0113_b:77926665",
     "acquired:awc0121_a:77900730",
     "acquired:awc0121_b:77900875",
     "acquired:awc0121_c:77900954",
@@ -75267,6 +75268,20 @@
       "previous_user_id": "mackerel38",
       "problem_id": "abc467_c",
       "submission_id": 77925318
+    },
+    {
+      "contest_id": "awc0113",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785267823,
+      "event_type": "acquired",
+      "language": "Uiua (uiua 0.16.2)",
+      "new_length": 59,
+      "new_user_id": "mackerel38",
+      "previous_length": 61,
+      "previous_submission_id": 77505745,
+      "previous_user_id": "shogo314",
+      "problem_id": "awc0113_b",
+      "submission_id": 77926665
     }
   ],
   "ever_held": {
@@ -76089,6 +76104,15 @@
       "target_length": 46,
       "target_submission_id": 77892705
     },
+    "awc0113_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785267823,
+      "last_acquired_epoch": 1785267823,
+      "target_epoch_second": 1785267823,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 59,
+      "target_submission_id": 77926665
+    },
     "awc0113_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1784998745,
@@ -76496,7 +76520,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785274376,
+  "last_checked_epoch": 1785278594,
   "target_user": "mackerel38",
   "version": 1
 }
