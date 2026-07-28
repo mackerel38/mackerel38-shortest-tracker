@@ -23074,10 +23074,10 @@
     },
     "abc467_c": {
       "contest_id": "abc467",
-      "epoch_second": 1785245039,
+      "epoch_second": 1785255204,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 39,
-      "submission_id": 77922917,
+      "length": 38,
+      "submission_id": 77925318,
       "user_id": "mackerel38"
     },
     "abc467_d": {
@@ -35940,9 +35940,9 @@
       "contest_id": "arc213",
       "epoch_second": null,
       "language": null,
-      "length": 575,
-      "submission_id": 75904345,
-      "user_id": "glaceon1020"
+      "length": 564,
+      "submission_id": 77921152,
+      "user_id": "sigtuna"
     },
     "arc213_b": {
       "contest_id": "arc213",
@@ -73682,6 +73682,7 @@
     "baseline:awc0120_d:77796310",
     "baseline:awc0120_e:77796580",
     "improved:abc464_f:77889546",
+    "improved:abc467_c:77925318",
     "improved:awc0108_a:77904196",
     "improved:awc0108_c:77904128",
     "improved:awc0112_e:77892705",
@@ -75237,6 +75238,20 @@
       "previous_user_id": "shogo314",
       "problem_id": "abc467_c",
       "submission_id": 77922917
+    },
+    {
+      "contest_id": "abc467",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785255204,
+      "event_type": "improved",
+      "language": "Uiua (uiua 0.16.2)",
+      "new_length": 38,
+      "new_user_id": "mackerel38",
+      "previous_length": 39,
+      "previous_submission_id": 77922917,
+      "previous_user_id": "mackerel38",
+      "problem_id": "abc467_c",
+      "submission_id": 77925318
     }
   ],
   "ever_held": {
@@ -75379,10 +75394,10 @@
       "acquisition_count": 2,
       "first_acquired_epoch": 1784987174,
       "last_acquired_epoch": 1785245039,
-      "target_epoch_second": 1785245039,
+      "target_epoch_second": 1785255204,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 39,
-      "target_submission_id": 77922917
+      "target_length": 38,
+      "target_submission_id": 77925318
     },
     "abc467_d": {
       "acquisition_count": 1,
@@ -76466,7 +76481,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785250893,
+  "last_checked_epoch": 1785257540,
   "target_user": "mackerel38",
   "version": 1
 }

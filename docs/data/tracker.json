@@ -1806,8 +1806,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785250893,
-  "generated_iso": "2026-07-28T15:01:33+00:00",
+  "generated_epoch": 1785257540,
+  "generated_iso": "2026-07-28T16:52:20+00:00",
   "losses": [
     {
       "contest_id": "abc467",
@@ -1856,11 +1856,11 @@
   "problems": [
     {
       "acquisition_count": 2,
-      "current_epoch_second": 1785245039,
+      "current_epoch_second": 1785255204,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 39,
-      "current_submission_id": 77922917,
-      "current_submission_url": "https://atcoder.jp/contests/abc467/submissions/77922917",
+      "current_length": 38,
+      "current_submission_id": 77925318,
+      "current_submission_url": "https://atcoder.jp/contests/abc467/submissions/77925318",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1784987174,
       "last_acquired_epoch": 1785245039,
@@ -1870,11 +1870,11 @@
       "problem_title": "C. Adjacent Sums (easy)",
       "problem_url": "https://atcoder.jp/contests/abc467/tasks/abc467_c",
       "status": "holding",
-      "target_epoch_second": 1785245039,
+      "target_epoch_second": 1785255204,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 39,
-      "target_submission_id": 77922917,
-      "target_submission_url": "https://atcoder.jp/contests/abc467/submissions/77922917"
+      "target_length": 38,
+      "target_submission_id": 77925318,
+      "target_submission_url": "https://atcoder.jp/contests/abc467/submissions/77925318"
     },
     {
       "acquisition_count": 1,
