@@ -22866,8 +22866,8 @@
     },
     "abc463_f": {
       "contest_id": "abc463",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785133251,
+      "language": "Python (PyPy 3.11-v7.3.20)",
       "length": 482,
       "submission_id": 77894382,
       "user_id": "mackerel38"
@@ -22922,8 +22922,8 @@
     },
     "abc464_f": {
       "contest_id": "abc464",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785113981,
+      "language": "Python (PyPy 3.11-v7.3.20)",
       "length": 338,
       "submission_id": 77889546,
       "user_id": "mackerel38"
@@ -23066,11 +23066,11 @@
     },
     "abc467_c": {
       "contest_id": "abc467",
-      "epoch_second": 1785239032,
+      "epoch_second": 1785245039,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 40,
-      "submission_id": 77920854,
-      "user_id": "shogo314"
+      "length": 39,
+      "submission_id": 77922917,
+      "user_id": "mackerel38"
     },
     "abc467_d": {
       "contest_id": "abc467",
@@ -40754,64 +40754,64 @@
     },
     "awc0100_b": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785211920,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 23,
       "submission_id": 77911954,
       "user_id": "mackerel38"
     },
     "awc0100_c": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785213059,
+      "language": "Perl (perl 5.38.2)",
       "length": 59,
       "submission_id": 77912242,
       "user_id": "mackerel38"
     },
     "awc0100_d": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785212353,
+      "language": "Uiua (uiua 0.16.2)",
       "length": 30,
       "submission_id": 77912038,
       "user_id": "mackerel38"
     },
     "awc0100_e": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785214780,
+      "language": "Uiua (uiua 0.16.2)",
       "length": 30,
       "submission_id": 77912708,
       "user_id": "mackerel38"
     },
     "awc0100_f": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785219841,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 56,
       "submission_id": 77913956,
       "user_id": "mackerel38"
     },
     "awc0100_g": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785215831,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 86,
       "submission_id": 77912917,
       "user_id": "mackerel38"
     },
     "awc0100_h": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785220396,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 128,
       "submission_id": 77914132,
       "user_id": "mackerel38"
     },
     "awc0100_i": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785215967,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 54,
       "submission_id": 77912942,
       "user_id": "mackerel38"
@@ -40866,88 +40866,88 @@
     },
     "awc0101_a": {
       "contest_id": "awc0101",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785207237,
+      "language": "AWK (GNU awk 5.2.1)",
       "length": 71,
       "submission_id": 77910852,
       "user_id": "mackerel38"
     },
     "awc0101_b": {
       "contest_id": "awc0101",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785207347,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 26,
       "submission_id": 77910878,
       "user_id": "mackerel38"
     },
     "awc0101_c": {
       "contest_id": "awc0101",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785207511,
+      "language": "AWK (GNU awk 5.2.1)",
       "length": 141,
       "submission_id": 77910934,
       "user_id": "mackerel38"
     },
     "awc0101_d": {
       "contest_id": "awc0101",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785207603,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 143,
       "submission_id": 77910960,
       "user_id": "mackerel38"
     },
     "awc0101_e": {
       "contest_id": "awc0101",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785207712,
+      "language": "AWK (GNU awk 5.2.1)",
       "length": 213,
       "submission_id": 77910998,
       "user_id": "mackerel38"
     },
     "awc0102_a": {
       "contest_id": "awc0102",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785204670,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 40,
       "submission_id": 77910154,
       "user_id": "mackerel38"
     },
     "awc0102_b": {
       "contest_id": "awc0102",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785204847,
+      "language": "Uiua (uiua 0.16.2)",
       "length": 27,
       "submission_id": 77910200,
       "user_id": "mackerel38"
     },
     "awc0102_c": {
       "contest_id": "awc0102",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785206909,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 128,
       "submission_id": 77910754,
       "user_id": "mackerel38"
     },
     "awc0102_d": {
       "contest_id": "awc0102",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785203249,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 123,
       "submission_id": 77909786,
       "user_id": "mackerel38"
     },
     "awc0102_e": {
       "contest_id": "awc0102",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785203319,
+      "language": "Perl (perl 5.38.2)",
       "length": 167,
       "submission_id": 77909818,
       "user_id": "mackerel38"
     },
     "awc0103_a": {
       "contest_id": "awc0103",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785175603,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 11,
       "submission_id": 77907241,
       "user_id": "mackerel38"
@@ -40978,8 +40978,8 @@
     },
     "awc0103_e": {
       "contest_id": "awc0103",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785175984,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 199,
       "submission_id": 77907280,
       "user_id": "mackerel38"
@@ -40994,24 +40994,24 @@
     },
     "awc0104_b": {
       "contest_id": "awc0104",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785175427,
+      "language": "Uiua (uiua 0.16.2)",
       "length": 30,
       "submission_id": 77907220,
       "user_id": "mackerel38"
     },
     "awc0104_c": {
       "contest_id": "awc0104",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785174506,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 103,
       "submission_id": 77907138,
       "user_id": "mackerel38"
     },
     "awc0104_d": {
       "contest_id": "awc0104",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785199618,
+      "language": "AWK (GNU awk 5.2.1)",
       "length": 113,
       "submission_id": 77909004,
       "user_id": "mackerel38"
@@ -41026,8 +41026,8 @@
     },
     "awc0105_a": {
       "contest_id": "awc0105",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785173553,
+      "language": "Uiua (uiua 0.16.2)",
       "length": 37,
       "submission_id": 77907070,
       "user_id": "mackerel38"
@@ -41042,64 +41042,64 @@
     },
     "awc0105_c": {
       "contest_id": "awc0105",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785171896,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 147,
       "submission_id": 77906918,
       "user_id": "mackerel38"
     },
     "awc0105_d": {
       "contest_id": "awc0105",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785171283,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 85,
       "submission_id": 77906846,
       "user_id": "mackerel38"
     },
     "awc0105_e": {
       "contest_id": "awc0105",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785170903,
+      "language": "Python (PyPy 3.11-v7.3.20)",
       "length": 264,
       "submission_id": 77906805,
       "user_id": "mackerel38"
     },
     "awc0106_a": {
       "contest_id": "awc0106",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785170437,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 45,
       "submission_id": 77906743,
       "user_id": "mackerel38"
     },
     "awc0106_b": {
       "contest_id": "awc0106",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785167210,
+      "language": "Perl (perl 5.38.2)",
       "length": 258,
       "submission_id": 77906252,
       "user_id": "mackerel38"
     },
     "awc0106_c": {
       "contest_id": "awc0106",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785167519,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 384,
       "submission_id": 77906311,
       "user_id": "mackerel38"
     },
     "awc0106_d": {
       "contest_id": "awc0106",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785167613,
+      "language": "AWK (GNU awk 5.2.1)",
       "length": 237,
       "submission_id": 77906327,
       "user_id": "mackerel38"
     },
     "awc0106_e": {
       "contest_id": "awc0106",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785168044,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 273,
       "submission_id": 77906398,
       "user_id": "mackerel38"
@@ -41122,24 +41122,24 @@
     },
     "awc0107_c": {
       "contest_id": "awc0107",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785165282,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
       "length": 195,
       "submission_id": 77905900,
       "user_id": "mackerel38"
     },
     "awc0107_d": {
       "contest_id": "awc0107",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785166440,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 107,
       "submission_id": 77906135,
       "user_id": "mackerel38"
     },
     "awc0107_e": {
       "contest_id": "awc0107",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785167023,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 288,
       "submission_id": 77906219,
       "user_id": "mackerel38"
@@ -41154,8 +41154,8 @@
     },
     "awc0108_b": {
       "contest_id": "awc0108",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785148961,
+      "language": "Bash (bash 5.3)",
       "length": 44,
       "submission_id": 77900232,
       "user_id": "mackerel38"
@@ -41178,8 +41178,8 @@
     },
     "awc0108_e": {
       "contest_id": "awc0108",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785149383,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 100,
       "submission_id": 77900348,
       "user_id": "mackerel38"
@@ -41202,24 +41202,24 @@
     },
     "awc0109_c": {
       "contest_id": "awc0109",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785145017,
+      "language": "Perl (perl 5.38.2)",
       "length": 79,
       "submission_id": 77899163,
       "user_id": "mackerel38"
     },
     "awc0109_d": {
       "contest_id": "awc0109",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785145222,
+      "language": "C++23 (GCC 15.2.0)",
       "length": 261,
       "submission_id": 77899230,
       "user_id": "mackerel38"
     },
     "awc0109_e": {
       "contest_id": "awc0109",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785145499,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 337,
       "submission_id": 77899309,
       "user_id": "mackerel38"
@@ -41266,8 +41266,8 @@
     },
     "awc0111_a": {
       "contest_id": "awc0111",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785132173,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "length": 77,
       "submission_id": 77894063,
       "user_id": "mackerel38"
@@ -41314,8 +41314,8 @@
     },
     "awc0112_b": {
       "contest_id": "awc0112",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785131574,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 87,
       "submission_id": 77893913,
       "user_id": "mackerel38"
@@ -41330,8 +41330,8 @@
     },
     "awc0112_d": {
       "contest_id": "awc0112",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1785131776,
+      "language": "A言語 (interpreter af48a2a)",
       "length": 84,
       "submission_id": 77893961,
       "user_id": "mackerel38"
@@ -41738,10 +41738,10 @@
     },
     "awc0122_e": {
       "contest_id": "awc0122",
-      "epoch_second": 1785239390,
-      "language": "Perl (perl 5.38.2)",
-      "length": 341,
-      "submission_id": 77920977,
+      "epoch_second": 1785241971,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 317,
+      "submission_id": 77921912,
       "user_id": "mackerel38"
     },
     "awtf2024_a": {
@@ -73578,6 +73578,7 @@
     }
   },
   "event_keys": [
+    "acquired:abc467_c:77922917",
     "acquired:awc0100_j:77915289",
     "acquired:awc0100_l:77914923",
     "acquired:awc0100_m:77914987",
@@ -73680,24 +73681,12 @@
     "improved:awc0122_d:77921500",
     "improved:awc0122_e:77920203",
     "improved:awc0122_e:77920977",
+    "improved:awc0122_e:77921864",
+    "improved:awc0122_e:77921912",
     "lost:abc467_c:77920631",
     "lost:abc468_a:77905696"
   ],
   "events": [
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": true,
-      "epoch_second": null,
-      "event_type": "improved",
-      "language": null,
-      "new_length": 338,
-      "new_user_id": "mackerel38",
-      "previous_length": 342,
-      "previous_submission_id": 77887411,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc464_f",
-      "submission_id": 77889546
-    },
     {
       "contest_id": "arc192",
       "detected_by_reconcile": false,
@@ -74525,6 +74514,20 @@
       "submission_id": 77887441
     },
     {
+      "contest_id": "abc464",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785113981,
+      "event_type": "improved",
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "new_length": 338,
+      "new_user_id": "mackerel38",
+      "previous_length": 342,
+      "previous_submission_id": 77887411,
+      "previous_user_id": "mackerel38",
+      "problem_id": "abc464_f",
+      "submission_id": 77889546
+    },
+    {
       "contest_id": "awc0112",
       "detected_by_reconcile": false,
       "epoch_second": 1785123693,
@@ -75139,6 +75142,48 @@
       "previous_user_id": "mackerel38",
       "problem_id": "awc0122_d",
       "submission_id": 77921500
+    },
+    {
+      "contest_id": "awc0122",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785241806,
+      "event_type": "improved",
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "new_length": 320,
+      "new_user_id": "mackerel38",
+      "previous_length": 341,
+      "previous_submission_id": 77920977,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0122_e",
+      "submission_id": 77921864
+    },
+    {
+      "contest_id": "awc0122",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785241971,
+      "event_type": "improved",
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "new_length": 317,
+      "new_user_id": "mackerel38",
+      "previous_length": 320,
+      "previous_submission_id": 77921864,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0122_e",
+      "submission_id": 77921912
+    },
+    {
+      "contest_id": "abc467",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785245039,
+      "event_type": "acquired",
+      "language": "Uiua (uiua 0.16.2)",
+      "new_length": 39,
+      "new_user_id": "mackerel38",
+      "previous_length": 40,
+      "previous_submission_id": 77920854,
+      "previous_user_id": "shogo314",
+      "problem_id": "abc467_c",
+      "submission_id": 77922917
     }
   ],
   "ever_held": {
@@ -75153,10 +75198,10 @@
     },
     "abc463_f": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785133251,
+      "last_acquired_epoch": 1785133251,
+      "target_epoch_second": 1785133251,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 482,
       "target_submission_id": 77894382
     },
@@ -75191,8 +75236,8 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785089910,
       "last_acquired_epoch": 1785089910,
-      "target_epoch_second": null,
-      "target_language": null,
+      "target_epoch_second": 1785113981,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 338,
       "target_submission_id": 77889546
     },
@@ -75278,13 +75323,13 @@
       "target_submission_id": 77872518
     },
     "abc467_c": {
-      "acquisition_count": 1,
+      "acquisition_count": 2,
       "first_acquired_epoch": 1784987174,
-      "last_acquired_epoch": 1784987174,
-      "target_epoch_second": 1784987174,
+      "last_acquired_epoch": 1785245039,
+      "target_epoch_second": 1785245039,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 55,
-      "target_submission_id": 77864423
+      "target_length": 39,
+      "target_submission_id": 77922917
     },
     "abc467_d": {
       "acquisition_count": 1,
@@ -75369,73 +75414,73 @@
     },
     "awc0100_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785211920,
+      "last_acquired_epoch": 1785211920,
+      "target_epoch_second": 1785211920,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 23,
       "target_submission_id": 77911954
     },
     "awc0100_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785213059,
+      "last_acquired_epoch": 1785213059,
+      "target_epoch_second": 1785213059,
+      "target_language": "Perl (perl 5.38.2)",
       "target_length": 59,
       "target_submission_id": 77912242
     },
     "awc0100_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785212353,
+      "last_acquired_epoch": 1785212353,
+      "target_epoch_second": 1785212353,
+      "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
       "target_submission_id": 77912038
     },
     "awc0100_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785214780,
+      "last_acquired_epoch": 1785214780,
+      "target_epoch_second": 1785214780,
+      "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
       "target_submission_id": 77912708
     },
     "awc0100_f": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785219841,
+      "last_acquired_epoch": 1785219841,
+      "target_epoch_second": 1785219841,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 56,
       "target_submission_id": 77913956
     },
     "awc0100_g": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785215831,
+      "last_acquired_epoch": 1785215831,
+      "target_epoch_second": 1785215831,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 86,
       "target_submission_id": 77912917
     },
     "awc0100_h": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785220396,
+      "last_acquired_epoch": 1785220396,
+      "target_epoch_second": 1785220396,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 128,
       "target_submission_id": 77914132
     },
     "awc0100_i": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785215967,
+      "last_acquired_epoch": 1785215967,
+      "target_epoch_second": 1785215967,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 54,
       "target_submission_id": 77912942
     },
@@ -75486,100 +75531,100 @@
     },
     "awc0101_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785207237,
+      "last_acquired_epoch": 1785207237,
+      "target_epoch_second": 1785207237,
+      "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 71,
       "target_submission_id": 77910852
     },
     "awc0101_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785207347,
+      "last_acquired_epoch": 1785207347,
+      "target_epoch_second": 1785207347,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 26,
       "target_submission_id": 77910878
     },
     "awc0101_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785207511,
+      "last_acquired_epoch": 1785207511,
+      "target_epoch_second": 1785207511,
+      "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 141,
       "target_submission_id": 77910934
     },
     "awc0101_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785207603,
+      "last_acquired_epoch": 1785207603,
+      "target_epoch_second": 1785207603,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 143,
       "target_submission_id": 77910960
     },
     "awc0101_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785207712,
+      "last_acquired_epoch": 1785207712,
+      "target_epoch_second": 1785207712,
+      "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 213,
       "target_submission_id": 77910998
     },
     "awc0102_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785204670,
+      "last_acquired_epoch": 1785204670,
+      "target_epoch_second": 1785204670,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 40,
       "target_submission_id": 77910154
     },
     "awc0102_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785204847,
+      "last_acquired_epoch": 1785204847,
+      "target_epoch_second": 1785204847,
+      "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 27,
       "target_submission_id": 77910200
     },
     "awc0102_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785206909,
+      "last_acquired_epoch": 1785206909,
+      "target_epoch_second": 1785206909,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 128,
       "target_submission_id": 77910754
     },
     "awc0102_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785203249,
+      "last_acquired_epoch": 1785203249,
+      "target_epoch_second": 1785203249,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 123,
       "target_submission_id": 77909786
     },
     "awc0102_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785203319,
+      "last_acquired_epoch": 1785203319,
+      "target_epoch_second": 1785203319,
+      "target_language": "Perl (perl 5.38.2)",
       "target_length": 167,
       "target_submission_id": 77909818
     },
     "awc0103_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785175603,
+      "last_acquired_epoch": 1785175603,
+      "target_epoch_second": 1785175603,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 11,
       "target_submission_id": 77907241
     },
@@ -75603,145 +75648,145 @@
     },
     "awc0103_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785175984,
+      "last_acquired_epoch": 1785175984,
+      "target_epoch_second": 1785175984,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 199,
       "target_submission_id": 77907280
     },
     "awc0104_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785175427,
+      "last_acquired_epoch": 1785175427,
+      "target_epoch_second": 1785175427,
+      "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
       "target_submission_id": 77907220
     },
     "awc0104_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785174506,
+      "last_acquired_epoch": 1785174506,
+      "target_epoch_second": 1785174506,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 103,
       "target_submission_id": 77907138
     },
     "awc0104_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785199618,
+      "last_acquired_epoch": 1785199618,
+      "target_epoch_second": 1785199618,
+      "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 113,
       "target_submission_id": 77909004
     },
     "awc0105_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785173553,
+      "last_acquired_epoch": 1785173553,
+      "target_epoch_second": 1785173553,
+      "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 37,
       "target_submission_id": 77907070
     },
     "awc0105_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785171896,
+      "last_acquired_epoch": 1785171896,
+      "target_epoch_second": 1785171896,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 147,
       "target_submission_id": 77906918
     },
     "awc0105_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785171283,
+      "last_acquired_epoch": 1785171283,
+      "target_epoch_second": 1785171283,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 85,
       "target_submission_id": 77906846
     },
     "awc0105_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785170903,
+      "last_acquired_epoch": 1785170903,
+      "target_epoch_second": 1785170903,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 264,
       "target_submission_id": 77906805
     },
     "awc0106_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785170437,
+      "last_acquired_epoch": 1785170437,
+      "target_epoch_second": 1785170437,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 45,
       "target_submission_id": 77906743
     },
     "awc0106_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785167210,
+      "last_acquired_epoch": 1785167210,
+      "target_epoch_second": 1785167210,
+      "target_language": "Perl (perl 5.38.2)",
       "target_length": 258,
       "target_submission_id": 77906252
     },
     "awc0106_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785167519,
+      "last_acquired_epoch": 1785167519,
+      "target_epoch_second": 1785167519,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 384,
       "target_submission_id": 77906311
     },
     "awc0106_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785167613,
+      "last_acquired_epoch": 1785167613,
+      "target_epoch_second": 1785167613,
+      "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 237,
       "target_submission_id": 77906327
     },
     "awc0106_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785168044,
+      "last_acquired_epoch": 1785168044,
+      "target_epoch_second": 1785168044,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 273,
       "target_submission_id": 77906398
     },
     "awc0107_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785165282,
+      "last_acquired_epoch": 1785165282,
+      "target_epoch_second": 1785165282,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 195,
       "target_submission_id": 77905900
     },
     "awc0107_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785166440,
+      "last_acquired_epoch": 1785166440,
+      "target_epoch_second": 1785166440,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 107,
       "target_submission_id": 77906135
     },
     "awc0107_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785167023,
+      "last_acquired_epoch": 1785167023,
+      "target_epoch_second": 1785167023,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 288,
       "target_submission_id": 77906219
     },
@@ -75756,10 +75801,10 @@
     },
     "awc0108_b": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785148961,
+      "last_acquired_epoch": 1785148961,
+      "target_epoch_second": 1785148961,
+      "target_language": "Bash (bash 5.3)",
       "target_length": 44,
       "target_submission_id": 77900232
     },
@@ -75774,37 +75819,37 @@
     },
     "awc0108_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785149383,
+      "last_acquired_epoch": 1785149383,
+      "target_epoch_second": 1785149383,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 100,
       "target_submission_id": 77900348
     },
     "awc0109_c": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785145017,
+      "last_acquired_epoch": 1785145017,
+      "target_epoch_second": 1785145017,
+      "target_language": "Perl (perl 5.38.2)",
       "target_length": 79,
       "target_submission_id": 77899163
     },
     "awc0109_d": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785145222,
+      "last_acquired_epoch": 1785145222,
+      "target_epoch_second": 1785145222,
+      "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 261,
       "target_submission_id": 77899230
     },
     "awc0109_e": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785145499,
+      "last_acquired_epoch": 1785145499,
+      "target_epoch_second": 1785145499,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 337,
       "target_submission_id": 77899309
     },
@@ -75846,10 +75891,10 @@
     },
     "awc0111_a": {
       "acquisition_count": 1,
-      "first_acquired_epoch": null,
-      "last_acquired_epoch": null,
-      "target_epoch_second": null,
-      "target_language": null,
+      "first_acquired_epoch": 1785132173,
+      "last_acquired_epoch": 1785132173,
+      "target_epoch_second": 1785132173,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 77,
       "target_submission_id": 77894063
     },
@@ -75902,8 +75947,8 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785123888,
       "last_acquired_epoch": 1785123888,
-      "target_epoch_second": null,
-      "target_language": null,
+      "target_epoch_second": 1785131574,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 87,
       "target_submission_id": 77893913
     },
@@ -75920,8 +75965,8 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785124749,
       "last_acquired_epoch": 1785124749,
-      "target_epoch_second": null,
-      "target_language": null,
+      "target_epoch_second": 1785131776,
+      "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 84,
       "target_submission_id": 77893961
     },
@@ -76334,14 +76379,14 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785237462,
       "last_acquired_epoch": 1785237462,
-      "target_epoch_second": 1785239390,
-      "target_language": "Perl (perl 5.38.2)",
-      "target_length": 341,
-      "target_submission_id": 77920977
+      "target_epoch_second": 1785241971,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
+      "target_length": 317,
+      "target_submission_id": 77921912
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785240941,
+  "last_checked_epoch": 1785247370,
   "target_user": "mackerel38",
   "version": 1
 }
