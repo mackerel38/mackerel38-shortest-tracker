@@ -40962,19 +40962,19 @@
     },
     "awc0103_c": {
       "contest_id": "awc0103",
-      "epoch_second": null,
-      "language": null,
-      "length": 119,
-      "submission_id": 77115819,
-      "user_id": "shogo314"
+      "epoch_second": 1785199945,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 102,
+      "submission_id": 77909060,
+      "user_id": "mackerel38"
     },
     "awc0103_d": {
       "contest_id": "awc0103",
-      "epoch_second": null,
-      "language": null,
-      "length": 308,
-      "submission_id": 77112686,
-      "user_id": "moon17"
+      "epoch_second": 1785200240,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 157,
+      "submission_id": 77909114,
+      "user_id": "mackerel38"
     },
     "awc0103_e": {
       "contest_id": "awc0103",
@@ -73538,6 +73538,8 @@
     }
   },
   "event_keys": [
+    "acquired:awc0103_c:77909060",
+    "acquired:awc0103_d:77909114",
     "acquired:awc0108_a:77904188",
     "acquired:awc0108_c:77904085",
     "acquired:awc0110_a:77898066",
@@ -74829,6 +74831,34 @@
       "previous_user_id": "mackerel38",
       "problem_id": "abc468_a",
       "submission_id": 77905696
+    },
+    {
+      "contest_id": "awc0103",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785199945,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 102,
+      "new_user_id": "mackerel38",
+      "previous_length": 119,
+      "previous_submission_id": 77115819,
+      "previous_user_id": "shogo314",
+      "problem_id": "awc0103_c",
+      "submission_id": 77909060
+    },
+    {
+      "contest_id": "awc0103",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785200240,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 157,
+      "new_user_id": "mackerel38",
+      "previous_length": 308,
+      "previous_submission_id": 77112686,
+      "previous_user_id": "moon17",
+      "problem_id": "awc0103_d",
+      "submission_id": 77909114
     }
   ],
   "ever_held": {
@@ -75065,6 +75095,24 @@
       "target_language": null,
       "target_length": 11,
       "target_submission_id": 77907241
+    },
+    "awc0103_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785199945,
+      "last_acquired_epoch": 1785199945,
+      "target_epoch_second": 1785199945,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 102,
+      "target_submission_id": 77909060
+    },
+    "awc0103_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785200240,
+      "last_acquired_epoch": 1785200240,
+      "target_epoch_second": 1785200240,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 157,
+      "target_submission_id": 77909114
     },
     "awc0103_e": {
       "acquisition_count": 1,
@@ -75752,7 +75800,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785200418,
+  "last_checked_epoch": 1785212445,
   "target_user": "mackerel38",
   "version": 1
 }

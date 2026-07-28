@@ -1,6 +1,44 @@
 {
   "acquisitions": [
     {
+      "contest_id": "awc0103",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785200240,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 157,
+      "new_user_id": "mackerel38",
+      "previous_length": 308,
+      "previous_submission_id": 77112686,
+      "previous_user_id": "moon17",
+      "problem_id": "awc0103_d",
+      "problem_index": "D",
+      "problem_name": "Choosing Souvenirs",
+      "problem_title": "D. Choosing Souvenirs",
+      "problem_url": "https://atcoder.jp/contests/awc0103/tasks/awc0103_d",
+      "submission_id": 77909114,
+      "submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909114"
+    },
+    {
+      "contest_id": "awc0103",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785199945,
+      "event_type": "acquired",
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "new_length": 102,
+      "new_user_id": "mackerel38",
+      "previous_length": 119,
+      "previous_submission_id": 77115819,
+      "previous_user_id": "shogo314",
+      "problem_id": "awc0103_c",
+      "problem_index": "C",
+      "problem_name": "Exhibition Layout",
+      "problem_title": "C. Exhibition Layout",
+      "problem_url": "https://atcoder.jp/contests/awc0103/tasks/awc0103_c",
+      "submission_id": 77909060,
+      "submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909060"
+    },
+    {
       "contest_id": "awc0108",
       "detected_by_reconcile": false,
       "epoch_second": 1785158378,
@@ -1502,8 +1540,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785200418,
-  "generated_iso": "2026-07-28T01:00:18+00:00",
+  "generated_epoch": 1785212445,
+  "generated_iso": "2026-07-28T04:20:45+00:00",
   "losses": [
     {
       "contest_id": "abc468",
@@ -1531,6 +1569,50 @@
     "導入以前の奪取履歴は記録しません。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785200240,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 157,
+      "current_submission_id": 77909114,
+      "current_submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909114",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785200240,
+      "last_acquired_epoch": 1785200240,
+      "problem_id": "awc0103_d",
+      "problem_index": "D",
+      "problem_name": "Choosing Souvenirs",
+      "problem_title": "D. Choosing Souvenirs",
+      "problem_url": "https://atcoder.jp/contests/awc0103/tasks/awc0103_d",
+      "status": "holding",
+      "target_epoch_second": 1785200240,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 157,
+      "target_submission_id": 77909114,
+      "target_submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909114"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785199945,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 102,
+      "current_submission_id": 77909060,
+      "current_submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909060",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785199945,
+      "last_acquired_epoch": 1785199945,
+      "problem_id": "awc0103_c",
+      "problem_index": "C",
+      "problem_name": "Exhibition Layout",
+      "problem_title": "C. Exhibition Layout",
+      "problem_url": "https://atcoder.jp/contests/awc0103/tasks/awc0103_c",
+      "status": "holding",
+      "target_epoch_second": 1785199945,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 102,
+      "target_submission_id": 77909060,
+      "target_submission_url": "https://atcoder.jp/contests/awc0103/submissions/77909060"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785158410,
@@ -3777,8 +3859,8 @@
     }
   ],
   "summary": {
-    "ever_held_count": 102,
-    "holding_count": 101,
+    "ever_held_count": 104,
+    "holding_count": 103,
     "loss_event_count": 1,
     "lost_count": 1
   },
