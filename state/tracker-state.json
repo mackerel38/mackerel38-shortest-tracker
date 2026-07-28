@@ -98,11 +98,19 @@
     },
     "APG4bPython_cf": {
       "contest_id": "APG4bPython",
-      "epoch_second": 1785223087,
+      "epoch_second": 1785247370,
       "language": "Python (CPython 3.13.7)",
-      "length": 266,
-      "submission_id": 77915196,
-      "user_id": "mrpopo"
+      "length": 240,
+      "submission_id": 77923590,
+      "user_id": "SexyCommando"
+    },
+    "APG4bPython_cg": {
+      "contest_id": "APG4bPython",
+      "epoch_second": 1785249878,
+      "language": "Python (CPython 3.13.7)",
+      "length": 122,
+      "submission_id": 77924252,
+      "user_id": "shaii"
     },
     "APG4bPython_ch": {
       "contest_id": "APG4bPython",
@@ -33074,11 +33082,11 @@
     },
     "arc148_c": {
       "contest_id": "arc148",
-      "epoch_second": null,
-      "language": null,
-      "length": 221,
-      "submission_id": 71708128,
-      "user_id": "nikoro256"
+      "epoch_second": 1785231986,
+      "language": "Perl (perl 5.38.2)",
+      "length": 107,
+      "submission_id": 77918430,
+      "user_id": "mackerel38"
     },
     "arc148_d": {
       "contest_id": "arc148",
@@ -40826,11 +40834,11 @@
     },
     "awc0100_k": {
       "contest_id": "awc0100",
-      "epoch_second": null,
-      "language": null,
-      "length": 1331,
-      "submission_id": 76969729,
-      "user_id": "miztom"
+      "epoch_second": 1785229701,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 604,
+      "submission_id": 77917601,
+      "user_id": "mackerel38"
     },
     "awc0100_l": {
       "contest_id": "awc0100",
@@ -41194,11 +41202,11 @@
     },
     "awc0109_b": {
       "contest_id": "awc0109",
-      "epoch_second": null,
-      "language": null,
-      "length": 62,
-      "submission_id": 77486720,
-      "user_id": "blueberry1001"
+      "epoch_second": 1785234312,
+      "language": "Perl (perl 5.38.2)",
+      "length": 48,
+      "submission_id": 77919042,
+      "user_id": "mackerel38"
     },
     "awc0109_c": {
       "contest_id": "awc0109",
@@ -52468,9 +52476,9 @@
       "contest_id": "joig2026final",
       "epoch_second": null,
       "language": null,
-      "length": 331,
-      "submission_id": 77308628,
-      "user_id": "karinohito"
+      "length": 235,
+      "submission_id": 77915829,
+      "user_id": "yt142857"
     },
     "joig2026final_k": {
       "contest_id": "joig2026final",
@@ -73579,7 +73587,9 @@
   },
   "event_keys": [
     "acquired:abc467_c:77922917",
+    "acquired:arc148_c:77918430",
     "acquired:awc0100_j:77915289",
+    "acquired:awc0100_k:77917601",
     "acquired:awc0100_l:77914923",
     "acquired:awc0100_m:77914987",
     "acquired:awc0100_n:77915044",
@@ -73588,6 +73598,7 @@
     "acquired:awc0103_d:77909114",
     "acquired:awc0108_a:77904188",
     "acquired:awc0108_c:77904085",
+    "acquired:awc0109_b:77919042",
     "acquired:awc0110_a:77898066",
     "acquired:awc0110_c:77898230",
     "acquired:awc0110_d:77898939",
@@ -74990,6 +75001,48 @@
       "submission_id": 77915664
     },
     {
+      "contest_id": "awc0100",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785229701,
+      "event_type": "acquired",
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "new_length": 604,
+      "new_user_id": "mackerel38",
+      "previous_length": 1331,
+      "previous_submission_id": 76969729,
+      "previous_user_id": "miztom",
+      "problem_id": "awc0100_k",
+      "submission_id": 77917601
+    },
+    {
+      "contest_id": "arc148",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785231986,
+      "event_type": "acquired",
+      "language": "Perl (perl 5.38.2)",
+      "new_length": 107,
+      "new_user_id": "mackerel38",
+      "previous_length": 221,
+      "previous_submission_id": 71708128,
+      "previous_user_id": "nikoro256",
+      "problem_id": "arc148_c",
+      "submission_id": 77918430
+    },
+    {
+      "contest_id": "awc0109",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785234312,
+      "event_type": "acquired",
+      "language": "Perl (perl 5.38.2)",
+      "new_length": 48,
+      "new_user_id": "mackerel38",
+      "previous_length": 62,
+      "previous_submission_id": 77486720,
+      "previous_user_id": "blueberry1001",
+      "problem_id": "awc0109_b",
+      "submission_id": 77919042
+    },
+    {
       "contest_id": "awc0122",
       "detected_by_reconcile": false,
       "epoch_second": 1785237462,
@@ -75403,6 +75456,15 @@
       "target_length": 146,
       "target_submission_id": 77867430
     },
+    "arc148_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785231986,
+      "last_acquired_epoch": 1785231986,
+      "target_epoch_second": 1785231986,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 107,
+      "target_submission_id": 77918430
+    },
     "arc192_b": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1746959487,
@@ -75492,6 +75554,15 @@
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 692,
       "target_submission_id": 77915289
+    },
+    "awc0100_k": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785229701,
+      "last_acquired_epoch": 1785229701,
+      "target_epoch_second": 1785229701,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
+      "target_length": 604,
+      "target_submission_id": 77917601
     },
     "awc0100_l": {
       "acquisition_count": 1,
@@ -75825,6 +75896,15 @@
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 100,
       "target_submission_id": 77900348
+    },
+    "awc0109_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785234312,
+      "last_acquired_epoch": 1785234312,
+      "target_epoch_second": 1785234312,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 48,
+      "target_submission_id": 77919042
     },
     "awc0109_c": {
       "acquisition_count": 1,
@@ -76386,7 +76466,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785247370,
+  "last_checked_epoch": 1785250893,
   "target_user": "mackerel38",
   "version": 1
 }
