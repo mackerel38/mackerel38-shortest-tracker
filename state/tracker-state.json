@@ -26796,9 +26796,9 @@
       "contest_id": "agc077",
       "epoch_second": null,
       "language": null,
-      "length": 1117,
-      "submission_id": 75313662,
-      "user_id": "xiongjq20131117"
+      "length": 999,
+      "submission_id": 77922977,
+      "user_id": "f_u_c_k_CCF"
     },
     "agc077_d": {
       "contest_id": "agc077",
@@ -76496,7 +76496,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785268976,
+  "last_checked_epoch": 1785274376,
   "target_user": "mackerel38",
   "version": 1
 }
