@@ -146,11 +146,9 @@ function renderProblems() {
             ${link(row.problem_url, `${row.problem_id} ${row.problem_name}`, "problem-link")}
           </td>
           <td>${targetSubmission}</td>
-          <td>${dateText(row.target_epoch_second)}</td>
           <td class="number">${valueOrUnknown(row.target_length)}</td>
           <td>${valueOrUnknown(row.target_language)}</td>
           <td>${userLink(row.current_user_id)}</td>
-          <td>${dateText(row.current_epoch_second)}</td>
           <td class="number">${valueOrUnknown(row.current_length)}</td>
           <td>${valueOrUnknown(row.current_language)}</td>
         </tr>
