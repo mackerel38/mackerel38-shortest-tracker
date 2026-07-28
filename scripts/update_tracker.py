@@ -353,16 +353,21 @@ def sanitize_state(state: dict[str, Any]) -> None:
             state["current"][problem_id] = target_snapshot
 
 
-def fetch_target_submissions(needed_ids: set[int]) -> dict[int, dict[str, Any]]:
+def fetch_user_submissions(
+    user_id: str,
+    needed_ids: set[int],
+    *,
+    from_second: int = 0,
+) -> dict[int, dict[str, Any]]:
     if not needed_ids:
         return {}
 
     found: dict[int, dict[str, Any]] = {}
-    cursor = 0
+    cursor = max(0, from_second)
 
     while needed_ids - found.keys():
         query = urllib.parse.urlencode(
-            {"user": TARGET_USER, "from_second": cursor}
+            {"user": user_id, "from_second": cursor}
         )
         payload = request_json(f"{USER_API}?{query}")
         if not isinstance(payload, list):
@@ -394,6 +399,209 @@ def fetch_target_submissions(needed_ids: set[int]) -> dict[int, dict[str, Any]]:
         cursor = next_cursor
 
     return found
+
+
+def fetch_target_submissions(needed_ids: set[int]) -> dict[int, dict[str, Any]]:
+    return fetch_user_submissions(TARGET_USER, needed_ids, from_second=0)
+
+
+def details_missing(snapshot: dict[str, Any] | None) -> bool:
+    if not isinstance(snapshot, dict):
+        return True
+    epoch = snapshot.get("epoch_second")
+    language = snapshot.get("language")
+    return not isinstance(epoch, int) or not isinstance(language, str) or not language
+
+
+def collect_missing_submission_details(
+    state: dict[str, Any],
+    merged: list[dict[str, Any]],
+    known_details: dict[int, dict[str, Any]],
+) -> dict[int, dict[str, Any]]:
+    requests: dict[str, dict[str, Any]] = {}
+    initialized_at = int(state.get("initialized_at") or 0)
+    recent_start = max(0, initialized_at - 24 * 60 * 60)
+
+    def request_detail(
+        user_id: Any,
+        submission_id: Any,
+        *,
+        from_second: int,
+    ) -> None:
+        if (
+            not isinstance(user_id, str)
+            or not isinstance(submission_id, int)
+            or submission_id in known_details
+        ):
+            return
+
+        key = user_id.lower()
+        entry = requests.setdefault(
+            key,
+            {
+                "user_id": user_id,
+                "ids": set(),
+                "from_second": from_second,
+            },
+        )
+        entry["ids"].add(submission_id)
+        entry["from_second"] = min(int(entry["from_second"]), from_second)
+
+    for problem_id, held in state.get("ever_held", {}).items():
+        if not isinstance(held, dict):
+            continue
+
+        target_id = held.get("target_submission_id")
+        if (
+            not isinstance(held.get("target_epoch_second"), int)
+            or not isinstance(held.get("target_language"), str)
+            or not held.get("target_language")
+        ):
+            request_detail(TARGET_USER, target_id, from_second=0)
+
+        current = state.get("current", {}).get(problem_id)
+        if isinstance(current, dict) and details_missing(current):
+            current_user = current.get("user_id")
+            request_detail(
+                current_user,
+                current.get("submission_id"),
+                from_second=0 if same_user(current_user, TARGET_USER) else recent_start,
+            )
+
+    for event in state.get("events", []):
+        if not isinstance(event, dict):
+            continue
+        if (
+            isinstance(event.get("epoch_second"), int)
+            and isinstance(event.get("language"), str)
+            and event.get("language")
+        ):
+            continue
+        event_user = event.get("new_user_id")
+        request_detail(
+            event_user,
+            event.get("submission_id"),
+            from_second=0 if same_user(event_user, TARGET_USER) else recent_start,
+        )
+
+    for problem in merged:
+        if not isinstance(problem, dict):
+            continue
+        problem_id = problem.get("id")
+        if not isinstance(problem_id, str):
+            continue
+
+        authoritative = compact_shortest(problem)
+        if authoritative is None:
+            continue
+
+        previous = state.get("current", {}).get(problem_id)
+        relevant = (
+            same_user(authoritative.get("user_id"), TARGET_USER)
+            or (
+                isinstance(previous, dict)
+                and same_user(previous.get("user_id"), TARGET_USER)
+            )
+        )
+        if not relevant:
+            continue
+
+        if (
+            isinstance(previous, dict)
+            and previous.get("submission_id") == authoritative.get("submission_id")
+        ):
+            if problem_id in state.get("ever_held", {}) and details_missing(previous):
+                user_id = authoritative.get("user_id")
+                request_detail(
+                    user_id,
+                    authoritative.get("submission_id"),
+                    from_second=0 if same_user(user_id, TARGET_USER) else recent_start,
+                )
+            continue
+
+        if previous is None or is_strictly_better(authoritative, previous):
+            user_id = authoritative.get("user_id")
+            request_detail(
+                user_id,
+                authoritative.get("submission_id"),
+                from_second=0 if same_user(user_id, TARGET_USER) else recent_start,
+            )
+
+    fetched = dict(known_details)
+    for entry in requests.values():
+        fetched.update(
+            fetch_user_submissions(
+                str(entry["user_id"]),
+                set(entry["ids"]),
+                from_second=int(entry["from_second"]),
+            )
+        )
+    return fetched
+
+
+def hydrate_state_details(
+    state: dict[str, Any],
+    details: dict[int, dict[str, Any]],
+) -> None:
+    if not details:
+        return
+
+    snapshots = {
+        submission_id: submission_snapshot(submission)
+        for submission_id, submission in details.items()
+        if isinstance(submission_id, int) and isinstance(submission, dict)
+    }
+
+    for current in state.get("current", {}).values():
+        if not isinstance(current, dict):
+            continue
+        snapshot = snapshots.get(current.get("submission_id"))
+        if snapshot is not None:
+            current.update(snapshot)
+
+    for held in state.get("ever_held", {}).values():
+        if not isinstance(held, dict):
+            continue
+        snapshot = snapshots.get(held.get("target_submission_id"))
+        if snapshot is None or not same_user(snapshot.get("user_id"), TARGET_USER):
+            continue
+
+        held["target_length"] = snapshot.get("length")
+        held["target_language"] = snapshot.get("language")
+        held["target_epoch_second"] = snapshot.get("epoch_second")
+        if not isinstance(held.get("first_acquired_epoch"), int):
+            held["first_acquired_epoch"] = snapshot.get("epoch_second")
+        if not isinstance(held.get("last_acquired_epoch"), int):
+            held["last_acquired_epoch"] = snapshot.get("epoch_second")
+
+    for event in state.get("events", []):
+        if not isinstance(event, dict):
+            continue
+        snapshot = snapshots.get(event.get("submission_id"))
+        if snapshot is None:
+            continue
+
+        event["epoch_second"] = snapshot.get("epoch_second")
+        event["language"] = snapshot.get("language")
+        event["contest_id"] = snapshot.get("contest_id")
+        event["new_length"] = snapshot.get("length")
+        event["new_user_id"] = snapshot.get("user_id")
+
+
+def unresolved_target_details(state: dict[str, Any]) -> list[int]:
+    unresolved: list[int] = []
+    for held in state.get("ever_held", {}).values():
+        if not isinstance(held, dict):
+            continue
+        if (
+            not isinstance(held.get("target_epoch_second"), int)
+            or not isinstance(held.get("target_language"), str)
+            or not held.get("target_language")
+        ):
+            submission_id = held.get("target_submission_id")
+            if isinstance(submission_id, int):
+                unresolved.append(submission_id)
+    return sorted(set(unresolved))
 
 
 def fetch_recent_submissions(from_epoch: int, to_epoch: int) -> list[dict[str, Any]]:
@@ -777,6 +985,8 @@ def main() -> int:
     if state is None:
         print("初期データを作成します。")
         state = initialize(merged, now_epoch)
+        details = collect_missing_submission_details(state, merged, {})
+        hydrate_state_details(state, details)
     else:
         from_epoch = max(
             0,
@@ -794,7 +1004,10 @@ def main() -> int:
         }
 
         recent_by_id = process_recent(state, submissions, contest_starts)
-        reconcile(state, merged, recent_by_id)
+        details = collect_missing_submission_details(state, merged, recent_by_id)
+        hydrate_state_details(state, details)
+        reconcile(state, merged, details)
+        hydrate_state_details(state, details)
         state["last_checked_epoch"] = now_epoch
 
     # Keep event lookup compact and deterministic.
@@ -806,6 +1019,15 @@ def main() -> int:
             str(event.get("event_type") or ""),
         )
     )
+
+    unresolved = unresolved_target_details(state)
+    if unresolved:
+        save_json(STATE_PATH, state)
+        print(
+            "提出詳細の反映待ちです。公開データの更新を保留します: "
+            + ", ".join(map(str, unresolved))
+        )
+        return 0
 
     comparable_state = json.loads(json.dumps(state))
     comparable_state.pop("last_checked_epoch", None)

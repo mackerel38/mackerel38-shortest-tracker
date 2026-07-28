@@ -34,9 +34,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .tracker-cache
-          key: shortest-tracker-state-v2-${{ github.run_id }}
+          key: shortest-tracker-state-v3-${{ github.run_id }}
           restore-keys: |
-            shortest-tracker-state-v2-
+            shortest-tracker-state-v3-
 
       - name: Prepare runtime state
         shell: bash
