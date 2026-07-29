@@ -1844,9 +1844,28 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785287582,
-  "generated_iso": "2026-07-29T01:13:02+00:00",
+  "generated_epoch": 1785299704,
+  "generated_iso": "2026-07-29T04:35:04+00:00",
   "losses": [
+    {
+      "contest_id": "awc0122",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785295989,
+      "event_type": "lost",
+      "language": "A言語 (interpreter af48a2a)",
+      "new_length": 51,
+      "new_user_id": "shogo314",
+      "previous_length": 61,
+      "previous_submission_id": 77920516,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0122_b",
+      "problem_index": "B",
+      "problem_name": "Playlist Optimization",
+      "problem_title": "B. Playlist Optimization",
+      "problem_url": "https://atcoder.jp/contests/awc0122/tasks/awc0122_b",
+      "submission_id": 77930192,
+      "submission_url": "https://atcoder.jp/contests/awc0122/submissions/77930192"
+    },
     {
       "contest_id": "abc467",
       "detected_by_reconcile": false,
@@ -2004,12 +2023,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785238237,
+      "current_epoch_second": 1785295989,
       "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 61,
-      "current_submission_id": 77920516,
-      "current_submission_url": "https://atcoder.jp/contests/awc0122/submissions/77920516",
-      "current_user_id": "mackerel38",
+      "current_length": 51,
+      "current_submission_id": 77930192,
+      "current_submission_url": "https://atcoder.jp/contests/awc0122/submissions/77930192",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785238237,
       "last_acquired_epoch": 1785238237,
       "problem_id": "awc0122_b",
@@ -2017,7 +2036,7 @@
       "problem_name": "Playlist Optimization",
       "problem_title": "B. Playlist Optimization",
       "problem_url": "https://atcoder.jp/contests/awc0122/tasks/awc0122_b",
-      "status": "holding",
+      "status": "lost",
       "target_epoch_second": 1785238237,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 61,
@@ -4931,9 +4950,9 @@
   ],
   "summary": {
     "ever_held_count": 138,
-    "holding_count": 137,
-    "loss_event_count": 2,
-    "lost_count": 1
+    "holding_count": 136,
+    "loss_event_count": 3,
+    "lost_count": 2
   },
   "target_user": "mackerel38",
   "version": 1

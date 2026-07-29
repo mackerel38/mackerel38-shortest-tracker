@@ -35716,9 +35716,9 @@
       "contest_id": "arc207",
       "epoch_second": null,
       "language": null,
-      "length": 776,
-      "submission_id": 70119652,
-      "user_id": "liduoduo2021"
+      "length": 499,
+      "submission_id": 77927965,
+      "user_id": "herman526"
     },
     "arc208_a": {
       "contest_id": "arc208",
@@ -39612,9 +39612,9 @@
       "contest_id": "awc0071",
       "epoch_second": null,
       "language": null,
-      "length": 225,
-      "submission_id": 75936034,
-      "user_id": "sasa8uyauya"
+      "length": 199,
+      "submission_id": 77927372,
+      "user_id": "l_s_t"
     },
     "awc0071_d": {
       "contest_id": "awc0071",
@@ -41722,11 +41722,11 @@
     },
     "awc0122_b": {
       "contest_id": "awc0122",
-      "epoch_second": 1785238237,
+      "epoch_second": 1785295989,
       "language": "A言語 (interpreter af48a2a)",
-      "length": 61,
-      "submission_id": 77920516,
-      "user_id": "mackerel38"
+      "length": 51,
+      "submission_id": 77930192,
+      "user_id": "shogo314"
     },
     "awc0122_c": {
       "contest_id": "awc0122",
@@ -73699,7 +73699,8 @@
     "improved:awc0122_e:77921864",
     "improved:awc0122_e:77921912",
     "lost:abc467_c:77920631",
-    "lost:abc468_a:77905696"
+    "lost:abc468_a:77905696",
+    "lost:awc0122_b:77930192"
   ],
   "events": [
     {
@@ -75297,6 +75298,20 @@
       "previous_user_id": "shogo314",
       "problem_id": "awc0113_b",
       "submission_id": 77926665
+    },
+    {
+      "contest_id": "awc0122",
+      "detected_by_reconcile": false,
+      "epoch_second": 1785295989,
+      "event_type": "lost",
+      "language": "A言語 (interpreter af48a2a)",
+      "new_length": 51,
+      "new_user_id": "shogo314",
+      "previous_length": 61,
+      "previous_submission_id": 77920516,
+      "previous_user_id": "mackerel38",
+      "problem_id": "awc0122_b",
+      "submission_id": 77930192
     }
   ],
   "ever_held": {
@@ -76544,7 +76559,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785287582,
+  "last_checked_epoch": 1785299704,
   "target_user": "mackerel38",
   "version": 1
 }
