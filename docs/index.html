@@ -14,7 +14,7 @@
       <p class="eyebrow">AtCoder Shortest history</p>
       <h1>mackerel38 Shortest Tracker</h1>
       <p class="subtitle">
-        Shortestを保持した問題と、奪取された履歴を記録します。
+        Shortestを保持した問題と、その後の更新を記録します。
       </p>
     </div>
     <p id="updated" class="updated">データを読み込み中...</p>
@@ -27,8 +27,14 @@
       <button class="tab active" data-tab="problems" type="button">
         保持経験のある問題
       </button>
-      <button class="tab" data-tab="losses" type="button">
-        Shortest奪取リスト
+      <button class="tab" data-tab="active-updates" type="button">
+        Shortest更新リスト
+      </button>
+      <button class="tab" data-tab="update-log" type="button">
+        Shortest更新ログ
+      </button>
+      <button class="tab" data-tab="recommended" type="button">
+        Shortest Recommended
       </button>
     </nav>
 
@@ -43,13 +49,13 @@
           <select id="status-filter">
             <option value="all">すべて</option>
             <option value="holding">現在保持中</option>
-            <option value="lost">奪取済み</option>
+            <option value="updated">他ユーザーが更新</option>
           </select>
         </label>
         <label>
           <span>並び順</span>
           <select id="sort">
-            <option value="acquired-desc">獲得日時の新しい順</option>
+            <option value="acquired-desc">最終獲得の新しい順</option>
             <option value="bytes-asc">mackerel38のBytesが小さい順</option>
             <option value="problem-asc">問題ID順</option>
           </select>
@@ -77,24 +83,77 @@
       </div>
     </section>
 
-    <section id="losses-panel" class="panel">
-      <p id="loss-count" class="result-count"></p>
+    <section id="active-updates-panel" class="panel">
+      <p id="active-update-count" class="result-count"></p>
 
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>奪取日時</th>
+              <th>更新日時</th>
               <th>問題</th>
-              <th>奪取したユーザー</th>
-              <th>変更前</th>
-              <th>変更後</th>
-              <th>差</th>
-              <th>言語</th>
+              <th>現在の保持者</th>
+              <th>mackerel38</th>
+              <th>現在</th>
+              <th>更新Bytes</th>
+              <th>現在の言語</th>
               <th>提出</th>
             </tr>
           </thead>
-          <tbody id="losses-body"></tbody>
+          <tbody id="active-updates-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="update-log-panel" class="panel">
+      <p id="update-log-count" class="result-count"></p>
+
+      <div class="table-wrap">
+        <table class="update-log-table">
+          <thead>
+            <tr>
+              <th>問題 / 更新Bytes</th>
+              <th>提出日時</th>
+              <th>ユーザー</th>
+              <th>言語</th>
+              <th>Bytes</th>
+              <th>提出</th>
+            </tr>
+          </thead>
+          <tbody id="update-log-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="recommended-panel" class="panel">
+      <div class="recommendation-heading">
+        <div>
+          <h2>Shortest Recommended</h2>
+          <p>
+            mackerel38の提出言語がC++だけで、現在のShortestが
+            APL・A言語・cLay・dc・Ruby・Perl・AWK・Octave・Bash
+            ではない問題から選んでいます。
+          </p>
+        </div>
+        <button id="shuffle-recommendations" type="button">
+          表示順をシャッフル
+        </button>
+      </div>
+
+      <p id="recommendation-count" class="result-count"></p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>問題</th>
+              <th>現在の保持者</th>
+              <th>現在の言語</th>
+              <th>現在のBytes</th>
+              <th>提出</th>
+            </tr>
+          </thead>
+          <tbody id="recommendations-body"></tbody>
         </table>
       </div>
     </section>

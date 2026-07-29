@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
+import html
 import json
 import os
+import random
+import re
 import sys
 import time
 import urllib.parse
 import urllib.request
-from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 TARGET_USER = os.environ.get("TARGET_USER", "mackerel38")
-TARGET_LOWER = TARGET_USER.lower()
 
 BASE_URL = "https://kenkoooo.com/atcoder"
 MERGED_URL = f"{BASE_URL}/resources/merged-problems.json"
@@ -30,6 +32,21 @@ REQUEST_INTERVAL = 1.1
 OVERLAP_SECONDS = 10 * 60
 GLOBAL_PAGE_LIMIT = 1000
 USER_PAGE_LIMIT = 500
+RECOMMENDATION_COUNT = 12
+RECOMMENDATION_SCAN_LIMIT = 80
+JST = timezone(timedelta(hours=9))
+
+EXCLUDED_RECOMMENDATION_LANGUAGES = (
+    "apl",
+    "a言語",
+    "clay",
+    "dc",
+    "ruby",
+    "perl",
+    "awk",
+    "octave",
+    "bash",
+)
 
 
 class TrackerError(RuntimeError):
@@ -39,46 +56,53 @@ class TrackerError(RuntimeError):
 _last_request_at = 0.0
 
 
-def request_json(url: str) -> Any:
+def request_bytes(url: str) -> bytes:
     global _last_request_at
 
-    wait = REQUEST_INTERVAL - (time.monotonic() - _last_request_at)
-    if wait > 0:
-        time.sleep(wait)
+    last_error: Exception | None = None
+    for attempt in range(3):
+        wait = REQUEST_INTERVAL - (time.monotonic() - _last_request_at)
+        if wait > 0:
+            time.sleep(wait)
 
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "mackerel38-shortest-tracker/1.0 "
-            "(https://github.com/mackerel38/mackerel38-shortest-tracker)",
-            "Accept": "application/json",
-        },
-    )
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": (
+                    "mackerel38-shortest-tracker/2.0 "
+                    "(https://github.com/mackerel38/"
+                    "mackerel38-shortest-tracker)"
+                ),
+                "Accept": "application/json,text/html;q=0.9,*/*;q=0.8",
+            },
+        )
 
-    try:
-        with urllib.request.urlopen(request, timeout=90) as response:
-            if response.status != 200:
-                raise TrackerError(f"HTTP {response.status}: {url}")
-            payload = response.read()
-    except Exception as exc:
-        raise TrackerError(f"取得に失敗しました: {url}: {exc}") from exc
-    finally:
-        _last_request_at = time.monotonic()
+        try:
+            with urllib.request.urlopen(request, timeout=90) as response:
+                if response.status != 200:
+                    raise TrackerError(f"HTTP {response.status}: {url}")
+                return response.read()
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+        finally:
+            _last_request_at = time.monotonic()
 
+    raise TrackerError(f"取得に失敗しました: {url}: {last_error}")
+
+
+def request_json(url: str) -> Any:
+    payload = request_bytes(url)
     try:
         return json.loads(payload)
     except json.JSONDecodeError as exc:
         raise TrackerError(f"JSONの解析に失敗しました: {url}") from exc
 
 
-def load_state() -> dict[str, Any] | None:
-    if not STATE_PATH.exists():
-        return None
-    with STATE_PATH.open(encoding="utf-8") as file:
-        data = json.load(file)
-    if not isinstance(data, dict) or data.get("version") != 1:
-        raise TrackerError("state/tracker-state.json の形式が不正です")
-    return data
+def request_text(url: str) -> str:
+    payload = request_bytes(url)
+    return payload.decode("utf-8", errors="replace")
 
 
 def save_json(path: Path, value: Any) -> None:
@@ -88,6 +112,21 @@ def save_json(path: Path, value: Any) -> None:
         json.dump(value, file, ensure_ascii=False, indent=2, sort_keys=True)
         file.write("\n")
     temporary.replace(path)
+
+
+def load_json(path: Path) -> Any | None:
+    if not path.exists():
+        return None
+    with path.open(encoding="utf-8") as file:
+        return json.load(file)
+
+
+def same_user(left: Any, right: Any) -> bool:
+    return (
+        isinstance(left, str)
+        and isinstance(right, str)
+        and left.casefold() == right.casefold()
+    )
 
 
 def compact_shortest(problem: dict[str, Any]) -> dict[str, Any] | None:
@@ -125,8 +164,15 @@ def submission_snapshot(submission: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def same_user(left: str | None, right: str | None) -> bool:
-    return isinstance(left, str) and isinstance(right, str) and left.lower() == right.lower()
+def copy_snapshot(snapshot: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "submission_id": snapshot.get("submission_id"),
+        "user_id": snapshot.get("user_id"),
+        "contest_id": snapshot.get("contest_id"),
+        "length": snapshot.get("length"),
+        "epoch_second": snapshot.get("epoch_second"),
+        "language": snapshot.get("language"),
+    }
 
 
 def shortest_rank(snapshot: dict[str, Any] | None) -> tuple[int, int] | None:
@@ -152,62 +198,306 @@ def is_strictly_better(
     )
 
 
-def is_valid_loss_event(event: dict[str, Any]) -> bool:
-    if event.get("event_type") != "lost":
-        return False
-    if not same_user(event.get("previous_user_id"), TARGET_USER):
-        return False
-    if same_user(event.get("new_user_id"), TARGET_USER):
-        return False
-    if not isinstance(event.get("epoch_second"), int):
-        return False
+def details_complete(snapshot: dict[str, Any] | None) -> bool:
+    return (
+        isinstance(snapshot, dict)
+        and isinstance(snapshot.get("epoch_second"), int)
+        and isinstance(snapshot.get("language"), str)
+        and bool(snapshot.get("language"))
+    )
 
-    previous = {
-        "length": event.get("previous_length"),
-        "submission_id": event.get("previous_submission_id"),
+
+def new_state(now_epoch: int) -> dict[str, Any]:
+    return {
+        "version": 2,
+        "target_user": TARGET_USER,
+        "initialized_at": now_epoch,
+        "last_checked_epoch": max(0, now_epoch - OVERLAP_SECONDS),
+        "current": {},
+        "ever_held": {},
+        "updates": [],
+        "update_keys": [],
+        "submission_details": {},
+        "target_problem_languages": {},
+        "target_language_index_complete": False,
+        "recommendation_day": "",
+        "recommendations": [],
     }
-    current = {
-        "length": event.get("new_length"),
-        "submission_id": event.get("submission_id"),
+
+
+def migrate_state(data: Any, now_epoch: int) -> dict[str, Any]:
+    if not isinstance(data, dict):
+        return new_state(now_epoch)
+
+    version = data.get("version")
+    if version not in {1, 2}:
+        raise TrackerError("state/tracker-state.json の形式が不正です")
+
+    data["version"] = 2
+    data["target_user"] = TARGET_USER
+    data.setdefault("initialized_at", now_epoch)
+    data.setdefault("last_checked_epoch", max(0, now_epoch - OVERLAP_SECONDS))
+    data.setdefault("current", {})
+    data.setdefault("ever_held", {})
+
+    # 旧イベントは前後両方の日時・言語を持っていないため、
+    # 不完全な履歴を表示せず、この機能の導入後から更新ログを記録する。
+    data.setdefault("updates", [])
+    data.setdefault("update_keys", [])
+    data.setdefault("submission_details", {})
+    data.setdefault("target_problem_languages", {})
+    data.setdefault("target_language_index_complete", False)
+    data.setdefault("recommendation_day", "")
+    data.setdefault("recommendations", [])
+
+    # 旧形式の誤った巻き戻し状態を修復する。
+    for problem_id, held in data["ever_held"].items():
+        if not isinstance(held, dict):
+            continue
+        current = data["current"].get(problem_id)
+        if not isinstance(held.get("target_contest_id"), str):
+            if isinstance(current, dict) and isinstance(current.get("contest_id"), str):
+                held["target_contest_id"] = current.get("contest_id")
+        if not isinstance(current, dict) or same_user(
+            current.get("user_id"), TARGET_USER
+        ):
+            continue
+
+        target_snapshot = {
+            "submission_id": held.get("target_submission_id"),
+            "user_id": TARGET_USER,
+            "contest_id": (
+                held.get("target_contest_id")
+                or current.get("contest_id")
+            ),
+            "length": held.get("target_length"),
+            "epoch_second": held.get("target_epoch_second"),
+            "language": held.get("target_language"),
+        }
+        if is_strictly_better(target_snapshot, current):
+            data["current"][problem_id] = target_snapshot
+
+    data.pop("events", None)
+    data.pop("event_keys", None)
+    return data
+
+
+def load_state(now_epoch: int) -> dict[str, Any] | None:
+    data = load_json(STATE_PATH)
+    if data is None:
+        return None
+    return migrate_state(data, now_epoch)
+
+
+def strip_tags(fragment: str) -> str:
+    return " ".join(
+        html.unescape(re.sub(r"<[^>]+>", " ", fragment)).split()
+    )
+
+
+def table_value(page: str, labels: tuple[str, ...]) -> str | None:
+    alternatives = "|".join(re.escape(label) for label in labels)
+    pattern = (
+        rf"<th[^>]*>\s*(?:{alternatives})\s*</th>"
+        rf"\s*<td[^>]*>(.*?)</td>"
+    )
+    match = re.search(pattern, page, flags=re.IGNORECASE | re.DOTALL)
+    if match is None:
+        return None
+    value = strip_tags(match.group(1))
+    return value or None
+
+
+def parse_epoch(page: str) -> int | None:
+    match = re.search(
+        r"<time[^>]*>(.*?)</time>",
+        page,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if match is None:
+        return None
+
+    value = strip_tags(match.group(1))
+    value = re.sub(r"\s+", " ", value).strip()
+
+    formats = (
+        "%Y-%m-%d %H:%M:%S%z",
+        "%Y-%m-%d %H:%M:%S %z",
+        "%Y-%m-%d %H:%M:%S",
+    )
+    for fmt in formats:
+        try:
+            parsed = datetime.strptime(value, fmt)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=JST)
+            return int(parsed.timestamp())
+        except ValueError:
+            pass
+
+    match = re.search(
+        r"(\d{4}-\d{2}-\d{2})\s+"
+        r"(\d{2}:\d{2}:\d{2})\s*([+-]\d{4})?",
+        value,
+    )
+    if match is None:
+        return None
+
+    date_part, time_part, offset = match.groups()
+    candidate = f"{date_part} {time_part}{offset or '+0900'}"
+    return int(datetime.strptime(candidate, "%Y-%m-%d %H:%M:%S%z").timestamp())
+
+
+def fetch_submission_page_details(
+    snapshot: dict[str, Any],
+) -> dict[str, Any] | None:
+    contest_id = snapshot.get("contest_id")
+    submission_id = snapshot.get("submission_id")
+    if not isinstance(contest_id, str) or not isinstance(submission_id, int):
+        return None
+
+    url = (
+        f"https://atcoder.jp/contests/{urllib.parse.quote(contest_id)}"
+        f"/submissions/{submission_id}"
+    )
+    try:
+        page = request_text(url)
+    except TrackerError as exc:
+        print(f"提出ページ詳細を取得できませんでした: {submission_id}: {exc}")
+        return None
+
+    language = table_value(page, ("言語", "Language"))
+    epoch = parse_epoch(page)
+    if not language and not isinstance(epoch, int):
+        return None
+
+    return {
+        "language": language,
+        "epoch_second": epoch,
     }
-    return is_strictly_better(current, previous)
 
 
-def event_key(event_type: str, problem_id: str, submission_id: int) -> str:
-    return f"{event_type}:{problem_id}:{submission_id}"
-
-
-def add_event(
+def hydrate_snapshot(
     state: dict[str, Any],
-    *,
-    event_type: str,
-    problem_id: str,
-    previous: dict[str, Any] | None,
-    current: dict[str, Any],
-    detected_by_reconcile: bool = False,
+    snapshot: dict[str, Any],
+) -> bool:
+    if details_complete(snapshot):
+        return True
+
+    submission_id = snapshot.get("submission_id")
+    if not isinstance(submission_id, int):
+        return False
+
+    cache = state["submission_details"]
+    cached = cache.get(str(submission_id))
+    if isinstance(cached, dict):
+        if isinstance(cached.get("epoch_second"), int):
+            snapshot["epoch_second"] = cached["epoch_second"]
+        if isinstance(cached.get("language"), str) and cached["language"]:
+            snapshot["language"] = cached["language"]
+        if details_complete(snapshot):
+            return True
+
+    fetched = fetch_submission_page_details(snapshot)
+    if fetched is None:
+        return False
+
+    if isinstance(fetched.get("epoch_second"), int):
+        snapshot["epoch_second"] = fetched["epoch_second"]
+    if isinstance(fetched.get("language"), str) and fetched["language"]:
+        snapshot["language"] = fetched["language"]
+
+    cache[str(submission_id)] = {
+        "epoch_second": snapshot.get("epoch_second"),
+        "language": snapshot.get("language"),
+    }
+    return details_complete(snapshot)
+
+
+def cache_submission(
+    state: dict[str, Any],
+    snapshot: dict[str, Any],
 ) -> None:
-    submission_id = int(current["submission_id"])
-    key = event_key(event_type, problem_id, submission_id)
-    if key in state["event_keys"]:
+    submission_id = snapshot.get("submission_id")
+    if not isinstance(submission_id, int):
+        return
+    if details_complete(snapshot):
+        state["submission_details"][str(submission_id)] = {
+            "epoch_second": snapshot.get("epoch_second"),
+            "language": snapshot.get("language"),
+        }
+
+
+def fetch_all_user_submissions(user_id: str) -> list[dict[str, Any]]:
+    result: list[dict[str, Any]] = []
+    cursor = 0
+
+    while True:
+        query = urllib.parse.urlencode(
+            {"user": user_id, "from_second": cursor}
+        )
+        payload = request_json(f"{USER_API}?{query}")
+        if not isinstance(payload, list):
+            raise TrackerError("ユーザー提出APIの形式が不正です")
+        if not payload:
+            break
+
+        result.extend(item for item in payload if isinstance(item, dict))
+        if len(payload) < USER_PAGE_LIMIT:
+            break
+
+        epochs = [
+            item.get("epoch_second")
+            for item in payload
+            if isinstance(item, dict)
+            and isinstance(item.get("epoch_second"), int)
+        ]
+        if not epochs:
+            break
+
+        next_cursor = max(epochs) + 1
+        if next_cursor <= cursor:
+            break
+        cursor = next_cursor
+
+    return result
+
+
+def index_target_submission(
+    state: dict[str, Any],
+    submission: dict[str, Any],
+) -> None:
+    if not same_user(submission.get("user_id"), TARGET_USER):
         return
 
-    state["event_keys"].append(key)
-    state["events"].append(
-        {
-            "event_type": event_type,
-            "problem_id": problem_id,
-            "epoch_second": current.get("epoch_second"),
-            "submission_id": submission_id,
-            "previous_user_id": previous.get("user_id") if previous else None,
-            "previous_submission_id": previous.get("submission_id") if previous else None,
-            "previous_length": previous.get("length") if previous else None,
-            "new_user_id": current.get("user_id"),
-            "new_length": current.get("length"),
-            "language": current.get("language"),
-            "contest_id": current.get("contest_id"),
-            "detected_by_reconcile": detected_by_reconcile,
-        }
-    )
+    problem_id = submission.get("problem_id")
+    language = submission.get("language")
+    if not isinstance(problem_id, str) or not isinstance(language, str):
+        return
+
+    index = state["target_problem_languages"]
+    languages = set(index.get(problem_id, []))
+    languages.add(language)
+    index[problem_id] = sorted(languages)
+
+
+def ensure_target_language_index(
+    state: dict[str, Any],
+) -> dict[int, dict[str, Any]]:
+    if state.get("target_language_index_complete"):
+        return {}
+
+    print("推薦用にmackerel38の提出言語を初期集計します。")
+    submissions = fetch_all_user_submissions(TARGET_USER)
+    by_id: dict[int, dict[str, Any]] = {}
+
+    for submission in submissions:
+        index_target_submission(state, submission)
+        submission_id = submission.get("id")
+        if isinstance(submission_id, int):
+            by_id[submission_id] = submission
+
+    state["target_language_index_complete"] = True
+    return by_id
 
 
 def remember_target_hold(
@@ -223,6 +513,7 @@ def remember_target_hold(
             "first_acquired_epoch": snapshot.get("epoch_second"),
             "last_acquired_epoch": snapshot.get("epoch_second"),
             "target_submission_id": snapshot.get("submission_id"),
+            "target_contest_id": snapshot.get("contest_id"),
             "target_length": snapshot.get("length"),
             "target_language": snapshot.get("language"),
             "target_epoch_second": snapshot.get("epoch_second"),
@@ -233,12 +524,13 @@ def remember_target_hold(
 
     record["last_acquired_epoch"] = snapshot.get("epoch_second")
     record["target_submission_id"] = snapshot.get("submission_id")
+    record["target_contest_id"] = snapshot.get("contest_id")
     record["target_length"] = snapshot.get("length")
     record["target_language"] = snapshot.get("language")
     record["target_epoch_second"] = snapshot.get("epoch_second")
     record["acquisition_count"] = int(record.get("acquisition_count") or 0) + 1
 
-    if record.get("first_acquired_epoch") is None:
+    if not isinstance(record.get("first_acquired_epoch"), int):
         record["first_acquired_epoch"] = snapshot.get("epoch_second")
 
 
@@ -253,358 +545,81 @@ def update_target_best(
         return
 
     record["target_submission_id"] = snapshot.get("submission_id")
+    record["target_contest_id"] = snapshot.get("contest_id")
     record["target_length"] = snapshot.get("length")
     record["target_language"] = snapshot.get("language")
     record["target_epoch_second"] = snapshot.get("epoch_second")
 
 
-def process_transition(
+def update_key(problem_id: str, submission_id: int) -> str:
+    return f"{problem_id}:{submission_id}"
+
+
+def add_update_log(
     state: dict[str, Any],
     problem_id: str,
-    previous: dict[str, Any] | None,
+    previous: dict[str, Any],
     current: dict[str, Any],
-    *,
-    detected_by_reconcile: bool = False,
 ) -> None:
-    previous_target = previous is not None and same_user(previous.get("user_id"), TARGET_USER)
-    current_target = same_user(current.get("user_id"), TARGET_USER)
+    submission_id = current.get("submission_id")
+    if not isinstance(submission_id, int):
+        return
 
-    if not previous_target and current_target:
-        add_event(
-            state,
-            event_type="acquired",
-            problem_id=problem_id,
-            previous=previous,
-            current=current,
-            detected_by_reconcile=detected_by_reconcile,
-        )
-        remember_target_hold(state, problem_id, current)
-    elif previous_target and not current_target:
-        epoch = current.get("epoch_second")
-        initialized_at = int(state.get("initialized_at") or 0)
-        if (
-            not isinstance(epoch, int)
-            or epoch < initialized_at
-            or not is_strictly_better(current, previous)
-        ):
-            return
-        add_event(
-            state,
-            event_type="lost",
-            problem_id=problem_id,
-            previous=previous,
-            current=current,
-            detected_by_reconcile=detected_by_reconcile,
-        )
-    elif previous_target and current_target:
-        add_event(
-            state,
-            event_type="improved",
-            problem_id=problem_id,
-            previous=previous,
-            current=current,
-            detected_by_reconcile=detected_by_reconcile,
-        )
-        update_target_best(state, problem_id, current)
+    key = update_key(problem_id, submission_id)
+    if key in state["update_keys"]:
+        return
 
+    # 表の両行に必要な情報を可能な限り補完する。
+    hydrate_snapshot(state, previous)
+    hydrate_snapshot(state, current)
+    cache_submission(state, previous)
+    cache_submission(state, current)
 
-def sanitize_state(state: dict[str, Any]) -> None:
-    cleaned_events: list[dict[str, Any]] = []
-    for event in state.get("events", []):
-        if not isinstance(event, dict):
-            continue
-        if event.get("event_type") == "lost" and not is_valid_loss_event(event):
-            continue
-        cleaned_events.append(event)
-
-    state["events"] = cleaned_events
-    state["event_keys"] = sorted(
+    state["update_keys"].append(key)
+    state["updates"].append(
         {
-            event_key(
-                str(event.get("event_type") or ""),
-                str(event.get("problem_id") or ""),
-                int(event.get("submission_id") or 0),
-            )
-            for event in cleaned_events
-            if event.get("event_type")
-            and event.get("problem_id")
-            and isinstance(event.get("submission_id"), int)
+            "problem_id": problem_id,
+            "before": copy_snapshot(previous),
+            "after": copy_snapshot(current),
         }
     )
 
-    # merged-problems.json が新着提出APIより遅れている場合、
-    # より長い古い提出へ巻き戻された状態を修復する。
-    for problem_id, held in state.get("ever_held", {}).items():
-        if not isinstance(held, dict):
-            continue
-        current = state.get("current", {}).get(problem_id)
-        if not isinstance(current, dict) or same_user(current.get("user_id"), TARGET_USER):
-            continue
 
-        target_snapshot = {
-            "submission_id": held.get("target_submission_id"),
-            "user_id": TARGET_USER,
-            "contest_id": current.get("contest_id"),
-            "length": held.get("target_length"),
-            "epoch_second": held.get("target_epoch_second"),
-            "language": held.get("target_language"),
-        }
-        if is_strictly_better(target_snapshot, current):
-            state["current"][problem_id] = target_snapshot
-
-
-def fetch_user_submissions(
-    user_id: str,
-    needed_ids: set[int],
-    *,
-    from_second: int = 0,
-) -> dict[int, dict[str, Any]]:
-    if not needed_ids:
-        return {}
-
-    found: dict[int, dict[str, Any]] = {}
-    cursor = max(0, from_second)
-
-    while needed_ids - found.keys():
-        query = urllib.parse.urlencode(
-            {"user": user_id, "from_second": cursor}
-        )
-        payload = request_json(f"{USER_API}?{query}")
-        if not isinstance(payload, list):
-            raise TrackerError("ユーザー提出APIの形式が不正です")
-        if not payload:
-            break
-
-        for submission in payload:
-            if not isinstance(submission, dict):
-                continue
-            submission_id = submission.get("id")
-            if isinstance(submission_id, int) and submission_id in needed_ids:
-                found[submission_id] = submission
-
-        if len(payload) < USER_PAGE_LIMIT:
-            break
-
-        epochs = [
-            item.get("epoch_second")
-            for item in payload
-            if isinstance(item, dict) and isinstance(item.get("epoch_second"), int)
-        ]
-        if not epochs:
-            break
-
-        next_cursor = max(epochs) + 1
-        if next_cursor <= cursor:
-            break
-        cursor = next_cursor
-
-    return found
-
-
-def fetch_target_submissions(needed_ids: set[int]) -> dict[int, dict[str, Any]]:
-    return fetch_user_submissions(TARGET_USER, needed_ids, from_second=0)
-
-
-def details_missing(snapshot: dict[str, Any] | None) -> bool:
-    if not isinstance(snapshot, dict):
-        return True
-    epoch = snapshot.get("epoch_second")
-    language = snapshot.get("language")
-    return not isinstance(epoch, int) or not isinstance(language, str) or not language
-
-
-def collect_missing_submission_details(
+def apply_shortest_update(
     state: dict[str, Any],
-    merged: list[dict[str, Any]],
-    known_details: dict[int, dict[str, Any]],
-) -> dict[int, dict[str, Any]]:
-    requests: dict[str, dict[str, Any]] = {}
-    initialized_at = int(state.get("initialized_at") or 0)
-    recent_start = max(0, initialized_at - 24 * 60 * 60)
+    problem_id: str,
+    current: dict[str, Any],
+) -> bool:
+    previous = state["current"].get(problem_id)
+    if isinstance(previous, dict) and not is_strictly_better(current, previous):
+        return False
 
-    def request_detail(
-        user_id: Any,
-        submission_id: Any,
-        *,
-        from_second: int,
-    ) -> None:
-        if (
-            not isinstance(user_id, str)
-            or not isinstance(submission_id, int)
-            or submission_id in known_details
-        ):
-            return
+    tracked_before = problem_id in state["ever_held"]
+    current_target = same_user(current.get("user_id"), TARGET_USER)
+    previous_target = isinstance(previous, dict) and same_user(
+        previous.get("user_id"), TARGET_USER
+    )
+    relevant = tracked_before or current_target
 
-        key = user_id.lower()
-        entry = requests.setdefault(
-            key,
-            {
-                "user_id": user_id,
-                "ids": set(),
-                "from_second": from_second,
-            },
-        )
-        entry["ids"].add(submission_id)
-        entry["from_second"] = min(int(entry["from_second"]), from_second)
+    cache_submission(state, current)
 
-    for problem_id, held in state.get("ever_held", {}).items():
-        if not isinstance(held, dict):
-            continue
+    if current_target:
+        if previous_target:
+            update_target_best(state, problem_id, current)
+        else:
+            remember_target_hold(state, problem_id, current)
 
-        target_id = held.get("target_submission_id")
-        if (
-            not isinstance(held.get("target_epoch_second"), int)
-            or not isinstance(held.get("target_language"), str)
-            or not held.get("target_language")
-        ):
-            request_detail(TARGET_USER, target_id, from_second=0)
+    if relevant and isinstance(previous, dict):
+        add_update_log(state, problem_id, previous, current)
 
-        current = state.get("current", {}).get(problem_id)
-        if isinstance(current, dict) and details_missing(current):
-            current_user = current.get("user_id")
-            request_detail(
-                current_user,
-                current.get("submission_id"),
-                from_second=0 if same_user(current_user, TARGET_USER) else recent_start,
-            )
-
-    for event in state.get("events", []):
-        if not isinstance(event, dict):
-            continue
-        if (
-            isinstance(event.get("epoch_second"), int)
-            and isinstance(event.get("language"), str)
-            and event.get("language")
-        ):
-            continue
-        event_user = event.get("new_user_id")
-        request_detail(
-            event_user,
-            event.get("submission_id"),
-            from_second=0 if same_user(event_user, TARGET_USER) else recent_start,
-        )
-
-    for problem in merged:
-        if not isinstance(problem, dict):
-            continue
-        problem_id = problem.get("id")
-        if not isinstance(problem_id, str):
-            continue
-
-        authoritative = compact_shortest(problem)
-        if authoritative is None:
-            continue
-
-        previous = state.get("current", {}).get(problem_id)
-        relevant = (
-            same_user(authoritative.get("user_id"), TARGET_USER)
-            or (
-                isinstance(previous, dict)
-                and same_user(previous.get("user_id"), TARGET_USER)
-            )
-        )
-        if not relevant:
-            continue
-
-        if (
-            isinstance(previous, dict)
-            and previous.get("submission_id") == authoritative.get("submission_id")
-        ):
-            if problem_id in state.get("ever_held", {}) and details_missing(previous):
-                user_id = authoritative.get("user_id")
-                request_detail(
-                    user_id,
-                    authoritative.get("submission_id"),
-                    from_second=0 if same_user(user_id, TARGET_USER) else recent_start,
-                )
-            continue
-
-        if previous is None or is_strictly_better(authoritative, previous):
-            user_id = authoritative.get("user_id")
-            request_detail(
-                user_id,
-                authoritative.get("submission_id"),
-                from_second=0 if same_user(user_id, TARGET_USER) else recent_start,
-            )
-
-    fetched = dict(known_details)
-    for entry in requests.values():
-        fetched.update(
-            fetch_user_submissions(
-                str(entry["user_id"]),
-                set(entry["ids"]),
-                from_second=int(entry["from_second"]),
-            )
-        )
-    return fetched
+    state["current"][problem_id] = copy_snapshot(current)
+    return relevant
 
 
-def hydrate_state_details(
-    state: dict[str, Any],
-    details: dict[int, dict[str, Any]],
-) -> None:
-    if not details:
-        return
-
-    snapshots = {
-        submission_id: submission_snapshot(submission)
-        for submission_id, submission in details.items()
-        if isinstance(submission_id, int) and isinstance(submission, dict)
-    }
-
-    for current in state.get("current", {}).values():
-        if not isinstance(current, dict):
-            continue
-        snapshot = snapshots.get(current.get("submission_id"))
-        if snapshot is not None:
-            current.update(snapshot)
-
-    for held in state.get("ever_held", {}).values():
-        if not isinstance(held, dict):
-            continue
-        snapshot = snapshots.get(held.get("target_submission_id"))
-        if snapshot is None or not same_user(snapshot.get("user_id"), TARGET_USER):
-            continue
-
-        held["target_length"] = snapshot.get("length")
-        held["target_language"] = snapshot.get("language")
-        held["target_epoch_second"] = snapshot.get("epoch_second")
-        if not isinstance(held.get("first_acquired_epoch"), int):
-            held["first_acquired_epoch"] = snapshot.get("epoch_second")
-        if not isinstance(held.get("last_acquired_epoch"), int):
-            held["last_acquired_epoch"] = snapshot.get("epoch_second")
-
-    for event in state.get("events", []):
-        if not isinstance(event, dict):
-            continue
-        snapshot = snapshots.get(event.get("submission_id"))
-        if snapshot is None:
-            continue
-
-        event["epoch_second"] = snapshot.get("epoch_second")
-        event["language"] = snapshot.get("language")
-        event["contest_id"] = snapshot.get("contest_id")
-        event["new_length"] = snapshot.get("length")
-        event["new_user_id"] = snapshot.get("user_id")
-
-
-def unresolved_target_details(state: dict[str, Any]) -> list[int]:
-    unresolved: list[int] = []
-    for held in state.get("ever_held", {}).values():
-        if not isinstance(held, dict):
-            continue
-        if (
-            not isinstance(held.get("target_epoch_second"), int)
-            or not isinstance(held.get("target_language"), str)
-            or not held.get("target_language")
-        ):
-            submission_id = held.get("target_submission_id")
-            if isinstance(submission_id, int):
-                unresolved.append(submission_id)
-    return sorted(set(unresolved))
-
-
-def fetch_recent_submissions(from_epoch: int, to_epoch: int) -> list[dict[str, Any]]:
+def fetch_recent_submissions(
+    from_epoch: int,
+    to_epoch: int,
+) -> list[dict[str, Any]]:
     cursor = max(0, from_epoch)
     seen: set[int] = set()
     result: list[dict[str, Any]] = []
@@ -650,55 +665,39 @@ def fetch_recent_submissions(from_epoch: int, to_epoch: int) -> list[dict[str, A
     return result
 
 
-def initialize(
+def initialize_state(
     merged: list[dict[str, Any]],
     now_epoch: int,
 ) -> dict[str, Any]:
-    current: dict[str, dict[str, Any]] = {}
-    needed_target_ids: set[int] = set()
+    state = new_state(now_epoch)
 
     for problem in merged:
-        if not isinstance(problem, dict) or not isinstance(problem.get("id"), str):
+        if not isinstance(problem, dict):
             continue
-
+        problem_id = problem.get("id")
         snapshot = compact_shortest(problem)
-        if snapshot is None:
+        if isinstance(problem_id, str) and snapshot is not None:
+            state["current"][problem_id] = snapshot
+
+    target_submissions = ensure_target_language_index(state)
+
+    for problem_id, snapshot in state["current"].items():
+        if not same_user(snapshot.get("user_id"), TARGET_USER):
             continue
 
-        problem_id = problem["id"]
-        current[problem_id] = snapshot
-        if same_user(snapshot["user_id"], TARGET_USER):
-            needed_target_ids.add(int(snapshot["submission_id"]))
-
-    details = fetch_target_submissions(needed_target_ids)
-
-    state: dict[str, Any] = {
-        "version": 1,
-        "target_user": TARGET_USER,
-        "initialized_at": now_epoch,
-        "last_checked_epoch": max(0, now_epoch - OVERLAP_SECONDS),
-        "current": current,
-        "ever_held": {},
-        "events": [],
-        "event_keys": [],
-    }
-
-    for problem_id, snapshot in current.items():
-        if not same_user(snapshot["user_id"], TARGET_USER):
-            continue
-
-        detail = details.get(int(snapshot["submission_id"]))
-        if detail is not None:
-            snapshot.update(submission_snapshot(detail))
-
-        remember_target_hold(state, problem_id, snapshot)
-        add_event(
-            state,
-            event_type="baseline",
-            problem_id=problem_id,
-            previous=None,
-            current=snapshot,
+        submission_id = snapshot.get("submission_id")
+        detail = (
+            target_submissions.get(submission_id)
+            if isinstance(submission_id, int)
+            else None
         )
+        if isinstance(detail, dict):
+            snapshot.update(submission_snapshot(detail))
+        else:
+            hydrate_snapshot(state, snapshot)
+
+        cache_submission(state, snapshot)
+        remember_target_hold(state, problem_id, snapshot)
 
     return state
 
@@ -711,6 +710,8 @@ def process_recent(
     by_id: dict[int, dict[str, Any]] = {}
 
     for submission in submissions:
+        index_target_submission(state, submission)
+
         submission_id = submission.get("id")
         if isinstance(submission_id, int):
             by_id[submission_id] = submission
@@ -735,15 +736,8 @@ def process_recent(
         if contest_start is not None and epoch <= contest_start:
             continue
 
-        previous = state["current"].get(problem_id)
-        if previous is not None:
-            previous_length = previous.get("length")
-            if isinstance(previous_length, int) and length >= previous_length:
-                continue
-
         current = submission_snapshot(submission)
-        process_transition(state, problem_id, previous, current)
-        state["current"][problem_id] = current
+        apply_shortest_update(state, problem_id, current)
 
     return by_id
 
@@ -753,56 +747,100 @@ def reconcile(
     merged: list[dict[str, Any]],
     recent_by_id: dict[int, dict[str, Any]],
 ) -> None:
-    latest_problem_ids: set[str] = set()
-
     for problem in merged:
         if not isinstance(problem, dict):
             continue
-        problem_id = problem.get("id")
-        if not isinstance(problem_id, str):
-            continue
 
-        latest_problem_ids.add(problem_id)
+        problem_id = problem.get("id")
         authoritative = compact_shortest(problem)
-        if authoritative is None:
+        if not isinstance(problem_id, str) or authoritative is None:
             continue
 
         previous = state["current"].get(problem_id)
-        if previous is not None and previous.get("submission_id") == authoritative["submission_id"]:
+        if (
+            isinstance(previous, dict)
+            and previous.get("submission_id") == authoritative["submission_id"]
+        ):
             authoritative["epoch_second"] = previous.get("epoch_second")
             authoritative["language"] = previous.get("language")
             state["current"][problem_id] = authoritative
             continue
 
-        # merged-problems.json は新着提出APIより更新が遅れることがある。
-        # 現在記録している提出より悪い値なら、古いスナップショットなので無視する。
-        if previous is not None and not is_strictly_better(authoritative, previous):
+        # merged-problems.json が新着提出APIより遅れている場合に、
+        # 古い長い提出へ巻き戻さない。
+        if isinstance(previous, dict) and not is_strictly_better(
+            authoritative, previous
+        ):
             continue
 
-        detail = recent_by_id.get(int(authoritative["submission_id"]))
-        if detail is None:
-            # 提出日時を確認できない変化は奪取履歴に入れない。
-            # 現在値だけを同期し、1970年表示や過去分の誤登録を防ぐ。
-            state["current"][problem_id] = authoritative
-            if same_user(authoritative.get("user_id"), TARGET_USER):
-                if previous is not None and same_user(previous.get("user_id"), TARGET_USER):
-                    update_target_best(state, problem_id, authoritative)
-                else:
-                    remember_target_hold(state, problem_id, authoritative)
-            continue
+        submission_id = authoritative["submission_id"]
+        detail = recent_by_id.get(submission_id)
+        if isinstance(detail, dict):
+            authoritative.update(submission_snapshot(detail))
 
-        authoritative.update(submission_snapshot(detail))
-        process_transition(
-            state,
-            problem_id,
-            previous,
-            authoritative,
-            detected_by_reconcile=True,
+        relevant = (
+            problem_id in state["ever_held"]
+            or same_user(authoritative.get("user_id"), TARGET_USER)
         )
-        state["current"][problem_id] = authoritative
 
-    # Problems are not normally removed, but retaining old entries is safer than
-    # deleting history if the upstream dataset temporarily omits an item.
+        if relevant and not details_complete(authoritative):
+            if not hydrate_snapshot(state, authoritative):
+                # 詳細が反映されるまで現在値を進めず、次回再試行する。
+                continue
+
+        if relevant:
+            apply_shortest_update(state, problem_id, authoritative)
+        else:
+            state["current"][problem_id] = authoritative
+
+
+def hydrate_tracked_state(state: dict[str, Any]) -> None:
+    for problem_id, held in state["ever_held"].items():
+        if not isinstance(held, dict):
+            continue
+
+        target_snapshot = {
+            "submission_id": held.get("target_submission_id"),
+            "user_id": TARGET_USER,
+            "contest_id": (
+                held.get("target_contest_id")
+                or (
+                    state["current"].get(problem_id, {}).get("contest_id")
+                    if isinstance(state["current"].get(problem_id), dict)
+                    else None
+                )
+            ),
+            "length": held.get("target_length"),
+            "epoch_second": held.get("target_epoch_second"),
+            "language": held.get("target_language"),
+        }
+        if hydrate_snapshot(state, target_snapshot):
+            held["target_contest_id"] = target_snapshot.get("contest_id")
+            held["target_length"] = target_snapshot.get("length")
+            held["target_epoch_second"] = target_snapshot.get("epoch_second")
+            held["target_language"] = target_snapshot.get("language")
+            if not isinstance(held.get("first_acquired_epoch"), int):
+                held["first_acquired_epoch"] = target_snapshot.get(
+                    "epoch_second"
+                )
+            if not isinstance(held.get("last_acquired_epoch"), int):
+                held["last_acquired_epoch"] = target_snapshot.get(
+                    "epoch_second"
+                )
+
+        current = state["current"].get(problem_id)
+        if isinstance(current, dict):
+            hydrate_snapshot(state, current)
+
+    for update in state["updates"]:
+        if not isinstance(update, dict):
+            continue
+        before = update.get("before")
+        after = update.get("after")
+        if isinstance(before, dict):
+            hydrate_snapshot(state, before)
+        if isinstance(after, dict):
+            hydrate_snapshot(state, after)
 
 
 def problem_metadata(
@@ -820,33 +858,127 @@ def problem_metadata(
             "contest_id": contest_id,
             "problem_index": str(problem.get("problem_index") or ""),
             "name": str(problem.get("name") or problem_id),
-            "title": str(problem.get("title") or problem.get("name") or problem_id),
+            "title": str(
+                problem.get("title")
+                or problem.get("name")
+                or problem_id
+            ),
         }
     return result
 
 
-def enrich_event(
-    event: dict[str, Any],
+def submission_url(snapshot: dict[str, Any] | None) -> str:
+    if not isinstance(snapshot, dict):
+        return ""
+    contest_id = snapshot.get("contest_id")
+    submission_id = snapshot.get("submission_id")
+    if not isinstance(contest_id, str) or not isinstance(submission_id, int):
+        return ""
+    return (
+        f"https://atcoder.jp/contests/{contest_id}"
+        f"/submissions/{submission_id}"
+    )
+
+
+def problem_url(problem_id: str, contest_id: str) -> str:
+    if not contest_id:
+        return ""
+    return (
+        f"https://atcoder.jp/contests/{contest_id}"
+        f"/tasks/{problem_id}"
+    )
+
+
+def is_cpp_language(language: str) -> bool:
+    return language.strip().casefold().startswith("c++")
+
+
+def recommendation_language_allowed(language: str) -> bool:
+    normalized = language.strip().casefold()
+    for excluded in EXCLUDED_RECOMMENDATION_LANGUAGES:
+        if excluded == "dc":
+            if normalized == "dc" or normalized.startswith("dc "):
+                return False
+        elif normalized.startswith(excluded):
+            return False
+    return True
+
+
+def refresh_recommendations(
+    state: dict[str, Any],
     metadata: dict[str, dict[str, str]],
-) -> dict[str, Any]:
-    problem_id = str(event["problem_id"])
-    info = metadata.get(problem_id, {})
-    contest_id = str(event.get("contest_id") or info.get("contest_id") or "")
+    now_epoch: int,
+) -> None:
+    day = datetime.fromtimestamp(now_epoch, tz=JST).date().isoformat()
+
+    candidates: list[str] = []
+    for problem_id, languages in state["target_problem_languages"].items():
+        if (
+            not isinstance(problem_id, str)
+            or not isinstance(languages, list)
+            or not languages
+            or not all(
+                isinstance(language, str) and is_cpp_language(language)
+                for language in languages
+            )
+        ):
+            continue
+
+        current = state["current"].get(problem_id)
+        if not isinstance(current, dict):
+            continue
+        if same_user(current.get("user_id"), TARGET_USER):
+            continue
+
+        candidates.append(problem_id)
+
+    seed_text = f"{TARGET_USER}:{day}:shortest-recommended-v1"
+    seed = int(hashlib.sha256(seed_text.encode()).hexdigest(), 16)
+    random.Random(seed).shuffle(candidates)
+
+    selected: list[str] = []
+    scanned = 0
+    for problem_id in candidates:
+        if len(selected) >= RECOMMENDATION_COUNT:
+            break
+        if scanned >= RECOMMENDATION_SCAN_LIMIT:
+            break
+        scanned += 1
+
+        current = state["current"].get(problem_id)
+        if not isinstance(current, dict):
+            continue
+        if not hydrate_snapshot(state, current):
+            continue
+
+        language = current.get("language")
+        if (
+            not isinstance(language, str)
+            or not recommendation_language_allowed(language)
+        ):
+            continue
+
+        if problem_id not in metadata:
+            continue
+        selected.append(problem_id)
+
+    state["recommendation_day"] = day
+    state["recommendations"] = selected
+
+
+def public_snapshot(snapshot: dict[str, Any] | None) -> dict[str, Any]:
+    if not isinstance(snapshot, dict):
+        return {
+            "submission_id": None,
+            "submission_url": "",
+            "user_id": None,
+            "length": None,
+            "epoch_second": None,
+            "language": None,
+        }
     return {
-        **event,
-        "problem_name": info.get("name") or problem_id,
-        "problem_title": info.get("title") or info.get("name") or problem_id,
-        "problem_index": info.get("problem_index") or "",
-        "problem_url": (
-            f"https://atcoder.jp/contests/{contest_id}/tasks/{problem_id}"
-            if contest_id
-            else ""
-        ),
-        "submission_url": (
-            f"https://atcoder.jp/contests/{contest_id}/submissions/{event['submission_id']}"
-            if contest_id and event.get("submission_id")
-            else ""
-        ),
+        **copy_snapshot(snapshot),
+        "submission_url": submission_url(snapshot),
     }
 
 
@@ -859,50 +991,81 @@ def build_public(
     rows: list[dict[str, Any]] = []
 
     for problem_id, held in state["ever_held"].items():
+        if not isinstance(held, dict):
+            continue
+
         info = metadata.get(problem_id, {})
         current = state["current"].get(problem_id, {})
-        contest_id = str(current.get("contest_id") or info.get("contest_id") or "")
-        current_submission_id = current.get("submission_id")
+        contest_id = str(
+            (
+                current.get("contest_id")
+                if isinstance(current, dict)
+                else None
+            )
+            or info.get("contest_id")
+            or ""
+        )
         target_submission_id = held.get("target_submission_id")
+        target_contest_id = str(
+            held.get("target_contest_id") or contest_id or ""
+        )
 
         rows.append(
             {
                 "problem_id": problem_id,
                 "problem_name": info.get("name") or problem_id,
-                "problem_title": info.get("title") or info.get("name") or problem_id,
-                "problem_index": info.get("problem_index") or "",
-                "problem_url": (
-                    f"https://atcoder.jp/contests/{contest_id}/tasks/{problem_id}"
-                    if contest_id
-                    else ""
+                "problem_title": (
+                    info.get("title")
+                    or info.get("name")
+                    or problem_id
                 ),
+                "problem_index": info.get("problem_index") or "",
+                "problem_url": problem_url(problem_id, contest_id),
                 "status": (
                     "holding"
-                    if same_user(current.get("user_id"), TARGET_USER)
-                    else "lost"
+                    if isinstance(current, dict)
+                    and same_user(current.get("user_id"), TARGET_USER)
+                    else "updated"
                 ),
                 "first_acquired_epoch": held.get("first_acquired_epoch"),
                 "last_acquired_epoch": held.get("last_acquired_epoch"),
                 "acquisition_count": held.get("acquisition_count"),
                 "target_submission_id": target_submission_id,
                 "target_submission_url": (
-                    f"https://atcoder.jp/contests/{contest_id}/submissions/{target_submission_id}"
-                    if contest_id and target_submission_id
+                    f"https://atcoder.jp/contests/{target_contest_id}"
+                    f"/submissions/{target_submission_id}"
+                    if target_contest_id and isinstance(target_submission_id, int)
                     else ""
                 ),
                 "target_epoch_second": held.get("target_epoch_second"),
                 "target_length": held.get("target_length"),
                 "target_language": held.get("target_language"),
-                "current_user_id": current.get("user_id"),
-                "current_submission_id": current_submission_id,
-                "current_submission_url": (
-                    f"https://atcoder.jp/contests/{contest_id}/submissions/{current_submission_id}"
-                    if contest_id and current_submission_id
-                    else ""
+                "current_user_id": (
+                    current.get("user_id")
+                    if isinstance(current, dict)
+                    else None
                 ),
-                "current_epoch_second": current.get("epoch_second"),
-                "current_length": current.get("length"),
-                "current_language": current.get("language"),
+                "current_submission_id": (
+                    current.get("submission_id")
+                    if isinstance(current, dict)
+                    else None
+                ),
+                "current_submission_url": submission_url(current),
+                "current_epoch_second": (
+                    current.get("epoch_second")
+                    if isinstance(current, dict)
+                    else None
+                ),
+                "current_length": (
+                    current.get("length")
+                    if isinstance(current, dict)
+                    else None
+                ),
+                "current_language": (
+                    current.get("language")
+                    if isinstance(current, dict)
+                    else None
+                ),
             }
         )
 
@@ -914,56 +1077,160 @@ def build_public(
         reverse=True,
     )
 
-    losses = [
-        enrich_event(event, metadata)
-        for event in state["events"]
-        if is_valid_loss_event(event)
-    ]
-    losses.sort(
-        key=lambda event: (
-            int(event.get("epoch_second") or 0),
-            int(event.get("submission_id") or 0),
+    # 現在mackerel38が保持していない問題だけを表示する。
+    # mackerel38が取り返した時点で自動的にこの一覧から消える。
+    active_updates: list[dict[str, Any]] = []
+    for row in rows:
+        if row["status"] != "updated":
+            continue
+
+        before = {
+            "submission_id": row.get("target_submission_id"),
+            "user_id": TARGET_USER,
+            "contest_id": (
+                state["ever_held"].get(row["problem_id"], {}).get(
+                    "target_contest_id"
+                )
+                if isinstance(
+                    state["ever_held"].get(row["problem_id"]), dict
+                )
+                else None
+            ),
+            "length": row.get("target_length"),
+            "epoch_second": row.get("target_epoch_second"),
+            "language": row.get("target_language"),
+        }
+        after = state["current"].get(row["problem_id"], {})
+        active_updates.append(
+            {
+                "problem_id": row["problem_id"],
+                "problem_name": row["problem_name"],
+                "problem_url": row["problem_url"],
+                "before": public_snapshot(before),
+                "after": public_snapshot(after),
+            }
+        )
+
+    active_updates.sort(
+        key=lambda item: int(
+            item.get("after", {}).get("epoch_second") or 0
         ),
         reverse=True,
     )
 
-    acquisitions = [
-        enrich_event(event, metadata)
-        for event in state["events"]
-        if event.get("event_type") in {"acquired", "baseline"}
-    ]
-    acquisitions.sort(
-        key=lambda event: (
-            int(event.get("epoch_second") or 0),
-            int(event.get("submission_id") or 0),
+    update_log: list[dict[str, Any]] = []
+    for update in state["updates"]:
+        if not isinstance(update, dict):
+            continue
+        problem_id = update.get("problem_id")
+        before = update.get("before")
+        after = update.get("after")
+        if (
+            not isinstance(problem_id, str)
+            or not isinstance(before, dict)
+            or not isinstance(after, dict)
+        ):
+            continue
+
+        info = metadata.get(problem_id, {})
+        contest_id = str(
+            after.get("contest_id")
+            or before.get("contest_id")
+            or info.get("contest_id")
+            or ""
+        )
+        update_log.append(
+            {
+                "problem_id": problem_id,
+                "problem_name": info.get("name") or problem_id,
+                "problem_url": problem_url(problem_id, contest_id),
+                "before": public_snapshot(before),
+                "after": public_snapshot(after),
+            }
+        )
+
+    update_log.sort(
+        key=lambda item: (
+            int(item["after"].get("epoch_second") or 0),
+            int(item["after"].get("submission_id") or 0),
         ),
         reverse=True,
     )
+
+    recommendations: list[dict[str, Any]] = []
+    for problem_id in state.get("recommendations", []):
+        if not isinstance(problem_id, str):
+            continue
+        current = state["current"].get(problem_id)
+        info = metadata.get(problem_id)
+        if not isinstance(current, dict) or not isinstance(info, dict):
+            continue
+
+        contest_id = str(
+            current.get("contest_id")
+            or info.get("contest_id")
+            or ""
+        )
+        recommendations.append(
+            {
+                "problem_id": problem_id,
+                "problem_name": info.get("name") or problem_id,
+                "problem_url": problem_url(problem_id, contest_id),
+                "current": public_snapshot(current),
+            }
+        )
 
     holding_count = sum(row["status"] == "holding" for row in rows)
 
     return {
-        "version": 1,
+        "version": 2,
         "target_user": TARGET_USER,
         "generated_epoch": now_epoch,
         "generated_iso": datetime.fromtimestamp(
             now_epoch, tz=timezone.utc
         ).isoformat(),
+        "recommendation_day": state.get("recommendation_day"),
         "summary": {
             "ever_held_count": len(rows),
             "holding_count": holding_count,
+            "updated_count": len(rows) - holding_count,
+            "active_update_count": len(active_updates),
+            "update_log_count": len(update_log),
+            # 旧フロントエンドとの短い互換期間用
             "lost_count": len(rows) - holding_count,
-            "loss_event_count": len(losses),
+            "loss_event_count": len(active_updates),
         },
         "problems": rows,
-        "losses": losses,
-        "acquisitions": acquisitions,
+        "active_updates": active_updates,
+        "update_log": update_log,
+        "recommendations": recommendations,
         "notes": [
             "初回導入時は、その時点で保持していたShortestを登録します。",
-            "導入後の獲得・自己更新・奪取は提出時刻順に追跡します。",
-            "導入以前の奪取履歴は記録しません。",
+            "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
+            "Shortest更新リストは現在mackerel38が保持していない問題だけを表示し、取り返すと自動的に消えます。",
+            "Shortest更新ログは、この機能の導入後に検出した更新を記録します。",
+            "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。",
         ],
     }
+
+
+def public_content_changed(new_public: dict[str, Any]) -> bool:
+    old_public = load_json(PUBLIC_PATH)
+    if not isinstance(old_public, dict):
+        return True
+
+    ignored = {"generated_epoch", "generated_iso"}
+    left = {
+        key: value
+        for key, value in old_public.items()
+        if key not in ignored
+    }
+    right = {
+        key: value
+        for key, value in new_public.items()
+        if key not in ignored
+    }
+    return left != right
 
 
 def main() -> int:
@@ -973,24 +1240,40 @@ def main() -> int:
     problems = request_json(PROBLEMS_URL)
     contests = request_json(CONTESTS_URL)
 
-    if not isinstance(merged, list) or not isinstance(problems, list) or not isinstance(contests, list):
+    if (
+        not isinstance(merged, list)
+        or not isinstance(problems, list)
+        or not isinstance(contests, list)
+    ):
         raise TrackerError("AtCoder Problemsのデータ形式が不正です")
 
-    state = load_state()
-    initial_run = state is None
-    original_state = None if state is None else json.loads(json.dumps(state))
-    if state is not None:
-        sanitize_state(state)
-
+    state = load_state(now_epoch)
     if state is None:
         print("初期データを作成します。")
-        state = initialize(merged, now_epoch)
-        details = collect_missing_submission_details(state, merged, {})
-        hydrate_state_details(state, details)
+        state = initialize_state(merged, now_epoch)
     else:
+        target_details = ensure_target_language_index(state)
+        if target_details:
+            by_id = {
+                submission_id: submission_snapshot(submission)
+                for submission_id, submission in target_details.items()
+            }
+            for problem_id, held in state["ever_held"].items():
+                if not isinstance(held, dict):
+                    continue
+                detail = by_id.get(held.get("target_submission_id"))
+                if detail is not None:
+                    held["target_contest_id"] = detail.get("contest_id")
+                    held["target_length"] = detail.get("length")
+                    held["target_epoch_second"] = detail.get(
+                        "epoch_second"
+                    )
+                    held["target_language"] = detail.get("language")
+
         from_epoch = max(
             0,
-            int(state.get("last_checked_epoch") or 0) - OVERLAP_SECONDS,
+            int(state.get("last_checked_epoch") or 0)
+            - OVERLAP_SECONDS,
         )
         print(f"提出を取得します: {from_epoch} ～ {now_epoch}")
         submissions = fetch_recent_submissions(from_epoch, now_epoch)
@@ -1003,52 +1286,42 @@ def main() -> int:
             and isinstance(contest.get("start_epoch_second"), int)
         }
 
-        recent_by_id = process_recent(state, submissions, contest_starts)
-        details = collect_missing_submission_details(state, merged, recent_by_id)
-        hydrate_state_details(state, details)
-        reconcile(state, merged, details)
-        hydrate_state_details(state, details)
+        recent_by_id = process_recent(
+            state, submissions, contest_starts
+        )
+        reconcile(state, merged, recent_by_id)
         state["last_checked_epoch"] = now_epoch
 
-    # Keep event lookup compact and deterministic.
-    state["event_keys"] = sorted(set(state.get("event_keys", [])))
-    state["events"].sort(
-        key=lambda event: (
-            int(event.get("epoch_second") or 0),
-            int(event.get("submission_id") or 0),
-            str(event.get("event_type") or ""),
+    hydrate_tracked_state(state)
+
+    metadata = problem_metadata(problems)
+    refresh_recommendations(state, metadata, now_epoch)
+
+    state["update_keys"] = sorted(set(state["update_keys"]))
+    state["updates"].sort(
+        key=lambda update: (
+            int(
+                update.get("after", {}).get("epoch_second") or 0
+                if isinstance(update, dict)
+                and isinstance(update.get("after"), dict)
+                else 0
+            ),
+            int(
+                update.get("after", {}).get("submission_id") or 0
+                if isinstance(update, dict)
+                and isinstance(update.get("after"), dict)
+                else 0
+            ),
         )
     )
 
-    unresolved = unresolved_target_details(state)
-    if unresolved:
-        save_json(STATE_PATH, state)
-        print(
-            "提出詳細の反映待ちです。公開データの更新を保留します: "
-            + ", ".join(map(str, unresolved))
-        )
-        return 0
-
-    comparable_state = json.loads(json.dumps(state))
-    comparable_state.pop("last_checked_epoch", None)
-
-    comparable_original = None
-    if original_state is not None:
-        comparable_original = json.loads(json.dumps(original_state))
-        comparable_original.pop("last_checked_epoch", None)
-
-    tracker_changed = initial_run or comparable_state != comparable_original
-
-    # 最終確認時刻を含む内部状態は毎回保存する。
-    # GitHub Actions側でキャッシュに退避し、Shortestに変化がない場合は
-    # リポジトリへコミットしない。
     save_json(STATE_PATH, state)
 
-    if not tracker_changed:
-        print("Shortestの変化はありません。公開データは更新しません。")
+    public = build_public(state, problems, now_epoch)
+    if not public_content_changed(public):
+        print("公開内容に変化はありません。")
         return 0
 
-    public = build_public(state, problems, now_epoch)
     save_json(PUBLIC_PATH, public)
 
     summary = public["summary"]
@@ -1056,7 +1329,8 @@ def main() -> int:
         "更新完了: "
         f"保持経験 {summary['ever_held_count']} / "
         f"現在保持 {summary['holding_count']} / "
-        f"奪取イベント {summary['loss_event_count']}"
+        f"現在更新済み {summary['active_update_count']} / "
+        f"更新ログ {summary['update_log_count']}"
     )
     return 0
 

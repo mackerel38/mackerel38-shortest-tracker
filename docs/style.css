@@ -23,6 +23,12 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+button,
+input,
+select {
+  font: inherit;
+}
+
 .hero {
   display: flex;
   align-items: end;
@@ -96,6 +102,7 @@ main {
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1.75rem 0 1rem;
 }
@@ -106,7 +113,6 @@ main {
   border-radius: 999px;
   background: white;
   color: #34415b;
-  font: inherit;
   font-weight: 800;
   cursor: pointer;
 }
@@ -151,7 +157,6 @@ select {
   border-radius: 9px;
   background: white;
   color: #172033;
-  font: inherit;
 }
 
 .result-count {
@@ -216,9 +221,63 @@ tbody tr:hover {
   background: #d9f7ea;
 }
 
-.status.lost {
-  color: #a0372d;
-  background: #fde4e1;
+.status.updated {
+  color: #8b4b00;
+  background: #fff0cf;
+}
+
+.improvement,
+.delta {
+  color: #0a6847;
+  font-weight: 900;
+}
+
+.update-log-table .update-before td {
+  border-bottom: 0;
+  background: rgba(95, 111, 140, 0.04);
+}
+
+.update-log-table .update-after td {
+  border-bottom-width: 3px;
+}
+
+.update-log-table .update-before:hover,
+.update-log-table .update-after:hover {
+  background: #f7f9fd;
+}
+
+.recommendation-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #dfe5f0;
+  border-radius: 14px;
+  background: white;
+}
+
+.recommendation-heading h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.recommendation-heading p {
+  max-width: 900px;
+  margin: 0.55rem 0 0;
+  color: #65718a;
+  line-height: 1.7;
+}
+
+.recommendation-heading button {
+  flex: none;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #215dc6;
+  border-radius: 9px;
+  background: white;
+  color: #215dc6;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .notes {
@@ -252,7 +311,9 @@ tbody tr:hover {
   .notes,
   .tab,
   input,
-  select {
+  select,
+  .recommendation-heading,
+  .recommendation-heading button {
     border-color: #303b50;
     background: #192131;
     color: #e7ebf4;
@@ -268,20 +329,28 @@ tbody tr:hover {
     border-bottom-color: #30394b;
   }
 
-  tbody tr:hover {
+  tbody tr:hover,
+  .update-log-table .update-before:hover,
+  .update-log-table .update-after:hover {
     background: #202a3d;
+  }
+
+  .update-log-table .update-before td {
+    background: rgba(255, 255, 255, 0.025);
   }
 
   .summary-card p,
   .result-count,
   .controls label,
-  .notes ul {
+  .notes ul,
+  .recommendation-heading p {
     color: #aeb8ca;
   }
 }
 
 @media (max-width: 850px) {
-  .hero {
+  .hero,
+  .recommendation-heading {
     align-items: start;
     flex-direction: column;
   }

@@ -1,6 +1,7 @@
 const state = {
   data: null,
   tab: "problems",
+  recommendations: [],
 };
 
 const formatter = new Intl.DateTimeFormat("ja-JP", {
@@ -23,14 +24,10 @@ function escapeHtml(value) {
 }
 
 function dateText(epoch) {
-  if (epoch === null || epoch === undefined || epoch === "") {
+  if (!Number.isFinite(Number(epoch)) || Number(epoch) <= 0) {
     return "不明";
   }
-  const value = Number(epoch);
-  if (!Number.isFinite(value) || value <= 0) {
-    return "不明";
-  }
-  return formatter.format(new Date(value * 1000));
+  return formatter.format(new Date(Number(epoch) * 1000));
 }
 
 function link(url, text, className = "") {
@@ -58,13 +55,25 @@ function valueOrUnknown(value) {
     : escapeHtml(value);
 }
 
+function byteText(value) {
+  return Number.isFinite(Number(value)) ? `${Number(value)} B` : "不明";
+}
+
+function updateByteText(before, after) {
+  if (!Number.isFinite(Number(before)) || !Number.isFinite(Number(after))) {
+    return "不明";
+  }
+  const difference = Number(before) - Number(after);
+  return difference > 0 ? `−${difference} B` : `${difference} B`;
+}
+
 function renderSummary() {
-  const summary = state.data.summary;
+  const summary = state.data.summary ?? {};
   const cards = [
-    ["保持経験", summary.ever_held_count],
-    ["現在保持中", summary.holding_count],
-    ["奪取済み", summary.lost_count],
-    ["奪取イベント", summary.loss_event_count],
+    ["保持経験", summary.ever_held_count ?? 0],
+    ["現在保持中", summary.holding_count ?? 0],
+    ["現在未保持", summary.active_update_count ?? 0],
+    ["更新ログ", summary.update_log_count ?? 0],
   ];
 
   document.querySelector("#summary").innerHTML = cards
@@ -87,7 +96,7 @@ function problemRows() {
   const status = document.querySelector("#status-filter").value;
   const sort = document.querySelector("#sort").value;
 
-  const rows = state.data.problems.filter((row) => {
+  const rows = (state.data.problems ?? []).filter((row) => {
     if (status !== "all" && row.status !== status) {
       return false;
     }
@@ -134,7 +143,7 @@ function renderProblems() {
   document.querySelector("#problems-body").innerHTML = rows
     .map((row) => {
       const holding = row.status === "holding";
-      const status = holding ? "保持中" : "奪取済み";
+      const status = holding ? "保持中" : "他ユーザーが更新";
       const targetSubmission = row.target_submission_url
         ? link(row.target_submission_url, "提出を見る")
         : "不明";
@@ -157,35 +166,93 @@ function renderProblems() {
     .join("");
 }
 
-function renderLosses() {
-  const rows = state.data.losses;
-  document.querySelector("#loss-count").textContent =
-    `${rows.length} 件の奪取を記録`;
+function renderActiveUpdates() {
+  const rows = state.data.active_updates ?? [];
+  document.querySelector("#active-update-count").textContent =
+    `${rows.length} 問題が現在ほかのユーザーによって更新されています`;
 
-  document.querySelector("#losses-body").innerHTML = rows
+  document.querySelector("#active-updates-body").innerHTML = rows
     .map((row) => {
-      const before = Number.isFinite(Number(row.previous_length))
-        ? `${row.previous_length} B`
-        : "不明";
-      const after = Number.isFinite(Number(row.new_length))
-        ? `${row.new_length} B`
-        : "不明";
-      const difference =
-        Number.isFinite(Number(row.previous_length)) &&
-        Number.isFinite(Number(row.new_length))
-          ? `${Number(row.new_length) - Number(row.previous_length)} B`
-          : "不明";
-
+      const before = row.before ?? {};
+      const after = row.after ?? {};
       return `
         <tr>
-          <td>${dateText(row.epoch_second)}</td>
+          <td>${dateText(after.epoch_second)}</td>
           <td>${link(row.problem_url, `${row.problem_id} ${row.problem_name}`, "problem-link")}</td>
-          <td>${userLink(row.new_user_id)}</td>
-          <td class="number">${before}</td>
-          <td class="number">${after}</td>
-          <td class="number">${difference}</td>
-          <td>${valueOrUnknown(row.language)}</td>
-          <td>${link(row.submission_url, "提出を見る")}</td>
+          <td>${userLink(after.user_id)}</td>
+          <td class="number">${byteText(before.length)}</td>
+          <td class="number">${byteText(after.length)}</td>
+          <td class="number improvement">${updateByteText(before.length, after.length)}</td>
+          <td>${valueOrUnknown(after.language)}</td>
+          <td>${link(after.submission_url, "提出を見る")}</td>
+        </tr>
+      `;
+    })
+    .join("");
+}
+
+function renderUpdateLog() {
+  const rows = state.data.update_log ?? [];
+  document.querySelector("#update-log-count").textContent =
+    `${rows.length} 件のShortest更新を記録`;
+
+  document.querySelector("#update-log-body").innerHTML = rows
+    .map((row) => {
+      const before = row.before ?? {};
+      const after = row.after ?? {};
+      const problem = link(
+        row.problem_url,
+        `${row.problem_id} ${row.problem_name}`,
+        "problem-link",
+      );
+      const difference = updateByteText(before.length, after.length);
+
+      return `
+        <tr class="update-before">
+          <td>${problem}</td>
+          <td>${dateText(before.epoch_second)}</td>
+          <td>${userLink(before.user_id)}</td>
+          <td>${valueOrUnknown(before.language)}</td>
+          <td class="number">${byteText(before.length)}</td>
+          <td>${link(before.submission_url, "提出を見る")}</td>
+        </tr>
+        <tr class="update-after">
+          <td><span class="delta">${difference}</span></td>
+          <td>${dateText(after.epoch_second)}</td>
+          <td>${userLink(after.user_id)}</td>
+          <td>${valueOrUnknown(after.language)}</td>
+          <td class="number">${byteText(after.length)}</td>
+          <td>${link(after.submission_url, "提出を見る")}</td>
+        </tr>
+      `;
+    })
+    .join("");
+}
+
+function shuffled(values) {
+  const result = [...values];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(Math.random() * (index + 1));
+    [result[index], result[target]] = [result[target], result[index]];
+  }
+  return result;
+}
+
+function renderRecommendations() {
+  const rows = state.recommendations;
+  document.querySelector("#recommendation-count").textContent =
+    `${rows.length} 問題を提案中`;
+
+  document.querySelector("#recommendations-body").innerHTML = rows
+    .map((row) => {
+      const current = row.current ?? {};
+      return `
+        <tr>
+          <td>${link(row.problem_url, `${row.problem_id} ${row.problem_name}`, "problem-link")}</td>
+          <td>${userLink(current.user_id)}</td>
+          <td>${valueOrUnknown(current.language)}</td>
+          <td class="number">${byteText(current.length)}</td>
+          <td>${link(current.submission_url, "提出を見る")}</td>
         </tr>
       `;
     })
@@ -193,7 +260,7 @@ function renderLosses() {
 }
 
 function renderNotes() {
-  document.querySelector("#notes").innerHTML = state.data.notes
+  document.querySelector("#notes").innerHTML = (state.data.notes ?? [])
     .map((note) => `<li>${escapeHtml(note)}</li>`)
     .join("");
 }
@@ -218,9 +285,13 @@ async function load() {
     }
 
     state.data = await response.json();
+    state.recommendations = [...(state.data.recommendations ?? [])];
+
     renderSummary();
     renderProblems();
-    renderLosses();
+    renderActiveUpdates();
+    renderUpdateLog();
+    renderRecommendations();
     renderNotes();
   } catch (error) {
     document.querySelector("#updated").textContent =
@@ -236,5 +307,12 @@ document.querySelectorAll(".tab").forEach((button) => {
   document.querySelector(selector).addEventListener("input", renderProblems);
   document.querySelector(selector).addEventListener("change", renderProblems);
 });
+
+document
+  .querySelector("#shuffle-recommendations")
+  .addEventListener("click", () => {
+    state.recommendations = shuffled(state.recommendations);
+    renderRecommendations();
+  });
 
 load();

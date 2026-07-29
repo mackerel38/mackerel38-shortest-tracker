@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "state/tracker-state.json"
+      - "docs/data/tracker.json"
 
 permissions:
   contents: write
@@ -34,9 +40,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .tracker-cache
-          key: shortest-tracker-state-v3-${{ github.run_id }}
+          key: shortest-tracker-state-v5-${{ github.run_id }}
           restore-keys: |
-            shortest-tracker-state-v3-
+            shortest-tracker-state-v5-
 
       - name: Prepare runtime state
         shell: bash
@@ -54,7 +60,7 @@ jobs:
         run: |
           cp state/tracker-state.json .tracker-cache/tracker-state.json
 
-      - name: Detect Shortest changes
+      - name: Detect public data changes
         id: changes
         shell: bash
         run: |
@@ -81,16 +87,16 @@ jobs:
           git push
 
       - name: Configure Pages
-        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.changes.outputs.changed == 'true' || github.event_name != 'schedule'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.changes.outputs.changed == 'true' || github.event_name != 'schedule'
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs
 
       - name: Deploy Pages
-        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.changes.outputs.changed == 'true' || github.event_name != 'schedule'
         id: deployment
         uses: actions/deploy-pages@v4
