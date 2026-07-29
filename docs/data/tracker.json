@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785328287,
-  "generated_iso": "2026-07-29T12:31:27+00:00",
+  "generated_epoch": 1785337126,
+  "generated_iso": "2026-07-29T14:58:46+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -36,25 +36,25 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785326557,
+      "current_epoch_second": 1785329695,
       "current_language": "Python (PyPy 3.11-v7.3.20)",
-      "current_length": 517,
-      "current_submission_id": 77939486,
-      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486",
+      "current_length": 484,
+      "current_submission_id": 77940491,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77940491",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1785326557,
       "last_acquired_epoch": 1785326557,
       "problem_id": "awc0123_e",
-      "problem_index": "",
-      "problem_name": "awc0123_e",
-      "problem_title": "awc0123_e",
+      "problem_index": "E",
+      "problem_name": "City Tour and Mission Completion",
+      "problem_title": "E. City Tour and Mission Completion",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_e",
       "status": "holding",
-      "target_epoch_second": 1785326557,
+      "target_epoch_second": 1785329695,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
-      "target_length": 517,
-      "target_submission_id": 77939486,
-      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486"
+      "target_length": 484,
+      "target_submission_id": 77940491,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77940491"
     },
     {
       "acquisition_count": 1,
@@ -67,9 +67,9 @@
       "first_acquired_epoch": 1785324408,
       "last_acquired_epoch": 1785324408,
       "problem_id": "awc0123_a",
-      "problem_index": "",
-      "problem_name": "awc0123_a",
-      "problem_title": "awc0123_a",
+      "problem_index": "A",
+      "problem_name": "Parking Lot Organization",
+      "problem_title": "A. Parking Lot Organization",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a",
       "status": "holding",
       "target_epoch_second": 1785325153,
@@ -89,9 +89,9 @@
       "first_acquired_epoch": 1785324143,
       "last_acquired_epoch": 1785324143,
       "problem_id": "awc0123_d",
-      "problem_index": "",
-      "problem_name": "awc0123_d",
-      "problem_title": "awc0123_d",
+      "problem_index": "D",
+      "problem_name": "Task Execution Order",
+      "problem_title": "D. Task Execution Order",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d",
       "status": "holding",
       "target_epoch_second": 1785327545,
@@ -111,9 +111,9 @@
       "first_acquired_epoch": 1785323923,
       "last_acquired_epoch": 1785323923,
       "problem_id": "awc0123_c",
-      "problem_index": "",
-      "problem_name": "awc0123_c",
-      "problem_title": "awc0123_c",
+      "problem_index": "C",
+      "problem_name": "Congestion of Evacuation Drill",
+      "problem_title": "C. Congestion of Evacuation Drill",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c",
       "status": "holding",
       "target_epoch_second": 1785327231,
@@ -133,9 +133,9 @@
       "first_acquired_epoch": 1785323582,
       "last_acquired_epoch": 1785323582,
       "problem_id": "awc0123_b",
-      "problem_index": "",
-      "problem_name": "awc0123_b",
-      "problem_title": "awc0123_b",
+      "problem_index": "B",
+      "problem_name": "Watering the Flower Bed",
+      "problem_title": "B. Watering the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b",
       "status": "holding",
       "target_epoch_second": 1785324513,
@@ -2456,11 +2456,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1784992786,
-      "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 82,
-      "current_submission_id": 77867999,
-      "current_submission_url": "https://atcoder.jp/contests/abc468/submissions/77867999",
+      "current_epoch_second": 1785327946,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 71,
+      "current_submission_id": 77939958,
+      "current_submission_url": "https://atcoder.jp/contests/abc468/submissions/77939958",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1784992786,
       "last_acquired_epoch": 1784992786,
@@ -2470,11 +2470,11 @@
       "problem_title": "F. Chmax",
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_f",
       "status": "holding",
-      "target_epoch_second": 1784992786,
-      "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 82,
-      "target_submission_id": 77867999,
-      "target_submission_url": "https://atcoder.jp/contests/abc468/submissions/77867999"
+      "target_epoch_second": 1785327946,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 71,
+      "target_submission_id": 77939958,
+      "target_submission_url": "https://atcoder.jp/contests/abc468/submissions/77939958"
     },
     {
       "acquisition_count": 1,
@@ -3277,11 +3277,57 @@
     "holding_count": 146,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 10,
+    "update_log_count": 12,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785329695,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 484,
+        "submission_id": 77940491,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77940491",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785326557,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 517,
+        "submission_id": 77939486,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_e",
+      "problem_name": "City Tour and Mission Completion",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc468",
+        "epoch_second": 1785327946,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 71,
+        "submission_id": 77939958,
+        "submission_url": "https://atcoder.jp/contests/abc468/submissions/77939958",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc468",
+        "epoch_second": 1784992786,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 82,
+        "submission_id": 77867999,
+        "submission_url": "https://atcoder.jp/contests/abc468/submissions/77867999",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc468_f",
+      "problem_name": "Chmax",
+      "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_f"
+    },
     {
       "after": {
         "contest_id": "awc0123",
@@ -3302,7 +3348,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0123_d",
-      "problem_name": "awc0123_d",
+      "problem_name": "Task Execution Order",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
     },
     {
@@ -3325,7 +3371,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0123_c",
-      "problem_name": "awc0123_c",
+      "problem_name": "Congestion of Evacuation Drill",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c"
     },
     {
@@ -3348,7 +3394,7 @@
         "user_id": "kidodesuyo"
       },
       "problem_id": "awc0123_e",
-      "problem_name": "awc0123_e",
+      "problem_name": "City Tour and Mission Completion",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_e"
     },
     {
@@ -3371,7 +3417,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0123_a",
-      "problem_name": "awc0123_a",
+      "problem_name": "Parking Lot Organization",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a"
     },
     {
@@ -3394,7 +3440,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0123_d",
-      "problem_name": "awc0123_d",
+      "problem_name": "Task Execution Order",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
     },
     {
@@ -3417,7 +3463,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0123_b",
-      "problem_name": "awc0123_b",
+      "problem_name": "Watering the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b"
     },
     {
@@ -3440,7 +3486,7 @@
         "user_id": "Kude"
       },
       "problem_id": "awc0123_a",
-      "problem_name": "awc0123_a",
+      "problem_name": "Parking Lot Organization",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a"
     },
     {
@@ -3463,7 +3509,7 @@
         "user_id": "sigtuna"
       },
       "problem_id": "awc0123_d",
-      "problem_name": "awc0123_d",
+      "problem_name": "Task Execution Order",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
     },
     {
@@ -3486,7 +3532,7 @@
         "user_id": "kidodesuyo"
       },
       "problem_id": "awc0123_c",
-      "problem_name": "awc0123_c",
+      "problem_name": "Congestion of Evacuation Drill",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c"
     },
     {
@@ -3509,7 +3555,7 @@
         "user_id": "tkykwtnb"
       },
       "problem_id": "awc0123_b",
-      "problem_name": "awc0123_b",
+      "problem_name": "Watering the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b"
     }
   ],
