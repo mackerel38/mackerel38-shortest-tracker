@@ -867,9 +867,9 @@
       "previous_submission_id": null,
       "previous_user_id": null,
       "problem_id": "abc464_c",
-      "problem_index": "C",
+      "problem_index": "E",
       "problem_name": "Plumage Palette",
-      "problem_title": "C. Plumage Palette",
+      "problem_title": "E. Plumage Palette",
       "problem_url": "https://atcoder.jp/contests/abc464/tasks/abc464_c",
       "submission_id": 77887326,
       "submission_url": "https://atcoder.jp/contests/abc464/submissions/77887326"
@@ -1939,8 +1939,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785310359,
-  "generated_iso": "2026-07-29T07:32:39+00:00",
+  "generated_epoch": 1785318937,
+  "generated_iso": "2026-07-29T09:55:37+00:00",
   "losses": [
     {
       "contest_id": "awc0122",
@@ -3909,9 +3909,9 @@
       "first_acquired_epoch": 1785088774,
       "last_acquired_epoch": 1785088774,
       "problem_id": "abc464_c",
-      "problem_index": "C",
+      "problem_index": "E",
       "problem_name": "Plumage Palette",
-      "problem_title": "C. Plumage Palette",
+      "problem_title": "E. Plumage Palette",
       "problem_url": "https://atcoder.jp/contests/abc464/tasks/abc464_c",
       "status": "holding",
       "target_epoch_second": 1785088774,

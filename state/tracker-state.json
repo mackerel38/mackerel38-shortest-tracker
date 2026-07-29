@@ -58466,10 +58466,10 @@
     },
     "ndpc2026_p": {
       "contest_id": "ndpc",
-      "epoch_second": 1785233444,
+      "epoch_second": 1785312012,
       "language": "Python (Codon 0.19.3)",
-      "length": 1566,
-      "submission_id": 77918819,
+      "length": 1504,
+      "submission_id": 77934394,
       "user_id": "iastm"
     },
     "ndpc2026_q": {
@@ -76670,7 +76670,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785310359,
+  "last_checked_epoch": 1785318937,
   "target_user": "mackerel38",
   "version": 1
 }
