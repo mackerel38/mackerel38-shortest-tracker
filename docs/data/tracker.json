@@ -20,6 +20,25 @@
       "submission_url": "https://atcoder.jp/contests/awc0113/submissions/77926665"
     },
     {
+      "contest_id": "awc0104",
+      "detected_by_reconcile": true,
+      "epoch_second": 1785258828,
+      "event_type": "acquired",
+      "language": "Python (CPython 3.13.7)",
+      "new_length": 171,
+      "new_user_id": "mackerel38",
+      "previous_length": 204,
+      "previous_submission_id": 77145752,
+      "previous_user_id": "miztom",
+      "problem_id": "awc0104_e",
+      "problem_index": "E",
+      "problem_name": "Warehouse Inventory Management",
+      "problem_title": "E. Warehouse Inventory Management",
+      "problem_url": "https://atcoder.jp/contests/awc0104/tasks/awc0104_e",
+      "submission_id": 77925843,
+      "submission_url": "https://atcoder.jp/contests/awc0104/submissions/77925843"
+    },
+    {
       "contest_id": "abc467",
       "detected_by_reconcile": false,
       "epoch_second": 1785245039,
@@ -1825,8 +1844,8 @@
       "submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "generated_epoch": 1785278594,
-  "generated_iso": "2026-07-28T22:43:14+00:00",
+  "generated_epoch": 1785287582,
+  "generated_iso": "2026-07-29T01:13:02+00:00",
   "losses": [
     {
       "contest_id": "abc467",
@@ -1894,6 +1913,28 @@
       "target_length": 59,
       "target_submission_id": 77926665,
       "target_submission_url": "https://atcoder.jp/contests/awc0113/submissions/77926665"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785258828,
+      "current_language": "Python (CPython 3.13.7)",
+      "current_length": 171,
+      "current_submission_id": 77925843,
+      "current_submission_url": "https://atcoder.jp/contests/awc0104/submissions/77925843",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785258828,
+      "last_acquired_epoch": 1785258828,
+      "problem_id": "awc0104_e",
+      "problem_index": "E",
+      "problem_name": "Warehouse Inventory Management",
+      "problem_title": "E. Warehouse Inventory Management",
+      "problem_url": "https://atcoder.jp/contests/awc0104/tasks/awc0104_e",
+      "status": "holding",
+      "target_epoch_second": 1785258828,
+      "target_language": "Python (CPython 3.13.7)",
+      "target_length": 171,
+      "target_submission_id": 77925843,
+      "target_submission_url": "https://atcoder.jp/contests/awc0104/submissions/77925843"
     },
     {
       "acquisition_count": 2,
@@ -4889,8 +4930,8 @@
     }
   ],
   "summary": {
-    "ever_held_count": 137,
-    "holding_count": 136,
+    "ever_held_count": 138,
+    "holding_count": 137,
     "loss_event_count": 2,
     "lost_count": 1
   },
