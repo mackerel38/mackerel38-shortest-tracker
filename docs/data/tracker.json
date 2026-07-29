@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785319560,
-  "generated_iso": "2026-07-29T10:06:00+00:00",
+  "generated_epoch": 1785328287,
+  "generated_iso": "2026-07-29T12:31:27+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,116 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785326557,
+      "current_language": "Python (PyPy 3.11-v7.3.20)",
+      "current_length": 517,
+      "current_submission_id": 77939486,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785326557,
+      "last_acquired_epoch": 1785326557,
+      "problem_id": "awc0123_e",
+      "problem_index": "",
+      "problem_name": "awc0123_e",
+      "problem_title": "awc0123_e",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_e",
+      "status": "holding",
+      "target_epoch_second": 1785326557,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
+      "target_length": 517,
+      "target_submission_id": 77939486,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785325153,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 37,
+      "current_submission_id": 77938985,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938985",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785324408,
+      "last_acquired_epoch": 1785324408,
+      "problem_id": "awc0123_a",
+      "problem_index": "",
+      "problem_name": "awc0123_a",
+      "problem_title": "awc0123_a",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a",
+      "status": "holding",
+      "target_epoch_second": 1785325153,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 37,
+      "target_submission_id": 77938985,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938985"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785327545,
+      "current_language": "Python (PyPy 3.11-v7.3.20)",
+      "current_length": 178,
+      "current_submission_id": 77939826,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939826",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785324143,
+      "last_acquired_epoch": 1785324143,
+      "problem_id": "awc0123_d",
+      "problem_index": "",
+      "problem_name": "awc0123_d",
+      "problem_title": "awc0123_d",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d",
+      "status": "holding",
+      "target_epoch_second": 1785327545,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
+      "target_length": 178,
+      "target_submission_id": 77939826,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939826"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785327231,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 54,
+      "current_submission_id": 77939705,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939705",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785323923,
+      "last_acquired_epoch": 1785323923,
+      "problem_id": "awc0123_c",
+      "problem_index": "",
+      "problem_name": "awc0123_c",
+      "problem_title": "awc0123_c",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c",
+      "status": "holding",
+      "target_epoch_second": 1785327231,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 54,
+      "target_submission_id": 77939705,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939705"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785324513,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 12,
+      "current_submission_id": 77938682,
+      "current_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938682",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785323582,
+      "last_acquired_epoch": 1785323582,
+      "problem_id": "awc0123_b",
+      "problem_index": "",
+      "problem_name": "awc0123_b",
+      "problem_title": "awc0123_b",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b",
+      "status": "holding",
+      "target_epoch_second": 1785324513,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 12,
+      "target_submission_id": 77938682,
+      "target_submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938682"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785305699,
@@ -3163,14 +3273,245 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 142,
-    "holding_count": 141,
+    "ever_held_count": 147,
+    "holding_count": 146,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 0,
+    "update_log_count": 10,
     "updated_count": 1
   },
   "target_user": "mackerel38",
-  "update_log": [],
+  "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785327545,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 178,
+        "submission_id": 77939826,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939826",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324855,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 185,
+        "submission_id": 77938842,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938842",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_d",
+      "problem_name": "awc0123_d",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785327231,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 54,
+        "submission_id": 77939705,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939705",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323923,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 62,
+        "submission_id": 77938393,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938393",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_c",
+      "problem_name": "awc0123_c",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785326557,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 517,
+        "submission_id": 77939486,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77939486",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323973,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 1416,
+        "submission_id": 77938412,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938412",
+        "user_id": "kidodesuyo"
+      },
+      "problem_id": "awc0123_e",
+      "problem_name": "awc0123_e",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785325153,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 37,
+        "submission_id": 77938985,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938985",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324408,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 56,
+        "submission_id": 77938636,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938636",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_a",
+      "problem_name": "awc0123_a",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324855,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 185,
+        "submission_id": 77938842,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938842",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324143,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 186,
+        "submission_id": 77938502,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938502",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_d",
+      "problem_name": "awc0123_d",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324513,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 12,
+        "submission_id": 77938682,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938682",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323582,
+        "language": "Bash (bash 5.3)",
+        "length": 14,
+        "submission_id": 77938246,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938246",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0123_b",
+      "problem_name": "awc0123_b",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324408,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 56,
+        "submission_id": 77938636,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938636",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785322867,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 129,
+        "submission_id": 77937787,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77937787",
+        "user_id": "Kude"
+      },
+      "problem_id": "awc0123_a",
+      "problem_name": "awc0123_a",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785324143,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 186,
+        "submission_id": 77938502,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938502",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323361,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 495,
+        "submission_id": 77938150,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938150",
+        "user_id": "sigtuna"
+      },
+      "problem_id": "awc0123_d",
+      "problem_name": "awc0123_d",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323923,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 62,
+        "submission_id": 77938393,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938393",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323041,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 236,
+        "submission_id": 77937952,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77937952",
+        "user_id": "kidodesuyo"
+      },
+      "problem_id": "awc0123_c",
+      "problem_name": "awc0123_c",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323582,
+        "language": "Bash (bash 5.3)",
+        "length": 14,
+        "submission_id": 77938246,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77938246",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0123",
+        "epoch_second": 1785323055,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 33,
+        "submission_id": 77937967,
+        "submission_url": "https://atcoder.jp/contests/awc0123/submissions/77937967",
+        "user_id": "tkykwtnb"
+      },
+      "problem_id": "awc0123_b",
+      "problem_name": "awc0123_b",
+      "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b"
+    }
+  ],
   "version": 2
 }
