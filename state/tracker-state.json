@@ -73585,1815 +73585,12 @@
       "user_id": "kotatsugame"
     }
   },
-  "event_keys": [
-    "acquired:abc467_c:77922917",
-    "acquired:arc148_c:77918430",
-    "acquired:awc0099_c:77932236",
-    "acquired:awc0099_d:77932271",
-    "acquired:awc0099_e:77932402",
-    "acquired:awc0100_j:77915289",
-    "acquired:awc0100_k:77917601",
-    "acquired:awc0100_l:77914923",
-    "acquired:awc0100_m:77914987",
-    "acquired:awc0100_n:77915044",
-    "acquired:awc0100_o:77915664",
-    "acquired:awc0103_c:77909060",
-    "acquired:awc0103_d:77909114",
-    "acquired:awc0104_e:77925843",
-    "acquired:awc0107_b:77929699",
-    "acquired:awc0108_a:77904188",
-    "acquired:awc0108_c:77904085",
-    "acquired:awc0109_b:77919042",
-    "acquired:awc0110_a:77898066",
-    "acquired:awc0110_c:77898230",
-    "acquired:awc0110_d:77898939",
-    "acquired:awc0110_e:77898759",
-    "acquired:awc0111_b:77892745",
-    "acquired:awc0111_c:77892804",
-    "acquired:awc0111_d:77892860",
-    "acquired:awc0111_e:77892942",
-    "acquired:awc0112_a:77892497",
-    "acquired:awc0112_b:77892172",
-    "acquired:awc0112_c:77892087",
-    "acquired:awc0112_d:77892400",
-    "acquired:awc0112_e:77892427",
-    "acquired:awc0113_b:77926665",
-    "acquired:awc0121_a:77900730",
-    "acquired:awc0121_b:77900875",
-    "acquired:awc0121_c:77900954",
-    "acquired:awc0121_d:77901478",
-    "acquired:awc0121_e:77901108",
-    "acquired:awc0122_a:77920588",
-    "acquired:awc0122_b:77920516",
-    "acquired:awc0122_b:77931844",
-    "acquired:awc0122_c:77920423",
-    "acquired:awc0122_d:77920841",
-    "acquired:awc0122_e:77920148",
-    "baseline:abc365_g:77875986",
-    "baseline:abc464_c:77887326",
-    "baseline:abc464_d:77887441",
-    "baseline:abc464_e:77887291",
-    "baseline:abc464_f:77887411",
-    "baseline:abc464_g:77887261",
-    "baseline:abc465_d:77874673",
-    "baseline:abc465_e:77874775",
-    "baseline:abc465_g:77874875",
-    "baseline:abc466_b:77873154",
-    "baseline:abc466_c:77872717",
-    "baseline:abc466_e:77872832",
-    "baseline:abc466_f:77872860",
-    "baseline:abc466_g:77872518",
-    "baseline:abc467_c:77864423",
-    "baseline:abc467_d:77864795",
-    "baseline:abc467_e:77867824",
-    "baseline:abc467_f:77866013",
-    "baseline:abc467_g:77865791",
-    "baseline:abc468_a:77867861",
-    "baseline:abc468_e:77867056",
-    "baseline:abc468_f:77867999",
-    "baseline:abc468_g:77867430",
-    "baseline:arc192_b:65717458",
-    "baseline:awc0113_c:77869548",
-    "baseline:awc0113_d:77869691",
-    "baseline:awc0113_e:77872177",
-    "baseline:awc0114_b:77869273",
-    "baseline:awc0114_c:77869164",
-    "baseline:awc0114_d:77869188",
-    "baseline:awc0114_e:77869377",
-    "baseline:awc0115_a:77865942",
-    "baseline:awc0115_b:77847814",
-    "baseline:awc0115_c:77805646",
-    "baseline:awc0115_d:77805756",
-    "baseline:awc0115_e:77805903",
-    "baseline:awc0116_a:77802106",
-    "baseline:awc0116_b:77805490",
-    "baseline:awc0116_c:77802238",
-    "baseline:awc0116_d:77802372",
-    "baseline:awc0116_e:77802441",
-    "baseline:awc0117_a:77800564",
-    "baseline:awc0117_b:77800229",
-    "baseline:awc0117_c:77800341",
-    "baseline:awc0117_d:77800400",
-    "baseline:awc0117_e:77800420",
-    "baseline:awc0118_a:77798000",
-    "baseline:awc0118_b:77798046",
-    "baseline:awc0118_c:77798072",
-    "baseline:awc0118_d:77798250",
-    "baseline:awc0118_e:77798276",
-    "baseline:awc0119_b:77797315",
-    "baseline:awc0119_c:77797104",
-    "baseline:awc0119_d:77796682",
-    "baseline:awc0119_e:77796958",
-    "baseline:awc0120_b:77795299",
-    "baseline:awc0120_c:77796085",
-    "baseline:awc0120_d:77796310",
-    "baseline:awc0120_e:77796580",
-    "improved:abc464_f:77889546",
-    "improved:abc467_c:77923910",
-    "improved:abc467_c:77925318",
-    "improved:awc0108_a:77904196",
-    "improved:awc0108_c:77904128",
-    "improved:awc0112_e:77892705",
-    "improved:awc0121_b:77902214",
-    "improved:awc0121_b:77902639",
-    "improved:awc0122_a:77921348",
-    "improved:awc0122_c:77921164",
-    "improved:awc0122_d:77921500",
-    "improved:awc0122_e:77920203",
-    "improved:awc0122_e:77920977",
-    "improved:awc0122_e:77921864",
-    "improved:awc0122_e:77921912",
-    "lost:abc467_c:77920631",
-    "lost:abc468_a:77905696",
-    "lost:awc0122_b:77930192"
-  ],
-  "events": [
-    {
-      "contest_id": "arc192",
-      "detected_by_reconcile": false,
-      "epoch_second": 1746959487,
-      "event_type": "baseline",
-      "language": "Nibbles (literate form) (nibbles 1.01)",
-      "new_length": 45,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "arc192_b",
-      "submission_id": 65717458
-    },
-    {
-      "contest_id": "awc0120",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784943089,
-      "event_type": "baseline",
-      "language": "R (GNU R 4.5.0)",
-      "new_length": 101,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0120_b",
-      "submission_id": 77795299
-    },
-    {
-      "contest_id": "awc0120",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784946710,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 80,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0120_c",
-      "submission_id": 77796085
-    },
-    {
-      "contest_id": "awc0120",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784947915,
-      "event_type": "baseline",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 255,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0120_d",
-      "submission_id": 77796310
-    },
-    {
-      "contest_id": "awc0120",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784949042,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 362,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0120_e",
-      "submission_id": 77796580
-    },
-    {
-      "contest_id": "awc0119",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784949618,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 123,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0119_d",
-      "submission_id": 77796682
-    },
-    {
-      "contest_id": "awc0119",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784950697,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 257,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0119_e",
-      "submission_id": 77796958
-    },
-    {
-      "contest_id": "awc0119",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784951293,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 74,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0119_c",
-      "submission_id": 77797104
-    },
-    {
-      "contest_id": "awc0119",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784952268,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 17,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0119_b",
-      "submission_id": 77797315
-    },
-    {
-      "contest_id": "awc0118",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784955561,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 70,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0118_a",
-      "submission_id": 77798000
-    },
-    {
-      "contest_id": "awc0118",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784955717,
-      "event_type": "baseline",
-      "language": "Ruby 3.3 (truffleruby 25.0.0)",
-      "new_length": 75,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0118_b",
-      "submission_id": 77798046
-    },
-    {
-      "contest_id": "awc0118",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784955840,
-      "event_type": "baseline",
-      "language": "Ruby 3.3 (truffleruby 25.0.0)",
-      "new_length": 193,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0118_c",
-      "submission_id": 77798072
-    },
-    {
-      "contest_id": "awc0118",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784956506,
-      "event_type": "baseline",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 179,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0118_d",
-      "submission_id": 77798250
-    },
-    {
-      "contest_id": "awc0118",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784956617,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 164,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0118_e",
-      "submission_id": 77798276
-    },
-    {
-      "contest_id": "awc0117",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784962565,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 97,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0117_b",
-      "submission_id": 77800229
-    },
-    {
-      "contest_id": "awc0117",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784962815,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 103,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0117_c",
-      "submission_id": 77800341
-    },
-    {
-      "contest_id": "awc0117",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784962938,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 159,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0117_d",
-      "submission_id": 77800400
-    },
-    {
-      "contest_id": "awc0117",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784962979,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 118,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0117_e",
-      "submission_id": 77800420
-    },
-    {
-      "contest_id": "awc0117",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784963324,
-      "event_type": "baseline",
-      "language": "Octave (GNU Octave 10.2.0)",
-      "new_length": 48,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0117_a",
-      "submission_id": 77800564
-    },
-    {
-      "contest_id": "awc0116",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784967748,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 44,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0116_a",
-      "submission_id": 77802106
-    },
-    {
-      "contest_id": "awc0116",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784968183,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 122,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0116_c",
-      "submission_id": 77802238
-    },
-    {
-      "contest_id": "awc0116",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784968624,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 156,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0116_d",
-      "submission_id": 77802372
-    },
-    {
-      "contest_id": "awc0116",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784968812,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 225,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0116_e",
-      "submission_id": 77802441
-    },
-    {
-      "contest_id": "awc0116",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784979314,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 53,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0116_b",
-      "submission_id": 77805490
-    },
-    {
-      "contest_id": "awc0115",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784979799,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 57,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0115_c",
-      "submission_id": 77805646
-    },
-    {
-      "contest_id": "awc0115",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784980093,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 219,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0115_d",
-      "submission_id": 77805756
-    },
-    {
-      "contest_id": "awc0115",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784980485,
-      "event_type": "baseline",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 121,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0115_e",
-      "submission_id": 77805903
-    },
-    {
-      "contest_id": "awc0115",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784984072,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 18,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0115_b",
-      "submission_id": 77847814
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784987174,
-      "event_type": "baseline",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 55,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc467_c",
-      "submission_id": 77864423
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784987428,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 100,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc467_d",
-      "submission_id": 77864795
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784988384,
-      "event_type": "baseline",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 807,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc467_g",
-      "submission_id": 77865791
-    },
-    {
-      "contest_id": "awc0115",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784988576,
-      "event_type": "baseline",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 23,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0115_a",
-      "submission_id": 77865942
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784988692,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 326,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc467_f",
-      "submission_id": 77866013
-    },
-    {
-      "contest_id": "abc468",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784990533,
-      "event_type": "baseline",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 120,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc468_e",
-      "submission_id": 77867056
-    },
-    {
-      "contest_id": "abc468",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784991276,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 146,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc468_g",
-      "submission_id": 77867430
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784992239,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 129,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc467_e",
-      "submission_id": 77867824
-    },
-    {
-      "contest_id": "abc468",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784992357,
-      "event_type": "baseline",
-      "language": "APL (GNU APL 1.9)",
-      "new_length": 25,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc468_a",
-      "submission_id": 77867861
-    },
-    {
-      "contest_id": "abc468",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784992786,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 82,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc468_f",
-      "submission_id": 77867999
-    },
-    {
-      "contest_id": "awc0114",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784996871,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 106,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0114_c",
-      "submission_id": 77869164
-    },
-    {
-      "contest_id": "awc0114",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784996976,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 81,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0114_d",
-      "submission_id": 77869188
-    },
-    {
-      "contest_id": "awc0114",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784997321,
-      "event_type": "baseline",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 75,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0114_b",
-      "submission_id": 77869273
-    },
-    {
-      "contest_id": "awc0114",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784997841,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 347,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0114_e",
-      "submission_id": 77869377
-    },
-    {
-      "contest_id": "awc0113",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784998745,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 209,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0113_c",
-      "submission_id": 77869548
-    },
-    {
-      "contest_id": "awc0113",
-      "detected_by_reconcile": false,
-      "epoch_second": 1784999644,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 69,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0113_d",
-      "submission_id": 77869691
-    },
-    {
-      "contest_id": "awc0113",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785027777,
-      "event_type": "baseline",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 393,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0113_e",
-      "submission_id": 77872177
-    },
-    {
-      "contest_id": "abc466",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785029293,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 314,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc466_g",
-      "submission_id": 77872518
-    },
-    {
-      "contest_id": "abc466",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785030110,
-      "event_type": "baseline",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 80,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc466_c",
-      "submission_id": 77872717
-    },
-    {
-      "contest_id": "abc466",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785030513,
-      "event_type": "baseline",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 94,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc466_e",
-      "submission_id": 77872832
-    },
-    {
-      "contest_id": "abc466",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785030636,
-      "event_type": "baseline",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 160,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc466_f",
-      "submission_id": 77872860
-    },
-    {
-      "contest_id": "abc466",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785031789,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 33,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc466_b",
-      "submission_id": 77873154
-    },
-    {
-      "contest_id": "abc465",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785037440,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 53,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc465_d",
-      "submission_id": 77874673
-    },
-    {
-      "contest_id": "abc465",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785037893,
-      "event_type": "baseline",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 224,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc465_e",
-      "submission_id": 77874775
-    },
-    {
-      "contest_id": "abc465",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785038251,
-      "event_type": "baseline",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 631,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc465_g",
-      "submission_id": 77874875
-    },
-    {
-      "contest_id": "abc365",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785042945,
-      "event_type": "baseline",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 386,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc365_g",
-      "submission_id": 77875986
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785088041,
-      "event_type": "baseline",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 253,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc464_g",
-      "submission_id": 77887261
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785088333,
-      "event_type": "baseline",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 127,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc464_e",
-      "submission_id": 77887291
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785088774,
-      "event_type": "baseline",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 98,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc464_c",
-      "submission_id": 77887326
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785089910,
-      "event_type": "baseline",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 342,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc464_f",
-      "submission_id": 77887411
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785090152,
-      "event_type": "baseline",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 75,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "abc464_d",
-      "submission_id": 77887441
-    },
-    {
-      "contest_id": "abc464",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785113981,
-      "event_type": "improved",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 338,
-      "new_user_id": "mackerel38",
-      "previous_length": 342,
-      "previous_submission_id": 77887411,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc464_f",
-      "submission_id": 77889546
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785123693,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 77,
-      "new_user_id": "mackerel38",
-      "previous_length": 127,
-      "previous_submission_id": 77485750,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0112_c",
-      "submission_id": 77892087
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785123888,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 105,
-      "new_user_id": "mackerel38",
-      "previous_length": 157,
-      "previous_submission_id": 77486446,
-      "previous_user_id": "kyad",
-      "problem_id": "awc0112_b",
-      "submission_id": 77892172
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785124749,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 100,
-      "new_user_id": "mackerel38",
-      "previous_length": 220,
-      "previous_submission_id": 77486293,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0112_d",
-      "submission_id": 77892400
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785124912,
-      "event_type": "acquired",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 48,
-      "new_user_id": "mackerel38",
-      "previous_length": 52,
-      "previous_submission_id": 77486136,
-      "previous_user_id": "kyad",
-      "problem_id": "awc0112_e",
-      "submission_id": 77892427
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785125212,
-      "event_type": "acquired",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 30,
-      "new_user_id": "mackerel38",
-      "previous_length": 34,
-      "previous_submission_id": 77485255,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0112_a",
-      "submission_id": 77892497
-    },
-    {
-      "contest_id": "awc0112",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785125986,
-      "event_type": "improved",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 46,
-      "new_user_id": "mackerel38",
-      "previous_length": 48,
-      "previous_submission_id": 77892427,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0112_e",
-      "submission_id": 77892705
-    },
-    {
-      "contest_id": "awc0111",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785126169,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 97,
-      "new_user_id": "mackerel38",
-      "previous_length": 184,
-      "previous_submission_id": 77486681,
-      "previous_user_id": "blueberry1001",
-      "problem_id": "awc0111_b",
-      "submission_id": 77892745
-    },
-    {
-      "contest_id": "awc0111",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785126435,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 104,
-      "new_user_id": "mackerel38",
-      "previous_length": 165,
-      "previous_submission_id": 77486674,
-      "previous_user_id": "blueberry1001",
-      "problem_id": "awc0111_c",
-      "submission_id": 77892804
-    },
-    {
-      "contest_id": "awc0111",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785126694,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 208,
-      "new_user_id": "mackerel38",
-      "previous_length": 461,
-      "previous_submission_id": 77465573,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0111_d",
-      "submission_id": 77892860
-    },
-    {
-      "contest_id": "awc0111",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785126951,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 138,
-      "new_user_id": "mackerel38",
-      "previous_length": 233,
-      "previous_submission_id": 77468048,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0111_e",
-      "submission_id": 77892942
-    },
-    {
-      "contest_id": "awc0110",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785142337,
-      "event_type": "acquired",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 46,
-      "new_user_id": "mackerel38",
-      "previous_length": 49,
-      "previous_submission_id": 77322306,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0110_a",
-      "submission_id": 77898066
-    },
-    {
-      "contest_id": "awc0110",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785142756,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 72,
-      "new_user_id": "mackerel38",
-      "previous_length": 155,
-      "previous_submission_id": 77323073,
-      "previous_user_id": "moon17",
-      "problem_id": "awc0110_c",
-      "submission_id": 77898230
-    },
-    {
-      "contest_id": "awc0110",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785143835,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 116,
-      "new_user_id": "mackerel38",
-      "previous_length": 339,
-      "previous_submission_id": 77322289,
-      "previous_user_id": "sigtuna",
-      "problem_id": "awc0110_e",
-      "submission_id": 77898759
-    },
-    {
-      "contest_id": "awc0110",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785144356,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 127,
-      "new_user_id": "mackerel38",
-      "previous_length": 250,
-      "previous_submission_id": 77486702,
-      "previous_user_id": "blueberry1001",
-      "problem_id": "awc0110_d",
-      "submission_id": 77898939
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785150275,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 57,
-      "new_user_id": "mackerel38",
-      "previous_length": 182,
-      "previous_submission_id": 77900652,
-      "previous_user_id": "orangekid",
-      "problem_id": "awc0121_a",
-      "submission_id": 77900730
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785150466,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 58,
-      "new_user_id": "mackerel38",
-      "previous_length": 136,
-      "previous_submission_id": 77900666,
-      "previous_user_id": "kidodesuyo",
-      "problem_id": "awc0121_b",
-      "submission_id": 77900875
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785150605,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 64,
-      "new_user_id": "mackerel38",
-      "previous_length": 1649,
-      "previous_submission_id": 77900851,
-      "previous_user_id": "shingo0909",
-      "problem_id": "awc0121_c",
-      "submission_id": 77900954
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785150871,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 92,
-      "new_user_id": "mackerel38",
-      "previous_length": null,
-      "previous_submission_id": null,
-      "previous_user_id": null,
-      "problem_id": "awc0121_e",
-      "submission_id": 77901108
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785151587,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 139,
-      "new_user_id": "mackerel38",
-      "previous_length": 317,
-      "previous_submission_id": 77901041,
-      "previous_user_id": "sigtuna",
-      "problem_id": "awc0121_d",
-      "submission_id": 77901478
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785153074,
-      "event_type": "improved",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 46,
-      "new_user_id": "mackerel38",
-      "previous_length": 58,
-      "previous_submission_id": 77900875,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0121_b",
-      "submission_id": 77902214
-    },
-    {
-      "contest_id": "awc0121",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785153961,
-      "event_type": "improved",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 45,
-      "new_user_id": "mackerel38",
-      "previous_length": 46,
-      "previous_submission_id": 77902214,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0121_b",
-      "submission_id": 77902639
-    },
-    {
-      "contest_id": "awc0108",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785157987,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 199,
-      "new_user_id": "mackerel38",
-      "previous_length": 219,
-      "previous_submission_id": 77303177,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0108_c",
-      "submission_id": 77904085
-    },
-    {
-      "contest_id": "awc0108",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785158120,
-      "event_type": "improved",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 198,
-      "new_user_id": "mackerel38",
-      "previous_length": 199,
-      "previous_submission_id": 77904085,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0108_c",
-      "submission_id": 77904128
-    },
-    {
-      "contest_id": "awc0108",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785158378,
-      "event_type": "acquired",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 32,
-      "new_user_id": "mackerel38",
-      "previous_length": 34,
-      "previous_submission_id": 77287177,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0108_a",
-      "submission_id": 77904188
-    },
-    {
-      "contest_id": "awc0108",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785158410,
-      "event_type": "improved",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 31,
-      "new_user_id": "mackerel38",
-      "previous_length": 32,
-      "previous_submission_id": 77904188,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0108_a",
-      "submission_id": 77904196
-    },
-    {
-      "contest_id": "abc468",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785164457,
-      "event_type": "lost",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 21,
-      "new_user_id": "shishuu",
-      "previous_length": 25,
-      "previous_submission_id": 77867861,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc468_a",
-      "submission_id": 77905696
-    },
-    {
-      "contest_id": "awc0103",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785199945,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 102,
-      "new_user_id": "mackerel38",
-      "previous_length": 119,
-      "previous_submission_id": 77115819,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0103_c",
-      "submission_id": 77909060
-    },
-    {
-      "contest_id": "awc0103",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785200240,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 157,
-      "new_user_id": "mackerel38",
-      "previous_length": 308,
-      "previous_submission_id": 77112686,
-      "previous_user_id": "moon17",
-      "problem_id": "awc0103_d",
-      "submission_id": 77909114
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785222435,
-      "event_type": "acquired",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 502,
-      "new_user_id": "mackerel38",
-      "previous_length": 808,
-      "previous_submission_id": 76986537,
-      "previous_user_id": "sasa8uyauya",
-      "problem_id": "awc0100_l",
-      "submission_id": 77914923
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785222588,
-      "event_type": "acquired",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 372,
-      "new_user_id": "mackerel38",
-      "previous_length": 1119,
-      "previous_submission_id": 77117814,
-      "previous_user_id": "sasa8uyauya",
-      "problem_id": "awc0100_m",
-      "submission_id": 77914987
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785222739,
-      "event_type": "acquired",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 99,
-      "new_user_id": "mackerel38",
-      "previous_length": 156,
-      "previous_submission_id": 76971861,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0100_n",
-      "submission_id": 77915044
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785223299,
-      "event_type": "acquired",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 692,
-      "new_user_id": "mackerel38",
-      "previous_length": 1320,
-      "previous_submission_id": 76973408,
-      "previous_user_id": "sasa8uyauya",
-      "problem_id": "awc0100_j",
-      "submission_id": 77915289
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785224190,
-      "event_type": "acquired",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 434,
-      "new_user_id": "mackerel38",
-      "previous_length": 713,
-      "previous_submission_id": 77035380,
-      "previous_user_id": "sigtuna",
-      "problem_id": "awc0100_o",
-      "submission_id": 77915664
-    },
-    {
-      "contest_id": "awc0100",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785229701,
-      "event_type": "acquired",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 604,
-      "new_user_id": "mackerel38",
-      "previous_length": 1331,
-      "previous_submission_id": 76969729,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0100_k",
-      "submission_id": 77917601
-    },
-    {
-      "contest_id": "arc148",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785231986,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 107,
-      "new_user_id": "mackerel38",
-      "previous_length": 221,
-      "previous_submission_id": 71708128,
-      "previous_user_id": "nikoro256",
-      "problem_id": "arc148_c",
-      "submission_id": 77918430
-    },
-    {
-      "contest_id": "awc0109",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785234312,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 48,
-      "new_user_id": "mackerel38",
-      "previous_length": 62,
-      "previous_submission_id": 77486720,
-      "previous_user_id": "blueberry1001",
-      "problem_id": "awc0109_b",
-      "submission_id": 77919042
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785237462,
-      "event_type": "acquired",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 350,
-      "new_user_id": "mackerel38",
-      "previous_length": 1538,
-      "previous_submission_id": 77919748,
-      "previous_user_id": "Syun_cp",
-      "problem_id": "awc0122_e",
-      "submission_id": 77920148
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785237568,
-      "event_type": "improved",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 343,
-      "new_user_id": "mackerel38",
-      "previous_length": 350,
-      "previous_submission_id": 77920148,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_e",
-      "submission_id": 77920203
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785238072,
-      "event_type": "acquired",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 312,
-      "new_user_id": "mackerel38",
-      "previous_length": 618,
-      "previous_submission_id": 77919862,
-      "previous_user_id": "kidodesuyo",
-      "problem_id": "awc0122_c",
-      "submission_id": 77920423
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785238237,
-      "event_type": "acquired",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 61,
-      "new_user_id": "mackerel38",
-      "previous_length": 152,
-      "previous_submission_id": 77919744,
-      "previous_user_id": "tkykwtnb",
-      "problem_id": "awc0122_b",
-      "submission_id": 77920516
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785238384,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 38,
-      "new_user_id": "mackerel38",
-      "previous_length": 58,
-      "previous_submission_id": 77920510,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0122_a",
-      "submission_id": 77920588
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785238492,
-      "event_type": "lost",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 46,
-      "new_user_id": "shogo314",
-      "previous_length": 55,
-      "previous_submission_id": 77864423,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc467_c",
-      "submission_id": 77920631
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785239005,
-      "event_type": "acquired",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 382,
-      "new_user_id": "mackerel38",
-      "previous_length": 752,
-      "previous_submission_id": 77920545,
-      "previous_user_id": "kidodesuyo",
-      "problem_id": "awc0122_d",
-      "submission_id": 77920841
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785239390,
-      "event_type": "improved",
-      "language": "Perl (perl 5.38.2)",
-      "new_length": 341,
-      "new_user_id": "mackerel38",
-      "previous_length": 343,
-      "previous_submission_id": 77920203,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_e",
-      "submission_id": 77920977
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785239861,
-      "event_type": "improved",
-      "language": "C++23 (GCC 15.2.0)",
-      "new_length": 281,
-      "new_user_id": "mackerel38",
-      "previous_length": 312,
-      "previous_submission_id": 77920423,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_c",
-      "submission_id": 77921164
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785240321,
-      "event_type": "improved",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 37,
-      "new_user_id": "mackerel38",
-      "previous_length": 38,
-      "previous_submission_id": 77920588,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_a",
-      "submission_id": 77921348
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785240725,
-      "event_type": "improved",
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "new_length": 304,
-      "new_user_id": "mackerel38",
-      "previous_length": 382,
-      "previous_submission_id": 77920841,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_d",
-      "submission_id": 77921500
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785241806,
-      "event_type": "improved",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 320,
-      "new_user_id": "mackerel38",
-      "previous_length": 341,
-      "previous_submission_id": 77920977,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_e",
-      "submission_id": 77921864
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785241971,
-      "event_type": "improved",
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "new_length": 317,
-      "new_user_id": "mackerel38",
-      "previous_length": 320,
-      "previous_submission_id": 77921864,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_e",
-      "submission_id": 77921912
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785245039,
-      "event_type": "acquired",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 39,
-      "new_user_id": "mackerel38",
-      "previous_length": 40,
-      "previous_submission_id": 77920854,
-      "previous_user_id": "shogo314",
-      "problem_id": "abc467_c",
-      "submission_id": 77922917
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785248412,
-      "event_type": "improved",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 38,
-      "new_user_id": "mackerel38",
-      "previous_length": 38,
-      "previous_submission_id": 77925318,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc467_c",
-      "submission_id": 77923910
-    },
-    {
-      "contest_id": "abc467",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785255204,
-      "event_type": "improved",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 38,
-      "new_user_id": "mackerel38",
-      "previous_length": 39,
-      "previous_submission_id": 77922917,
-      "previous_user_id": "mackerel38",
-      "problem_id": "abc467_c",
-      "submission_id": 77925318
-    },
-    {
-      "contest_id": "awc0104",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785258828,
-      "event_type": "acquired",
-      "language": "Python (CPython 3.13.7)",
-      "new_length": 171,
-      "new_user_id": "mackerel38",
-      "previous_length": 204,
-      "previous_submission_id": 77145752,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0104_e",
-      "submission_id": 77925843
-    },
-    {
-      "contest_id": "awc0113",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785267823,
-      "event_type": "acquired",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 59,
-      "new_user_id": "mackerel38",
-      "previous_length": 61,
-      "previous_submission_id": 77505745,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0113_b",
-      "submission_id": 77926665
-    },
-    {
-      "contest_id": "awc0107",
-      "detected_by_reconcile": true,
-      "epoch_second": 1785293651,
-      "event_type": "acquired",
-      "language": "Uiua (uiua 0.16.2)",
-      "new_length": 36,
-      "new_user_id": "mackerel38",
-      "previous_length": 37,
-      "previous_submission_id": 77290585,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0107_b",
-      "submission_id": 77929699
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785295989,
-      "event_type": "lost",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 51,
-      "new_user_id": "shogo314",
-      "previous_length": 61,
-      "previous_submission_id": 77920516,
-      "previous_user_id": "mackerel38",
-      "problem_id": "awc0122_b",
-      "submission_id": 77930192
-    },
-    {
-      "contest_id": "awc0122",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785302962,
-      "event_type": "acquired",
-      "language": "A言語 (interpreter af48a2a)",
-      "new_length": 49,
-      "new_user_id": "mackerel38",
-      "previous_length": 51,
-      "previous_submission_id": 77930192,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0122_b",
-      "submission_id": 77931844
-    },
-    {
-      "contest_id": "awc0099",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785305140,
-      "event_type": "acquired",
-      "language": "AWK (GNU awk 5.2.1)",
-      "new_length": 76,
-      "new_user_id": "mackerel38",
-      "previous_length": 86,
-      "previous_submission_id": 76950669,
-      "previous_user_id": "shogo314",
-      "problem_id": "awc0099_c",
-      "submission_id": 77932236
-    },
-    {
-      "contest_id": "awc0099",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785305285,
-      "event_type": "acquired",
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "new_length": 166,
-      "new_user_id": "mackerel38",
-      "previous_length": 283,
-      "previous_submission_id": 76949206,
-      "previous_user_id": "miztom",
-      "problem_id": "awc0099_d",
-      "submission_id": 77932271
-    },
-    {
-      "contest_id": "awc0099",
-      "detected_by_reconcile": false,
-      "epoch_second": 1785305699,
-      "event_type": "acquired",
-      "language": "Bash (bash 5.3)",
-      "new_length": 26,
-      "new_user_id": "mackerel38",
-      "previous_length": 30,
-      "previous_submission_id": 76950686,
-      "previous_user_id": "climpet",
-      "problem_id": "awc0099_e",
-      "submission_id": 77932402
-    }
-  ],
   "ever_held": {
     "abc365_g": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785042945,
       "last_acquired_epoch": 1785042945,
+      "target_contest_id": "abc365",
       "target_epoch_second": 1785042945,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 386,
@@ -75403,6 +73600,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785133251,
       "last_acquired_epoch": 1785133251,
+      "target_contest_id": "abc463",
       "target_epoch_second": 1785133251,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 482,
@@ -75412,6 +73610,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785088774,
       "last_acquired_epoch": 1785088774,
+      "target_contest_id": "abc464",
       "target_epoch_second": 1785088774,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 98,
@@ -75421,6 +73620,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785090152,
       "last_acquired_epoch": 1785090152,
+      "target_contest_id": "abc464",
       "target_epoch_second": 1785090152,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 75,
@@ -75430,6 +73630,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785088333,
       "last_acquired_epoch": 1785088333,
+      "target_contest_id": "abc464",
       "target_epoch_second": 1785088333,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 127,
@@ -75439,6 +73640,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785089910,
       "last_acquired_epoch": 1785089910,
+      "target_contest_id": "abc464",
       "target_epoch_second": 1785113981,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 338,
@@ -75448,6 +73650,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785088041,
       "last_acquired_epoch": 1785088041,
+      "target_contest_id": "abc464",
       "target_epoch_second": 1785088041,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 253,
@@ -75457,6 +73660,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785037440,
       "last_acquired_epoch": 1785037440,
+      "target_contest_id": "abc465",
       "target_epoch_second": 1785037440,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 53,
@@ -75466,6 +73670,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785037893,
       "last_acquired_epoch": 1785037893,
+      "target_contest_id": "abc465",
       "target_epoch_second": 1785037893,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 224,
@@ -75475,6 +73680,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785038251,
       "last_acquired_epoch": 1785038251,
+      "target_contest_id": "abc465",
       "target_epoch_second": 1785038251,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 631,
@@ -75484,6 +73690,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785031789,
       "last_acquired_epoch": 1785031789,
+      "target_contest_id": "abc466",
       "target_epoch_second": 1785031789,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 33,
@@ -75493,6 +73700,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785030110,
       "last_acquired_epoch": 1785030110,
+      "target_contest_id": "abc466",
       "target_epoch_second": 1785030110,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 80,
@@ -75502,6 +73710,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785030513,
       "last_acquired_epoch": 1785030513,
+      "target_contest_id": "abc466",
       "target_epoch_second": 1785030513,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 94,
@@ -75511,6 +73720,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785030636,
       "last_acquired_epoch": 1785030636,
+      "target_contest_id": "abc466",
       "target_epoch_second": 1785030636,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 160,
@@ -75520,6 +73730,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785029293,
       "last_acquired_epoch": 1785029293,
+      "target_contest_id": "abc466",
       "target_epoch_second": 1785029293,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 314,
@@ -75529,6 +73740,7 @@
       "acquisition_count": 2,
       "first_acquired_epoch": 1784987174,
       "last_acquired_epoch": 1785245039,
+      "target_contest_id": "abc467",
       "target_epoch_second": 1785248412,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 38,
@@ -75538,6 +73750,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784987428,
       "last_acquired_epoch": 1784987428,
+      "target_contest_id": "abc467",
       "target_epoch_second": 1784987428,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 100,
@@ -75547,6 +73760,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784992239,
       "last_acquired_epoch": 1784992239,
+      "target_contest_id": "abc467",
       "target_epoch_second": 1784992239,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 129,
@@ -75556,6 +73770,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784988692,
       "last_acquired_epoch": 1784988692,
+      "target_contest_id": "abc467",
       "target_epoch_second": 1784988692,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 326,
@@ -75565,6 +73780,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784988384,
       "last_acquired_epoch": 1784988384,
+      "target_contest_id": "abc467",
       "target_epoch_second": 1784988384,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 807,
@@ -75574,6 +73790,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784992357,
       "last_acquired_epoch": 1784992357,
+      "target_contest_id": "abc468",
       "target_epoch_second": 1784992357,
       "target_language": "APL (GNU APL 1.9)",
       "target_length": 25,
@@ -75583,6 +73800,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784990533,
       "last_acquired_epoch": 1784990533,
+      "target_contest_id": "abc468",
       "target_epoch_second": 1784990533,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 120,
@@ -75592,6 +73810,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784992786,
       "last_acquired_epoch": 1784992786,
+      "target_contest_id": "abc468",
       "target_epoch_second": 1784992786,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 82,
@@ -75601,6 +73820,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784991276,
       "last_acquired_epoch": 1784991276,
+      "target_contest_id": "abc468",
       "target_epoch_second": 1784991276,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 146,
@@ -75610,6 +73830,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785231986,
       "last_acquired_epoch": 1785231986,
+      "target_contest_id": "arc148",
       "target_epoch_second": 1785231986,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 107,
@@ -75619,6 +73840,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1746959487,
       "last_acquired_epoch": 1746959487,
+      "target_contest_id": "arc192",
       "target_epoch_second": 1746959487,
       "target_language": "Nibbles (literate form) (nibbles 1.01)",
       "target_length": 45,
@@ -75628,6 +73850,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785305140,
       "last_acquired_epoch": 1785305140,
+      "target_contest_id": "awc0099",
       "target_epoch_second": 1785305140,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 76,
@@ -75637,6 +73860,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785305285,
       "last_acquired_epoch": 1785305285,
+      "target_contest_id": "awc0099",
       "target_epoch_second": 1785305285,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 166,
@@ -75646,6 +73870,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785305699,
       "last_acquired_epoch": 1785305699,
+      "target_contest_id": "awc0099",
       "target_epoch_second": 1785305699,
       "target_language": "Bash (bash 5.3)",
       "target_length": 26,
@@ -75655,6 +73880,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785211920,
       "last_acquired_epoch": 1785211920,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785211920,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 23,
@@ -75664,6 +73890,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785213059,
       "last_acquired_epoch": 1785213059,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785213059,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 59,
@@ -75673,6 +73900,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785212353,
       "last_acquired_epoch": 1785212353,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785212353,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
@@ -75682,6 +73910,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785214780,
       "last_acquired_epoch": 1785214780,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785214780,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
@@ -75691,6 +73920,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785219841,
       "last_acquired_epoch": 1785219841,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785219841,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 56,
@@ -75700,6 +73930,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785215831,
       "last_acquired_epoch": 1785215831,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785215831,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 86,
@@ -75709,6 +73940,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785220396,
       "last_acquired_epoch": 1785220396,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785220396,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 128,
@@ -75718,6 +73950,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785215967,
       "last_acquired_epoch": 1785215967,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785215967,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 54,
@@ -75727,6 +73960,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785223299,
       "last_acquired_epoch": 1785223299,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785223299,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 692,
@@ -75736,6 +73970,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785229701,
       "last_acquired_epoch": 1785229701,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785229701,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 604,
@@ -75745,6 +73980,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785222435,
       "last_acquired_epoch": 1785222435,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785222435,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 502,
@@ -75754,6 +73990,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785222588,
       "last_acquired_epoch": 1785222588,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785222588,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 372,
@@ -75763,6 +74000,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785222739,
       "last_acquired_epoch": 1785222739,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785222739,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 99,
@@ -75772,6 +74010,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785224190,
       "last_acquired_epoch": 1785224190,
+      "target_contest_id": "awc0100",
       "target_epoch_second": 1785224190,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 434,
@@ -75781,6 +74020,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785207237,
       "last_acquired_epoch": 1785207237,
+      "target_contest_id": "awc0101",
       "target_epoch_second": 1785207237,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 71,
@@ -75790,6 +74030,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785207347,
       "last_acquired_epoch": 1785207347,
+      "target_contest_id": "awc0101",
       "target_epoch_second": 1785207347,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 26,
@@ -75799,6 +74040,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785207511,
       "last_acquired_epoch": 1785207511,
+      "target_contest_id": "awc0101",
       "target_epoch_second": 1785207511,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 141,
@@ -75808,6 +74050,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785207603,
       "last_acquired_epoch": 1785207603,
+      "target_contest_id": "awc0101",
       "target_epoch_second": 1785207603,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 143,
@@ -75817,6 +74060,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785207712,
       "last_acquired_epoch": 1785207712,
+      "target_contest_id": "awc0101",
       "target_epoch_second": 1785207712,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 213,
@@ -75826,6 +74070,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785204670,
       "last_acquired_epoch": 1785204670,
+      "target_contest_id": "awc0102",
       "target_epoch_second": 1785204670,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 40,
@@ -75835,6 +74080,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785204847,
       "last_acquired_epoch": 1785204847,
+      "target_contest_id": "awc0102",
       "target_epoch_second": 1785204847,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 27,
@@ -75844,6 +74090,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785206909,
       "last_acquired_epoch": 1785206909,
+      "target_contest_id": "awc0102",
       "target_epoch_second": 1785206909,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 128,
@@ -75853,6 +74100,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785203249,
       "last_acquired_epoch": 1785203249,
+      "target_contest_id": "awc0102",
       "target_epoch_second": 1785203249,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 123,
@@ -75862,6 +74110,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785203319,
       "last_acquired_epoch": 1785203319,
+      "target_contest_id": "awc0102",
       "target_epoch_second": 1785203319,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 167,
@@ -75871,6 +74120,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785175603,
       "last_acquired_epoch": 1785175603,
+      "target_contest_id": "awc0103",
       "target_epoch_second": 1785175603,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 11,
@@ -75880,6 +74130,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785199945,
       "last_acquired_epoch": 1785199945,
+      "target_contest_id": "awc0103",
       "target_epoch_second": 1785199945,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 102,
@@ -75889,6 +74140,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785200240,
       "last_acquired_epoch": 1785200240,
+      "target_contest_id": "awc0103",
       "target_epoch_second": 1785200240,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 157,
@@ -75898,6 +74150,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785175984,
       "last_acquired_epoch": 1785175984,
+      "target_contest_id": "awc0103",
       "target_epoch_second": 1785175984,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 199,
@@ -75907,6 +74160,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785175427,
       "last_acquired_epoch": 1785175427,
+      "target_contest_id": "awc0104",
       "target_epoch_second": 1785175427,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
@@ -75916,6 +74170,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785174506,
       "last_acquired_epoch": 1785174506,
+      "target_contest_id": "awc0104",
       "target_epoch_second": 1785174506,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 103,
@@ -75925,6 +74180,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785199618,
       "last_acquired_epoch": 1785199618,
+      "target_contest_id": "awc0104",
       "target_epoch_second": 1785199618,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 113,
@@ -75934,6 +74190,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785258828,
       "last_acquired_epoch": 1785258828,
+      "target_contest_id": "awc0104",
       "target_epoch_second": 1785258828,
       "target_language": "Python (CPython 3.13.7)",
       "target_length": 171,
@@ -75943,6 +74200,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785173553,
       "last_acquired_epoch": 1785173553,
+      "target_contest_id": "awc0105",
       "target_epoch_second": 1785173553,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 37,
@@ -75952,6 +74210,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785171896,
       "last_acquired_epoch": 1785171896,
+      "target_contest_id": "awc0105",
       "target_epoch_second": 1785171896,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 147,
@@ -75961,6 +74220,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785171283,
       "last_acquired_epoch": 1785171283,
+      "target_contest_id": "awc0105",
       "target_epoch_second": 1785171283,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 85,
@@ -75970,6 +74230,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785170903,
       "last_acquired_epoch": 1785170903,
+      "target_contest_id": "awc0105",
       "target_epoch_second": 1785170903,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 264,
@@ -75979,6 +74240,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785170437,
       "last_acquired_epoch": 1785170437,
+      "target_contest_id": "awc0106",
       "target_epoch_second": 1785170437,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 45,
@@ -75988,6 +74250,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785167210,
       "last_acquired_epoch": 1785167210,
+      "target_contest_id": "awc0106",
       "target_epoch_second": 1785167210,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 258,
@@ -75997,6 +74260,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785167519,
       "last_acquired_epoch": 1785167519,
+      "target_contest_id": "awc0106",
       "target_epoch_second": 1785167519,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 384,
@@ -76006,6 +74270,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785167613,
       "last_acquired_epoch": 1785167613,
+      "target_contest_id": "awc0106",
       "target_epoch_second": 1785167613,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 237,
@@ -76015,6 +74280,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785168044,
       "last_acquired_epoch": 1785168044,
+      "target_contest_id": "awc0106",
       "target_epoch_second": 1785168044,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 273,
@@ -76024,6 +74290,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785293651,
       "last_acquired_epoch": 1785293651,
+      "target_contest_id": "awc0107",
       "target_epoch_second": 1785293651,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 36,
@@ -76033,6 +74300,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785165282,
       "last_acquired_epoch": 1785165282,
+      "target_contest_id": "awc0107",
       "target_epoch_second": 1785165282,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 195,
@@ -76042,6 +74310,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785166440,
       "last_acquired_epoch": 1785166440,
+      "target_contest_id": "awc0107",
       "target_epoch_second": 1785166440,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 107,
@@ -76051,6 +74320,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785167023,
       "last_acquired_epoch": 1785167023,
+      "target_contest_id": "awc0107",
       "target_epoch_second": 1785167023,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 288,
@@ -76060,6 +74330,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785158378,
       "last_acquired_epoch": 1785158378,
+      "target_contest_id": "awc0108",
       "target_epoch_second": 1785158410,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 31,
@@ -76069,6 +74340,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785148961,
       "last_acquired_epoch": 1785148961,
+      "target_contest_id": "awc0108",
       "target_epoch_second": 1785148961,
       "target_language": "Bash (bash 5.3)",
       "target_length": 44,
@@ -76078,6 +74350,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785157987,
       "last_acquired_epoch": 1785157987,
+      "target_contest_id": "awc0108",
       "target_epoch_second": 1785158120,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 198,
@@ -76087,6 +74360,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785149383,
       "last_acquired_epoch": 1785149383,
+      "target_contest_id": "awc0108",
       "target_epoch_second": 1785149383,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 100,
@@ -76096,6 +74370,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785234312,
       "last_acquired_epoch": 1785234312,
+      "target_contest_id": "awc0109",
       "target_epoch_second": 1785234312,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 48,
@@ -76105,6 +74380,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785145017,
       "last_acquired_epoch": 1785145017,
+      "target_contest_id": "awc0109",
       "target_epoch_second": 1785145017,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 79,
@@ -76114,6 +74390,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785145222,
       "last_acquired_epoch": 1785145222,
+      "target_contest_id": "awc0109",
       "target_epoch_second": 1785145222,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 261,
@@ -76123,6 +74400,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785145499,
       "last_acquired_epoch": 1785145499,
+      "target_contest_id": "awc0109",
       "target_epoch_second": 1785145499,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 337,
@@ -76132,6 +74410,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785142337,
       "last_acquired_epoch": 1785142337,
+      "target_contest_id": "awc0110",
       "target_epoch_second": 1785142337,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 46,
@@ -76141,6 +74420,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785142756,
       "last_acquired_epoch": 1785142756,
+      "target_contest_id": "awc0110",
       "target_epoch_second": 1785142756,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 72,
@@ -76150,6 +74430,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785144356,
       "last_acquired_epoch": 1785144356,
+      "target_contest_id": "awc0110",
       "target_epoch_second": 1785144356,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 127,
@@ -76159,6 +74440,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785143835,
       "last_acquired_epoch": 1785143835,
+      "target_contest_id": "awc0110",
       "target_epoch_second": 1785143835,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 116,
@@ -76168,6 +74450,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785132173,
       "last_acquired_epoch": 1785132173,
+      "target_contest_id": "awc0111",
       "target_epoch_second": 1785132173,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 77,
@@ -76177,6 +74460,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785126169,
       "last_acquired_epoch": 1785126169,
+      "target_contest_id": "awc0111",
       "target_epoch_second": 1785126169,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 97,
@@ -76186,6 +74470,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785126435,
       "last_acquired_epoch": 1785126435,
+      "target_contest_id": "awc0111",
       "target_epoch_second": 1785126435,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 104,
@@ -76195,6 +74480,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785126694,
       "last_acquired_epoch": 1785126694,
+      "target_contest_id": "awc0111",
       "target_epoch_second": 1785126694,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 208,
@@ -76204,6 +74490,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785126951,
       "last_acquired_epoch": 1785126951,
+      "target_contest_id": "awc0111",
       "target_epoch_second": 1785126951,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 138,
@@ -76213,6 +74500,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785125212,
       "last_acquired_epoch": 1785125212,
+      "target_contest_id": "awc0112",
       "target_epoch_second": 1785125212,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 30,
@@ -76222,6 +74510,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785123888,
       "last_acquired_epoch": 1785123888,
+      "target_contest_id": "awc0112",
       "target_epoch_second": 1785131574,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 87,
@@ -76231,6 +74520,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785123693,
       "last_acquired_epoch": 1785123693,
+      "target_contest_id": "awc0112",
       "target_epoch_second": 1785123693,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 77,
@@ -76240,6 +74530,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785124749,
       "last_acquired_epoch": 1785124749,
+      "target_contest_id": "awc0112",
       "target_epoch_second": 1785131776,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 84,
@@ -76249,6 +74540,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785124912,
       "last_acquired_epoch": 1785124912,
+      "target_contest_id": "awc0112",
       "target_epoch_second": 1785125986,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 46,
@@ -76258,6 +74550,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785267823,
       "last_acquired_epoch": 1785267823,
+      "target_contest_id": "awc0113",
       "target_epoch_second": 1785267823,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 59,
@@ -76267,6 +74560,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784998745,
       "last_acquired_epoch": 1784998745,
+      "target_contest_id": "awc0113",
       "target_epoch_second": 1784998745,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 209,
@@ -76276,6 +74570,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784999644,
       "last_acquired_epoch": 1784999644,
+      "target_contest_id": "awc0113",
       "target_epoch_second": 1784999644,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 69,
@@ -76285,6 +74580,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785027777,
       "last_acquired_epoch": 1785027777,
+      "target_contest_id": "awc0113",
       "target_epoch_second": 1785027777,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 393,
@@ -76294,6 +74590,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784997321,
       "last_acquired_epoch": 1784997321,
+      "target_contest_id": "awc0114",
       "target_epoch_second": 1784997321,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 75,
@@ -76303,6 +74600,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784996871,
       "last_acquired_epoch": 1784996871,
+      "target_contest_id": "awc0114",
       "target_epoch_second": 1784996871,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 106,
@@ -76312,6 +74610,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784996976,
       "last_acquired_epoch": 1784996976,
+      "target_contest_id": "awc0114",
       "target_epoch_second": 1784996976,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 81,
@@ -76321,6 +74620,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784997841,
       "last_acquired_epoch": 1784997841,
+      "target_contest_id": "awc0114",
       "target_epoch_second": 1784997841,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 347,
@@ -76330,6 +74630,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784988576,
       "last_acquired_epoch": 1784988576,
+      "target_contest_id": "awc0115",
       "target_epoch_second": 1784988576,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 23,
@@ -76339,6 +74640,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784984072,
       "last_acquired_epoch": 1784984072,
+      "target_contest_id": "awc0115",
       "target_epoch_second": 1784984072,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 18,
@@ -76348,6 +74650,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784979799,
       "last_acquired_epoch": 1784979799,
+      "target_contest_id": "awc0115",
       "target_epoch_second": 1784979799,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 57,
@@ -76357,6 +74660,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784980093,
       "last_acquired_epoch": 1784980093,
+      "target_contest_id": "awc0115",
       "target_epoch_second": 1784980093,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 219,
@@ -76366,6 +74670,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784980485,
       "last_acquired_epoch": 1784980485,
+      "target_contest_id": "awc0115",
       "target_epoch_second": 1784980485,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 121,
@@ -76375,6 +74680,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784967748,
       "last_acquired_epoch": 1784967748,
+      "target_contest_id": "awc0116",
       "target_epoch_second": 1784967748,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 44,
@@ -76384,6 +74690,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784979314,
       "last_acquired_epoch": 1784979314,
+      "target_contest_id": "awc0116",
       "target_epoch_second": 1784979314,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 53,
@@ -76393,6 +74700,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784968183,
       "last_acquired_epoch": 1784968183,
+      "target_contest_id": "awc0116",
       "target_epoch_second": 1784968183,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 122,
@@ -76402,6 +74710,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784968624,
       "last_acquired_epoch": 1784968624,
+      "target_contest_id": "awc0116",
       "target_epoch_second": 1784968624,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 156,
@@ -76411,6 +74720,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784968812,
       "last_acquired_epoch": 1784968812,
+      "target_contest_id": "awc0116",
       "target_epoch_second": 1784968812,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 225,
@@ -76420,6 +74730,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784963324,
       "last_acquired_epoch": 1784963324,
+      "target_contest_id": "awc0117",
       "target_epoch_second": 1784963324,
       "target_language": "Octave (GNU Octave 10.2.0)",
       "target_length": 48,
@@ -76429,6 +74740,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784962565,
       "last_acquired_epoch": 1784962565,
+      "target_contest_id": "awc0117",
       "target_epoch_second": 1784962565,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 97,
@@ -76438,6 +74750,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784962815,
       "last_acquired_epoch": 1784962815,
+      "target_contest_id": "awc0117",
       "target_epoch_second": 1784962815,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 103,
@@ -76447,6 +74760,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784962938,
       "last_acquired_epoch": 1784962938,
+      "target_contest_id": "awc0117",
       "target_epoch_second": 1784962938,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 159,
@@ -76456,6 +74770,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784962979,
       "last_acquired_epoch": 1784962979,
+      "target_contest_id": "awc0117",
       "target_epoch_second": 1784962979,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 118,
@@ -76465,6 +74780,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784955561,
       "last_acquired_epoch": 1784955561,
+      "target_contest_id": "awc0118",
       "target_epoch_second": 1784955561,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 70,
@@ -76474,6 +74790,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784955717,
       "last_acquired_epoch": 1784955717,
+      "target_contest_id": "awc0118",
       "target_epoch_second": 1784955717,
       "target_language": "Ruby 3.3 (truffleruby 25.0.0)",
       "target_length": 75,
@@ -76483,6 +74800,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784955840,
       "last_acquired_epoch": 1784955840,
+      "target_contest_id": "awc0118",
       "target_epoch_second": 1784955840,
       "target_language": "Ruby 3.3 (truffleruby 25.0.0)",
       "target_length": 193,
@@ -76492,6 +74810,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784956506,
       "last_acquired_epoch": 1784956506,
+      "target_contest_id": "awc0118",
       "target_epoch_second": 1784956506,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 179,
@@ -76501,6 +74820,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784956617,
       "last_acquired_epoch": 1784956617,
+      "target_contest_id": "awc0118",
       "target_epoch_second": 1784956617,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 164,
@@ -76510,6 +74830,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784952268,
       "last_acquired_epoch": 1784952268,
+      "target_contest_id": "awc0119",
       "target_epoch_second": 1784952268,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 17,
@@ -76519,6 +74840,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784951293,
       "last_acquired_epoch": 1784951293,
+      "target_contest_id": "awc0119",
       "target_epoch_second": 1784951293,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 74,
@@ -76528,6 +74850,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784949618,
       "last_acquired_epoch": 1784949618,
+      "target_contest_id": "awc0119",
       "target_epoch_second": 1784949618,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 123,
@@ -76537,6 +74860,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784950697,
       "last_acquired_epoch": 1784950697,
+      "target_contest_id": "awc0119",
       "target_epoch_second": 1784950697,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 257,
@@ -76546,6 +74870,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784943089,
       "last_acquired_epoch": 1784943089,
+      "target_contest_id": "awc0120",
       "target_epoch_second": 1784943089,
       "target_language": "R (GNU R 4.5.0)",
       "target_length": 101,
@@ -76555,6 +74880,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784946710,
       "last_acquired_epoch": 1784946710,
+      "target_contest_id": "awc0120",
       "target_epoch_second": 1784946710,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 80,
@@ -76564,6 +74890,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784947915,
       "last_acquired_epoch": 1784947915,
+      "target_contest_id": "awc0120",
       "target_epoch_second": 1784947915,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 255,
@@ -76573,6 +74900,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1784949042,
       "last_acquired_epoch": 1784949042,
+      "target_contest_id": "awc0120",
       "target_epoch_second": 1784949042,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 362,
@@ -76582,6 +74910,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785150275,
       "last_acquired_epoch": 1785150275,
+      "target_contest_id": "awc0121",
       "target_epoch_second": 1785150275,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 57,
@@ -76591,6 +74920,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785150466,
       "last_acquired_epoch": 1785150466,
+      "target_contest_id": "awc0121",
       "target_epoch_second": 1785153961,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 45,
@@ -76600,6 +74930,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785150605,
       "last_acquired_epoch": 1785150605,
+      "target_contest_id": "awc0121",
       "target_epoch_second": 1785150605,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 64,
@@ -76609,6 +74940,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785151587,
       "last_acquired_epoch": 1785151587,
+      "target_contest_id": "awc0121",
       "target_epoch_second": 1785151587,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 139,
@@ -76618,6 +74950,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785150871,
       "last_acquired_epoch": 1785150871,
+      "target_contest_id": "awc0121",
       "target_epoch_second": 1785150871,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 92,
@@ -76627,6 +74960,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785238384,
       "last_acquired_epoch": 1785238384,
+      "target_contest_id": "awc0122",
       "target_epoch_second": 1785240321,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 37,
@@ -76636,6 +74970,7 @@
       "acquisition_count": 2,
       "first_acquired_epoch": 1785238237,
       "last_acquired_epoch": 1785302962,
+      "target_contest_id": "awc0122",
       "target_epoch_second": 1785302962,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 49,
@@ -76645,6 +74980,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785238072,
       "last_acquired_epoch": 1785238072,
+      "target_contest_id": "awc0122",
       "target_epoch_second": 1785239861,
       "target_language": "C++23 (GCC 15.2.0)",
       "target_length": 281,
@@ -76654,6 +74990,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785239005,
       "last_acquired_epoch": 1785239005,
+      "target_contest_id": "awc0122",
       "target_epoch_second": 1785240725,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 304,
@@ -76663,6 +75000,7 @@
       "acquisition_count": 1,
       "first_acquired_epoch": 1785237462,
       "last_acquired_epoch": 1785237462,
+      "target_contest_id": "awc0122",
       "target_epoch_second": 1785241971,
       "target_language": "Python (PyPy 3.11-v7.3.20)",
       "target_length": 317,
@@ -76670,7 +75008,4645 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785318937,
+  "last_checked_epoch": 1785319560,
+  "recommendation_day": "2026-07-29",
+  "recommendations": [],
+  "submission_details": {},
+  "target_language_index_complete": true,
+  "target_problem_languages": {
+    "abc001_1": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc001_2": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc001_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc001_4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc002_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc002_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc002_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc002_4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc003_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc003_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc003_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc004_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc004_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc004_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc005_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc005_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc005_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc005_4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc006_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc006_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc006_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc007_1": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc007_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc007_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc007_4": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc008_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc008_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc009_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc009_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc010_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc010_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc010_4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc011_1": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc011_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc012_1": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc012_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc012_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc013_1": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc013_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc014_1": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc014_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc015_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc015_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc016_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc016_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc017_1": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc017_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc018_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc018_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc019_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc019_2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc020_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc020_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc021_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc021_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc022_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc022_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc023_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc024_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc024_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc025_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc025_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc026_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc026_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc027_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc028_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc028_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc029_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc029_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc030_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc031_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc031_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc032_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc033_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc033_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc034_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc034_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc035_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc036_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc036_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc037_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc037_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc038_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc038_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc039_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc039_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc040_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc041_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc041_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc042_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Python (CPython 3.11.4)"
+    ],
+    "abc043_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc044_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc044_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc045_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)",
+      "Python (PyPy 3.10-v7.3.12)",
+      "dc (dc 1.07.1)"
+    ],
+    "abc046_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc047_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc048_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc049_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc049_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc050_a": [
+      "C++ 20 (gcc 12.2)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc050_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc051_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc053_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc054_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc055_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc075_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc076_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc080_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc081_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc081_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc082_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc086_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc086_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc087_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc089_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc096_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc096_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc099_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc099_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc107_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc110_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc119_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc120_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc121_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc123_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc126_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc127_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc127_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc129_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc129_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc130_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc131_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc133_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc135_d": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc137_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc138_e": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc138_f": [
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc139_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc139_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc142_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc143_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc144_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc146_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc147_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc147_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc148_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc149_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc150_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc151_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc151_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc153_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc156_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc156_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc157_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc157_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc159_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc165_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc167_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc170_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc174_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc174_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc180_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc183_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc185_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc187_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc193_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc196_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc196_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc197_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc198_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc203_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc205_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc205_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc212_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc212_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc213_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc215_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc219_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc220_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc221_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc222_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc224_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc224_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc225_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc227_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc228_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc234_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc238_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc239_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc241_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc241_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc242_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc242_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc243_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc244_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc245_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc245_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc247_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc250_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc251_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc251_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc252_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc256_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc258_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc259_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc263_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc263_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc265_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc268_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc269_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc272_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc272_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc273_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc274_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc274_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc274_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc275_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc275_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc276_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc278_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc280_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc280_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc281_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc284_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc284_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc284_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc285_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc285_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc285_g": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc286_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc286_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc287_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc288_a": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc288_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc288_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc288_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc292_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc293_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc299_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc300_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc301_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc301_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc305_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc306_b": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc307_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc308_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc315_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc319_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc319_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc320_g": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc321_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc321_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc323_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc324_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc325_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc325_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc326_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc326_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc327_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc331_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc332_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc332_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc332_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc333_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc333_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc333_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc334_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc334_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc334_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc335_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc335_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc336_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc338_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc341_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc341_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc341_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc341_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc342_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc342_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc342_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc342_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc344_b": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc346_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc348_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc349_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc350_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (CPython 3.11.4)"
+    ],
+    "abc351_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc351_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc351_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc353_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc359_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc362_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc363_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc364_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc365_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc365_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc365_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc366_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)",
+      "Rust (rustc 1.70.0)"
+    ],
+    "abc366_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc367_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc367_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc367_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc368_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc369_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)",
+      "Rust (rustc 1.70.0)"
+    ],
+    "abc369_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc370_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc370_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc371_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc371_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc371_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc371_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc371_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc371_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc372_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc372_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc372_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc372_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc372_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc372_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc372_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc373_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc373_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc373_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc373_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc374_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)",
+      "Rust (rustc 1.70.0)"
+    ],
+    "abc374_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc374_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc375_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc376_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc376_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc377_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc377_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc377_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc377_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc377_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc377_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc378_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc379_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc379_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc379_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc379_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc379_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc379_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc380_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc381_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc381_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc381_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc381_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc382_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc383_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc383_b": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc383_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc383_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc383_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc384_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc384_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc384_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc384_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc384_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc385_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc385_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc385_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc385_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc385_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc386_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc387_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc387_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc387_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc387_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc388_a": [
+      "Brainfuck (bf 20041219)",
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc388_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc388_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc388_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc388_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc388_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc388_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc389_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc389_b": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc389_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc389_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc389_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc390_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc390_b": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc390_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc390_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc390_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc391_a": [
+      "Python (CPython 3.11.4)"
+    ],
+    "abc391_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc391_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc391_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc391_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc391_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc392_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Sed (GNU sed 4.8)"
+    ],
+    "abc393_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc393_g": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc394_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "abc394_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc394_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc394_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc394_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc394_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc395_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc396_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc397_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc397_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc397_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc397_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc397_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc398_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc398_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc399_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc399_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc399_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc399_d": [
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc399_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc399_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc400_a": [
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc400_b": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc400_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc400_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc400_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc400_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc401_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc401_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc401_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc401_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc401_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc402_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc402_b": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc402_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc402_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc402_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc402_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc403_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc403_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc403_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc403_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc403_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc404_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc405_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc406_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc406_b": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc406_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc406_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc406_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc407_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc407_g": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc408_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc408_g": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "abc409_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc409_g": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc410_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc410_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc410_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc410_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc410_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc410_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc411_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc411_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc411_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc411_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc411_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc411_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc412_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc412_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc412_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc412_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_d": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc413_g": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc414_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc414_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc414_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc414_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc414_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "abc414_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc415_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc416_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc416_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc416_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc416_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc416_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc417_f": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc418_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc418_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc418_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc418_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc418_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc419_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc420_g": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc421_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc421_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc421_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc421_g": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc424_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc425_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc426_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc426_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc426_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc426_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc426_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc427_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc428_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc428_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc428_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc428_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc428_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc429_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "abc430_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc430_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc430_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc430_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc430_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc430_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc432_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc432_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc432_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc434_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc434_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc435_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc437_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc437_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc438_a": [
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc446_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc446_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc446_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc446_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc446_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc447_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc447_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc450_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc451_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc453_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc455_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc456_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc457_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc458_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc458_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc458_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc458_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc458_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc459_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc459_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc459_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc459_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc459_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc460_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc463_a": [
+      "A言語 (interpreter af48a2a)",
+      "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
+    "abc463_b": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "abc463_c": [
+      "Octave (GNU Octave 10.2.0)"
+    ],
+    "abc463_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc463_e": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "abc463_f": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "abc463_g": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "abc464_a": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "abc464_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc464_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "abc464_d": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "abc464_e": [
+      "Perl (perl 5.38.2)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc464_f": [
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc464_g": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc465_a": [
+      "A言語 (interpreter af48a2a)",
+      "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
+    "abc465_b": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "abc465_c": [
+      "Perl (perl 5.38.2)",
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "abc465_d": [
+      "A言語 (interpreter af48a2a)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc465_e": [
+      "C++23 (GCC 15.2.0)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc465_f": [
+      "Octave (GNU Octave 10.2.0)",
+      "Python (CPython 3.13.7)",
+      "Python (Codon 0.19.3)",
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "abc465_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc466_a": [
+      "Perl (perl 5.38.2)",
+      "Text (cat 9.4)",
+      "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
+    "abc466_b": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "abc466_c": [
+      "Perl (perl 5.38.2)"
+    ],
+    "abc466_d": [
+      "Bash (bash 5.3)",
+      "Perl (perl 5.38.2)"
+    ],
+    "abc466_e": [
+      "Octave (GNU Octave 10.2.0)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc466_f": [
+      "C++23 (GCC 15.2.0)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc466_g": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc467_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "abc467_b": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "abc467_c": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "abc467_d": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "abc467_e": [
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc467_f": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc467_g": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "abc468_a": [
+      "APL (GNU APL 1.9)",
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "abc468_b": [
+      "AWK (GNU awk 5.2.1)",
+      "Perl (perl 5.38.2)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "abc468_c": [
+      "AWK (GNU awk 5.2.1)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc468_d": [
+      "C++23 (GCC 15.2.0)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc468_e": [
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc468_f": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc468_g": [
+      "C++23 (GCC 15.2.0)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abl_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "acl1_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc001_a": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "agc011_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "agc015_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc033_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc034_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc050_f": [
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Text (cat 8.32)"
+    ],
+    "agc071_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc072_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc072_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "agc073_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "ahc040_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc040_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc043_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc043_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc045_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc045_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc047_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc051_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc051_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ahc054_a": [
+      "C++ 17 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "ahc054_b": [
+      "C++ 17 (gcc 12.2)"
+    ],
+    "ahc058_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc062_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc063_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc063_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc064_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc066_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc066_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc067_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ahc068_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "apc001_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc009_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc033_3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc045_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc055_a": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "arc060_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc062_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc063_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc065_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc066_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc068_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc072_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc072_b": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "arc072_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc072_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc074_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc075_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc077_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc078_b": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc080_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc082_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc082_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc085_c": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc088_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc092_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc093_b": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc107_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc108_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc110_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc122_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc124_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc133_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc142_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc145_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc147_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc148_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc148_c": [
+      "C++ 20 (gcc 12.2)",
+      "Perl (perl 5.38.2)"
+    ],
+    "arc160_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc166_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc172_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc188_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc189_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc189_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc189_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc190_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc191_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc191_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc191_c": [
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Python (CPython 3.11.4)"
+    ],
+    "arc192_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc192_b": [
+      "Brainfuck (bf 20041219)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Python (CPython 3.11.4)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "arc193_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc194_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc194_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc194_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc195_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc195_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc195_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc196_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc197_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc197_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc197_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc198_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc198_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc198_c": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "arc199_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc200_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc200_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "arc202_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc204_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc204_b": [
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "arc205_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc205_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc205_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc206_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc206_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc208_a": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc208_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc208_c": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc208_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "arc210_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc212_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc217_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc217_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc218_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc218_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc218_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc219_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc219_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc219_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc219_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc221_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc221_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc222_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc222_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc222_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc222_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc225_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc225_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc225_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc225_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0001_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0001_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0001_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0001_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0001_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0002_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0002_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0002_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0002_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0002_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0003_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0003_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0003_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0003_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0003_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0017_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0017_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0017_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0017_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0017_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0018_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0018_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0018_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0018_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0018_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0019_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0019_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0019_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0019_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0019_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0020_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0020_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0020_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0020_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0020_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0044_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0044_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0044_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0044_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0044_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0045_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0045_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0045_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0045_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0045_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0046_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0046_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0046_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0046_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0046_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0047_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0047_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0047_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0047_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0048_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0048_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0048_c": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0048_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0048_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0099_a": [
+      "APL (GNU APL 1.9)",
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0099_b": [
+      "Octave (GNU Octave 10.2.0)"
+    ],
+    "awc0099_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0099_d": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0099_e": [
+      "Bash (bash 5.3)"
+    ],
+    "awc0100_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0100_b": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0100_c": [
+      "AWK (GNU awk 5.2.1)",
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0100_d": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0100_e": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0100_f": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0100_g": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0100_h": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0100_i": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0100_j": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "awc0100_k": [
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0100_l": [
+      "C++23 (GCC 15.2.0)",
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "awc0100_m": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0100_n": [
+      "C++23 (GCC 15.2.0)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0100_o": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0101_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0101_b": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0101_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0101_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0101_e": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0102_a": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0102_b": [
+      "Octave (GNU Octave 10.2.0)",
+      "Perl (perl 5.38.2)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0102_c": [
+      "AWK (GNU awk 5.2.1)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0102_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0102_e": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0103_a": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0103_b": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0103_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0103_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0103_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0104_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0104_b": [
+      "A言語 (interpreter af48a2a)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0104_c": [
+      "A言語 (interpreter af48a2a)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0104_d": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0104_e": [
+      "C++23 (GCC 15.2.0)",
+      "Octave (GNU Octave 10.2.0)",
+      "Python (CPython 3.13.7)",
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0105_a": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0105_b": [
+      "APL (GNU APL 1.9)",
+      "Octave (GNU Octave 10.2.0)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0105_c": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0105_d": [
+      "A言語 (interpreter af48a2a)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0105_e": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "awc0106_a": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0106_b": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0106_c": [
+      "AWK (GNU awk 5.2.1)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0106_d": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0106_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0107_a": [
+      "APL (GNU APL 1.9)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0107_b": [
+      "A言語 (interpreter af48a2a)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0107_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0107_d": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0107_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0108_a": [
+      "Octave (GNU Octave 10.2.0)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0108_b": [
+      "AWK (GNU awk 5.2.1)",
+      "Bash (bash 5.3)"
+    ],
+    "awc0108_c": [
+      "AWK (GNU awk 5.2.1)",
+      "Octave (GNU Octave 10.2.0)"
+    ],
+    "awc0108_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0109_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0109_b": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0109_c": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0109_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0109_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0110_a": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0110_b": [
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0110_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0110_d": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0110_e": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0111_a": [
+      "Ruby 3.4 (ruby 3.4.5)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0111_b": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0111_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0111_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0111_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0112_a": [
+      "AWK (GNU awk 5.2.1)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0112_b": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0112_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0112_d": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0112_e": [
+      "Perl (perl 5.38.2)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0113_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0113_b": [
+      "Perl (perl 5.38.2)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0113_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0113_d": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0113_e": [
+      "C++23 (GCC 15.2.0)",
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "awc0114_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0114_b": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0114_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0114_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0114_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0115_a": [
+      "APL (GNU APL 1.9)",
+      "Ruby 3.4 (ruby 3.4.5)",
+      "Uiua (uiua 0.16.2)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0115_b": [
+      "APL (GNU APL 1.9)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0115_c": [
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0115_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0115_e": [
+      "APL (GNU APL 1.9)",
+      "Perl (perl 5.38.2)",
+      "Python (PyPy 3.11-v7.3.20)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0116_a": [
+      "A言語 (interpreter af48a2a)",
+      "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
+    "awc0116_b": [
+      "A言語 (interpreter af48a2a)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0116_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0116_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0116_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0117_a": [
+      "Octave (GNU Octave 10.2.0)",
+      "R (GNU R 4.5.0)"
+    ],
+    "awc0117_b": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0117_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0117_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0117_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0118_a": [
+      "AWK (GNU awk 5.2.1)",
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0118_b": [
+      "R (GNU R 4.5.0)",
+      "Ruby 3.3 (truffleruby 25.0.0)"
+    ],
+    "awc0118_c": [
+      "Ruby 3.3 (truffleruby 25.0.0)"
+    ],
+    "awc0118_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "awc0118_e": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0119_a": [
+      "Ruby 3.4 (ruby 3.4.5)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0119_b": [
+      "APL (GNU APL 1.9)",
+      "A言語 (interpreter af48a2a)",
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0119_c": [
+      "APL (GNU APL 1.9)",
+      "Perl (perl 5.38.2)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0119_d": [
+      "APL (GNU APL 1.9)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0119_e": [
+      "AWK (GNU awk 5.2.1)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0120_a": [
+      "AWK (GNU awk 5.2.1)",
+      "Uiua (uiua 0.16.2)"
+    ],
+    "awc0120_b": [
+      "R (GNU R 4.5.0)"
+    ],
+    "awc0120_c": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0120_d": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ],
+    "awc0120_e": [
+      "C++23 (GCC 15.2.0)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0121_a": [
+      "AWK (GNU awk 5.2.1)"
+    ],
+    "awc0121_b": [
+      "APL (GNU APL 1.9)",
+      "A言語 (interpreter af48a2a)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0121_c": [
+      "Ruby 3.4 (ruby 3.4.5)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "awc0121_d": [
+      "APL (GNU APL 1.9)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0121_e": [
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0122_a": [
+      "AWK (GNU awk 5.2.1)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0122_b": [
+      "APL (GNU APL 1.9)",
+      "A言語 (interpreter af48a2a)"
+    ],
+    "awc0122_c": [
+      "C++23 (GCC 15.2.0)",
+      "Perl (perl 5.38.2)"
+    ],
+    "awc0122_d": [
+      "C++23 (GCC 15.2.0)",
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0122_e": [
+      "Perl (perl 5.38.2)",
+      "Python (PyPy 3.11-v7.3.20)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "codefestival_2016_qualB_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "codequeen2025_final_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "codequeen2025_final_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_d": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_f": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_h": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_i": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_j": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_k": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_l": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_m": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_n": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_o": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_p": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "dp_q": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_r": [
+      "C++ 20 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_s": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_t": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_u": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "dp_v": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_y": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "dp_z": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "fft_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "fps_24_a": [
+      "C++ 23 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "fps_24_b": [
+      "C++23 (GCC 15.2.0)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "fps_24_c": [
+      "C++ 23 (gcc 12.2)",
+      "C++23 (GCC 15.2.0)"
+    ],
+    "fps_24_f": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "gigacode_2019_a": [
+      "dc (dc 1.07.1)"
+    ],
+    "iroha2019_day3_j": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)",
+      "Text (cat 8.32)",
+      "Text (cat 9.4)"
+    ],
+    "iroha2019_day3_k": [
+      "Text (cat 8.32)"
+    ],
+    "joi2007ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007ho_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007yo_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "joi2007yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2007yo_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008ho_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2008yo_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009ho_c": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2009ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009ho_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2009yo_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2010yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011ho1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011ho2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011ho3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011ho4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011ho5": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2011yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012ho1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012ho2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012ho3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012ho4": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2012yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013ho1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013ho2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013ho3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2013yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014ho1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014ho2": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014ho3": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2014yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2015yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2016yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2017yo_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018_yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018_yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018_yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018_yo_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018_yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2018ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019_yo_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019_yo_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019_yo_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019_yo_d": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2019_yo_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2019ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1a_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1a_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1a_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1b_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1c_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo2_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo2_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020_yo2_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2020ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2020ho_b": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2021_yo1a_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "joi2021_yo1a_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1a_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1b_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1c_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo2_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2021_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo2_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2021_yo2_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joi2021ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1a_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1a_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1a_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1a_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1b_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "joi2022_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1b_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1c_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo1c_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo2_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo2_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022_yo2_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2022ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1a_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1a_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1a_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1a_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1b_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1b_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1c_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo1c_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo2_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo2_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023_yo2_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2023ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1a_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1a_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1a_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1a_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1b_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1b_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1c_b": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "joi2024_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo1c_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo2_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo2_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024_yo2_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024ho_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024ho_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2024ho_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1a_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1a_b": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "joi2025_yo1a_c": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "joi2025_yo1a_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1b_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1b_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1b_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1b_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1c_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1c_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1c_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo1c_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo2_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo2_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025_yo2_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025ho_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joi2025ho_b": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joig2021_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2021_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2021_c": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joig2021_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2021_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2022_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2022_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2022_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2022_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2022_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2023_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2023_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2023_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2023_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2024_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2024_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2024_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2024_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2025_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (Clang 16.0.6)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joig2025_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2025_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2025_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joig2025_e": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joigsc2022_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsc2022_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsc2022_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsp2023_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsp2024_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsp2024_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joigsp2025_a": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joigsp2025_e": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joigsp2025_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joigsp2025_i": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joisc2007_anagra": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_buildi": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_factor": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_fermat": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_fiber": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_mall": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_route": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2007_score": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_cheating": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_committee": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_flu": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_fraction": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_nile": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_origami": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_sheet": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2008_typhoon": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2009_abduction": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2009_advertisement": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2009_distribution": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2009_pyramid": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2009_sequence": [
+      "C++ 20 (gcc 12.2)",
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joisc2010_aplusb": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_contest": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_dna": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_finals": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_poster": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_sengoku": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2010_stairs": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2011_banner": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2011_bookshelf": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2011_deciphering": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2011_ioi": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2011_joitter": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2012_joi_flag": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2013_bustour": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2013_joi_poster": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2014_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2014_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2014_h": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2014_m": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2015_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2015_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "joisc2016_k": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "joisc2016_l": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "m_solutions2020_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "math_and_algorithm_ai": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "ndpc2026_e": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ndpc2026_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ndpc2026_i": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ndpc2026_l": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "ndpc2026_m": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "pakencamp_2021_day2_a": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "pakencamp_2021_day2_b": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "pakencamp_2023_day2_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "pakencamp_2024_day1_a": [
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "panasonic2020_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "practice2_a": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "practice2_b": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "practice2_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "practice_1": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "stpc2025_1_f": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "stpc2025_2_a": [
+      "C++ 23 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "stpc2025_2_d": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "sumitb2019_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tdpc_contest": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "tdpc_fibonacci": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "tdpc_grid": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "tdpc_house": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "tdpc_lexicographical": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "tessoku_book_a": [
+      "C++ 20 (gcc 12.2)",
+      "Nibbles (literate form) (nibbles 1.01)"
+    ],
+    "tessoku_book_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_bf": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_bg": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_bp": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_eo": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_h": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_i": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_j": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_k": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "tessoku_book_l": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_aa": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_ac": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_af": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_ag": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_al": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_an": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_b": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_bc": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_bi": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_bo": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_bz": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_c": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_d": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_e": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_f": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_g": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_h": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_i": [
+      "C++ 23 (gcc 12.2)"
+    ],
+    "typical90_j": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_k": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_l": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_n": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_p": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_v": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "typical90_x": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "unionfind_a": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "utpc2024_a": [
+      "C++ 20 (gcc 12.2)",
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "utpc2024_m": [
+      "C++ 20 (gcc 12.2)"
+    ],
+    "utpc2024_q": [
+      "Python (PyPy 3.10-v7.3.12)"
+    ],
+    "wtf19_a": [
+      "C++ 20 (gcc 12.2)",
+      "Text (cat 8.32)"
+    ],
+    "xmascon25_b": [
+      "Python (PyPy 3.11-v7.3.20)"
+    ]
+  },
   "target_user": "mackerel38",
-  "version": 1
+  "update_keys": [],
+  "updates": [],
+  "version": 2
 }
