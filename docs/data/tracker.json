@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785415724,
-  "generated_iso": "2026-07-30T12:48:44+00:00",
+  "generated_epoch": 1785424573,
+  "generated_iso": "2026-07-30T15:16:13+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -45,9 +45,9 @@
       "first_acquired_epoch": 1785413742,
       "last_acquired_epoch": 1785413742,
       "problem_id": "awc0124_b",
-      "problem_index": "",
-      "problem_name": "awc0124_b",
-      "problem_title": "awc0124_b",
+      "problem_index": "B",
+      "problem_name": "Selection of Regular Members",
+      "problem_title": "B. Selection of Regular Members",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_b",
       "status": "holding",
       "target_epoch_second": 1785413742,
@@ -67,9 +67,9 @@
       "first_acquired_epoch": 1785413596,
       "last_acquired_epoch": 1785413596,
       "problem_id": "awc0124_d",
-      "problem_index": "",
-      "problem_name": "awc0124_d",
-      "problem_title": "awc0124_d",
+      "problem_index": "D",
+      "problem_name": "Adventurer's Equipment Selection",
+      "problem_title": "D. Adventurer's Equipment Selection",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_d",
       "status": "holding",
       "target_epoch_second": 1785413596,
@@ -89,9 +89,9 @@
       "first_acquired_epoch": 1785412366,
       "last_acquired_epoch": 1785412366,
       "problem_id": "awc0124_e",
-      "problem_index": "",
-      "problem_name": "awc0124_e",
-      "problem_title": "awc0124_e",
+      "problem_index": "E",
+      "problem_name": "Stepping Stones Path",
+      "problem_title": "E. Stepping Stones Path",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_e",
       "status": "holding",
       "target_epoch_second": 1785414546,
@@ -111,9 +111,9 @@
       "first_acquired_epoch": 1785410540,
       "last_acquired_epoch": 1785410540,
       "problem_id": "awc0124_c",
-      "problem_index": "",
-      "problem_name": "awc0124_c",
-      "problem_title": "awc0124_c",
+      "problem_index": "C",
+      "problem_name": "Fair Shift Assignment",
+      "problem_title": "C. Fair Shift Assignment",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_c",
       "status": "holding",
       "target_epoch_second": 1785412548,
@@ -133,9 +133,9 @@
       "first_acquired_epoch": 1785410266,
       "last_acquired_epoch": 1785410266,
       "problem_id": "awc0124_a",
-      "problem_index": "",
-      "problem_name": "awc0124_a",
-      "problem_title": "awc0124_a",
+      "problem_index": "A",
+      "problem_name": "Record of Consecutive Wins",
+      "problem_title": "A. Record of Consecutive Wins",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_a",
       "status": "holding",
       "target_epoch_second": 1785410266,
@@ -3379,7 +3379,7 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-07-30",
+  "recommendation_day": "2026-07-31",
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
@@ -3412,7 +3412,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0124_e",
-      "problem_name": "awc0124_e",
+      "problem_name": "Stepping Stones Path",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_e"
     },
     {
@@ -3435,7 +3435,7 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0124_b",
-      "problem_name": "awc0124_b",
+      "problem_name": "Selection of Regular Members",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_b"
     },
     {
@@ -3458,7 +3458,7 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0124_d",
-      "problem_name": "awc0124_d",
+      "problem_name": "Adventurer's Equipment Selection",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_d"
     },
     {
@@ -3481,7 +3481,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0124_c",
-      "problem_name": "awc0124_c",
+      "problem_name": "Fair Shift Assignment",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_c"
     },
     {
@@ -3504,7 +3504,7 @@
         "user_id": "kidodesuyo"
       },
       "problem_id": "awc0124_e",
-      "problem_name": "awc0124_e",
+      "problem_name": "Stepping Stones Path",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_e"
     },
     {
@@ -3527,7 +3527,7 @@
         "user_id": "Tamiji"
       },
       "problem_id": "awc0124_c",
-      "problem_name": "awc0124_c",
+      "problem_name": "Fair Shift Assignment",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_c"
     },
     {
@@ -3550,7 +3550,7 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0124_a",
-      "problem_name": "awc0124_a",
+      "problem_name": "Record of Consecutive Wins",
       "problem_url": "https://atcoder.jp/contests/awc0124/tasks/awc0124_a"
     },
     {
