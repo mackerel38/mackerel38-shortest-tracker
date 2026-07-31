@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785491373,
-  "generated_iso": "2026-07-31T09:49:33+00:00",
+  "generated_epoch": 1785499492,
+  "generated_iso": "2026-07-31T12:04:52+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,160 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785498553,
+      "current_language": "Bash (bash 5.3)",
+      "current_length": 119,
+      "current_submission_id": 77975829,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975829",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785498553,
+      "last_acquired_epoch": 1785498553,
+      "problem_id": "awc0125_d",
+      "problem_index": "",
+      "problem_name": "awc0125_d",
+      "problem_title": "awc0125_d",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_d",
+      "status": "holding",
+      "target_epoch_second": 1785498553,
+      "target_language": "Bash (bash 5.3)",
+      "target_length": 119,
+      "target_submission_id": 77975829,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975829"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785497996,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 63,
+      "current_submission_id": 77975575,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785497996,
+      "last_acquired_epoch": 1785497996,
+      "problem_id": "awc0125_a",
+      "problem_index": "",
+      "problem_name": "awc0125_a",
+      "problem_title": "awc0125_a",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a",
+      "status": "holding",
+      "target_epoch_second": 1785497996,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 63,
+      "target_submission_id": 77975575,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785497717,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 56,
+      "current_submission_id": 77975448,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785497717,
+      "last_acquired_epoch": 1785497717,
+      "problem_id": "awc0125_b",
+      "problem_index": "",
+      "problem_name": "awc0125_b",
+      "problem_title": "awc0125_b",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b",
+      "status": "holding",
+      "target_epoch_second": 1785497717,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 56,
+      "target_submission_id": 77975448,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785499081,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 47,
+      "current_submission_id": 77976056,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77976056",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785497497,
+      "last_acquired_epoch": 1785497497,
+      "problem_id": "awc0125_c",
+      "problem_index": "",
+      "problem_name": "awc0125_c",
+      "problem_title": "awc0125_c",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c",
+      "status": "holding",
+      "target_epoch_second": 1785499081,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 47,
+      "target_submission_id": 77976056,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77976056"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785496893,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 158,
+      "current_submission_id": 77975048,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785496893,
+      "last_acquired_epoch": 1785496893,
+      "problem_id": "awc0125_e",
+      "problem_index": "",
+      "problem_name": "awc0125_e",
+      "problem_title": "awc0125_e",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e",
+      "status": "holding",
+      "target_epoch_second": 1785496893,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 158,
+      "target_submission_id": 77975048,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785491723,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 195,
+      "current_submission_id": 77973419,
+      "current_submission_url": "https://atcoder.jp/contests/awc0059/submissions/77973419",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785491723,
+      "last_acquired_epoch": 1785491723,
+      "problem_id": "awc0059_b",
+      "problem_index": "B",
+      "problem_name": "Scholarship Selection",
+      "problem_title": "B. Scholarship Selection",
+      "problem_url": "https://atcoder.jp/contests/awc0059/tasks/awc0059_b",
+      "status": "holding",
+      "target_epoch_second": 1785491723,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 195,
+      "target_submission_id": 77973419,
+      "target_submission_url": "https://atcoder.jp/contests/awc0059/submissions/77973419"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785491497,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 238,
+      "current_submission_id": 77973373,
+      "current_submission_url": "https://atcoder.jp/contests/awc0035/submissions/77973373",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785491497,
+      "last_acquired_epoch": 1785491497,
+      "problem_id": "awc0035_c",
+      "problem_index": "C",
+      "problem_name": "Chain Blackout",
+      "problem_title": "C. Chain Blackout",
+      "problem_url": "https://atcoder.jp/contests/awc0035/tasks/awc0035_c",
+      "status": "holding",
+      "target_epoch_second": 1785491497,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 238,
+      "target_submission_id": 77973373,
+      "target_submission_url": "https://atcoder.jp/contests/awc0035/submissions/77973373"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785489275,
@@ -3625,15 +3779,199 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 163,
-    "holding_count": 162,
+    "ever_held_count": 170,
+    "holding_count": 169,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 32,
+    "update_log_count": 40,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785499081,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 47,
+        "submission_id": 77976056,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77976056",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497497,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 55,
+        "submission_id": 77975339,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975339",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0125_c",
+      "problem_name": "awc0125_c",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785498553,
+        "language": "Bash (bash 5.3)",
+        "length": 119,
+        "submission_id": 77975829,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975829",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497565,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 269,
+        "submission_id": 77975377,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975377",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0125_d",
+      "problem_name": "awc0125_d",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497996,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 63,
+        "submission_id": 77975575,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785495875,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 79,
+        "submission_id": 77974425,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77974425",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0125_a",
+      "problem_name": "awc0125_a",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497717,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 56,
+        "submission_id": 77975448,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497091,
+        "language": "Python (CPython 3.13.7)",
+        "length": 118,
+        "submission_id": 77975145,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975145",
+        "user_id": "katsumata68"
+      },
+      "problem_id": "awc0125_b",
+      "problem_name": "awc0125_b",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497497,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 55,
+        "submission_id": 77975339,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975339",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497194,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 121,
+        "submission_id": 77975194,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975194",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0125_c",
+      "problem_name": "awc0125_c",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785496893,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 158,
+        "submission_id": 77975048,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785496848,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 525,
+        "submission_id": 77975017,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975017",
+        "user_id": "kidodesuyo"
+      },
+      "problem_id": "awc0125_e",
+      "problem_name": "awc0125_e",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0059",
+        "epoch_second": 1785491723,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 195,
+        "submission_id": 77973419,
+        "submission_url": "https://atcoder.jp/contests/awc0059/submissions/77973419",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0059",
+        "epoch_second": null,
+        "language": null,
+        "length": 248,
+        "submission_id": 75370403,
+        "submission_url": "https://atcoder.jp/contests/awc0059/submissions/75370403",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0059_b",
+      "problem_name": "Scholarship Selection",
+      "problem_url": "https://atcoder.jp/contests/awc0059/tasks/awc0059_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0035",
+        "epoch_second": 1785491497,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 238,
+        "submission_id": 77973373,
+        "submission_url": "https://atcoder.jp/contests/awc0035/submissions/77973373",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0035",
+        "epoch_second": null,
+        "language": null,
+        "length": 292,
+        "submission_id": 74436931,
+        "submission_url": "https://atcoder.jp/contests/awc0035/submissions/74436931",
+        "user_id": "ds14050"
+      },
+      "problem_id": "awc0035_c",
+      "problem_name": "Chain Blackout",
+      "problem_url": "https://atcoder.jp/contests/awc0035/tasks/awc0035_c"
+    },
     {
       "after": {
         "contest_id": "awc0034",
