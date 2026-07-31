@@ -39010,11 +39010,11 @@
     },
     "awc0055_c": {
       "contest_id": "awc0055",
-      "epoch_second": null,
-      "language": null,
-      "length": 148,
-      "submission_id": 75205257,
-      "user_id": "miztom"
+      "epoch_second": 1785501789,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 98,
+      "submission_id": 77976985,
+      "user_id": "mackerel38"
     },
     "awc0055_d": {
       "contest_id": "awc0055",
@@ -74056,6 +74056,16 @@
       "target_length": 102,
       "target_submission_id": 77969459
     },
+    "awc0055_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785501789,
+      "last_acquired_epoch": 1785501789,
+      "target_contest_id": "awc0055",
+      "target_epoch_second": 1785501789,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 98,
+      "target_submission_id": 77976985
+    },
     "awc0056_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785481849,
@@ -75448,7 +75458,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785499492,
+  "last_checked_epoch": 1785508664,
   "recommendation_day": "2026-07-31",
   "recommendations": [],
   "submission_details": {
@@ -75963,6 +75973,10 @@
     "77976056": {
       "epoch_second": 1785499081,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "77976985": {
+      "epoch_second": 1785501789,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
@@ -78910,6 +78924,9 @@
     "awc0050_c": [
       "AWK (GNU awk 5.2.1)"
     ],
+    "awc0055_c": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
     "awc0056_c": [
       "AWK (GNU awk 5.2.1)"
     ],
@@ -80701,6 +80718,7 @@
     "awc0034_c:77972736",
     "awc0035_c:77973373",
     "awc0050_c:77969459",
+    "awc0055_c:77976985",
     "awc0056_c:77969896",
     "awc0059_b:77973419",
     "awc0070_a:77969220",
@@ -81496,6 +81514,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0125_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0055",
+        "epoch_second": 1785501789,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 98,
+        "submission_id": 77976985,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0055",
+        "epoch_second": null,
+        "language": null,
+        "length": 148,
+        "submission_id": 75205257,
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0055_c"
     }
   ],
   "version": 2

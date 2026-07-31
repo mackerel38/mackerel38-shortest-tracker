@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785499492,
-  "generated_iso": "2026-07-31T12:04:52+00:00",
+  "generated_epoch": 1785508664,
+  "generated_iso": "2026-07-31T14:37:44+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785501789,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 98,
+      "current_submission_id": 77976985,
+      "current_submission_url": "https://atcoder.jp/contests/awc0055/submissions/77976985",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785501789,
+      "last_acquired_epoch": 1785501789,
+      "problem_id": "awc0055_c",
+      "problem_index": "C",
+      "problem_name": "Loading Cargo",
+      "problem_title": "C. Loading Cargo",
+      "problem_url": "https://atcoder.jp/contests/awc0055/tasks/awc0055_c",
+      "status": "holding",
+      "target_epoch_second": 1785501789,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 98,
+      "target_submission_id": 77976985,
+      "target_submission_url": "https://atcoder.jp/contests/awc0055/submissions/77976985"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785498553,
@@ -45,9 +67,9 @@
       "first_acquired_epoch": 1785498553,
       "last_acquired_epoch": 1785498553,
       "problem_id": "awc0125_d",
-      "problem_index": "",
-      "problem_name": "awc0125_d",
-      "problem_title": "awc0125_d",
+      "problem_index": "D",
+      "problem_name": "Fruit Selection",
+      "problem_title": "D. Fruit Selection",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_d",
       "status": "holding",
       "target_epoch_second": 1785498553,
@@ -67,9 +89,9 @@
       "first_acquired_epoch": 1785497996,
       "last_acquired_epoch": 1785497996,
       "problem_id": "awc0125_a",
-      "problem_index": "",
-      "problem_name": "awc0125_a",
-      "problem_title": "awc0125_a",
+      "problem_index": "A",
+      "problem_name": "Warehouse Package Inspection",
+      "problem_title": "A. Warehouse Package Inspection",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a",
       "status": "holding",
       "target_epoch_second": 1785497996,
@@ -89,9 +111,9 @@
       "first_acquired_epoch": 1785497717,
       "last_acquired_epoch": 1785497717,
       "problem_id": "awc0125_b",
-      "problem_index": "",
-      "problem_name": "awc0125_b",
-      "problem_title": "awc0125_b",
+      "problem_index": "B",
+      "problem_name": "Defense of the Flower Bed",
+      "problem_title": "B. Defense of the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b",
       "status": "holding",
       "target_epoch_second": 1785497717,
@@ -111,9 +133,9 @@
       "first_acquired_epoch": 1785497497,
       "last_acquired_epoch": 1785497497,
       "problem_id": "awc0125_c",
-      "problem_index": "",
-      "problem_name": "awc0125_c",
-      "problem_title": "awc0125_c",
+      "problem_index": "C",
+      "problem_name": "Gear Synchronization",
+      "problem_title": "C. Gear Synchronization",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c",
       "status": "holding",
       "target_epoch_second": 1785499081,
@@ -133,9 +155,9 @@
       "first_acquired_epoch": 1785496893,
       "last_acquired_epoch": 1785496893,
       "problem_id": "awc0125_e",
-      "problem_index": "",
-      "problem_name": "awc0125_e",
-      "problem_title": "awc0125_e",
+      "problem_index": "E",
+      "problem_name": "Switching Communication Modes",
+      "problem_title": "E. Switching Communication Modes",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e",
       "status": "holding",
       "target_epoch_second": 1785496893,
@@ -3779,15 +3801,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 170,
-    "holding_count": 169,
+    "ever_held_count": 171,
+    "holding_count": 170,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 40,
+    "update_log_count": 41,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0055",
+        "epoch_second": 1785501789,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 98,
+        "submission_id": 77976985,
+        "submission_url": "https://atcoder.jp/contests/awc0055/submissions/77976985",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0055",
+        "epoch_second": null,
+        "language": null,
+        "length": 148,
+        "submission_id": 75205257,
+        "submission_url": "https://atcoder.jp/contests/awc0055/submissions/75205257",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0055_c",
+      "problem_name": "Loading Cargo",
+      "problem_url": "https://atcoder.jp/contests/awc0055/tasks/awc0055_c"
+    },
     {
       "after": {
         "contest_id": "awc0125",
@@ -3808,7 +3853,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0125_c",
-      "problem_name": "awc0125_c",
+      "problem_name": "Gear Synchronization",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c"
     },
     {
@@ -3831,7 +3876,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0125_d",
-      "problem_name": "awc0125_d",
+      "problem_name": "Fruit Selection",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_d"
     },
     {
@@ -3854,7 +3899,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0125_a",
-      "problem_name": "awc0125_a",
+      "problem_name": "Warehouse Package Inspection",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a"
     },
     {
@@ -3877,7 +3922,7 @@
         "user_id": "katsumata68"
       },
       "problem_id": "awc0125_b",
-      "problem_name": "awc0125_b",
+      "problem_name": "Defense of the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b"
     },
     {
@@ -3900,7 +3945,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0125_c",
-      "problem_name": "awc0125_c",
+      "problem_name": "Gear Synchronization",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_c"
     },
     {
@@ -3923,7 +3968,7 @@
         "user_id": "kidodesuyo"
       },
       "problem_id": "awc0125_e",
-      "problem_name": "awc0125_e",
+      "problem_name": "Switching Communication Modes",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e"
     },
     {
