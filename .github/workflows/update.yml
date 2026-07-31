@@ -10,6 +10,7 @@ on:
     paths-ignore:
       - "state/tracker-state.json"
       - "docs/data/tracker.json"
+      - "docs/data/all-shortest.json"
 
 permissions:
   contents: write
@@ -55,6 +56,9 @@ jobs:
       - name: Update tracker data
         run: python scripts/update_tracker.py
 
+      - name: Update all shortest index
+        run: python scripts/update_all_shortest.py
+
       - name: Preserve runtime state
         shell: bash
         run: |
@@ -64,7 +68,7 @@ jobs:
         id: changes
         shell: bash
         run: |
-          if [[ -n "$(git status --porcelain -- docs/data/tracker.json)" ]]; then
+          if [[ -n "$(git status --porcelain -- docs/data/tracker.json docs/data/all-shortest.json)" ]]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -82,7 +86,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/tracker-state.json docs/data/tracker.json
+          git add state/tracker-state.json docs/data/tracker.json docs/data/all-shortest.json
           git commit -m "Update shortest tracker data"
           git push
 
