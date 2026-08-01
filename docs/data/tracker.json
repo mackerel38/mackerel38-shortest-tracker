@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785527691,
-  "generated_iso": "2026-07-31T19:54:51+00:00",
+  "generated_epoch": 1785547012,
+  "generated_iso": "2026-08-01T01:16:52+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785542207,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 190,
+      "current_submission_id": 77982525,
+      "current_submission_url": "https://atcoder.jp/contests/awc0024/submissions/77982525",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785542207,
+      "last_acquired_epoch": 1785542207,
+      "problem_id": "awc0024_c",
+      "problem_index": "C",
+      "problem_name": "Unique Seats",
+      "problem_title": "C. Unique Seats",
+      "problem_url": "https://atcoder.jp/contests/awc0024/tasks/awc0024_c",
+      "status": "holding",
+      "target_epoch_second": 1785542207,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 190,
+      "target_submission_id": 77982525,
+      "target_submission_url": "https://atcoder.jp/contests/awc0024/submissions/77982525"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785521504,
@@ -3823,15 +3845,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 172,
-    "holding_count": 171,
+    "ever_held_count": 173,
+    "holding_count": 172,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 42,
+    "update_log_count": 43,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0024",
+        "epoch_second": 1785542207,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 190,
+        "submission_id": 77982525,
+        "submission_url": "https://atcoder.jp/contests/awc0024/submissions/77982525",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0024",
+        "epoch_second": null,
+        "language": null,
+        "length": 217,
+        "submission_id": 74033718,
+        "submission_url": "https://atcoder.jp/contests/awc0024/submissions/74033718",
+        "user_id": "ds14050"
+      },
+      "problem_id": "awc0024_c",
+      "problem_name": "Unique Seats",
+      "problem_url": "https://atcoder.jp/contests/awc0024/tasks/awc0024_c"
+    },
     {
       "after": {
         "contest_id": "awc0035",
