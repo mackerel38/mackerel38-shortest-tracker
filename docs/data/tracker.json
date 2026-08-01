@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785547012,
-  "generated_iso": "2026-08-01T01:16:52+00:00",
+  "generated_epoch": 1785569591,
+  "generated_iso": "2026-08-01T07:33:11+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785569373,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 123,
+      "current_submission_id": 77989822,
+      "current_submission_url": "https://atcoder.jp/contests/awc0009/submissions/77989822",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785569373,
+      "last_acquired_epoch": 1785569373,
+      "problem_id": "awc0009_d",
+      "problem_index": "D",
+      "problem_name": "Planting Flower Seeds",
+      "problem_title": "D. Planting Flower Seeds",
+      "problem_url": "https://atcoder.jp/contests/awc0009/tasks/awc0009_d",
+      "status": "holding",
+      "target_epoch_second": 1785569373,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 123,
+      "target_submission_id": 77989822,
+      "target_submission_url": "https://atcoder.jp/contests/awc0009/submissions/77989822"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785565325,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 154,
+      "current_submission_id": 77988473,
+      "current_submission_url": "https://atcoder.jp/contests/awc0085/submissions/77988473",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785565325,
+      "last_acquired_epoch": 1785565325,
+      "problem_id": "awc0085_c",
+      "problem_index": "C",
+      "problem_name": "Shopping Plan",
+      "problem_title": "C. Shopping Plan",
+      "problem_url": "https://atcoder.jp/contests/awc0085/tasks/awc0085_c",
+      "status": "holding",
+      "target_epoch_second": 1785565325,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 154,
+      "target_submission_id": 77988473,
+      "target_submission_url": "https://atcoder.jp/contests/awc0085/submissions/77988473"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785542207,
@@ -3845,15 +3889,61 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 173,
-    "holding_count": 172,
+    "ever_held_count": 175,
+    "holding_count": 174,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 43,
+    "update_log_count": 45,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0009",
+        "epoch_second": 1785569373,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 123,
+        "submission_id": 77989822,
+        "submission_url": "https://atcoder.jp/contests/awc0009/submissions/77989822",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0009",
+        "epoch_second": null,
+        "language": null,
+        "length": 135,
+        "submission_id": 73428551,
+        "submission_url": "https://atcoder.jp/contests/awc0009/submissions/73428551",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0009_d",
+      "problem_name": "Planting Flower Seeds",
+      "problem_url": "https://atcoder.jp/contests/awc0009/tasks/awc0009_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0085",
+        "epoch_second": 1785565325,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 154,
+        "submission_id": 77988473,
+        "submission_url": "https://atcoder.jp/contests/awc0085/submissions/77988473",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0085",
+        "epoch_second": null,
+        "language": null,
+        "length": 169,
+        "submission_id": 77306023,
+        "submission_url": "https://atcoder.jp/contests/awc0085/submissions/77306023",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0085_c",
+      "problem_name": "Shopping Plan",
+      "problem_url": "https://atcoder.jp/contests/awc0085/tasks/awc0085_c"
+    },
     {
       "after": {
         "contest_id": "awc0024",
