@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785598126,
-  "generated_iso": "2026-08-01T15:28:46+00:00",
+  "generated_epoch": 1785601937,
+  "generated_iso": "2026-08-01T16:32:17+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785600495,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 23,
+      "current_submission_id": 78058470,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78058470",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785600495,
+      "last_acquired_epoch": 1785600495,
+      "problem_id": "abc469_b",
+      "problem_index": "B",
+      "problem_name": "Isolated Seats",
+      "problem_title": "B. Isolated Seats",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_b",
+      "status": "holding",
+      "target_epoch_second": 1785600495,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 23,
+      "target_submission_id": 78058470,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78058470"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785582078,
@@ -4021,15 +4043,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 181,
-    "holding_count": 180,
+    "ever_held_count": 182,
+    "holding_count": 181,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 54,
+    "update_log_count": 55,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785600495,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 23,
+        "submission_id": 78058470,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78058470",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785597862,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 27,
+        "submission_id": 78057754,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78057754",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc469_b",
+      "problem_name": "Isolated Seats",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_b"
+    },
     {
       "after": {
         "contest_id": "codequeen2026-final-Public",
