@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785569591,
-  "generated_iso": "2026-08-01T07:33:11+00:00",
+  "generated_epoch": 1785577489,
+  "generated_iso": "2026-08-01T09:44:49+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785575657,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 170,
+      "current_submission_id": 77992027,
+      "current_submission_url": "https://atcoder.jp/contests/awc0001/submissions/77992027",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785575657,
+      "last_acquired_epoch": 1785575657,
+      "problem_id": "awc0001_d",
+      "problem_index": "D",
+      "problem_name": "Merchant on the Highway",
+      "problem_title": "D. Merchant on the Highway",
+      "problem_url": "https://atcoder.jp/contests/awc0001/tasks/awc0001_d",
+      "status": "holding",
+      "target_epoch_second": 1785575657,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 170,
+      "target_submission_id": 77992027,
+      "target_submission_url": "https://atcoder.jp/contests/awc0001/submissions/77992027"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785575345,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 106,
+      "current_submission_id": 77991904,
+      "current_submission_url": "https://atcoder.jp/contests/awc0083/submissions/77991904",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785575345,
+      "last_acquired_epoch": 1785575345,
+      "problem_id": "awc0083_c",
+      "problem_index": "C",
+      "problem_name": "Laying Optical Fiber",
+      "problem_title": "C. Laying Optical Fiber",
+      "problem_url": "https://atcoder.jp/contests/awc0083/tasks/awc0083_c",
+      "status": "holding",
+      "target_epoch_second": 1785575345,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 106,
+      "target_submission_id": 77991904,
+      "target_submission_url": "https://atcoder.jp/contests/awc0083/submissions/77991904"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785573418,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 45,
+      "current_submission_id": 77991213,
+      "current_submission_url": "https://atcoder.jp/contests/awc0048/submissions/77991213",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785573418,
+      "last_acquired_epoch": 1785573418,
+      "problem_id": "awc0048_a",
+      "problem_index": "A",
+      "problem_name": "Flipping Switches",
+      "problem_title": "A. Flipping Switches",
+      "problem_url": "https://atcoder.jp/contests/awc0048/tasks/awc0048_a",
+      "status": "holding",
+      "target_epoch_second": 1785573418,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 45,
+      "target_submission_id": 77991213,
+      "target_submission_url": "https://atcoder.jp/contests/awc0048/submissions/77991213"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785569373,
@@ -3889,15 +3955,84 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 175,
-    "holding_count": 174,
+    "ever_held_count": 178,
+    "holding_count": 177,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 45,
+    "update_log_count": 48,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0001",
+        "epoch_second": 1785575657,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 170,
+        "submission_id": 77992027,
+        "submission_url": "https://atcoder.jp/contests/awc0001/submissions/77992027",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0001",
+        "epoch_second": null,
+        "language": null,
+        "length": 177,
+        "submission_id": 73169041,
+        "submission_url": "https://atcoder.jp/contests/awc0001/submissions/73169041",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0001_d",
+      "problem_name": "Merchant on the Highway",
+      "problem_url": "https://atcoder.jp/contests/awc0001/tasks/awc0001_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0083",
+        "epoch_second": 1785575345,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 106,
+        "submission_id": 77991904,
+        "submission_url": "https://atcoder.jp/contests/awc0083/submissions/77991904",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0083",
+        "epoch_second": null,
+        "language": null,
+        "length": 115,
+        "submission_id": 77128783,
+        "submission_url": "https://atcoder.jp/contests/awc0083/submissions/77128783",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0083_c",
+      "problem_name": "Laying Optical Fiber",
+      "problem_url": "https://atcoder.jp/contests/awc0083/tasks/awc0083_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0048",
+        "epoch_second": 1785573418,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 45,
+        "submission_id": 77991213,
+        "submission_url": "https://atcoder.jp/contests/awc0048/submissions/77991213",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0048",
+        "epoch_second": null,
+        "language": null,
+        "length": 54,
+        "submission_id": 74980197,
+        "submission_url": "https://atcoder.jp/contests/awc0048/submissions/74980197",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0048_a",
+      "problem_name": "Flipping Switches",
+      "problem_url": "https://atcoder.jp/contests/awc0048/tasks/awc0048_a"
+    },
     {
       "after": {
         "contest_id": "awc0009",
