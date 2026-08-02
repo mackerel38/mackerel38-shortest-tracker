@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785640249,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 41,
+        "submission_id": 78065132,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785606121,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 46,
+        "submission_id": 78059627,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78059627",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_c",
+      "problem_name": "Cantrip",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c"
+    },
+    {
+      "after": {
         "contest_id": "abc468",
         "epoch_second": 1785164457,
         "language": "A言語 (interpreter af48a2a)",
@@ -24,8 +47,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785609878,
-  "generated_iso": "2026-08-01T18:44:38+00:00",
+  "generated_epoch": 1785643526,
+  "generated_iso": "2026-08-02T04:05:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -36,12 +59,56 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785606121,
-      "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 46,
-      "current_submission_id": 78059627,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78059627",
+      "current_epoch_second": 1785638448,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 127,
+      "current_submission_id": 78064530,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78064530",
       "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785638448,
+      "last_acquired_epoch": 1785638448,
+      "problem_id": "abc469_e",
+      "problem_index": "E",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_title": "E. Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e",
+      "status": "holding",
+      "target_epoch_second": 1785638448,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 127,
+      "target_submission_id": 78064530,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78064530"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785632518,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 98,
+      "current_submission_id": 78062786,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78062786",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785632518,
+      "last_acquired_epoch": 1785632518,
+      "problem_id": "abc469_d",
+      "problem_index": "D",
+      "problem_name": "The Big Two",
+      "problem_title": "D. The Big Two",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_d",
+      "status": "holding",
+      "target_epoch_second": 1785632518,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 98,
+      "target_submission_id": 78062786,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78062786"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785640249,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 41,
+      "current_submission_id": 78065132,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1785606121,
       "last_acquired_epoch": 1785606121,
       "problem_id": "abc469_c",
@@ -49,7 +116,7 @@
       "problem_name": "Cantrip",
       "problem_title": "C. Cantrip",
       "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785606121,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 46,
@@ -4064,16 +4131,85 @@
   "recommendation_day": "2026-08-02",
   "recommendations": [],
   "summary": {
-    "active_update_count": 1,
-    "ever_held_count": 183,
-    "holding_count": 182,
-    "loss_event_count": 1,
-    "lost_count": 1,
-    "update_log_count": 56,
-    "updated_count": 1
+    "active_update_count": 2,
+    "ever_held_count": 185,
+    "holding_count": 183,
+    "loss_event_count": 2,
+    "lost_count": 2,
+    "update_log_count": 59,
+    "updated_count": 2
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785640249,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 41,
+        "submission_id": 78065132,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785606121,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 46,
+        "submission_id": 78059627,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78059627",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_c",
+      "problem_name": "Cantrip",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785638448,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 127,
+        "submission_id": 78064530,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78064530",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785609735,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 129,
+        "submission_id": 78060126,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78060126",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc469_e",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785632518,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 98,
+        "submission_id": 78062786,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78062786",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785607766,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 99,
+        "submission_id": 78059872,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78059872",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc469_d",
+      "problem_name": "The Big Two",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_d"
+    },
     {
       "after": {
         "contest_id": "abc469",

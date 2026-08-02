@@ -23234,27 +23234,27 @@
     },
     "abc469_c": {
       "contest_id": "abc469",
-      "epoch_second": 1785606121,
-      "language": "A言語 (interpreter af48a2a)",
-      "length": 46,
-      "submission_id": 78059627,
-      "user_id": "mackerel38"
+      "epoch_second": 1785640249,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 41,
+      "submission_id": 78065132,
+      "user_id": "Fleur"
     },
     "abc469_d": {
       "contest_id": "abc469",
-      "epoch_second": 1785607766,
+      "epoch_second": 1785632518,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 99,
-      "submission_id": 78059872,
-      "user_id": "Rssll_Krkgrd"
+      "length": 98,
+      "submission_id": 78062786,
+      "user_id": "mackerel38"
     },
     "abc469_e": {
       "contest_id": "abc469",
-      "epoch_second": 1785605421,
+      "epoch_second": 1785638448,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 130,
-      "submission_id": 78059506,
-      "user_id": "climpet"
+      "length": 127,
+      "submission_id": 78064530,
+      "user_id": "mackerel38"
     },
     "abc469_f": {
       "contest_id": "abc469",
@@ -23266,11 +23266,11 @@
     },
     "abc469_g": {
       "contest_id": "abc469",
-      "epoch_second": 1785592691,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1756,
-      "submission_id": 78054945,
-      "user_id": "frincher"
+      "epoch_second": 1785629709,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 1549,
+      "submission_id": 78062177,
+      "user_id": "iastm"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -44818,11 +44818,11 @@
     },
     "codequeen2026_h": {
       "contest_id": "codequeen2026-final-Public",
-      "epoch_second": 1785574537,
+      "epoch_second": 1785632438,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 4308,
-      "submission_id": 77991605,
-      "user_id": "kwm_t"
+      "length": 2205,
+      "submission_id": 78062759,
+      "user_id": "karinohito"
     },
     "colopl2018_final_a": {
       "contest_id": "colopl2018-final-open",
@@ -74134,6 +74134,26 @@
       "target_length": 46,
       "target_submission_id": 78059627
     },
+    "abc469_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785632518,
+      "last_acquired_epoch": 1785632518,
+      "target_contest_id": "abc469",
+      "target_epoch_second": 1785632518,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 98,
+      "target_submission_id": 78062786
+    },
+    "abc469_e": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785638448,
+      "last_acquired_epoch": 1785638448,
+      "target_contest_id": "abc469",
+      "target_epoch_second": 1785638448,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 127,
+      "target_submission_id": 78064530
+    },
     "arc148_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785231986,
@@ -75706,7 +75726,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785609878,
+  "last_checked_epoch": 1785643526,
   "recommendation_day": "2026-08-02",
   "recommendations": [],
   "submission_details": {
@@ -76673,6 +76693,30 @@
     "78059872": {
       "epoch_second": 1785607766,
       "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "78060126": {
+      "epoch_second": 1785609735,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "78062177": {
+      "epoch_second": 1785629709,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78062759": {
+      "epoch_second": 1785632438,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78062786": {
+      "epoch_second": 1785632518,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "78064530": {
+      "epoch_second": 1785638448,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "78065132": {
+      "epoch_second": 1785640249,
+      "language": "AWK (GNU awk 5.2.1)"
     }
   },
   "target_language_index_complete": true,
@@ -79023,6 +79067,9 @@
       "A言語 (interpreter af48a2a)"
     ],
     "abc469_d": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "abc469_e": [
       "Ruby 3.4 (ruby 3.4.5)"
     ],
     "abl_c": [
@@ -81450,6 +81497,9 @@
     "abc468_f:77939958",
     "abc469_b:78058470",
     "abc469_c:78059627",
+    "abc469_c:78065132",
+    "abc469_d:78062786",
+    "abc469_e:78064530",
     "awc0001_d:77992027",
     "awc0009_d:77989822",
     "awc0024_c:77982525",
@@ -82566,6 +82616,63 @@
         "length": 48,
         "submission_id": 78051716,
         "user_id": "shogo314"
+      },
+      "problem_id": "abc469_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785632518,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 98,
+        "submission_id": 78062786,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785607766,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 99,
+        "submission_id": 78059872,
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc469_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785638448,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 127,
+        "submission_id": 78064530,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785609735,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 129,
+        "submission_id": 78060126,
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc469_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785640249,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 41,
+        "submission_id": 78065132,
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785606121,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 46,
+        "submission_id": 78059627,
+        "user_id": "mackerel38"
       },
       "problem_id": "abc469_c"
     }
