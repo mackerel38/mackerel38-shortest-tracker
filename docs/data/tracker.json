@@ -47,8 +47,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785653202,
-  "generated_iso": "2026-08-02T06:46:42+00:00",
+  "generated_epoch": 1785662008,
+  "generated_iso": "2026-08-02T09:13:28+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -59,11 +59,11 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785643951,
-      "current_language": "Python (PyPy 3.11-v7.3.20)",
-      "current_length": 316,
-      "current_submission_id": 78066130,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130",
+      "current_epoch_second": 1785661156,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 112,
+      "current_submission_id": 78071858,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1785643951,
       "last_acquired_epoch": 1785643951,
@@ -73,11 +73,11 @@
       "problem_title": "F. GCD Maximum Spanning Tree",
       "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f",
       "status": "holding",
-      "target_epoch_second": 1785643951,
-      "target_language": "Python (PyPy 3.11-v7.3.20)",
-      "target_length": 316,
-      "target_submission_id": 78066130,
-      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130"
+      "target_epoch_second": 1785661156,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 112,
+      "target_submission_id": 78071858,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858"
     },
     {
       "acquisition_count": 1,
@@ -433,11 +433,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785497996,
-      "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 63,
-      "current_submission_id": 77975575,
-      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575",
+      "current_epoch_second": 1785658717,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 42,
+      "current_submission_id": 78070956,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070956",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1785497996,
       "last_acquired_epoch": 1785497996,
@@ -447,19 +447,19 @@
       "problem_title": "A. Warehouse Package Inspection",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a",
       "status": "holding",
-      "target_epoch_second": 1785497996,
-      "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 63,
-      "target_submission_id": 77975575,
-      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575"
+      "target_epoch_second": 1785658717,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 42,
+      "target_submission_id": 78070956,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070956"
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785497717,
+      "current_epoch_second": 1785658543,
       "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 56,
-      "current_submission_id": 77975448,
-      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448",
+      "current_length": 44,
+      "current_submission_id": 78070896,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070896",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1785497717,
       "last_acquired_epoch": 1785497717,
@@ -469,11 +469,11 @@
       "problem_title": "B. Defense of the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b",
       "status": "holding",
-      "target_epoch_second": 1785497717,
+      "target_epoch_second": 1785658543,
       "target_language": "A言語 (interpreter af48a2a)",
-      "target_length": 56,
-      "target_submission_id": 77975448,
-      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448"
+      "target_length": 44,
+      "target_submission_id": 78070896,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070896"
     },
     {
       "acquisition_count": 1,
@@ -499,11 +499,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785496893,
+      "current_epoch_second": 1785656778,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 158,
-      "current_submission_id": 77975048,
-      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048",
+      "current_length": 154,
+      "current_submission_id": 78070235,
+      "current_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070235",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1785496893,
       "last_acquired_epoch": 1785496893,
@@ -513,11 +513,11 @@
       "problem_title": "E. Switching Communication Modes",
       "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e",
       "status": "holding",
-      "target_epoch_second": 1785496893,
+      "target_epoch_second": 1785656778,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 158,
-      "target_submission_id": 77975048,
-      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048"
+      "target_length": 154,
+      "target_submission_id": 78070235,
+      "target_submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070235"
     },
     {
       "acquisition_count": 1,
@@ -4158,11 +4158,103 @@
     "holding_count": 184,
     "loss_event_count": 2,
     "lost_count": 2,
-    "update_log_count": 60,
+    "update_log_count": 64,
     "updated_count": 2
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785661156,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 112,
+        "submission_id": 78071858,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785643951,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 316,
+        "submission_id": 78066130,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_f",
+      "problem_name": "GCD Maximum Spanning Tree",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785658717,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 42,
+        "submission_id": 78070956,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070956",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497996,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 63,
+        "submission_id": 77975575,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975575",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0125_a",
+      "problem_name": "Warehouse Package Inspection",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785658543,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 44,
+        "submission_id": 78070896,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070896",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785497717,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 56,
+        "submission_id": 77975448,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975448",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0125_b",
+      "problem_name": "Defense of the Flower Bed",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785656778,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 154,
+        "submission_id": 78070235,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/78070235",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0125",
+        "epoch_second": 1785496893,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 158,
+        "submission_id": 77975048,
+        "submission_url": "https://atcoder.jp/contests/awc0125/submissions/77975048",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0125_e",
+      "problem_name": "Switching Communication Modes",
+      "problem_url": "https://atcoder.jp/contests/awc0125/tasks/awc0125_e"
+    },
     {
       "after": {
         "contest_id": "abc469",
