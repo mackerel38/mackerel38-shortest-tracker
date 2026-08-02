@@ -47,8 +47,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785643526,
-  "generated_iso": "2026-08-02T04:05:26+00:00",
+  "generated_epoch": 1785653202,
+  "generated_iso": "2026-08-02T06:46:42+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -57,6 +57,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785643951,
+      "current_language": "Python (PyPy 3.11-v7.3.20)",
+      "current_length": 316,
+      "current_submission_id": 78066130,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785643951,
+      "last_acquired_epoch": 1785643951,
+      "problem_id": "abc469_f",
+      "problem_index": "F",
+      "problem_name": "GCD Maximum Spanning Tree",
+      "problem_title": "F. GCD Maximum Spanning Tree",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f",
+      "status": "holding",
+      "target_epoch_second": 1785643951,
+      "target_language": "Python (PyPy 3.11-v7.3.20)",
+      "target_length": 316,
+      "target_submission_id": 78066130,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785638448,
@@ -4132,15 +4154,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 2,
-    "ever_held_count": 185,
-    "holding_count": 183,
+    "ever_held_count": 186,
+    "holding_count": 184,
     "loss_event_count": 2,
     "lost_count": 2,
-    "update_log_count": 59,
+    "update_log_count": 60,
     "updated_count": 2
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785643951,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 316,
+        "submission_id": 78066130,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78066130",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785595640,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 342,
+        "submission_id": 78056948,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78056948",
+        "user_id": "sasa8uyauya"
+      },
+      "problem_id": "abc469_f",
+      "problem_name": "GCD Maximum Spanning Tree",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f"
+    },
     {
       "after": {
         "contest_id": "abc469",
