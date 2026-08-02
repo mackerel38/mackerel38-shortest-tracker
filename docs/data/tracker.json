@@ -2,29 +2,6 @@
   "active_updates": [
     {
       "after": {
-        "contest_id": "abc469",
-        "epoch_second": 1785640249,
-        "language": "AWK (GNU awk 5.2.1)",
-        "length": 41,
-        "submission_id": 78065132,
-        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
-        "user_id": "Fleur"
-      },
-      "before": {
-        "contest_id": "abc469",
-        "epoch_second": 1785606121,
-        "language": "A言語 (interpreter af48a2a)",
-        "length": 46,
-        "submission_id": 78059627,
-        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78059627",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "abc469_c",
-      "problem_name": "Cantrip",
-      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c"
-    },
-    {
-      "after": {
         "contest_id": "abc468",
         "epoch_second": 1785164457,
         "language": "A言語 (interpreter af48a2a)",
@@ -47,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785667982,
-  "generated_iso": "2026-08-02T10:53:02+00:00",
+  "generated_epoch": 1785672469,
+  "generated_iso": "2026-08-02T12:07:49+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -57,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1785668458,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 31,
+      "current_submission_id": 78074235,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78074235",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785606121,
+      "last_acquired_epoch": 1785668458,
+      "problem_id": "abc469_c",
+      "problem_index": "C",
+      "problem_name": "Cantrip",
+      "problem_title": "C. Cantrip",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c",
+      "status": "holding",
+      "target_epoch_second": 1785668458,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 31,
+      "target_submission_id": 78074235,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78074235"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785665720,
@@ -144,28 +143,6 @@
       "target_length": 98,
       "target_submission_id": 78062786,
       "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78062786"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1785640249,
-      "current_language": "AWK (GNU awk 5.2.1)",
-      "current_length": 41,
-      "current_submission_id": 78065132,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
-      "current_user_id": "Fleur",
-      "first_acquired_epoch": 1785606121,
-      "last_acquired_epoch": 1785606121,
-      "problem_id": "abc469_c",
-      "problem_index": "C",
-      "problem_name": "Cantrip",
-      "problem_title": "C. Cantrip",
-      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c",
-      "status": "updated",
-      "target_epoch_second": 1785606121,
-      "target_language": "A言語 (interpreter af48a2a)",
-      "target_length": 46,
-      "target_submission_id": 78059627,
-      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78059627"
     },
     {
       "acquisition_count": 1,
@@ -4175,16 +4152,39 @@
   "recommendation_day": "2026-08-02",
   "recommendations": [],
   "summary": {
-    "active_update_count": 2,
+    "active_update_count": 1,
     "ever_held_count": 187,
-    "holding_count": 185,
-    "loss_event_count": 2,
-    "lost_count": 2,
-    "update_log_count": 65,
-    "updated_count": 2
+    "holding_count": 186,
+    "loss_event_count": 1,
+    "lost_count": 1,
+    "update_log_count": 66,
+    "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785668458,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 31,
+        "submission_id": 78074235,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78074235",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785640249,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 41,
+        "submission_id": 78065132,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78065132",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc469_c",
+      "problem_name": "Cantrip",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_c"
+    },
     {
       "after": {
         "contest_id": "abc469",
