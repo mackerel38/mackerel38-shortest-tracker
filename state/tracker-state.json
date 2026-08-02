@@ -23266,11 +23266,11 @@
     },
     "abc469_g": {
       "contest_id": "abc469",
-      "epoch_second": 1785629709,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 1549,
-      "submission_id": 78062177,
-      "user_id": "iastm"
+      "epoch_second": 1785665720,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 558,
+      "submission_id": 78073368,
+      "user_id": "mackerel38"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -74164,6 +74164,16 @@
       "target_length": 112,
       "target_submission_id": 78071858
     },
+    "abc469_g": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1785665720,
+      "last_acquired_epoch": 1785665720,
+      "target_contest_id": "abc469",
+      "target_epoch_second": 1785665720,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 558,
+      "target_submission_id": 78073368
+    },
     "arc148_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785231986,
@@ -75736,7 +75746,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1785662008,
+  "last_checked_epoch": 1785667982,
   "recommendation_day": "2026-08-02",
   "recommendations": [],
   "submission_details": {
@@ -76759,6 +76769,10 @@
     "78071858": {
       "epoch_second": 1785661156,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "78073368": {
+      "epoch_second": 1785665720,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
@@ -79118,6 +79132,9 @@
       "Python (PyPy 3.11-v7.3.20)",
       "Ruby 3.4 (ruby 3.4.5)",
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc469_g": [
+      "Ruby 3.4 (ruby 3.4.5)"
     ],
     "abl_c": [
       "C++ 20 (gcc 12.2)"
@@ -81550,6 +81567,7 @@
     "abc469_e:78064530",
     "abc469_f:78066130",
     "abc469_f:78071858",
+    "abc469_g:78073368",
     "awc0001_d:77992027",
     "awc0009_d:77989822",
     "awc0024_c:77982525",
@@ -82823,6 +82841,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "abc469_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785665720,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 558,
+        "submission_id": 78073368,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785629709,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 1549,
+        "submission_id": 78062177,
+        "user_id": "iastm"
+      },
+      "problem_id": "abc469_g"
     }
   ],
   "version": 2

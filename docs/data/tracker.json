@@ -47,8 +47,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785662008,
-  "generated_iso": "2026-08-02T09:13:28+00:00",
+  "generated_epoch": 1785667982,
+  "generated_iso": "2026-08-02T10:53:02+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -57,6 +57,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785665720,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 558,
+      "current_submission_id": 78073368,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78073368",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785665720,
+      "last_acquired_epoch": 1785665720,
+      "problem_id": "abc469_g",
+      "problem_index": "G",
+      "problem_name": "K-nacci Operations",
+      "problem_title": "G. K-nacci Operations",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_g",
+      "status": "holding",
+      "target_epoch_second": 1785665720,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 558,
+      "target_submission_id": 78073368,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78073368"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1785661156,
@@ -4154,15 +4176,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 2,
-    "ever_held_count": 186,
-    "holding_count": 184,
+    "ever_held_count": 187,
+    "holding_count": 185,
     "loss_event_count": 2,
     "lost_count": 2,
-    "update_log_count": 64,
+    "update_log_count": 65,
     "updated_count": 2
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785665720,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 558,
+        "submission_id": 78073368,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78073368",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785629709,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 1549,
+        "submission_id": 78062177,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78062177",
+        "user_id": "iastm"
+      },
+      "problem_id": "abc469_g",
+      "problem_name": "K-nacci Operations",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_g"
+    },
     {
       "after": {
         "contest_id": "abc469",
