@@ -2,29 +2,6 @@
   "active_updates": [
     {
       "after": {
-        "contest_id": "abc469",
-        "epoch_second": 1785683802,
-        "language": "Ruby 3.4 (ruby 3.4.5)",
-        "length": 121,
-        "submission_id": 78079448,
-        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78079448",
-        "user_id": "climpet"
-      },
-      "before": {
-        "contest_id": "abc469",
-        "epoch_second": 1785638448,
-        "language": "Ruby 3.4 (ruby 3.4.5)",
-        "length": 127,
-        "submission_id": 78064530,
-        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78064530",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "abc469_e",
-      "problem_name": "Pro Exam Eligibility",
-      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e"
-    },
-    {
-      "after": {
         "contest_id": "abc468",
         "epoch_second": 1785164457,
         "language": "A言語 (interpreter af48a2a)",
@@ -47,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785687309,
-  "generated_iso": "2026-08-02T16:15:09+00:00",
+  "generated_epoch": 1785756807,
+  "generated_iso": "2026-08-03T11:33:27+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -57,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1785752997,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 119,
+      "current_submission_id": 78094499,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785638448,
+      "last_acquired_epoch": 1785752997,
+      "problem_id": "abc469_e",
+      "problem_index": "E",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_title": "E. Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e",
+      "status": "holding",
+      "target_epoch_second": 1785752997,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 119,
+      "target_submission_id": 78094499,
+      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1785668458,
@@ -122,28 +121,6 @@
       "target_length": 112,
       "target_submission_id": 78071858,
       "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1785683802,
-      "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 121,
-      "current_submission_id": 78079448,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78079448",
-      "current_user_id": "climpet",
-      "first_acquired_epoch": 1785638448,
-      "last_acquired_epoch": 1785638448,
-      "problem_id": "abc469_e",
-      "problem_index": "E",
-      "problem_name": "Pro Exam Eligibility",
-      "problem_title": "E. Pro Exam Eligibility",
-      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e",
-      "status": "updated",
-      "target_epoch_second": 1785638448,
-      "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 127,
-      "target_submission_id": 78064530,
-      "target_submission_url": "https://atcoder.jp/contests/abc469/submissions/78064530"
     },
     {
       "acquisition_count": 1,
@@ -4175,16 +4152,39 @@
   "recommendation_day": "2026-08-03",
   "recommendations": [],
   "summary": {
-    "active_update_count": 2,
+    "active_update_count": 1,
     "ever_held_count": 187,
-    "holding_count": 185,
-    "loss_event_count": 2,
-    "lost_count": 2,
-    "update_log_count": 70,
-    "updated_count": 2
+    "holding_count": 186,
+    "loss_event_count": 1,
+    "lost_count": 1,
+    "update_log_count": 71,
+    "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1785752997,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 119,
+        "submission_id": 78094499,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785683802,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 121,
+        "submission_id": 78079448,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78079448",
+        "user_id": "climpet"
+      },
+      "problem_id": "abc469_e",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e"
+    },
     {
       "after": {
         "contest_id": "abc469",
