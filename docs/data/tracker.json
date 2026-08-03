@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1785756807,
-  "generated_iso": "2026-08-03T11:33:27+00:00",
+  "generated_epoch": 1785765789,
+  "generated_iso": "2026-08-03T14:03:09+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785758275,
+      "current_language": "Perl (perl 5.38.2)",
+      "current_length": 71,
+      "current_submission_id": 78097124,
+      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097124",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785758275,
+      "last_acquired_epoch": 1785758275,
+      "problem_id": "awc0126_b",
+      "problem_index": "B",
+      "problem_name": "Winning of Consecutive Number Tickets",
+      "problem_title": "B. Winning of Consecutive Number Tickets",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_b",
+      "status": "holding",
+      "target_epoch_second": 1785758275,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 71,
+      "target_submission_id": 78097124,
+      "target_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097124"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785758127,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 37,
+      "current_submission_id": 78097041,
+      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785758127,
+      "last_acquired_epoch": 1785758127,
+      "problem_id": "awc0126_a",
+      "problem_index": "A",
+      "problem_name": "Wi-Fi Coverage Range",
+      "problem_title": "A. Wi-Fi Coverage Range",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_a",
+      "status": "holding",
+      "target_epoch_second": 1785758127,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 37,
+      "target_submission_id": 78097041,
+      "target_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785757936,
+      "current_language": "Perl (perl 5.38.2)",
+      "current_length": 126,
+      "current_submission_id": 78096940,
+      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096940",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785757936,
+      "last_acquired_epoch": 1785757936,
+      "problem_id": "awc0126_c",
+      "problem_index": "C",
+      "problem_name": "Detour for Road Closure",
+      "problem_title": "C. Detour for Road Closure",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_c",
+      "status": "holding",
+      "target_epoch_second": 1785757936,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 126,
+      "target_submission_id": 78096940,
+      "target_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096940"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1785756914,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 150,
+      "current_submission_id": 78096420,
+      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096420",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1785756914,
+      "last_acquired_epoch": 1785756914,
+      "problem_id": "awc0126_d",
+      "problem_index": "D",
+      "problem_name": "Bead Sequence",
+      "problem_title": "D. Bead Sequence",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_d",
+      "status": "holding",
+      "target_epoch_second": 1785756914,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 150,
+      "target_submission_id": 78096420,
+      "target_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096420"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1785752997,
@@ -4153,15 +4241,107 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 187,
-    "holding_count": 186,
+    "ever_held_count": 191,
+    "holding_count": 190,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 71,
+    "update_log_count": 75,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785758275,
+        "language": "Perl (perl 5.38.2)",
+        "length": 71,
+        "submission_id": 78097124,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097124",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785756503,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 234,
+        "submission_id": 78096193,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096193",
+        "user_id": "ahoy"
+      },
+      "problem_id": "awc0126_b",
+      "problem_name": "Winning of Consecutive Number Tickets",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785758127,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 37,
+        "submission_id": 78097041,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785757509,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 152,
+        "submission_id": 78096717,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096717",
+        "user_id": "shivangkeshri"
+      },
+      "problem_id": "awc0126_a",
+      "problem_name": "Wi-Fi Coverage Range",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785757936,
+        "language": "Perl (perl 5.38.2)",
+        "length": 126,
+        "submission_id": 78096940,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096940",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785757653,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 450,
+        "submission_id": 78096790,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096790",
+        "user_id": "TakaakiUmedu"
+      },
+      "problem_id": "awc0126_c",
+      "problem_name": "Detour for Road Closure",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785756914,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 150,
+        "submission_id": 78096420,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096420",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785756314,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 397,
+        "submission_id": 78096083,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78096083",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0126_d",
+      "problem_name": "Bead Sequence",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_d"
+    },
     {
       "after": {
         "contest_id": "abc469",
