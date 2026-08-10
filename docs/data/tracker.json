@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1786383506,
-  "generated_iso": "2026-08-10T17:38:26+00:00",
+  "generated_epoch": 1786396891,
+  "generated_iso": "2026-08-10T21:21:31+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4304,6 +4304,94 @@
     },
     {
       "acquisition_count": 1,
+      "current_epoch_second": 1781521200,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 397,
+      "current_submission_id": 77968365,
+      "current_submission_url": "https://atcoder.jp/contests/awc0091/submissions/77968365",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1781521200,
+      "last_acquired_epoch": 1781521200,
+      "problem_id": "awc0091_c",
+      "problem_index": "C",
+      "problem_name": "Urban Planning and Road Development",
+      "problem_title": "C. Urban Planning and Road Development",
+      "problem_url": "https://atcoder.jp/contests/awc0091/tasks/awc0091_c",
+      "status": "holding",
+      "target_epoch_second": 1781521200,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 397,
+      "target_submission_id": 77968365,
+      "target_submission_url": "https://atcoder.jp/contests/awc0091/submissions/77968365"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1781175600,
+      "current_language": "Perl (perl 5.38.2)",
+      "current_length": 147,
+      "current_submission_id": 77990146,
+      "current_submission_url": "https://atcoder.jp/contests/awc0089/submissions/77990146",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1781175600,
+      "last_acquired_epoch": 1781175600,
+      "problem_id": "awc0089_c",
+      "problem_index": "C",
+      "problem_name": "A Walk to Cherry Blossom Viewing",
+      "problem_title": "C. A Walk to Cherry Blossom Viewing",
+      "problem_url": "https://atcoder.jp/contests/awc0089/tasks/awc0089_c",
+      "status": "holding",
+      "target_epoch_second": 1781175600,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 147,
+      "target_submission_id": 77990146,
+      "target_submission_url": "https://atcoder.jp/contests/awc0089/submissions/77990146"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1781002800,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 142,
+      "current_submission_id": 77969111,
+      "current_submission_url": "https://atcoder.jp/contests/awc0087/submissions/77969111",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1781002800,
+      "last_acquired_epoch": 1781002800,
+      "problem_id": "awc0087_c",
+      "problem_index": "C",
+      "problem_name": "Shortest Mountain Climbing Route",
+      "problem_title": "C. Shortest Mountain Climbing Route",
+      "problem_url": "https://atcoder.jp/contests/awc0087/tasks/awc0087_c",
+      "status": "holding",
+      "target_epoch_second": 1781002800,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 142,
+      "target_submission_id": 77969111,
+      "target_submission_url": "https://atcoder.jp/contests/awc0087/submissions/77969111"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1780657200,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 260,
+      "current_submission_id": 78270915,
+      "current_submission_url": "https://atcoder.jp/contests/awc0085/submissions/78270915",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1780657200,
+      "last_acquired_epoch": 1780657200,
+      "problem_id": "awc0085_d",
+      "problem_index": "D",
+      "problem_name": "Organizing Branching Shelves",
+      "problem_title": "D. Organizing Branching Shelves",
+      "problem_url": "https://atcoder.jp/contests/awc0085/tasks/awc0085_d",
+      "status": "holding",
+      "target_epoch_second": 1780657200,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 260,
+      "target_submission_id": 78270915,
+      "target_submission_url": "https://atcoder.jp/contests/awc0085/submissions/78270915"
+    },
+    {
+      "acquisition_count": 1,
       "current_epoch_second": 1746959487,
       "current_language": "Nibbles (literate form) (nibbles 1.01)",
       "current_length": 45,
@@ -4329,11 +4417,11 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 195,
-    "holding_count": 194,
+    "ever_held_count": 199,
+    "holding_count": 198,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 79,
+    "update_log_count": 83,
     "updated_count": 1
   },
   "target_user": "mackerel38",
@@ -6154,6 +6242,98 @@
       "problem_id": "awc0123_b",
       "problem_name": "Watering the Flower Bed",
       "problem_url": "https://atcoder.jp/contests/awc0123/tasks/awc0123_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0091",
+        "epoch_second": 1781521200,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 397,
+        "submission_id": 77968365,
+        "submission_url": "https://atcoder.jp/contests/awc0091/submissions/77968365",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0091",
+        "epoch_second": null,
+        "language": null,
+        "length": 566,
+        "submission_id": 76713552,
+        "submission_url": "https://atcoder.jp/contests/awc0091/submissions/76713552",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0091_c",
+      "problem_name": "Urban Planning and Road Development",
+      "problem_url": "https://atcoder.jp/contests/awc0091/tasks/awc0091_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0089",
+        "epoch_second": 1781175600,
+        "language": "Perl (perl 5.38.2)",
+        "length": 147,
+        "submission_id": 77990146,
+        "submission_url": "https://atcoder.jp/contests/awc0089/submissions/77990146",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0089",
+        "epoch_second": null,
+        "language": null,
+        "length": 157,
+        "submission_id": 76773681,
+        "submission_url": "https://atcoder.jp/contests/awc0089/submissions/76773681",
+        "user_id": "kino0402"
+      },
+      "problem_id": "awc0089_c",
+      "problem_name": "A Walk to Cherry Blossom Viewing",
+      "problem_url": "https://atcoder.jp/contests/awc0089/tasks/awc0089_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0087",
+        "epoch_second": 1781002800,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 142,
+        "submission_id": 77969111,
+        "submission_url": "https://atcoder.jp/contests/awc0087/submissions/77969111",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0087",
+        "epoch_second": null,
+        "language": null,
+        "length": 260,
+        "submission_id": 76548944,
+        "submission_url": "https://atcoder.jp/contests/awc0087/submissions/76548944",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0087_c",
+      "problem_name": "Shortest Mountain Climbing Route",
+      "problem_url": "https://atcoder.jp/contests/awc0087/tasks/awc0087_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0085",
+        "epoch_second": 1780657200,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 260,
+        "submission_id": 78270915,
+        "submission_url": "https://atcoder.jp/contests/awc0085/submissions/78270915",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0085",
+        "epoch_second": 1780657200,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 428,
+        "submission_id": 76407091,
+        "submission_url": "https://atcoder.jp/contests/awc0085/submissions/76407091",
+        "user_id": "tkykwtnb"
+      },
+      "problem_id": "awc0085_d",
+      "problem_name": "Organizing Branching Shelves",
+      "problem_url": "https://atcoder.jp/contests/awc0085/tasks/awc0085_d"
     }
   ],
   "version": 2

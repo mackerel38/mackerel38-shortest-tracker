@@ -27536,6 +27536,14 @@
       "submission_id": 77555450,
       "user_id": "prd_xxx"
     },
+    "ahc069_a": {
+      "contest_id": "ahc069",
+      "epoch_second": null,
+      "language": null,
+      "length": 11,
+      "submission_id": 77994151,
+      "user_id": "nekoti"
+    },
     "aising2019_a": {
       "contest_id": "aising2019",
       "epoch_second": null,
@@ -40386,11 +40394,11 @@
     },
     "awc0085_d": {
       "contest_id": "awc0085",
-      "epoch_second": null,
-      "language": null,
-      "length": 428,
-      "submission_id": 76407091,
-      "user_id": "tkykwtnb"
+      "epoch_second": 1780657200,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 260,
+      "submission_id": 78270915,
+      "user_id": "mackerel38"
     },
     "awc0085_e": {
       "contest_id": "awc0085",
@@ -40458,11 +40466,11 @@
     },
     "awc0087_c": {
       "contest_id": "awc0087",
-      "epoch_second": null,
-      "language": null,
-      "length": 260,
-      "submission_id": 76548944,
-      "user_id": "moon17"
+      "epoch_second": 1781002800,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 142,
+      "submission_id": 77969111,
+      "user_id": "mackerel38"
     },
     "awc0087_d": {
       "contest_id": "awc0087",
@@ -40538,11 +40546,11 @@
     },
     "awc0089_c": {
       "contest_id": "awc0089",
-      "epoch_second": null,
-      "language": null,
-      "length": 157,
-      "submission_id": 76773681,
-      "user_id": "kino0402"
+      "epoch_second": 1781175600,
+      "language": "Perl (perl 5.38.2)",
+      "length": 147,
+      "submission_id": 77990146,
+      "user_id": "mackerel38"
     },
     "awc0089_d": {
       "contest_id": "awc0089",
@@ -40618,11 +40626,11 @@
     },
     "awc0091_c": {
       "contest_id": "awc0091",
-      "epoch_second": null,
-      "language": null,
-      "length": 566,
-      "submission_id": 76713552,
-      "user_id": "miztom"
+      "epoch_second": 1781521200,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 397,
+      "submission_id": 77968365,
+      "user_id": "mackerel38"
     },
     "awc0091_d": {
       "contest_id": "awc0091",
@@ -74798,6 +74806,46 @@
       "target_length": 154,
       "target_submission_id": 77988473
     },
+    "awc0085_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1780657200,
+      "last_acquired_epoch": 1780657200,
+      "target_contest_id": "awc0085",
+      "target_epoch_second": 1780657200,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 260,
+      "target_submission_id": 78270915
+    },
+    "awc0087_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1781002800,
+      "last_acquired_epoch": 1781002800,
+      "target_contest_id": "awc0087",
+      "target_epoch_second": 1781002800,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 142,
+      "target_submission_id": 77969111
+    },
+    "awc0089_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1781175600,
+      "last_acquired_epoch": 1781175600,
+      "target_contest_id": "awc0089",
+      "target_epoch_second": 1781175600,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 147,
+      "target_submission_id": 77990146
+    },
+    "awc0091_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1781521200,
+      "last_acquired_epoch": 1781521200,
+      "target_contest_id": "awc0091",
+      "target_epoch_second": 1781521200,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 397,
+      "target_submission_id": 77968365
+    },
     "awc0096_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785479997,
@@ -76170,10 +76218,14 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1786383506,
+  "last_checked_epoch": 1786396891,
   "recommendation_day": "2026-08-11",
   "recommendations": [],
   "submission_details": {
+    "76407091": {
+      "epoch_second": 1780657200,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
     "77867999": {
       "epoch_second": 1784992786,
       "language": "Ruby 3.4 (ruby 3.4.5)"
@@ -76498,6 +76550,14 @@
       "epoch_second": 1785470989,
       "language": "Python (PyPy 3.11-v7.3.20)"
     },
+    "77968365": {
+      "epoch_second": 1781521200,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "77969111": {
+      "epoch_second": 1781002800,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
     "77969154": {
       "epoch_second": 1785479997,
       "language": "Ruby 3.4 (ruby 3.4.5)"
@@ -76809,6 +76869,10 @@
     "77990103": {
       "epoch_second": 1785570260,
       "language": "C++23 (GCC 15.2.0)"
+    },
+    "77990146": {
+      "epoch_second": 1781175600,
+      "language": "Perl (perl 5.38.2)"
     },
     "77990152": {
       "epoch_second": 1785570378,
@@ -78165,6 +78229,10 @@
     "78270186": {
       "epoch_second": 1786330677,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "78270915": {
+      "epoch_second": 1780657200,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     },
     "78272805": {
       "epoch_second": 1786341047,
@@ -83142,6 +83210,10 @@
     "awc0084_b:77969537",
     "awc0085_a:77969181",
     "awc0085_c:77988473",
+    "awc0085_d:78270915",
+    "awc0087_c:77969111",
+    "awc0089_c:77990146",
+    "awc0091_c:77968365",
     "awc0096_c:77969154",
     "awc0123_a:77938636",
     "awc0123_a:77938985",
@@ -83182,6 +83254,82 @@
     "codequeen2026_a:77993989"
   ],
   "updates": [
+    {
+      "after": {
+        "contest_id": "awc0085",
+        "epoch_second": 1780657200,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 260,
+        "submission_id": 78270915,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0085",
+        "epoch_second": 1780657200,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 428,
+        "submission_id": 76407091,
+        "user_id": "tkykwtnb"
+      },
+      "problem_id": "awc0085_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0087",
+        "epoch_second": 1781002800,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 142,
+        "submission_id": 77969111,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0087",
+        "epoch_second": null,
+        "language": null,
+        "length": 260,
+        "submission_id": 76548944,
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0087_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0089",
+        "epoch_second": 1781175600,
+        "language": "Perl (perl 5.38.2)",
+        "length": 147,
+        "submission_id": 77990146,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0089",
+        "epoch_second": null,
+        "language": null,
+        "length": 157,
+        "submission_id": 76773681,
+        "user_id": "kino0402"
+      },
+      "problem_id": "awc0089_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0091",
+        "epoch_second": 1781521200,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 397,
+        "submission_id": 77968365,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0091",
+        "epoch_second": null,
+        "language": null,
+        "length": 566,
+        "submission_id": 76713552,
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0091_c"
+    },
     {
       "after": {
         "contest_id": "awc0123",
