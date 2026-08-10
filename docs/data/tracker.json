@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1786328089,
-  "generated_iso": "2026-08-10T02:14:49+00:00",
+  "generated_epoch": 1786335001,
+  "generated_iso": "2026-08-10T04:10:01+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786330677,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 136,
+      "current_submission_id": 78270186,
+      "current_submission_url": "https://atcoder.jp/contests/awc0057/submissions/78270186",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786330677,
+      "last_acquired_epoch": 1786330677,
+      "problem_id": "awc0057_b",
+      "problem_index": "B",
+      "problem_name": "Library Book Search",
+      "problem_title": "B. Library Book Search",
+      "problem_url": "https://atcoder.jp/contests/awc0057/tasks/awc0057_b",
+      "status": "holding",
+      "target_epoch_second": 1786330677,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 136,
+      "target_submission_id": 78270186,
+      "target_submission_url": "https://atcoder.jp/contests/awc0057/submissions/78270186"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1786324914,
@@ -4285,15 +4307,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 193,
-    "holding_count": 192,
+    "ever_held_count": 194,
+    "holding_count": 193,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 77,
+    "update_log_count": 78,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0057",
+        "epoch_second": 1786330677,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 136,
+        "submission_id": 78270186,
+        "submission_url": "https://atcoder.jp/contests/awc0057/submissions/78270186",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0057",
+        "epoch_second": null,
+        "language": null,
+        "length": 308,
+        "submission_id": 75333687,
+        "submission_url": "https://atcoder.jp/contests/awc0057/submissions/75333687",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0057_b",
+      "problem_name": "Library Book Search",
+      "problem_url": "https://atcoder.jp/contests/awc0057/tasks/awc0057_b"
+    },
     {
       "after": {
         "contest_id": "awc0036",
