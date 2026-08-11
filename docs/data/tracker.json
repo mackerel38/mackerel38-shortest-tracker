@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1786422272,
-  "generated_iso": "2026-08-11T04:24:32+00:00",
+  "generated_epoch": 1786439378,
+  "generated_iso": "2026-08-11T09:09:38+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786438733,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 25,
+      "current_submission_id": 78297357,
+      "current_submission_url": "https://atcoder.jp/contests/awc0094/submissions/78297357",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786438733,
+      "last_acquired_epoch": 1786438733,
+      "problem_id": "awc0094_a",
+      "problem_index": "A",
+      "problem_name": "Growing Slime",
+      "problem_title": "A. Growing Slime",
+      "problem_url": "https://atcoder.jp/contests/awc0094/tasks/awc0094_a",
+      "status": "holding",
+      "target_epoch_second": 1786438733,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 25,
+      "target_submission_id": 78297357,
+      "target_submission_url": "https://atcoder.jp/contests/awc0094/submissions/78297357"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1786418320,
@@ -4549,15 +4571,38 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 205,
-    "holding_count": 204,
+    "ever_held_count": 206,
+    "holding_count": 205,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 89,
+    "update_log_count": 90,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0094",
+        "epoch_second": 1786438733,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 25,
+        "submission_id": 78297357,
+        "submission_url": "https://atcoder.jp/contests/awc0094/submissions/78297357",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0094",
+        "epoch_second": null,
+        "language": null,
+        "length": 33,
+        "submission_id": 76780748,
+        "submission_url": "https://atcoder.jp/contests/awc0094/submissions/76780748",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0094_a",
+      "problem_name": "Growing Slime",
+      "problem_url": "https://atcoder.jp/contests/awc0094/tasks/awc0094_a"
+    },
     {
       "after": {
         "contest_id": "awc0084",
