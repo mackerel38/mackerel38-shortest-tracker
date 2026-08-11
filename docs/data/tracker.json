@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1786416862,
-  "generated_iso": "2026-08-11T02:54:22+00:00",
+  "generated_epoch": 1786422272,
+  "generated_iso": "2026-08-11T04:24:32+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786418320,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 67,
+      "current_submission_id": 78291641,
+      "current_submission_url": "https://atcoder.jp/contests/awc0084/submissions/78291641",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786418320,
+      "last_acquired_epoch": 1786418320,
+      "problem_id": "awc0084_a",
+      "problem_index": "A",
+      "problem_name": "Warehouse Inventory Management",
+      "problem_title": "A. Warehouse Inventory Management",
+      "problem_url": "https://atcoder.jp/contests/awc0084/tasks/awc0084_a",
+      "status": "holding",
+      "target_epoch_second": 1786418320,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 67,
+      "target_submission_id": 78291641,
+      "target_submission_url": "https://atcoder.jp/contests/awc0084/submissions/78291641"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786417905,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 128,
+      "current_submission_id": 78291526,
+      "current_submission_url": "https://atcoder.jp/contests/awc0077/submissions/78291526",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786417905,
+      "last_acquired_epoch": 1786417905,
+      "problem_id": "awc0077_b",
+      "problem_index": "B",
+      "problem_name": "Assortment of Sweets",
+      "problem_title": "B. Assortment of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0077/tasks/awc0077_b",
+      "status": "holding",
+      "target_epoch_second": 1786417905,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 128,
+      "target_submission_id": 78291526,
+      "target_submission_url": "https://atcoder.jp/contests/awc0077/submissions/78291526"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786416608,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 35,
+      "current_submission_id": 78291194,
+      "current_submission_url": "https://atcoder.jp/contests/awc0074/submissions/78291194",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786416608,
+      "last_acquired_epoch": 1786416608,
+      "problem_id": "awc0074_a",
+      "problem_index": "A",
+      "problem_name": "Ribbon Cut",
+      "problem_title": "A. Ribbon Cut",
+      "problem_url": "https://atcoder.jp/contests/awc0074/tasks/awc0074_a",
+      "status": "holding",
+      "target_epoch_second": 1786416608,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 35,
+      "target_submission_id": 78291194,
+      "target_submission_url": "https://atcoder.jp/contests/awc0074/submissions/78291194"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1786415838,
@@ -4483,15 +4549,84 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 202,
-    "holding_count": 201,
+    "ever_held_count": 205,
+    "holding_count": 204,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 86,
+    "update_log_count": 89,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0084",
+        "epoch_second": 1786418320,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 67,
+        "submission_id": 78291641,
+        "submission_url": "https://atcoder.jp/contests/awc0084/submissions/78291641",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0084",
+        "epoch_second": null,
+        "language": null,
+        "length": 74,
+        "submission_id": 76942115,
+        "submission_url": "https://atcoder.jp/contests/awc0084/submissions/76942115",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0084_a",
+      "problem_name": "Warehouse Inventory Management",
+      "problem_url": "https://atcoder.jp/contests/awc0084/tasks/awc0084_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0077",
+        "epoch_second": 1786417905,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 128,
+        "submission_id": 78291526,
+        "submission_url": "https://atcoder.jp/contests/awc0077/submissions/78291526",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0077",
+        "epoch_second": null,
+        "language": null,
+        "length": 133,
+        "submission_id": 77128476,
+        "submission_url": "https://atcoder.jp/contests/awc0077/submissions/77128476",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0077_b",
+      "problem_name": "Assortment of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0077/tasks/awc0077_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0074",
+        "epoch_second": 1786416608,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 35,
+        "submission_id": 78291194,
+        "submission_url": "https://atcoder.jp/contests/awc0074/submissions/78291194",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0074",
+        "epoch_second": null,
+        "language": null,
+        "length": 36,
+        "submission_id": 75989521,
+        "submission_url": "https://atcoder.jp/contests/awc0074/submissions/75989521",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0074_a",
+      "problem_name": "Ribbon Cut",
+      "problem_url": "https://atcoder.jp/contests/awc0074/tasks/awc0074_a"
+    },
     {
       "after": {
         "contest_id": "awc0071",
