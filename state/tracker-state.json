@@ -37554,11 +37554,11 @@
     },
     "awc0014_d": {
       "contest_id": "awc0014",
-      "epoch_second": null,
-      "language": null,
-      "length": 108,
-      "submission_id": 73632984,
-      "user_id": "shogo314"
+      "epoch_second": 1786616440,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 106,
+      "submission_id": 78338745,
+      "user_id": "mackerel38"
     },
     "awc0014_e": {
       "contest_id": "awc0014",
@@ -39946,11 +39946,11 @@
     },
     "awc0074_c": {
       "contest_id": "awc0074",
-      "epoch_second": null,
-      "language": null,
-      "length": 124,
-      "submission_id": 75989948,
-      "user_id": "alcea"
+      "epoch_second": 1786615952,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 76,
+      "submission_id": 78338661,
+      "user_id": "mackerel38"
     },
     "awc0074_d": {
       "contest_id": "awc0074",
@@ -74646,6 +74646,16 @@
       "target_length": 123,
       "target_submission_id": 77989822
     },
+    "awc0014_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1786616440,
+      "last_acquired_epoch": 1786616440,
+      "target_contest_id": "awc0014",
+      "target_epoch_second": 1786616440,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 106,
+      "target_submission_id": 78338745
+    },
     "awc0015_d": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1786324126,
@@ -74905,6 +74915,16 @@
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 35,
       "target_submission_id": 78291194
+    },
+    "awc0074_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1786615952,
+      "last_acquired_epoch": 1786615952,
+      "target_contest_id": "awc0074",
+      "target_epoch_second": 1786615952,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 76,
+      "target_submission_id": 78338661
     },
     "awc0077_b": {
       "acquisition_count": 1,
@@ -76388,7 +76408,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1786612701,
+  "last_checked_epoch": 1786617498,
   "recommendation_day": "2026-08-13",
   "recommendations": [],
   "submission_details": {
@@ -78822,6 +78842,14 @@
     },
     "78335668": {
       "epoch_second": 1786608515,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "78338661": {
+      "epoch_second": 1786615952,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "78338745": {
+      "epoch_second": 1786616440,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
@@ -81647,6 +81675,9 @@
     "awc0009_d": [
       "Ruby 3.4 (ruby 3.4.5)"
     ],
+    "awc0014_d": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
     "awc0015_d": [
       "Ruby 3.4 (ruby 3.4.5)"
     ],
@@ -81857,6 +81888,9 @@
     ],
     "awc0074_a": [
       "A言語 (interpreter af48a2a)"
+    ],
+    "awc0074_c": [
+      "AWK (GNU awk 5.2.1)"
     ],
     "awc0077_b": [
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
@@ -83679,6 +83713,7 @@
     "abc469_g:78073368",
     "awc0001_d:77992027",
     "awc0009_d:77989822",
+    "awc0014_d:78338745",
     "awc0015_d:78268393",
     "awc0022_a:78289662",
     "awc0024_c:77982525",
@@ -83705,6 +83740,7 @@
     "awc0072_b:77969463",
     "awc0072_d:77969308",
     "awc0074_a:78291194",
+    "awc0074_c:78338661",
     "awc0077_b:78291526",
     "awc0083_c:77991904",
     "awc0084_a:78291641",
@@ -85503,6 +85539,44 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0052_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0074",
+        "epoch_second": 1786615952,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 76,
+        "submission_id": 78338661,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0074",
+        "epoch_second": null,
+        "language": null,
+        "length": 124,
+        "submission_id": 75989948,
+        "user_id": "alcea"
+      },
+      "problem_id": "awc0074_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0014",
+        "epoch_second": 1786616440,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 106,
+        "submission_id": 78338745,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0014",
+        "epoch_second": null,
+        "language": null,
+        "length": 108,
+        "submission_id": 73632984,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0014_d"
     }
   ],
   "version": 2

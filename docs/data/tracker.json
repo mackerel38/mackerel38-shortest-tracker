@@ -24,8 +24,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1786612701,
-  "generated_iso": "2026-08-13T09:18:21+00:00",
+  "generated_epoch": 1786617498,
+  "generated_iso": "2026-08-13T10:38:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -34,6 +34,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786616440,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 106,
+      "current_submission_id": 78338745,
+      "current_submission_url": "https://atcoder.jp/contests/awc0014/submissions/78338745",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786616440,
+      "last_acquired_epoch": 1786616440,
+      "problem_id": "awc0014_d",
+      "problem_index": "D",
+      "problem_name": "Round-Trip Delivery",
+      "problem_title": "D. Round-Trip Delivery",
+      "problem_url": "https://atcoder.jp/contests/awc0014/tasks/awc0014_d",
+      "status": "holding",
+      "target_epoch_second": 1786616440,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 106,
+      "target_submission_id": 78338745,
+      "target_submission_url": "https://atcoder.jp/contests/awc0014/submissions/78338745"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1786615952,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 76,
+      "current_submission_id": 78338661,
+      "current_submission_url": "https://atcoder.jp/contests/awc0074/submissions/78338661",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1786615952,
+      "last_acquired_epoch": 1786615952,
+      "problem_id": "awc0074_c",
+      "problem_index": "C",
+      "problem_name": "Light Switch Operation",
+      "problem_title": "C. Light Switch Operation",
+      "problem_url": "https://atcoder.jp/contests/awc0074/tasks/awc0074_c",
+      "status": "holding",
+      "target_epoch_second": 1786615952,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 76,
+      "target_submission_id": 78338661,
+      "target_submission_url": "https://atcoder.jp/contests/awc0074/submissions/78338661"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1786608515,
@@ -4615,15 +4659,61 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 1,
-    "ever_held_count": 208,
-    "holding_count": 207,
+    "ever_held_count": 210,
+    "holding_count": 209,
     "loss_event_count": 1,
     "lost_count": 1,
-    "update_log_count": 92,
+    "update_log_count": 94,
     "updated_count": 1
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0014",
+        "epoch_second": 1786616440,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 106,
+        "submission_id": 78338745,
+        "submission_url": "https://atcoder.jp/contests/awc0014/submissions/78338745",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0014",
+        "epoch_second": null,
+        "language": null,
+        "length": 108,
+        "submission_id": 73632984,
+        "submission_url": "https://atcoder.jp/contests/awc0014/submissions/73632984",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0014_d",
+      "problem_name": "Round-Trip Delivery",
+      "problem_url": "https://atcoder.jp/contests/awc0014/tasks/awc0014_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0074",
+        "epoch_second": 1786615952,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 76,
+        "submission_id": 78338661,
+        "submission_url": "https://atcoder.jp/contests/awc0074/submissions/78338661",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0074",
+        "epoch_second": null,
+        "language": null,
+        "length": 124,
+        "submission_id": 75989948,
+        "submission_url": "https://atcoder.jp/contests/awc0074/submissions/75989948",
+        "user_id": "alcea"
+      },
+      "problem_id": "awc0074_c",
+      "problem_name": "Light Switch Operation",
+      "problem_url": "https://atcoder.jp/contests/awc0074/tasks/awc0074_c"
+    },
     {
       "after": {
         "contest_id": "awc0052",
