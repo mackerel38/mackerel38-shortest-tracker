@@ -16090,8 +16090,8 @@
     },
     "abc341_e": {
       "contest_id": "abc341",
-      "epoch_second": null,
-      "language": null,
+      "epoch_second": 1708171200,
+      "language": "Python (PyPy 3.10-v7.3.12)",
       "length": 224,
       "submission_id": 50666051,
       "user_id": "moon17"
@@ -76792,10 +76792,16 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1787326738,
+  "last_checked_epoch": 1787328706,
   "recommendation_day": "2026-08-22",
-  "recommendations": [],
+  "recommendations": [
+    "abc341_e"
+  ],
   "submission_details": {
+    "50666051": {
+      "epoch_second": 1708171200,
+      "language": "Python (PyPy 3.10-v7.3.12)"
+    },
     "76407091": {
       "epoch_second": 1780657200,
       "language": "Python (PyPy 3.11-v7.3.20)"
