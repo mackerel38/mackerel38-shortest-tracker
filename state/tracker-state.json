@@ -38716,8 +38716,8 @@
       "contest_id": "awc0041",
       "epoch_second": null,
       "language": null,
-      "length": 69,
-      "submission_id": 74736560,
+      "length": 67,
+      "submission_id": 78550212,
       "user_id": "shogo314"
     },
     "awc0041_b": {
@@ -42194,11 +42194,11 @@
     },
     "awc0126_a": {
       "contest_id": "awc0126",
-      "epoch_second": 1785758127,
-      "language": "AWK (GNU awk 5.2.1)",
-      "length": 37,
-      "submission_id": 78097041,
-      "user_id": "mackerel38"
+      "epoch_second": 1787290915,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 36,
+      "submission_id": 78558390,
+      "user_id": "shogo314"
     },
     "awc0126_b": {
       "contest_id": "awc0126",
@@ -76752,7 +76752,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1787240464,
+  "last_checked_epoch": 1787293046,
   "recommendation_day": "2026-08-21",
   "recommendations": [],
   "submission_details": {
@@ -80134,6 +80134,10 @@
     },
     "78550155": {
       "epoch_second": 1787237645,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "78558390": {
+      "epoch_second": 1787290915,
       "language": "Uiua (uiua 0.16.2)"
     }
   },
@@ -85067,6 +85071,7 @@
     "awc0125_e:77975048",
     "awc0125_e:78070235",
     "awc0126_a:78097041",
+    "awc0126_a:78558390",
     "awc0126_b:78097124",
     "awc0126_c:78096940",
     "awc0126_d:78096420",
@@ -86861,6 +86866,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0014_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1787290915,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 36,
+        "submission_id": 78558390,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785758127,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 37,
+        "submission_id": 78097041,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0126_a"
     }
   ],
   "version": 2

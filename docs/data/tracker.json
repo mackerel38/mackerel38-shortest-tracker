@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1787290915,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 36,
+        "submission_id": 78558390,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78558390",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785758127,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 37,
+        "submission_id": 78097041,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0126_a",
+      "problem_name": "Wi-Fi Coverage Range",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_a"
+    },
+    {
+      "after": {
         "contest_id": "abc468",
         "epoch_second": 1785164457,
         "language": "A言語 (interpreter af48a2a)",
@@ -24,8 +47,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1787240464,
-  "generated_iso": "2026-08-20T15:41:04+00:00",
+  "generated_epoch": 1787293046,
+  "generated_iso": "2026-08-21T06:17:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -388,12 +411,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785758127,
-      "current_language": "AWK (GNU awk 5.2.1)",
-      "current_length": 37,
-      "current_submission_id": 78097041,
-      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1787290915,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 36,
+      "current_submission_id": 78558390,
+      "current_submission_url": "https://atcoder.jp/contests/awc0126/submissions/78558390",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785758127,
       "last_acquired_epoch": 1785758127,
       "problem_id": "awc0126_a",
@@ -401,7 +424,7 @@
       "problem_name": "Wi-Fi Coverage Range",
       "problem_title": "A. Wi-Fi Coverage Range",
       "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_a",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785758127,
       "target_language": "AWK (GNU awk 5.2.1)",
       "target_length": 37,
@@ -4658,16 +4681,39 @@
   "recommendation_day": "2026-08-21",
   "recommendations": [],
   "summary": {
-    "active_update_count": 1,
+    "active_update_count": 2,
     "ever_held_count": 210,
-    "holding_count": 209,
-    "loss_event_count": 1,
-    "lost_count": 1,
-    "update_log_count": 94,
-    "updated_count": 1
+    "holding_count": 208,
+    "loss_event_count": 2,
+    "lost_count": 2,
+    "update_log_count": 95,
+    "updated_count": 2
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0126",
+        "epoch_second": 1787290915,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 36,
+        "submission_id": 78558390,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78558390",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0126",
+        "epoch_second": 1785758127,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 37,
+        "submission_id": 78097041,
+        "submission_url": "https://atcoder.jp/contests/awc0126/submissions/78097041",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0126_a",
+      "problem_name": "Wi-Fi Coverage Range",
+      "problem_url": "https://atcoder.jp/contests/awc0126/tasks/awc0126_a"
+    },
     {
       "after": {
         "contest_id": "awc0014",
