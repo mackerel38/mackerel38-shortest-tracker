@@ -41162,11 +41162,11 @@
     },
     "awc0100_e": {
       "contest_id": "awc0100",
-      "epoch_second": 1785214780,
+      "epoch_second": 1787916850,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 30,
-      "submission_id": 77912708,
-      "user_id": "mackerel38"
+      "length": 28,
+      "submission_id": 78745855,
+      "user_id": "shogo314"
     },
     "awc0100_f": {
       "contest_id": "awc0100",
@@ -42762,11 +42762,11 @@
     },
     "awc0138_e": {
       "contest_id": "awc0138",
-      "epoch_second": 1787212132,
+      "epoch_second": 1787892678,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 1217,
-      "submission_id": 78542345,
-      "user_id": "sasa8uyauya"
+      "length": 1135,
+      "submission_id": 78738598,
+      "user_id": "prd_xxx"
     },
     "awc0139_a": {
       "contest_id": "awc0139",
@@ -43007,6 +43007,46 @@
       "length": 346,
       "submission_id": 78729241,
       "user_id": "miztom"
+    },
+    "awc0145_a": {
+      "contest_id": "awc0145",
+      "epoch_second": null,
+      "language": null,
+      "length": 38,
+      "submission_id": 78745277,
+      "user_id": "shogo314"
+    },
+    "awc0145_b": {
+      "contest_id": "awc0145",
+      "epoch_second": 1787916564,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 34,
+      "submission_id": 78745721,
+      "user_id": "shogo314"
+    },
+    "awc0145_c": {
+      "contest_id": "awc0145",
+      "epoch_second": 1787916539,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 261,
+      "submission_id": 78745704,
+      "user_id": "miztom"
+    },
+    "awc0145_d": {
+      "contest_id": "awc0145",
+      "epoch_second": 1787916874,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 150,
+      "submission_id": 78745865,
+      "user_id": "itokoi"
+    },
+    "awc0145_e": {
+      "contest_id": "awc0145",
+      "epoch_second": 1787925211,
+      "language": "Python (CPython 3.13.7)",
+      "length": 109,
+      "submission_id": 78748427,
+      "user_id": "sasa8uyauya"
     },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
@@ -77064,8 +77104,8 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1787875333,
-  "recommendation_day": "2026-08-28",
+  "last_checked_epoch": 1787952566,
+  "recommendation_day": "2026-08-29",
   "recommendations": [],
   "submission_details": {
     "50666051": {
@@ -77079,6 +77119,10 @@
     "77867999": {
       "epoch_second": 1784992786,
       "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "77912708": {
+      "epoch_second": 1785214780,
+      "language": "Uiua (uiua 0.16.2)"
     },
     "77937773": {
       "epoch_second": 1785322840,
@@ -81223,6 +81267,102 @@
     "78734183": {
       "epoch_second": 1787853570,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78738598": {
+      "epoch_second": 1787892678,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745327": {
+      "epoch_second": 1787915825,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78745328": {
+      "epoch_second": 1787915826,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78745329": {
+      "epoch_second": 1787915827,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745332": {
+      "epoch_second": 1787915835,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78745341": {
+      "epoch_second": 1787915865,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745349": {
+      "epoch_second": 1787915891,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745354": {
+      "epoch_second": 1787915898,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745369": {
+      "epoch_second": 1787915930,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78745371": {
+      "epoch_second": 1787915933,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78745399": {
+      "epoch_second": 1787915988,
+      "language": "C23 (GCC 14.2.0)"
+    },
+    "78745516": {
+      "epoch_second": 1787916172,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "78745540": {
+      "epoch_second": 1787916220,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "78745556": {
+      "epoch_second": 1787916251,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745618": {
+      "epoch_second": 1787916378,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745704": {
+      "epoch_second": 1787916539,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745721": {
+      "epoch_second": 1787916564,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "78745806": {
+      "epoch_second": 1787916742,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78745855": {
+      "epoch_second": 1787916850,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "78745865": {
+      "epoch_second": 1787916874,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78746097": {
+      "epoch_second": 1787917355,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78746114": {
+      "epoch_second": 1787917383,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78746682": {
+      "epoch_second": 1787918785,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78748427": {
+      "epoch_second": 1787925211,
+      "language": "Python (CPython 3.13.7)"
     }
   },
   "target_language_index_complete": true,
@@ -86125,6 +86265,7 @@
     "awc0091_c:77968365",
     "awc0094_a:78297357",
     "awc0096_c:77969154",
+    "awc0100_e:78745855",
     "awc0123_a:77938636",
     "awc0123_a:77938985",
     "awc0123_a:77949405",
@@ -87969,6 +88110,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0126_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0100",
+        "epoch_second": 1787916850,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 28,
+        "submission_id": 78745855,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0100",
+        "epoch_second": 1785214780,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 30,
+        "submission_id": 77912708,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0100_e"
     }
   ],
   "version": 2
