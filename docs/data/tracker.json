@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788016443,
-  "generated_iso": "2026-08-29T15:14:03+00:00",
+  "generated_epoch": 1788028689,
+  "generated_iso": "2026-08-29T18:38:09+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4702,7 +4702,22 @@
     }
   ],
   "recommendation_day": "2026-08-30",
-  "recommendations": [],
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788011421,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 78829962,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78829962",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc473_c",
+      "problem_name": "Change Schools",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_c"
+    }
+  ],
   "summary": {
     "active_update_count": 3,
     "ever_held_count": 210,

@@ -154,19 +154,19 @@
     },
     "APG4bPython_cf": {
       "contest_id": "APG4bPython",
-      "epoch_second": 1785247370,
-      "language": "Python (CPython 3.13.7)",
-      "length": 240,
-      "submission_id": 77923590,
-      "user_id": "SexyCommando"
+      "epoch_second": 1788023711,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 199,
+      "submission_id": 78835137,
+      "user_id": "kaityu"
     },
     "APG4bPython_cg": {
       "contest_id": "APG4bPython",
-      "epoch_second": 1787853570,
+      "epoch_second": 1788022026,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 94,
-      "submission_id": 78734183,
-      "user_id": "neguse153"
+      "length": 81,
+      "submission_id": 78834869,
+      "user_id": "kaityu"
     },
     "APG4bPython_ch": {
       "contest_id": "APG4bPython",
@@ -35796,9 +35796,9 @@
       "contest_id": "arc200",
       "epoch_second": null,
       "language": null,
-      "length": 388,
-      "submission_id": 66813148,
-      "user_id": "SigmaArf"
+      "length": 329,
+      "submission_id": 78763175,
+      "user_id": "psz2007"
     },
     "arc201_a": {
       "contest_id": "arc201",
@@ -77168,9 +77168,11 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1788016443,
+  "last_checked_epoch": 1788028689,
   "recommendation_day": "2026-08-30",
-  "recommendations": [],
+  "recommendations": [
+    "abc473_c"
+  ],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -81763,6 +81765,14 @@
     "78831790": {
       "epoch_second": 1788013059,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78834869": {
+      "epoch_second": 1788022026,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78835137": {
+      "epoch_second": 1788023711,
+      "language": "Python (PyPy 3.11-v7.3.20)"
     }
   },
   "target_language_index_complete": true,
@@ -84553,6 +84563,9 @@
       "C++23 (GCC 15.2.0)"
     ],
     "arc225_d": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc227_a": [
       "C++23 (GCC 15.2.0)"
     ],
     "awc0001_a": [
