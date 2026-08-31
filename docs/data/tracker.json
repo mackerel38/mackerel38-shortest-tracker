@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788111760,
-  "generated_iso": "2026-08-30T17:42:40+00:00",
+  "generated_epoch": 1788189671,
+  "generated_iso": "2026-08-31T15:21:11+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -509,9 +509,9 @@
       "first_acquired_epoch": 1785638448,
       "last_acquired_epoch": 1785752997,
       "problem_id": "abc469_e",
-      "problem_index": "E",
+      "problem_index": "H",
       "problem_name": "Pro Exam Eligibility",
-      "problem_title": "E. Pro Exam Eligibility",
+      "problem_title": "H. Pro Exam Eligibility",
       "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e",
       "status": "holding",
       "target_epoch_second": 1785752997,
@@ -3347,9 +3347,9 @@
       "first_acquired_epoch": 1785090152,
       "last_acquired_epoch": 1785090152,
       "problem_id": "abc464_d",
-      "problem_index": "D",
+      "problem_index": "G",
       "problem_name": "Celester",
-      "problem_title": "D. Celester",
+      "problem_title": "G. Celester",
       "problem_url": "https://atcoder.jp/contests/abc464/tasks/abc464_d",
       "status": "holding",
       "target_epoch_second": 1785090152,
@@ -3545,9 +3545,9 @@
       "first_acquired_epoch": 1785031789,
       "last_acquired_epoch": 1785031789,
       "problem_id": "abc466_b",
-      "problem_index": "B",
+      "problem_index": "C",
       "problem_name": "Representative Balls",
-      "problem_title": "B. Representative Balls",
+      "problem_title": "C. Representative Balls",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_b",
       "status": "holding",
       "target_epoch_second": 1785031789,
@@ -4701,8 +4701,23 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-08-31",
-  "recommendations": [],
+  "recommendation_day": "2026-09-01",
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788012046,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 452,
+        "submission_id": 78830816,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78830816",
+        "user_id": "zbl314"
+      },
+      "problem_id": "abc473_g",
+      "problem_name": "Wipeout",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_g"
+    }
+  ],
   "summary": {
     "active_update_count": 3,
     "ever_held_count": 210,
