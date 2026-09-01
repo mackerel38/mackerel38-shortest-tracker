@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788189671,
-  "generated_iso": "2026-08-31T15:21:11+00:00",
+  "generated_epoch": 1788275539,
+  "generated_iso": "2026-09-01T15:12:19+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4701,23 +4701,8 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-01",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788012046,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 452,
-        "submission_id": 78830816,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78830816",
-        "user_id": "zbl314"
-      },
-      "problem_id": "abc473_g",
-      "problem_name": "Wipeout",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_g"
-    }
-  ],
+  "recommendation_day": "2026-09-02",
+  "recommendations": [],
   "summary": {
     "active_update_count": 3,
     "ever_held_count": 210,
