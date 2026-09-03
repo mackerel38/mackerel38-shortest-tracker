@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788362372,
-  "generated_iso": "2026-09-02T15:19:32+00:00",
+  "generated_epoch": 1788448401,
+  "generated_iso": "2026-09-03T15:13:21+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4701,7 +4701,7 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-03",
+  "recommendation_day": "2026-09-04",
   "recommendations": [],
   "summary": {
     "active_update_count": 3,
