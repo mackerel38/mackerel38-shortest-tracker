@@ -43312,6 +43312,126 @@
       "submission_id": 78921361,
       "user_id": "miztom"
     },
+    "awc0150_a": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788521345,
+      "language": "Text (cat 9.4)",
+      "length": 1,
+      "submission_id": 78941872,
+      "user_id": "Levixi"
+    },
+    "awc0150_b": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788528826,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 59,
+      "submission_id": 78945937,
+      "user_id": "S142857"
+    },
+    "awc0150_c": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788524018,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)",
+      "length": 148,
+      "submission_id": 78943494,
+      "user_id": "maxflowqwq"
+    },
+    "awc0150_d": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788528573,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 284,
+      "submission_id": 78945833,
+      "user_id": "moon17"
+    },
+    "awc0150_e": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788525777,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 252,
+      "submission_id": 78944383,
+      "user_id": "jh2drln"
+    },
+    "awc0150_f": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788521332,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 235,
+      "submission_id": 78941867,
+      "user_id": "kamekiti_mars"
+    },
+    "awc0150_g": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788522409,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 374,
+      "submission_id": 78942593,
+      "user_id": "miztom"
+    },
+    "awc0150_h": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788523368,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 176,
+      "submission_id": 78943171,
+      "user_id": "miztom"
+    },
+    "awc0150_i": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788523889,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 765,
+      "submission_id": 78943419,
+      "user_id": "Rssll_Krkgrd"
+    },
+    "awc0150_j": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788524999,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 484,
+      "submission_id": 78943988,
+      "user_id": "miztom"
+    },
+    "awc0150_k": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788527235,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 1057,
+      "submission_id": 78945194,
+      "user_id": "miztom"
+    },
+    "awc0150_l": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788525414,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 2573,
+      "submission_id": 78944196,
+      "user_id": "kotatsugame"
+    },
+    "awc0150_m": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788531369,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1052,
+      "submission_id": 78946708,
+      "user_id": "sgfc"
+    },
+    "awc0150_n": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788532151,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1739,
+      "submission_id": 78946887,
+      "user_id": "kotatsugame"
+    },
+    "awc0150_o": {
+      "contest_id": "awc0150",
+      "epoch_second": 1788528255,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 692,
+      "submission_id": 78945668,
+      "user_id": "balakrishnan_v"
+    },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
       "epoch_second": null,
@@ -77368,9 +77488,11 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1788448401,
-  "recommendation_day": "2026-09-04",
-  "recommendations": [],
+  "last_checked_epoch": 1788534450,
+  "recommendation_day": "2026-09-05",
+  "recommendations": [
+    "abc473_d"
+  ],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -82511,6 +82633,278 @@
     "78923052": {
       "epoch_second": 1788438511,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941852": {
+      "epoch_second": 1788521314,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941858": {
+      "epoch_second": 1788521321,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941860": {
+      "epoch_second": 1788521324,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941866": {
+      "epoch_second": 1788521330,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941867": {
+      "epoch_second": 1788521332,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941868": {
+      "epoch_second": 1788521338,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941870": {
+      "epoch_second": 1788521344,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941871": {
+      "epoch_second": 1788521345,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941872": {
+      "epoch_second": 1788521345,
+      "language": "Text (cat 9.4)"
+    },
+    "78941873": {
+      "epoch_second": 1788521347,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941883": {
+      "epoch_second": 1788521355,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941893": {
+      "epoch_second": 1788521376,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941896": {
+      "epoch_second": 1788521377,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941905": {
+      "epoch_second": 1788521388,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941918": {
+      "epoch_second": 1788521417,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941922": {
+      "epoch_second": 1788521420,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941928": {
+      "epoch_second": 1788521424,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941930": {
+      "epoch_second": 1788521425,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941938": {
+      "epoch_second": 1788521430,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78941949": {
+      "epoch_second": 1788521447,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "78941968": {
+      "epoch_second": 1788521471,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941988": {
+      "epoch_second": 1788521492,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78941990": {
+      "epoch_second": 1788521494,
+      "language": "Java24 (OpenJDK 24.0.2)"
+    },
+    "78942038": {
+      "epoch_second": 1788521547,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942046": {
+      "epoch_second": 1788521557,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942062": {
+      "epoch_second": 1788521580,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942072": {
+      "epoch_second": 1788521589,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "78942092": {
+      "epoch_second": 1788521619,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942109": {
+      "epoch_second": 1788521652,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942140": {
+      "epoch_second": 1788521694,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942145": {
+      "epoch_second": 1788521702,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942313": {
+      "epoch_second": 1788522009,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942315": {
+      "epoch_second": 1788522012,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942396": {
+      "epoch_second": 1788522114,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942428": {
+      "epoch_second": 1788522164,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942465": {
+      "epoch_second": 1788522219,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942593": {
+      "epoch_second": 1788522409,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78942610": {
+      "epoch_second": 1788522438,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "78942760": {
+      "epoch_second": 1788522676,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942770": {
+      "epoch_second": 1788522692,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78942956": {
+      "epoch_second": 1788522988,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78943133": {
+      "epoch_second": 1788523304,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "78943171": {
+      "epoch_second": 1788523368,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78943270": {
+      "epoch_second": 1788523563,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78943331": {
+      "epoch_second": 1788523693,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78943357": {
+      "epoch_second": 1788523756,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "78943419": {
+      "epoch_second": 1788523889,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78943494": {
+      "epoch_second": 1788524018,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "78943705": {
+      "epoch_second": 1788524439,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78943740": {
+      "epoch_second": 1788524510,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78943862": {
+      "epoch_second": 1788524741,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78943988": {
+      "epoch_second": 1788524999,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78944196": {
+      "epoch_second": 1788525414,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78944211": {
+      "epoch_second": 1788525443,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78944255": {
+      "epoch_second": 1788525518,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78944326": {
+      "epoch_second": 1788525653,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78944362": {
+      "epoch_second": 1788525742,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78944383": {
+      "epoch_second": 1788525777,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78944617": {
+      "epoch_second": 1788526172,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78945194": {
+      "epoch_second": 1788527235,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78945543": {
+      "epoch_second": 1788527989,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78945668": {
+      "epoch_second": 1788528255,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78945707": {
+      "epoch_second": 1788528325,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78945833": {
+      "epoch_second": 1788528573,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78945937": {
+      "epoch_second": 1788528826,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78946041": {
+      "epoch_second": 1788529195,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78946708": {
+      "epoch_second": 1788531369,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "78946887": {
+      "epoch_second": 1788532151,
+      "language": "C++23 (GCC 15.2.0)"
     }
   },
   "target_language_index_complete": true,
