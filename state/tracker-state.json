@@ -37002,26 +37002,26 @@
     },
     "arc229_a": {
       "contest_id": "arc229",
-      "epoch_second": 1788615651,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 78,
-      "submission_id": 78980872,
-      "user_id": "agapata"
+      "epoch_second": null,
+      "language": null,
+      "length": 68,
+      "submission_id": 78968730,
+      "user_id": "moacf"
     },
     "arc229_b": {
       "contest_id": "arc229",
-      "epoch_second": 1788612896,
-      "language": "Python (PyPy 3.11-v7.3.20)",
+      "epoch_second": null,
+      "language": null,
       "length": 193,
-      "submission_id": 78972309,
-      "user_id": "miztom"
+      "submission_id": 78964592,
+      "user_id": "herman526"
     },
     "arc229_c": {
       "contest_id": "arc229",
-      "epoch_second": 1788621572,
+      "epoch_second": 1788625711,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 261,
-      "submission_id": 78987081,
+      "length": 171,
+      "submission_id": 78987924,
       "user_id": "miztom"
     },
     "arc229_d": {
@@ -77536,11 +77536,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1788623838,
+  "last_checked_epoch": 1788631723,
   "recommendation_day": "2026-09-06",
   "recommendations": [
-    "abc473_c",
-    "awc0046_a"
+    "abc473_c"
   ],
   "submission_details": {
     "50666051": {
@@ -83205,6 +83204,10 @@
     },
     "78987452": {
       "epoch_second": 1788623205,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "78987924": {
+      "epoch_second": 1788625711,
       "language": "Python (PyPy 3.11-v7.3.20)"
     }
   },
