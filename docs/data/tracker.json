@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788534450,
-  "generated_iso": "2026-09-04T15:07:30+00:00",
+  "generated_epoch": 1788623838,
+  "generated_iso": "2026-09-05T15:57:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4701,21 +4701,35 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-05",
+  "recommendation_day": "2026-09-06",
   "recommendations": [
     {
       "current": {
         "contest_id": "abc473",
-        "epoch_second": 1788186682,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 134,
-        "submission_id": 78869255,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78869255",
-        "user_id": "negativesquare"
+        "epoch_second": 1788011421,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 78829962,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78829962",
+        "user_id": "shogo314"
       },
-      "problem_id": "abc473_d",
-      "problem_name": "Coefficient Stair",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_d"
+      "problem_id": "abc473_c",
+      "problem_name": "Change Schools",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_c"
+    },
+    {
+      "current": {
+        "contest_id": "awc0046",
+        "epoch_second": 1787626579,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 41,
+        "submission_id": 78685355,
+        "submission_url": "https://atcoder.jp/contests/awc0046/submissions/78685355",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0046_a",
+      "problem_name": "Optimal Practice Partner",
+      "problem_url": "https://atcoder.jp/contests/awc0046/tasks/awc0046_a"
     }
   ],
   "summary": {
