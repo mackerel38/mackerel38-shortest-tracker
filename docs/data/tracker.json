@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788710784,
-  "generated_iso": "2026-09-06T16:06:24+00:00",
+  "generated_epoch": 1788718787,
+  "generated_iso": "2026-09-06T18:19:47+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -82,11 +82,11 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788706110,
+      "current_epoch_second": 1788716622,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 195,
-      "current_submission_id": 79043456,
-      "current_submission_url": "https://atcoder.jp/contests/arc229/submissions/79043456",
+      "current_length": 171,
+      "current_submission_id": 79045406,
+      "current_submission_url": "https://atcoder.jp/contests/arc229/submissions/79045406",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788693120,
       "last_acquired_epoch": 1788693120,
@@ -96,11 +96,11 @@
       "problem_title": "E. Taka and Hashi",
       "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_e",
       "status": "holding",
-      "target_epoch_second": 1788706110,
+      "target_epoch_second": 1788716622,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 195,
-      "target_submission_id": 79043456,
-      "target_submission_url": "https://atcoder.jp/contests/arc229/submissions/79043456"
+      "target_length": 171,
+      "target_submission_id": 79045406,
+      "target_submission_url": "https://atcoder.jp/contests/arc229/submissions/79045406"
     },
     {
       "acquisition_count": 1,
@@ -4760,11 +4760,80 @@
     "holding_count": 208,
     "loss_event_count": 3,
     "lost_count": 3,
-    "update_log_count": 102,
+    "update_log_count": 105,
     "updated_count": 3
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788716622,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 171,
+        "submission_id": 79045406,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79045406",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788715035,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 175,
+        "submission_id": 79045231,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79045231",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e",
+      "problem_name": "Taka and Hashi",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_e"
+    },
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788715035,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 175,
+        "submission_id": 79045231,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79045231",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788714898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 181,
+        "submission_id": 79045207,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79045207",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e",
+      "problem_name": "Taka and Hashi",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_e"
+    },
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788714898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 181,
+        "submission_id": 79045207,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79045207",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788706110,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 195,
+        "submission_id": 79043456,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/79043456",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e",
+      "problem_name": "Taka and Hashi",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_e"
+    },
     {
       "after": {
         "contest_id": "arc229",

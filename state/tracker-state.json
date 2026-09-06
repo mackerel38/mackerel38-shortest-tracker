@@ -23514,10 +23514,10 @@
     },
     "abc474_b": {
       "contest_id": "abc474",
-      "epoch_second": 1788705341,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 47,
-      "submission_id": 79043236,
+      "epoch_second": 1788716550,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "length": 32,
+      "submission_id": 79045396,
       "user_id": "Fleur"
     },
     "abc474_c": {
@@ -37090,10 +37090,10 @@
     },
     "arc229_e": {
       "contest_id": "arc229",
-      "epoch_second": 1788706110,
+      "epoch_second": 1788716622,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 195,
-      "submission_id": 79043456,
+      "length": 171,
+      "submission_id": 79045406,
       "user_id": "mackerel38"
     },
     "arc229_f": {
@@ -75815,10 +75815,10 @@
       "first_acquired_epoch": 1788693120,
       "last_acquired_epoch": 1788693120,
       "target_contest_id": "arc229",
-      "target_epoch_second": 1788706110,
+      "target_epoch_second": 1788716622,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 195,
-      "target_submission_id": 79043456
+      "target_length": 171,
+      "target_submission_id": 79045406
     },
     "awc0001_d": {
       "acquisition_count": 1,
@@ -77602,7 +77602,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1788710784,
+  "last_checked_epoch": 1788718787,
   "recommendation_day": "2026-09-07",
   "recommendations": [
     "arc229_b",
@@ -83676,6 +83676,26 @@
     "79043456": {
       "epoch_second": 1788706110,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79045207": {
+      "epoch_second": 1788714898,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79045231": {
+      "epoch_second": 1788715035,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79045328": {
+      "epoch_second": 1788716034,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
+    },
+    "79045396": {
+      "epoch_second": 1788716550,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
+    },
+    "79045406": {
+      "epoch_second": 1788716622,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -88582,6 +88602,9 @@
     "arc229_e:79041542",
     "arc229_e:79043396",
     "arc229_e:79043456",
+    "arc229_e:79045207",
+    "arc229_e:79045231",
+    "arc229_e:79045406",
     "awc0001_d:77992027",
     "awc0009_d:77989822",
     "awc0014_d:78338745",
@@ -90599,6 +90622,63 @@
         "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
         "length": 196,
         "submission_id": 79043396,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e"
+    },
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788714898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 181,
+        "submission_id": 79045207,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788706110,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 195,
+        "submission_id": 79043456,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e"
+    },
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788715035,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 175,
+        "submission_id": 79045231,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788714898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 181,
+        "submission_id": 79045207,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "arc229_e"
+    },
+    {
+      "after": {
+        "contest_id": "arc229",
+        "epoch_second": 1788716622,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 171,
+        "submission_id": 79045406,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc229",
+        "epoch_second": 1788715035,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 175,
+        "submission_id": 79045231,
         "user_id": "mackerel38"
       },
       "problem_id": "arc229_e"
