@@ -43434,10 +43434,10 @@
     },
     "awc0150_c": {
       "contest_id": "awc0150",
-      "epoch_second": 1788733382,
+      "epoch_second": 1788758926,
       "language": "AWK (GNU awk 5.2.1)",
-      "length": 96,
-      "submission_id": 79047363,
+      "length": 82,
+      "submission_id": 79051972,
       "user_id": "mackerel38"
     },
     "awc0150_d": {
@@ -43474,35 +43474,35 @@
     },
     "awc0150_h": {
       "contest_id": "awc0150",
-      "epoch_second": 1788750372,
+      "epoch_second": 1788759786,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 124,
-      "submission_id": 79050200,
+      "length": 123,
+      "submission_id": 79052153,
       "user_id": "mackerel38"
     },
     "awc0150_i": {
       "contest_id": "awc0150",
-      "epoch_second": 1788754116,
+      "epoch_second": 1788759864,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 355,
-      "submission_id": 79051041,
+      "length": 348,
+      "submission_id": 79052177,
       "user_id": "mackerel38"
     },
     "awc0150_j": {
       "contest_id": "awc0150",
-      "epoch_second": 1788755956,
+      "epoch_second": 1788759957,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 425,
-      "submission_id": 79051361,
+      "length": 375,
+      "submission_id": 79052206,
       "user_id": "mackerel38"
     },
     "awc0150_k": {
       "contest_id": "awc0150",
-      "epoch_second": 1788544633,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 904,
-      "submission_id": 78948687,
-      "user_id": "poporo"
+      "epoch_second": 1788760307,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 522,
+      "submission_id": 79052322,
+      "user_id": "mackerel38"
     },
     "awc0150_l": {
       "contest_id": "awc0150",
@@ -77605,10 +77605,10 @@
       "first_acquired_epoch": 1788733382,
       "last_acquired_epoch": 1788733382,
       "target_contest_id": "awc0150",
-      "target_epoch_second": 1788733382,
+      "target_epoch_second": 1788758926,
       "target_language": "AWK (GNU awk 5.2.1)",
-      "target_length": 96,
-      "target_submission_id": 79047363
+      "target_length": 82,
+      "target_submission_id": 79051972
     },
     "awc0150_d": {
       "acquisition_count": 1,
@@ -77645,30 +77645,40 @@
       "first_acquired_epoch": 1788750372,
       "last_acquired_epoch": 1788750372,
       "target_contest_id": "awc0150",
-      "target_epoch_second": 1788750372,
+      "target_epoch_second": 1788759786,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 124,
-      "target_submission_id": 79050200
+      "target_length": 123,
+      "target_submission_id": 79052153
     },
     "awc0150_i": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1788754116,
       "last_acquired_epoch": 1788754116,
       "target_contest_id": "awc0150",
-      "target_epoch_second": 1788754116,
+      "target_epoch_second": 1788759864,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 355,
-      "target_submission_id": 79051041
+      "target_length": 348,
+      "target_submission_id": 79052177
     },
     "awc0150_j": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1788755956,
       "last_acquired_epoch": 1788755956,
       "target_contest_id": "awc0150",
-      "target_epoch_second": 1788755956,
+      "target_epoch_second": 1788759957,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 425,
-      "target_submission_id": 79051361
+      "target_length": 375,
+      "target_submission_id": 79052206
+    },
+    "awc0150_k": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1788760307,
+      "last_acquired_epoch": 1788760307,
+      "target_contest_id": "awc0150",
+      "target_epoch_second": 1788760307,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 522,
+      "target_submission_id": 79052322
     },
     "codequeen2026_a": {
       "acquisition_count": 1,
@@ -77682,7 +77692,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1788756862,
+  "last_checked_epoch": 1788775384,
   "recommendation_day": "2026-09-07",
   "recommendations": [
     "arc229_b",
@@ -83816,6 +83826,26 @@
     "79051361": {
       "epoch_second": 1788755956,
       "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79051972": {
+      "epoch_second": 1788758926,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "79052153": {
+      "epoch_second": 1788759786,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79052177": {
+      "epoch_second": 1788759864,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79052206": {
+      "epoch_second": 1788759957,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79052322": {
+      "epoch_second": 1788760307,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
@@ -87445,6 +87475,7 @@
       "AWK (GNU awk 5.2.1)"
     ],
     "awc0150_d": [
+      "AWK (GNU awk 5.2.1)",
       "Python (CPython 3.13.7)",
       "Python (PyPy 3.11-v7.3.20)",
       "Ruby 3.4 (ruby 3.4.5)"
@@ -87465,6 +87496,9 @@
       "Ruby 3.4 (ruby 3.4.5)"
     ],
     "awc0150_j": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
+    "awc0150_k": [
       "Ruby 3.4 (ruby 3.4.5)"
     ],
     "codefestival_2016_qualB_b": [
@@ -88833,12 +88867,17 @@
     "awc0126_d:78096420",
     "awc0150_b:79047099",
     "awc0150_c:79047363",
+    "awc0150_c:79051972",
     "awc0150_d:79049637",
     "awc0150_f:79048213",
     "awc0150_g:79049373",
     "awc0150_h:79050200",
+    "awc0150_h:79052153",
     "awc0150_i:79051041",
+    "awc0150_i:79052177",
     "awc0150_j:79051361",
+    "awc0150_j:79052206",
+    "awc0150_k:79052322",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -90991,6 +91030,101 @@
         "user_id": "miztom"
       },
       "problem_id": "awc0150_j"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788758926,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 82,
+        "submission_id": 79051972,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788733382,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 96,
+        "submission_id": 79047363,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759786,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 123,
+        "submission_id": 79052153,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788750372,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 124,
+        "submission_id": 79050200,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_h"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759864,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 348,
+        "submission_id": 79052177,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788754116,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 355,
+        "submission_id": 79051041,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_i"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759957,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 375,
+        "submission_id": 79052206,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788755956,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 425,
+        "submission_id": 79051361,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_j"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788760307,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 522,
+        "submission_id": 79052322,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788544633,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 904,
+        "submission_id": 78948687,
+        "user_id": "poporo"
+      },
+      "problem_id": "awc0150_k"
     }
   ],
   "version": 2

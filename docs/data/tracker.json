@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788756862,
-  "generated_iso": "2026-09-07T04:54:22+00:00",
+  "generated_epoch": 1788775384,
+  "generated_iso": "2026-09-07T10:03:04+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -82,11 +82,33 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788755956,
+      "current_epoch_second": 1788760307,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 425,
-      "current_submission_id": 79051361,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051361",
+      "current_length": 522,
+      "current_submission_id": 79052322,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052322",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1788760307,
+      "last_acquired_epoch": 1788760307,
+      "problem_id": "awc0150_k",
+      "problem_index": "K",
+      "problem_name": "Network Installation",
+      "problem_title": "K. Network Installation",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_k",
+      "status": "holding",
+      "target_epoch_second": 1788760307,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 522,
+      "target_submission_id": 79052322,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052322"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1788759957,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 375,
+      "current_submission_id": 79052206,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788755956,
       "last_acquired_epoch": 1788755956,
@@ -96,19 +118,19 @@
       "problem_title": "J. Traveling Stall",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_j",
       "status": "holding",
-      "target_epoch_second": 1788755956,
+      "target_epoch_second": 1788759957,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 425,
-      "target_submission_id": 79051361,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051361"
+      "target_length": 375,
+      "target_submission_id": 79052206,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206"
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788754116,
+      "current_epoch_second": 1788759864,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 355,
-      "current_submission_id": 79051041,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051041",
+      "current_length": 348,
+      "current_submission_id": 79052177,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788754116,
       "last_acquired_epoch": 1788754116,
@@ -118,19 +140,19 @@
       "problem_title": "I. Task Schedule and Priority Filter",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_i",
       "status": "holding",
-      "target_epoch_second": 1788754116,
+      "target_epoch_second": 1788759864,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 355,
-      "target_submission_id": 79051041,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051041"
+      "target_length": 348,
+      "target_submission_id": 79052177,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177"
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788750372,
+      "current_epoch_second": 1788759786,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 124,
-      "current_submission_id": 79050200,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79050200",
+      "current_length": 123,
+      "current_submission_id": 79052153,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052153",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788750372,
       "last_acquired_epoch": 1788750372,
@@ -140,11 +162,11 @@
       "problem_title": "H. Placement of Observation Decks",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_h",
       "status": "holding",
-      "target_epoch_second": 1788750372,
+      "target_epoch_second": 1788759786,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 124,
-      "target_submission_id": 79050200,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79050200"
+      "target_length": 123,
+      "target_submission_id": 79052153,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052153"
     },
     {
       "acquisition_count": 1,
@@ -214,11 +236,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788733382,
+      "current_epoch_second": 1788758926,
       "current_language": "AWK (GNU awk 5.2.1)",
-      "current_length": 96,
-      "current_submission_id": 79047363,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363",
+      "current_length": 82,
+      "current_submission_id": 79051972,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051972",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788733382,
       "last_acquired_epoch": 1788733382,
@@ -228,11 +250,11 @@
       "problem_title": "C. Parking Lot Guidance",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_c",
       "status": "holding",
-      "target_epoch_second": 1788733382,
+      "target_epoch_second": 1788758926,
       "target_language": "AWK (GNU awk 5.2.1)",
-      "target_length": 96,
-      "target_submission_id": 79047363,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363"
+      "target_length": 82,
+      "target_submission_id": 79051972,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051972"
     },
     {
       "acquisition_count": 1,
@@ -4932,15 +4954,130 @@
   ],
   "summary": {
     "active_update_count": 3,
-    "ever_held_count": 219,
-    "holding_count": 216,
+    "ever_held_count": 220,
+    "holding_count": 217,
     "loss_event_count": 3,
     "lost_count": 3,
-    "update_log_count": 113,
+    "update_log_count": 118,
     "updated_count": 3
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788760307,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 522,
+        "submission_id": 79052322,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052322",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788544633,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 904,
+        "submission_id": 78948687,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/78948687",
+        "user_id": "poporo"
+      },
+      "problem_id": "awc0150_k",
+      "problem_name": "Network Installation",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_k"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759957,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 375,
+        "submission_id": 79052206,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788755956,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 425,
+        "submission_id": 79051361,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051361",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_j",
+      "problem_name": "Traveling Stall",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_j"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759864,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 348,
+        "submission_id": 79052177,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788754116,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 355,
+        "submission_id": 79051041,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051041",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_i",
+      "problem_name": "Task Schedule and Priority Filter",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_i"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759786,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 123,
+        "submission_id": 79052153,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052153",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788750372,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 124,
+        "submission_id": 79050200,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79050200",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_h",
+      "problem_name": "Placement of Observation Decks",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_h"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788758926,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 82,
+        "submission_id": 79051972,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79051972",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788733382,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 96,
+        "submission_id": 79047363,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_c",
+      "problem_name": "Parking Lot Guidance",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_c"
+    },
     {
       "after": {
         "contest_id": "awc0150",
