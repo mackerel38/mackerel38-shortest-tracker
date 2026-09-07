@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788733474,
-  "generated_iso": "2026-09-06T22:24:34+00:00",
+  "generated_epoch": 1788740066,
+  "generated_iso": "2026-09-07T00:14:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -80,6 +80,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1788733382,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 96,
+      "current_submission_id": 79047363,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1788733382,
+      "last_acquired_epoch": 1788733382,
+      "problem_id": "awc0150_c",
+      "problem_index": "C",
+      "problem_name": "Parking Lot Guidance",
+      "problem_title": "C. Parking Lot Guidance",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_c",
+      "status": "holding",
+      "target_epoch_second": 1788733382,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 96,
+      "target_submission_id": 79047363,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1788729430,
@@ -4778,15 +4800,38 @@
   ],
   "summary": {
     "active_update_count": 3,
-    "ever_held_count": 212,
-    "holding_count": 209,
+    "ever_held_count": 213,
+    "holding_count": 210,
     "loss_event_count": 3,
     "lost_count": 3,
-    "update_log_count": 106,
+    "update_log_count": 107,
     "updated_count": 3
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788733382,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 96,
+        "submission_id": 79047363,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79047363",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": null,
+        "language": null,
+        "length": 142,
+        "submission_id": 78940544,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/78940544",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "awc0150_c",
+      "problem_name": "Parking Lot Guidance",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_c"
+    },
     {
       "after": {
         "contest_id": "awc0150",
