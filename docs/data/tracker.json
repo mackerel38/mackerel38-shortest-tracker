@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788775384,
-  "generated_iso": "2026-09-07T10:03:04+00:00",
+  "generated_epoch": 1788796397,
+  "generated_iso": "2026-09-07T15:53:17+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -80,6 +80,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1788790548,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 348,
+      "current_submission_id": 79063476,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79063476",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1788790548,
+      "last_acquired_epoch": 1788790548,
+      "problem_id": "awc0150_m",
+      "problem_index": "M",
+      "problem_name": "Adjusting Building Heights",
+      "problem_title": "M. Adjusting Building Heights",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_m",
+      "status": "holding",
+      "target_epoch_second": 1788790548,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 348,
+      "target_submission_id": 79063476,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79063476"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1788788121,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 701,
+      "current_submission_id": 79062576,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062576",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1788788121,
+      "last_acquired_epoch": 1788788121,
+      "problem_id": "awc0150_l",
+      "problem_index": "L",
+      "problem_name": "Fire Station and Emergency Dispatch",
+      "problem_title": "L. Fire Station and Emergency Dispatch",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_l",
+      "status": "holding",
+      "target_epoch_second": 1788788121,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 701,
+      "target_submission_id": 79062576,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062576"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1788760307,
@@ -104,11 +148,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788759957,
+      "current_epoch_second": 1788787680,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 375,
-      "current_submission_id": 79052206,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206",
+      "current_length": 328,
+      "current_submission_id": 79062418,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062418",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788755956,
       "last_acquired_epoch": 1788755956,
@@ -118,19 +162,19 @@
       "problem_title": "J. Traveling Stall",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_j",
       "status": "holding",
-      "target_epoch_second": 1788759957,
+      "target_epoch_second": 1788787680,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 375,
-      "target_submission_id": 79052206,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206"
+      "target_length": 328,
+      "target_submission_id": 79062418,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062418"
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788759864,
+      "current_epoch_second": 1788787496,
       "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 348,
-      "current_submission_id": 79052177,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177",
+      "current_length": 325,
+      "current_submission_id": 79062346,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062346",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788754116,
       "last_acquired_epoch": 1788754116,
@@ -140,11 +184,11 @@
       "problem_title": "I. Task Schedule and Priority Filter",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_i",
       "status": "holding",
-      "target_epoch_second": 1788759864,
+      "target_epoch_second": 1788787496,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 348,
-      "target_submission_id": 79052177,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177"
+      "target_length": 325,
+      "target_submission_id": 79062346,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062346"
     },
     {
       "acquisition_count": 1,
@@ -192,11 +236,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788746769,
+      "current_epoch_second": 1788776119,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 307,
-      "current_submission_id": 79049373,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79049373",
+      "current_length": 286,
+      "current_submission_id": 79057987,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057987",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788746769,
       "last_acquired_epoch": 1788746769,
@@ -206,19 +250,19 @@
       "problem_title": "G. Ball Passing Game",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_g",
       "status": "holding",
-      "target_epoch_second": 1788746769,
+      "target_epoch_second": 1788776119,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 307,
-      "target_submission_id": 79049373,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79049373"
+      "target_length": 286,
+      "target_submission_id": 79057987,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057987"
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1788741768,
+      "current_epoch_second": 1788776043,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 86,
-      "current_submission_id": 79048213,
-      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79048213",
+      "current_length": 85,
+      "current_submission_id": 79057973,
+      "current_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057973",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1788741768,
       "last_acquired_epoch": 1788741768,
@@ -228,11 +272,11 @@
       "problem_title": "F. Circle of Friends",
       "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_f",
       "status": "holding",
-      "target_epoch_second": 1788741768,
+      "target_epoch_second": 1788776043,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 86,
-      "target_submission_id": 79048213,
-      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79048213"
+      "target_length": 85,
+      "target_submission_id": 79057973,
+      "target_submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057973"
     },
     {
       "acquisition_count": 1,
@@ -4921,48 +4965,172 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-07",
+  "recommendation_day": "2026-09-08",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc229",
-        "epoch_second": 1788662422,
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
         "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 138,
-        "submission_id": 78993018,
-        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78993018",
-        "user_id": "kokkun1"
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
+        "user_id": "negativesquare"
       },
-      "problem_id": "arc229_b",
-      "problem_name": "Halving Subtraction",
-      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_b"
-    },
-    {
-      "current": {
-        "contest_id": "abc341",
-        "epoch_second": 1708171200,
-        "language": "Python (PyPy 3.10-v7.3.12)",
-        "length": 224,
-        "submission_id": 50666051,
-        "submission_url": "https://atcoder.jp/contests/abc341/submissions/50666051",
-        "user_id": "moon17"
-      },
-      "problem_id": "abc341_e",
-      "problem_name": "Alternating String",
-      "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_e"
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
     }
   ],
   "summary": {
     "active_update_count": 3,
-    "ever_held_count": 220,
-    "holding_count": 217,
+    "ever_held_count": 222,
+    "holding_count": 219,
     "loss_event_count": 3,
     "lost_count": 3,
-    "update_log_count": 118,
+    "update_log_count": 124,
     "updated_count": 3
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788790548,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 348,
+        "submission_id": 79063476,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79063476",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788531369,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 1052,
+        "submission_id": 78946708,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/78946708",
+        "user_id": "sgfc"
+      },
+      "problem_id": "awc0150_m",
+      "problem_name": "Adjusting Building Heights",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_m"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788788121,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 701,
+        "submission_id": 79062576,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062576",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788525414,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 2573,
+        "submission_id": 78944196,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/78944196",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "awc0150_l",
+      "problem_name": "Fire Station and Emergency Dispatch",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_l"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788787680,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 328,
+        "submission_id": 79062418,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062418",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759957,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 375,
+        "submission_id": 79052206,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052206",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_j",
+      "problem_name": "Traveling Stall",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_j"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788787496,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 325,
+        "submission_id": 79062346,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79062346",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788759864,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 348,
+        "submission_id": 79052177,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79052177",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_i",
+      "problem_name": "Task Schedule and Priority Filter",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_i"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788776119,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 286,
+        "submission_id": 79057987,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057987",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788746769,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 307,
+        "submission_id": 79049373,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79049373",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_g",
+      "problem_name": "Ball Passing Game",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_g"
+    },
+    {
+      "after": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788776043,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 85,
+        "submission_id": 79057973,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79057973",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0150",
+        "epoch_second": 1788741768,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 86,
+        "submission_id": 79048213,
+        "submission_url": "https://atcoder.jp/contests/awc0150/submissions/79048213",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0150_f",
+      "problem_name": "Circle of Friends",
+      "problem_url": "https://atcoder.jp/contests/awc0150/tasks/awc0150_f"
+    },
     {
       "after": {
         "contest_id": "awc0150",
