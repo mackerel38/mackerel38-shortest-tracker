@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1788844822,
-  "generated_iso": "2026-09-08T05:20:22+00:00",
+  "generated_epoch": 1788890803,
+  "generated_iso": "2026-09-08T18:06:43+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5009,23 +5009,8 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-08",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "arc227",
-        "epoch_second": 1786888846,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 234,
-        "submission_id": 78472913,
-        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
-        "user_id": "negativesquare"
-      },
-      "problem_id": "arc227_a",
-      "problem_name": "Fermat Point of Binary Strings",
-      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
-    }
-  ],
+  "recommendation_day": "2026-09-09",
+  "recommendations": [],
   "summary": {
     "active_update_count": 3,
     "ever_held_count": 224,
