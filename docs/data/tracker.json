@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1789148756,
-  "generated_iso": "2026-09-11T17:45:56+00:00",
+  "generated_epoch": 1789230734,
+  "generated_iso": "2026-09-12T16:32:14+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5009,21 +5009,21 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-12",
+  "recommendation_day": "2026-09-13",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788186682,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 134,
-        "submission_id": 78869255,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78869255",
-        "user_id": "negativesquare"
+        "contest_id": "arc229",
+        "epoch_second": 1788617580,
+        "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)",
+        "length": 235,
+        "submission_id": 78985478,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78985478",
+        "user_id": "pengweixiang"
       },
-      "problem_id": "abc473_d",
-      "problem_name": "Coefficient Stair",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_d"
+      "problem_id": "arc229_f",
+      "problem_name": "Angst for All Pairs 2",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_f"
     }
   ],
   "summary": {
