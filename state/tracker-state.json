@@ -27834,10 +27834,10 @@
     },
     "ahc071_a": {
       "contest_id": "ahc071",
-      "epoch_second": 1789389548,
-      "language": "A言語 (interpreter af48a2a)",
-      "length": 38,
-      "submission_id": 79265139,
+      "epoch_second": null,
+      "language": null,
+      "length": 28,
+      "submission_id": 79265546,
       "user_id": "nekoti"
     },
     "aising2019_a": {
@@ -54330,43 +54330,43 @@
     },
     "joi2027_yo1a_b": {
       "contest_id": "joi2027yo1a",
-      "epoch_second": 1789375553,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 96,
-      "submission_id": 79260966,
-      "user_id": "kn2025"
+      "epoch_second": null,
+      "language": null,
+      "length": 16,
+      "submission_id": 79271042,
+      "user_id": "i_taku"
     },
     "joi2027_yo1a_c": {
       "contest_id": "joi2027yo1a",
-      "epoch_second": 1789377456,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 117,
-      "submission_id": 79261592,
-      "user_id": "Tamiji"
+      "epoch_second": null,
+      "language": null,
+      "length": 29,
+      "submission_id": 79272415,
+      "user_id": "i_taku"
     },
     "joi2027_yo1a_d": {
       "contest_id": "joi2027yo1a",
-      "epoch_second": 1789377487,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 145,
-      "submission_id": 79261607,
-      "user_id": "Tamiji"
+      "epoch_second": null,
+      "language": null,
+      "length": 54,
+      "submission_id": 79268711,
+      "user_id": "kotatsugame"
     },
     "joi2027_yo1a_e": {
       "contest_id": "joi2027yo1a",
-      "epoch_second": 1789377574,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 249,
-      "submission_id": 79261634,
-      "user_id": "Tamiji"
+      "epoch_second": null,
+      "language": null,
+      "length": 32,
+      "submission_id": 79268754,
+      "user_id": "kotatsugame"
     },
     "joi2027_yo1a_f": {
       "contest_id": "joi2027yo1a",
-      "epoch_second": 1789378961,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 331,
-      "submission_id": 79262014,
-      "user_id": "kn2025"
+      "epoch_second": null,
+      "language": null,
+      "length": 112,
+      "submission_id": 79268872,
+      "user_id": "kotatsugame"
     },
     "joig2021_a": {
       "contest_id": "joig2021-open",
@@ -78084,7 +78084,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1789413024,
+  "last_checked_epoch": 1789472872,
   "recommendation_day": "2026-09-15",
   "recommendations": [],
   "submission_details": {
