@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1789558787,
-  "generated_iso": "2026-09-16T11:39:47+00:00",
+  "generated_epoch": 1789572818,
+  "generated_iso": "2026-09-16T15:33:38+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5009,35 +5009,35 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-16",
+  "recommendation_day": "2026-09-17",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc227",
-        "epoch_second": 1786888846,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 234,
-        "submission_id": 78472913,
-        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
-        "user_id": "negativesquare"
+        "contest_id": "abc473",
+        "epoch_second": 1788007928,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 78809584,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78809584",
+        "user_id": "Rssll_Krkgrd"
       },
-      "problem_id": "arc227_a",
-      "problem_name": "Fermat Point of Binary Strings",
-      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
+      "problem_id": "abc473_b",
+      "problem_name": "Old Maid",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_b"
     },
     {
       "current": {
-        "contest_id": "awc0046",
-        "epoch_second": 1787626579,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 41,
-        "submission_id": 78685355,
-        "submission_url": "https://atcoder.jp/contests/awc0046/submissions/78685355",
-        "user_id": "shogo314"
+        "contest_id": "arc229",
+        "epoch_second": 1788623205,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 133,
+        "submission_id": 78987452,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987452",
+        "user_id": "miztom"
       },
-      "problem_id": "awc0046_a",
-      "problem_name": "Optimal Practice Partner",
-      "problem_url": "https://atcoder.jp/contests/awc0046/tasks/awc0046_a"
+      "problem_id": "arc229_d",
+      "problem_name": "Nim_k ?",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_d"
     }
   ],
   "summary": {
