@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1789658073,
-  "generated_iso": "2026-09-17T15:14:33+00:00",
+  "generated_epoch": 1789724921,
+  "generated_iso": "2026-09-18T09:48:41+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -3919,9 +3919,9 @@
       "first_acquired_epoch": 1785030110,
       "last_acquired_epoch": 1785030110,
       "problem_id": "abc466_c",
-      "problem_index": "C",
+      "problem_index": "E",
       "problem_name": "Count Close Pairs ",
-      "problem_title": "C. Count Close Pairs ",
+      "problem_title": "E. Count Close Pairs ",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_c",
       "status": "holding",
       "target_epoch_second": 1785030110,
