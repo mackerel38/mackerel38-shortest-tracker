@@ -70,8 +70,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1789753727,
-  "generated_iso": "2026-09-18T17:48:47+00:00",
+  "generated_epoch": 1789838539,
+  "generated_iso": "2026-09-19T17:22:19+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5009,21 +5009,35 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-19",
+  "recommendation_day": "2026-09-20",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc396",
-        "epoch_second": 1789528105,
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
         "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 181,
-        "submission_id": 79288905,
-        "submission_url": "https://atcoder.jp/contests/abc396/submissions/79288905",
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
         "user_id": "negativesquare"
       },
-      "problem_id": "abc396_f",
-      "problem_name": "Rotated Inversions",
-      "problem_url": "https://atcoder.jp/contests/abc396/tasks/abc396_f"
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
+    },
+    {
+      "current": {
+        "contest_id": "abc405",
+        "epoch_second": 1789576111,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 212,
+        "submission_id": 79301587,
+        "submission_url": "https://atcoder.jp/contests/abc405/submissions/79301587",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc405_f",
+      "problem_name": "Chord Crossing",
+      "problem_url": "https://atcoder.jp/contests/abc405/tasks/abc405_f"
     }
   ],
   "summary": {
