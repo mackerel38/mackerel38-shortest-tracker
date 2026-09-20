@@ -23666,11 +23666,11 @@
     },
     "abc476_g": {
       "contest_id": "abc476",
-      "epoch_second": 1789826795,
+      "epoch_second": 1789843245,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 533,
-      "submission_id": 79388440,
-      "user_id": "glaceon1020"
+      "length": 379,
+      "submission_id": 79391960,
+      "user_id": "miztom"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -37223,6 +37223,46 @@
       "length": 235,
       "submission_id": 78985478,
       "user_id": "pengweixiang"
+    },
+    "arc230_a": {
+      "contest_id": "arc230",
+      "epoch_second": 1789911978,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 515,
+      "submission_id": 79406176,
+      "user_id": "herman526"
+    },
+    "arc230_b": {
+      "contest_id": "arc230",
+      "epoch_second": 1789913411,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1631,
+      "submission_id": 79406786,
+      "user_id": "rqwanghaoyun"
+    },
+    "arc230_c": {
+      "contest_id": "arc230",
+      "epoch_second": 1789914334,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1455,
+      "submission_id": 79407157,
+      "user_id": "Pentimentqwq"
+    },
+    "arc230_d": {
+      "contest_id": "arc230",
+      "epoch_second": null,
+      "language": null,
+      "length": 886,
+      "submission_id": 79405417,
+      "user_id": "herman526"
+    },
+    "arc230_e": {
+      "contest_id": "arc230",
+      "epoch_second": 1789917182,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 2017,
+      "submission_id": 79407968,
+      "user_id": "glaceon1020"
     },
     "asaporo2_a": {
       "contest_id": "cf17-tournament-round2-open",
@@ -78308,12 +78348,9 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1789838539,
-  "recommendation_day": "2026-09-20",
-  "recommendations": [
-    "arc227_a",
-    "abc405_f"
-  ],
+  "last_checked_epoch": 1789923734,
+  "recommendation_day": "2026-09-21",
+  "recommendations": [],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -86270,6 +86307,78 @@
     "79391418": {
       "epoch_second": 1789838155,
       "language": "AWK (GNU awk 5.2.1)"
+    },
+    "79391960": {
+      "epoch_second": 1789843245,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79405790": {
+      "epoch_second": 1789911215,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "79405795": {
+      "epoch_second": 1789911226,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405804": {
+      "epoch_second": 1789911249,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405826": {
+      "epoch_second": 1789911288,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405855": {
+      "epoch_second": 1789911366,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405869": {
+      "epoch_second": 1789911390,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405882": {
+      "epoch_second": 1789911411,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79405975": {
+      "epoch_second": 1789911575,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79406176": {
+      "epoch_second": 1789911978,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79406472": {
+      "epoch_second": 1789912706,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79406613": {
+      "epoch_second": 1789913011,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79406618": {
+      "epoch_second": 1789913022,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79406786": {
+      "epoch_second": 1789913411,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79407035": {
+      "epoch_second": 1789914048,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79407157": {
+      "epoch_second": 1789914334,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79407444": {
+      "epoch_second": 1789915032,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79407968": {
+      "epoch_second": 1789917182,
+      "language": "C++23 (GCC 15.2.0)"
     }
   },
   "target_language_index_complete": true,
