@@ -2,6 +2,52 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789994390,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 31,
+        "submission_id": 79423051,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79423051",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989106,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 79421155,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421155",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_b",
+      "problem_name": "Card Grabbing",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789993643,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 38,
+        "submission_id": 79422822,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990848,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 78,
+        "submission_id": 79421939,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_a",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
+    },
+    {
+      "after": {
         "contest_id": "awc0100",
         "epoch_second": 1787916850,
         "language": "Uiua (uiua 0.16.2)",
@@ -70,8 +116,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1789923734,
-  "generated_iso": "2026-09-20T17:02:14+00:00",
+  "generated_epoch": 1790008653,
+  "generated_iso": "2026-09-21T16:37:33+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -80,6 +126,138 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789993635,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 77,
+      "current_submission_id": 79422820,
+      "current_submission_url": "https://atcoder.jp/contests/awc0151/submissions/79422820",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1789993635,
+      "last_acquired_epoch": 1789993635,
+      "problem_id": "awc0151_a",
+      "problem_index": "A",
+      "problem_name": "Package Delivery",
+      "problem_title": "A. Package Delivery",
+      "problem_url": "https://atcoder.jp/contests/awc0151/tasks/awc0151_a",
+      "status": "holding",
+      "target_epoch_second": 1789993635,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 77,
+      "target_submission_id": 79422820,
+      "target_submission_url": "https://atcoder.jp/contests/awc0151/submissions/79422820"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789991344,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 169,
+      "current_submission_id": 79422130,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422130",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1789989958,
+      "last_acquired_epoch": 1789989958,
+      "problem_id": "awc0161_e",
+      "problem_index": "E",
+      "problem_name": "Painting",
+      "problem_title": "E. Painting",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_e",
+      "status": "holding",
+      "target_epoch_second": 1789991344,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 169,
+      "target_submission_id": 79422130,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422130"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789990989,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 128,
+      "current_submission_id": 79421992,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421992",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1789989622,
+      "last_acquired_epoch": 1789989622,
+      "problem_id": "awc0161_c",
+      "problem_index": "C",
+      "problem_name": "Bouquet Colors",
+      "problem_title": "C. Bouquet Colors",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_c",
+      "status": "holding",
+      "target_epoch_second": 1789990989,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 128,
+      "target_submission_id": 79421992,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421992"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789991138,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 54,
+      "current_submission_id": 79422048,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422048",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1789989393,
+      "last_acquired_epoch": 1789989393,
+      "problem_id": "awc0161_d",
+      "problem_index": "D",
+      "problem_name": "Card Taking Game",
+      "problem_title": "D. Card Taking Game",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_d",
+      "status": "holding",
+      "target_epoch_second": 1789991138,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 54,
+      "target_submission_id": 79422048,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422048"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789994390,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 31,
+      "current_submission_id": 79423051,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79423051",
+      "current_user_id": "shogo314",
+      "first_acquired_epoch": 1789989106,
+      "last_acquired_epoch": 1789989106,
+      "problem_id": "awc0161_b",
+      "problem_index": "B",
+      "problem_name": "Card Grabbing",
+      "problem_title": "B. Card Grabbing",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_b",
+      "status": "updated",
+      "target_epoch_second": 1789989106,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 32,
+      "target_submission_id": 79421155,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421155"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1789993643,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 38,
+      "current_submission_id": 79422822,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
+      "current_user_id": "shogo314",
+      "first_acquired_epoch": 1789988789,
+      "last_acquired_epoch": 1789988789,
+      "problem_id": "awc0161_a",
+      "problem_index": "A",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_title": "A. Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a",
+      "status": "updated",
+      "target_epoch_second": 1789990848,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 78,
+      "target_submission_id": 79421939,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1788828499,
@@ -5009,19 +5187,333 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-21",
-  "recommendations": [],
+  "recommendation_day": "2026-09-22",
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "arc229",
+        "epoch_second": 1788625711,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 171,
+        "submission_id": 78987924,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987924",
+        "user_id": "miztom"
+      },
+      "problem_id": "arc229_c",
+      "problem_name": "Sum of Average 2",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_c"
+    }
+  ],
   "summary": {
-    "active_update_count": 3,
-    "ever_held_count": 224,
-    "holding_count": 221,
-    "loss_event_count": 3,
-    "lost_count": 3,
-    "update_log_count": 126,
-    "updated_count": 3
+    "active_update_count": 5,
+    "ever_held_count": 230,
+    "holding_count": 225,
+    "loss_event_count": 5,
+    "lost_count": 5,
+    "update_log_count": 139,
+    "updated_count": 5
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789994390,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 31,
+        "submission_id": 79423051,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79423051",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989106,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 79421155,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421155",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_b",
+      "problem_name": "Card Grabbing",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789993643,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 38,
+        "submission_id": 79422822,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990848,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 78,
+        "submission_id": 79421939,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_a",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0151",
+        "epoch_second": 1789993635,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 77,
+        "submission_id": 79422820,
+        "submission_url": "https://atcoder.jp/contests/awc0151/submissions/79422820",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0151",
+        "epoch_second": 1788799319,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 79,
+        "submission_id": 79065461,
+        "submission_url": "https://atcoder.jp/contests/awc0151/submissions/79065461",
+        "user_id": "Michele"
+      },
+      "problem_id": "awc0151_a",
+      "problem_name": "Package Delivery",
+      "problem_url": "https://atcoder.jp/contests/awc0151/tasks/awc0151_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789991344,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 169,
+        "submission_id": 79422130,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422130",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989958,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 200,
+        "submission_id": 79421531,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421531",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_e",
+      "problem_name": "Painting",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789991138,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 54,
+        "submission_id": 79422048,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422048",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990737,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 55,
+        "submission_id": 79421898,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421898",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_d",
+      "problem_name": "Card Taking Game",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990989,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 128,
+        "submission_id": 79421992,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421992",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989622,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 161,
+        "submission_id": 79421382,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421382",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_c",
+      "problem_name": "Bouquet Colors",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990848,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 78,
+        "submission_id": 79421939,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789988789,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 86,
+        "submission_id": 79421020,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421020",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_a",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789990737,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 55,
+        "submission_id": 79421898,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421898",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989393,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 56,
+        "submission_id": 79421291,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421291",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0161_d",
+      "problem_name": "Card Taking Game",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989958,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 200,
+        "submission_id": 79421531,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421531",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989878,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 264,
+        "submission_id": 79421490,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421490",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0161_e",
+      "problem_name": "Painting",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989622,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 161,
+        "submission_id": 79421382,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421382",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989433,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 205,
+        "submission_id": 79421305,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421305",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0161_c",
+      "problem_name": "Bouquet Colors",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989393,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 56,
+        "submission_id": 79421291,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421291",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789988943,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 353,
+        "submission_id": 79421082,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421082",
+        "user_id": "sigtuna"
+      },
+      "problem_id": "awc0161_d",
+      "problem_name": "Card Taking Game",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789989106,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 79421155,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421155",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789988866,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 63,
+        "submission_id": 79421050,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421050",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0161_b",
+      "problem_name": "Card Grabbing",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789988789,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 86,
+        "submission_id": 79421020,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421020",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789988574,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 130,
+        "submission_id": 79420890,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79420890",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0161_a",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
+    },
     {
       "after": {
         "contest_id": "awc0150",
