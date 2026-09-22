@@ -93,8 +93,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790034023,
-  "generated_iso": "2026-09-21T23:40:23+00:00",
+  "generated_epoch": 1790098512,
+  "generated_iso": "2026-09-22T17:35:12+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5274,8 +5274,36 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-22",
+  "recommendation_day": "2026-09-23",
   "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc193",
+        "epoch_second": 1788684357,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 272,
+        "submission_id": 79034918,
+        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
+        "user_id": "x20"
+      },
+      "problem_id": "abc193_f",
+      "problem_name": "Zebraness",
+      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
+    },
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788011421,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 78829962,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78829962",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc473_c",
+      "problem_name": "Change Schools",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_c"
+    },
     {
       "current": {
         "contest_id": "arc229",
