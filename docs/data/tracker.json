@@ -25,29 +25,6 @@
     },
     {
       "after": {
-        "contest_id": "awc0161",
-        "epoch_second": 1789993643,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 38,
-        "submission_id": 79422822,
-        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
-        "user_id": "shogo314"
-      },
-      "before": {
-        "contest_id": "awc0161",
-        "epoch_second": 1789990848,
-        "language": "Ruby 3.4 (ruby 3.4.5)",
-        "length": 78,
-        "submission_id": 79421939,
-        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0161_a",
-      "problem_name": "Hiking on a Mountain Trail",
-      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
-    },
-    {
-      "after": {
         "contest_id": "awc0100",
         "epoch_second": 1787916850,
         "language": "Uiua (uiua 0.16.2)",
@@ -116,8 +93,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790008653,
-  "generated_iso": "2026-09-21T16:37:33+00:00",
+  "generated_epoch": 1790034023,
+  "generated_iso": "2026-09-21T23:40:23+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -126,6 +103,138 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1790029572,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 36,
+      "current_submission_id": 79428067,
+      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79428067",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1789988789,
+      "last_acquired_epoch": 1790029572,
+      "problem_id": "awc0161_a",
+      "problem_index": "A",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_title": "A. Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a",
+      "status": "holding",
+      "target_epoch_second": 1790029572,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 36,
+      "target_submission_id": 79428067,
+      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79428067"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790028044,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 160,
+      "current_submission_id": 79427993,
+      "current_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427993",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790028044,
+      "last_acquired_epoch": 1790028044,
+      "problem_id": "awc0152_d",
+      "problem_index": "D",
+      "problem_name": "Shopping Challenge",
+      "problem_title": "D. Shopping Challenge",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_d",
+      "status": "holding",
+      "target_epoch_second": 1790028044,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 160,
+      "target_submission_id": 79427993,
+      "target_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427993"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790028013,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 78,
+      "current_submission_id": 79427989,
+      "current_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427989",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790028013,
+      "last_acquired_epoch": 1790028013,
+      "problem_id": "awc0152_c",
+      "problem_index": "C",
+      "problem_name": "Assortment of Sweets",
+      "problem_title": "C. Assortment of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_c",
+      "status": "holding",
+      "target_epoch_second": 1790028013,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 78,
+      "target_submission_id": 79427989,
+      "target_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427989"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790028000,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 269,
+      "current_submission_id": 79427987,
+      "current_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427987",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790028000,
+      "last_acquired_epoch": 1790028000,
+      "problem_id": "awc0152_b",
+      "problem_index": "B",
+      "problem_name": "Robot's Treasure Collection",
+      "problem_title": "B. Robot's Treasure Collection",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_b",
+      "status": "holding",
+      "target_epoch_second": 1790028000,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 269,
+      "target_submission_id": 79427987,
+      "target_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427987"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790027980,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 98,
+      "current_submission_id": 79427986,
+      "current_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427986",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790027980,
+      "last_acquired_epoch": 1790027980,
+      "problem_id": "awc0152_a",
+      "problem_index": "A",
+      "problem_name": "Collecting Coins on the Walking Path",
+      "problem_title": "A. Collecting Coins on the Walking Path",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_a",
+      "status": "holding",
+      "target_epoch_second": 1790027980,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 98,
+      "target_submission_id": 79427986,
+      "target_submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427986"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790027845,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 190,
+      "current_submission_id": 79427980,
+      "current_submission_url": "https://atcoder.jp/contests/awc0151/submissions/79427980",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790027845,
+      "last_acquired_epoch": 1790027845,
+      "problem_id": "awc0151_d",
+      "problem_index": "D",
+      "problem_name": "Job Selection",
+      "problem_title": "D. Job Selection",
+      "problem_url": "https://atcoder.jp/contests/awc0151/tasks/awc0151_d",
+      "status": "holding",
+      "target_epoch_second": 1790027845,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 190,
+      "target_submission_id": 79427980,
+      "target_submission_url": "https://atcoder.jp/contests/awc0151/submissions/79427980"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1789993635,
@@ -235,28 +344,6 @@
       "target_length": 32,
       "target_submission_id": 79421155,
       "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421155"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1789993643,
-      "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 38,
-      "current_submission_id": 79422822,
-      "current_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
-      "current_user_id": "shogo314",
-      "first_acquired_epoch": 1789988789,
-      "last_acquired_epoch": 1789988789,
-      "problem_id": "awc0161_a",
-      "problem_index": "A",
-      "problem_name": "Hiking on a Mountain Trail",
-      "problem_title": "A. Hiking on a Mountain Trail",
-      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a",
-      "status": "updated",
-      "target_epoch_second": 1789990848,
-      "target_language": "Ruby 3.4 (ruby 3.4.5)",
-      "target_length": 78,
-      "target_submission_id": 79421939,
-      "target_submission_url": "https://atcoder.jp/contests/awc0161/submissions/79421939"
     },
     {
       "acquisition_count": 1,
@@ -5205,16 +5292,154 @@
     }
   ],
   "summary": {
-    "active_update_count": 5,
-    "ever_held_count": 230,
-    "holding_count": 225,
-    "loss_event_count": 5,
-    "lost_count": 5,
-    "update_log_count": 139,
-    "updated_count": 5
+    "active_update_count": 4,
+    "ever_held_count": 235,
+    "holding_count": 231,
+    "loss_event_count": 4,
+    "lost_count": 4,
+    "update_log_count": 145,
+    "updated_count": 4
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0161",
+        "epoch_second": 1790029572,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 36,
+        "submission_id": 79428067,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79428067",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0161",
+        "epoch_second": 1789993643,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 38,
+        "submission_id": 79422822,
+        "submission_url": "https://atcoder.jp/contests/awc0161/submissions/79422822",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0161_a",
+      "problem_name": "Hiking on a Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0161/tasks/awc0161_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0152",
+        "epoch_second": 1790028044,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 160,
+        "submission_id": 79427993,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427993",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0152",
+        "epoch_second": 1788865520,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 226,
+        "submission_id": 79079066,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79079066",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0152_d",
+      "problem_name": "Shopping Challenge",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0152",
+        "epoch_second": 1790028013,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 78,
+        "submission_id": 79427989,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427989",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0152",
+        "epoch_second": 1788865880,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 149,
+        "submission_id": 79079243,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79079243",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0152_c",
+      "problem_name": "Assortment of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0152",
+        "epoch_second": 1790028000,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 269,
+        "submission_id": 79427987,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427987",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0152",
+        "epoch_second": 1788866277,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 310,
+        "submission_id": 79079439,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79079439",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0152_b",
+      "problem_name": "Robot's Treasure Collection",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0152",
+        "epoch_second": 1790027980,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 98,
+        "submission_id": 79427986,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79427986",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0152",
+        "epoch_second": 1788938678,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 127,
+        "submission_id": 79094521,
+        "submission_url": "https://atcoder.jp/contests/awc0152/submissions/79094521",
+        "user_id": "Michele"
+      },
+      "problem_id": "awc0152_a",
+      "problem_name": "Collecting Coins on the Walking Path",
+      "problem_url": "https://atcoder.jp/contests/awc0152/tasks/awc0152_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0151",
+        "epoch_second": 1790027845,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 190,
+        "submission_id": 79427980,
+        "submission_url": "https://atcoder.jp/contests/awc0151/submissions/79427980",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0151",
+        "epoch_second": 1788783000,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 310,
+        "submission_id": 79060697,
+        "submission_url": "https://atcoder.jp/contests/awc0151/submissions/79060697",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0151_d",
+      "problem_name": "Job Selection",
+      "problem_url": "https://atcoder.jp/contests/awc0151/tasks/awc0151_d"
+    },
     {
       "after": {
         "contest_id": "awc0161",
