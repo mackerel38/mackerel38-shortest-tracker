@@ -23642,11 +23642,11 @@
     },
     "abc476_d": {
       "contest_id": "abc476",
-      "epoch_second": 1789827513,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 205,
-      "submission_id": 79388835,
-      "user_id": "negativesquare"
+      "epoch_second": 1790119935,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 166,
+      "submission_id": 79445247,
+      "user_id": "mackerel38"
     },
     "abc476_e": {
       "contest_id": "abc476",
@@ -44146,11 +44146,11 @@
     },
     "awc0162_b": {
       "contest_id": "awc0162",
-      "epoch_second": 1790076259,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 117,
-      "submission_id": 79437398,
-      "user_id": "miztom"
+      "epoch_second": 1790106147,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 92,
+      "submission_id": 79444190,
+      "user_id": "Michele"
     },
     "awc0162_c": {
       "contest_id": "awc0162",
@@ -76486,6 +76486,16 @@
       "target_length": 558,
       "target_submission_id": 78073368
     },
+    "abc476_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1790119935,
+      "last_acquired_epoch": 1790119935,
+      "target_contest_id": "abc476",
+      "target_epoch_second": 1790119935,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 166,
+      "target_submission_id": 79445247
+    },
     "arc148_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785231986,
@@ -78538,7 +78548,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790098512,
+  "last_checked_epoch": 1790127182,
   "recommendation_day": "2026-09-23",
   "recommendations": [
     "abc193_f",
@@ -86833,6 +86843,18 @@
     "79439915": {
       "epoch_second": 1790083521,
       "language": "C++23 (GCC 15.2.0)"
+    },
+    "79444166": {
+      "epoch_second": 1790106004,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79444190": {
+      "epoch_second": 1790106147,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79445247": {
+      "epoch_second": 1790119935,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
@@ -89216,6 +89238,10 @@
     ],
     "abc473_g": [
       "C++23 (GCC 15.2.0)"
+    ],
+    "abc476_d": [
+      "Ruby 3.4 (ruby 3.4.5)",
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "abl_c": [
       "C++ 20 (gcc 12.2)"
@@ -91817,6 +91843,7 @@
     "abc469_f:78066130",
     "abc469_f:78071858",
     "abc469_g:78073368",
+    "abc476_d:79445247",
     "arc229_e:79038071",
     "arc229_e:79038111",
     "arc229_e:79038906",
@@ -94703,6 +94730,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0161_a"
+    },
+    {
+      "after": {
+        "contest_id": "abc476",
+        "epoch_second": 1790119935,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 166,
+        "submission_id": 79445247,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc476",
+        "epoch_second": 1789827513,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 205,
+        "submission_id": 79388835,
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc476_d"
     }
   ],
   "version": 2
