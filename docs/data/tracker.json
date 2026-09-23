@@ -93,8 +93,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790165901,
-  "generated_iso": "2026-09-23T12:18:21+00:00",
+  "generated_epoch": 1790184245,
+  "generated_iso": "2026-09-23T17:24:05+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -103,6 +103,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790169455,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 366,
+      "current_submission_id": 79457227,
+      "current_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79457227",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790168006,
+      "last_acquired_epoch": 1790168006,
+      "problem_id": "awc0163_d",
+      "problem_index": "D",
+      "problem_name": "Equal Shopping",
+      "problem_title": "D. Equal Shopping",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_d",
+      "status": "holding",
+      "target_epoch_second": 1790169455,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 366,
+      "target_submission_id": 79457227,
+      "target_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79457227"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790166502,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 31,
+      "current_submission_id": 79456349,
+      "current_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456349",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790166502,
+      "last_acquired_epoch": 1790166502,
+      "problem_id": "awc0163_b",
+      "problem_index": "B",
+      "problem_name": "Storing the Rope",
+      "problem_title": "B. Storing the Rope",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_b",
+      "status": "holding",
+      "target_epoch_second": 1790166502,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 31,
+      "target_submission_id": 79456349,
+      "target_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456349"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790165065,
@@ -114,9 +158,9 @@
       "first_acquired_epoch": 1790164692,
       "last_acquired_epoch": 1790164692,
       "problem_id": "awc0163_a",
-      "problem_index": "",
-      "problem_name": "awc0163_a",
-      "problem_title": "awc0163_a",
+      "problem_index": "A",
+      "problem_name": "Request for Support",
+      "problem_title": "A. Request for Support",
       "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_a",
       "status": "holding",
       "target_epoch_second": 1790165065,
@@ -5318,62 +5362,111 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-23",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "abc193",
-        "epoch_second": 1788684357,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 272,
-        "submission_id": 79034918,
-        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
-        "user_id": "x20"
-      },
-      "problem_id": "abc193_f",
-      "problem_name": "Zebraness",
-      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
-    },
-    {
-      "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788011421,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 31,
-        "submission_id": 78829962,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78829962",
-        "user_id": "shogo314"
-      },
-      "problem_id": "abc473_c",
-      "problem_name": "Change Schools",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_c"
-    },
-    {
-      "current": {
-        "contest_id": "arc229",
-        "epoch_second": 1788625711,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 171,
-        "submission_id": 78987924,
-        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987924",
-        "user_id": "miztom"
-      },
-      "problem_id": "arc229_c",
-      "problem_name": "Sum of Average 2",
-      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_c"
-    }
-  ],
+  "recommendation_day": "2026-09-24",
+  "recommendations": [],
   "summary": {
     "active_update_count": 4,
-    "ever_held_count": 237,
-    "holding_count": 233,
+    "ever_held_count": 239,
+    "holding_count": 235,
     "loss_event_count": 4,
     "lost_count": 4,
-    "update_log_count": 148,
+    "update_log_count": 152,
     "updated_count": 4
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790169455,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 366,
+        "submission_id": 79457227,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79457227",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790168103,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 418,
+        "submission_id": 79456830,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456830",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_d",
+      "problem_name": "Equal Shopping",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790168103,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 418,
+        "submission_id": 79456830,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456830",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790168006,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 427,
+        "submission_id": 79456801,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456801",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_d",
+      "problem_name": "Equal Shopping",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790168006,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 427,
+        "submission_id": 79456801,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456801",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790167529,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 778,
+        "submission_id": 79456656,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456656",
+        "user_id": "my_small_account"
+      },
+      "problem_id": "awc0163_d",
+      "problem_name": "Equal Shopping",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790166502,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 31,
+        "submission_id": 79456349,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456349",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790163028,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 67,
+        "submission_id": 79455152,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79455152",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0163_b",
+      "problem_name": "Storing the Rope",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_b"
+    },
     {
       "after": {
         "contest_id": "awc0163",
@@ -5394,7 +5487,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0163_a",
-      "problem_name": "awc0163_a",
+      "problem_name": "Request for Support",
       "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_a"
     },
     {
@@ -5417,7 +5510,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0163_a",
-      "problem_name": "awc0163_a",
+      "problem_name": "Request for Support",
       "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_a"
     },
     {
