@@ -93,8 +93,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790184245,
-  "generated_iso": "2026-09-23T17:24:05+00:00",
+  "generated_epoch": 1790195895,
+  "generated_iso": "2026-09-23T20:38:15+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -103,6 +103,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790187217,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 695,
+      "current_submission_id": 79460782,
+      "current_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460782",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790186114,
+      "last_acquired_epoch": 1790186114,
+      "problem_id": "awc0163_e",
+      "problem_index": "E",
+      "problem_name": "Traveling to the Space Station",
+      "problem_title": "E. Traveling to the Space Station",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_e",
+      "status": "holding",
+      "target_epoch_second": 1790187217,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 695,
+      "target_submission_id": 79460782,
+      "target_submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460782"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790169455,
@@ -5366,15 +5388,84 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 4,
-    "ever_held_count": 239,
-    "holding_count": 235,
+    "ever_held_count": 240,
+    "holding_count": 236,
     "loss_event_count": 4,
     "lost_count": 4,
-    "update_log_count": 152,
+    "update_log_count": 155,
     "updated_count": 4
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790187217,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 695,
+        "submission_id": 79460782,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460782",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790187146,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 704,
+        "submission_id": 79460776,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460776",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_e",
+      "problem_name": "Traveling to the Space Station",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790187146,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 704,
+        "submission_id": 79460776,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460776",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790186114,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 726,
+        "submission_id": 79460671,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460671",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_e",
+      "problem_name": "Traveling to the Space Station",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790186114,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 726,
+        "submission_id": 79460671,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79460671",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790168355,
+        "language": "Python (CPython 3.13.7)",
+        "length": 3826,
+        "submission_id": 79456894,
+        "submission_url": "https://atcoder.jp/contests/awc0163/submissions/79456894",
+        "user_id": "my_small_account"
+      },
+      "problem_id": "awc0163_e",
+      "problem_name": "Traveling to the Space Station",
+      "problem_url": "https://atcoder.jp/contests/awc0163/tasks/awc0163_e"
+    },
     {
       "after": {
         "contest_id": "awc0163",
