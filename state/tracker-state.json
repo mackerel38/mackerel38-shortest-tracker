@@ -44210,10 +44210,10 @@
     },
     "awc0163_e": {
       "contest_id": "awc0163",
-      "epoch_second": 1790187217,
+      "epoch_second": 1790220326,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 695,
-      "submission_id": 79460782,
+      "length": 647,
+      "submission_id": 79464221,
       "user_id": "mackerel38"
     },
     "awtf2024_a": {
@@ -78611,10 +78611,10 @@
       "first_acquired_epoch": 1790186114,
       "last_acquired_epoch": 1790186114,
       "target_contest_id": "awc0163",
-      "target_epoch_second": 1790187217,
+      "target_epoch_second": 1790220326,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 695,
-      "target_submission_id": 79460782
+      "target_length": 647,
+      "target_submission_id": 79464221
     },
     "codequeen2026_a": {
       "acquisition_count": 1,
@@ -78628,7 +78628,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790195895,
+  "last_checked_epoch": 1790232088,
   "recommendation_day": "2026-09-24",
   "recommendations": [],
   "submission_details": {
@@ -87095,6 +87095,14 @@
     "79460782": {
       "epoch_second": 1790187217,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79463947": {
+      "epoch_second": 1790219092,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79464221": {
+      "epoch_second": 1790220326,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -90820,6 +90828,7 @@
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "awc0163_e": [
+      "Text (cat 9.4)",
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "codefestival_2016_qualB_b": [
@@ -92236,6 +92245,8 @@
     "awc0163_e:79460671",
     "awc0163_e:79460776",
     "awc0163_e:79460782",
+    "awc0163_e:79463947",
+    "awc0163_e:79464221",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -95183,6 +95194,44 @@
         "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
         "length": 704,
         "submission_id": 79460776,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790219092,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 673,
+        "submission_id": 79463947,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790187217,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 695,
+        "submission_id": 79460782,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0163_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790220326,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 647,
+        "submission_id": 79464221,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0163",
+        "epoch_second": 1790219092,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 673,
+        "submission_id": 79463947,
         "user_id": "mackerel38"
       },
       "problem_id": "awc0163_e"
