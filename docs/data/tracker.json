@@ -93,8 +93,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790252285,
-  "generated_iso": "2026-09-24T12:18:05+00:00",
+  "generated_epoch": 1790270947,
+  "generated_iso": "2026-09-24T17:29:07+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -103,6 +103,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790254382,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 208,
+      "current_submission_id": 79472627,
+      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472627",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790254382,
+      "last_acquired_epoch": 1790254382,
+      "problem_id": "awc0164_e",
+      "problem_index": "E",
+      "problem_name": "Repetitive Structure of a String",
+      "problem_title": "E. Repetitive Structure of a String",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_e",
+      "status": "holding",
+      "target_epoch_second": 1790254382,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 208,
+      "target_submission_id": 79472627,
+      "target_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472627"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790254134,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 298,
+      "current_submission_id": 79472579,
+      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472579",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790253414,
+      "last_acquired_epoch": 1790253414,
+      "problem_id": "awc0164_d",
+      "problem_index": "D",
+      "problem_name": "Inspection Schedule",
+      "problem_title": "D. Inspection Schedule",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_d",
+      "status": "holding",
+      "target_epoch_second": 1790254134,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 298,
+      "target_submission_id": 79472579,
+      "target_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472579"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790250961,
@@ -114,9 +158,9 @@
       "first_acquired_epoch": 1790250961,
       "last_acquired_epoch": 1790250961,
       "problem_id": "awc0164_c",
-      "problem_index": "",
-      "problem_name": "awc0164_c",
-      "problem_title": "awc0164_c",
+      "problem_index": "C",
+      "problem_name": "Assignment of Delivery Workers and Tasks",
+      "problem_title": "C. Assignment of Delivery Workers and Tasks",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_c",
       "status": "holding",
       "target_epoch_second": 1790250961,
@@ -136,9 +180,9 @@
       "first_acquired_epoch": 1790250347,
       "last_acquired_epoch": 1790250347,
       "problem_id": "awc0164_b",
-      "problem_index": "",
-      "problem_name": "awc0164_b",
-      "problem_title": "awc0164_b",
+      "problem_index": "B",
+      "problem_name": "Height Comparison",
+      "problem_title": "B. Height Comparison",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_b",
       "status": "holding",
       "target_epoch_second": 1790250347,
@@ -149,25 +193,25 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1790250790,
+      "current_epoch_second": 1790252248,
       "current_language": "AWK (GNU awk 5.2.1)",
-      "current_length": 23,
-      "current_submission_id": 79471780,
-      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79471780",
+      "current_length": 21,
+      "current_submission_id": 79472176,
+      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472176",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1790249720,
       "last_acquired_epoch": 1790249720,
       "problem_id": "awc0164_a",
-      "problem_index": "",
-      "problem_name": "awc0164_a",
-      "problem_title": "awc0164_a",
+      "problem_index": "A",
+      "problem_name": "Weighting a Tree",
+      "problem_title": "A. Weighting a Tree",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a",
       "status": "holding",
-      "target_epoch_second": 1790250790,
+      "target_epoch_second": 1790252248,
       "target_language": "AWK (GNU awk 5.2.1)",
-      "target_length": 23,
-      "target_submission_id": 79471780,
-      "target_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79471780"
+      "target_length": 21,
+      "target_submission_id": 79472176,
+      "target_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472176"
     },
     {
       "acquisition_count": 1,
@@ -5450,19 +5494,111 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-24",
+  "recommendation_day": "2026-09-25",
   "recommendations": [],
   "summary": {
     "active_update_count": 4,
-    "ever_held_count": 243,
-    "holding_count": 239,
+    "ever_held_count": 245,
+    "holding_count": 241,
     "loss_event_count": 4,
     "lost_count": 4,
-    "update_log_count": 161,
+    "update_log_count": 165,
     "updated_count": 4
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790254382,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 208,
+        "submission_id": 79472627,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472627",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790251864,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 340,
+        "submission_id": 79472095,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472095",
+        "user_id": "undeadliberty"
+      },
+      "problem_id": "awc0164_e",
+      "problem_name": "Repetitive Structure of a String",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790254134,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 298,
+        "submission_id": 79472579,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472579",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790253414,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 367,
+        "submission_id": 79472447,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472447",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_d",
+      "problem_name": "Inspection Schedule",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790253414,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 367,
+        "submission_id": 79472447,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472447",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790250402,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 536,
+        "submission_id": 79471649,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79471649",
+        "user_id": "sigtuna"
+      },
+      "problem_id": "awc0164_d",
+      "problem_name": "Inspection Schedule",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790252248,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 21,
+        "submission_id": 79472176,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472176",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790250790,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 23,
+        "submission_id": 79471780,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79471780",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_a",
+      "problem_name": "Weighting a Tree",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
+    },
     {
       "after": {
         "contest_id": "awc0164",
@@ -5483,7 +5619,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0164_c",
-      "problem_name": "awc0164_c",
+      "problem_name": "Assignment of Delivery Workers and Tasks",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_c"
     },
     {
@@ -5506,7 +5642,7 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0164_a",
-      "problem_name": "awc0164_a",
+      "problem_name": "Weighting a Tree",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
     },
     {
@@ -5529,7 +5665,7 @@
         "user_id": "moon17"
       },
       "problem_id": "awc0164_b",
-      "problem_name": "awc0164_b",
+      "problem_name": "Height Comparison",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_b"
     },
     {
@@ -5552,7 +5688,7 @@
         "user_id": "MohamedAslamk"
       },
       "problem_id": "awc0164_a",
-      "problem_name": "awc0164_a",
+      "problem_name": "Weighting a Tree",
       "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
     },
     {
