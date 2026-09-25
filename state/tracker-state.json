@@ -44226,19 +44226,19 @@
     },
     "awc0164_b": {
       "contest_id": "awc0164",
-      "epoch_second": 1790250347,
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 54,
-      "submission_id": 79471621,
-      "user_id": "mackerel38"
+      "epoch_second": 1790301208,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 42,
+      "submission_id": 79477817,
+      "user_id": "shogo314"
     },
     "awc0164_c": {
       "contest_id": "awc0164",
-      "epoch_second": 1790250961,
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 90,
-      "submission_id": 79471839,
-      "user_id": "mackerel38"
+      "epoch_second": 1790295706,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 74,
+      "submission_id": 79477205,
+      "user_id": "shogo314"
     },
     "awc0164_d": {
       "contest_id": "awc0164",
@@ -78718,7 +78718,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790270947,
+  "last_checked_epoch": 1790301403,
   "recommendation_day": "2026-09-25",
   "recommendations": [],
   "submission_details": {
@@ -87333,6 +87333,14 @@
     "79472627": {
       "epoch_second": 1790254382,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79477205": {
+      "epoch_second": 1790295706,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "79477817": {
+      "epoch_second": 1790301208,
+      "language": "A言語 (interpreter af48a2a)"
     }
   },
   "target_language_index_complete": true,
@@ -92500,7 +92508,9 @@
     "awc0164_a:79471780",
     "awc0164_a:79472176",
     "awc0164_b:79471621",
+    "awc0164_b:79477817",
     "awc0164_c:79471839",
+    "awc0164_c:79477205",
     "awc0164_d:79472447",
     "awc0164_d:79472579",
     "awc0164_e:79472627",
@@ -95644,6 +95654,44 @@
         "user_id": "undeadliberty"
       },
       "problem_id": "awc0164_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790295706,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 74,
+        "submission_id": 79477205,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790250961,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 90,
+        "submission_id": 79471839,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790301208,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 42,
+        "submission_id": 79477817,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790250347,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 54,
+        "submission_id": 79471621,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_b"
     }
   ],
   "version": 2
