@@ -44218,11 +44218,11 @@
     },
     "awc0164_a": {
       "contest_id": "awc0164",
-      "epoch_second": 1790252248,
-      "language": "AWK (GNU awk 5.2.1)",
-      "length": 21,
-      "submission_id": 79472176,
-      "user_id": "mackerel38"
+      "epoch_second": 1790302008,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 20,
+      "submission_id": 79477917,
+      "user_id": "shogo314"
     },
     "awc0164_b": {
       "contest_id": "awc0164",
@@ -78718,7 +78718,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790301403,
+  "last_checked_epoch": 1790321876,
   "recommendation_day": "2026-09-25",
   "recommendations": [],
   "submission_details": {
@@ -87341,6 +87341,10 @@
     "79477817": {
       "epoch_second": 1790301208,
       "language": "A言語 (interpreter af48a2a)"
+    },
+    "79477917": {
+      "epoch_second": 1790302008,
+      "language": "A言語 (interpreter af48a2a)"
     }
   },
   "target_language_index_complete": true,
@@ -92507,6 +92511,7 @@
     "awc0164_a:79471444",
     "awc0164_a:79471780",
     "awc0164_a:79472176",
+    "awc0164_a:79477917",
     "awc0164_b:79471621",
     "awc0164_b:79477817",
     "awc0164_c:79471839",
@@ -95692,6 +95697,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0164_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790302008,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 20,
+        "submission_id": 79477917,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790252248,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 21,
+        "submission_id": 79472176,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_a"
     }
   ],
   "version": 2
