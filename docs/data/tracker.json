@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790359065,
-  "generated_iso": "2026-09-25T17:57:45+00:00",
+  "generated_epoch": 1790416458,
+  "generated_iso": "2026-09-26T09:54:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -172,6 +172,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790403796,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 255,
+      "current_submission_id": 79496013,
+      "current_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79496013",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790403796,
+      "last_acquired_epoch": 1790403796,
+      "problem_id": "awc0153_d",
+      "problem_index": "D",
+      "problem_name": "Emergency Transport Network",
+      "problem_title": "D. Emergency Transport Network",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_d",
+      "status": "holding",
+      "target_epoch_second": 1790403796,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 255,
+      "target_submission_id": 79496013,
+      "target_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79496013"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790402184,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 110,
+      "current_submission_id": 79495527,
+      "current_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495527",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790402184,
+      "last_acquired_epoch": 1790402184,
+      "problem_id": "awc0153_c",
+      "problem_index": "C",
+      "problem_name": "Watering Record",
+      "problem_title": "C. Watering Record",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_c",
+      "status": "holding",
+      "target_epoch_second": 1790402184,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 110,
+      "target_submission_id": 79495527,
+      "target_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495527"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790401887,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 95,
+      "current_submission_id": 79495451,
+      "current_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495451",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790401887,
+      "last_acquired_epoch": 1790401887,
+      "problem_id": "awc0153_b",
+      "problem_index": "B",
+      "problem_name": "Nearest Shelter",
+      "problem_title": "B. Nearest Shelter",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_b",
+      "status": "holding",
+      "target_epoch_second": 1790401887,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 95,
+      "target_submission_id": 79495451,
+      "target_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495451"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790401162,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 94,
+      "current_submission_id": 79495243,
+      "current_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495243",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790401162,
+      "last_acquired_epoch": 1790401162,
+      "problem_id": "awc0153_a",
+      "problem_index": "A",
+      "problem_name": "Sensor Data Restoration",
+      "problem_title": "A. Sensor Data Restoration",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_a",
+      "status": "holding",
+      "target_epoch_second": 1790401162,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 94,
+      "target_submission_id": 79495243,
+      "target_submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495243"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790254382,
@@ -5567,15 +5655,107 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 7,
-    "ever_held_count": 245,
-    "holding_count": 238,
+    "ever_held_count": 249,
+    "holding_count": 242,
     "loss_event_count": 7,
     "lost_count": 7,
-    "update_log_count": 168,
+    "update_log_count": 172,
     "updated_count": 7
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0153",
+        "epoch_second": 1790403796,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 255,
+        "submission_id": 79496013,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79496013",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0153",
+        "epoch_second": null,
+        "language": null,
+        "length": 306,
+        "submission_id": 79098963,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79098963",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0153_d",
+      "problem_name": "Emergency Transport Network",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0153",
+        "epoch_second": 1790402184,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 110,
+        "submission_id": 79495527,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495527",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0153",
+        "epoch_second": null,
+        "language": null,
+        "length": 196,
+        "submission_id": 79099903,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79099903",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0153_c",
+      "problem_name": "Watering Record",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0153",
+        "epoch_second": 1790401887,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 95,
+        "submission_id": 79495451,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495451",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0153",
+        "epoch_second": 1788959546,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 184,
+        "submission_id": 79102139,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79102139",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0153_b",
+      "problem_name": "Nearest Shelter",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0153",
+        "epoch_second": 1790401162,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 94,
+        "submission_id": 79495243,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79495243",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0153",
+        "epoch_second": 1788956417,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 130,
+        "submission_id": 79101002,
+        "submission_url": "https://atcoder.jp/contests/awc0153/submissions/79101002",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0153_a",
+      "problem_name": "Sensor Data Restoration",
+      "problem_url": "https://atcoder.jp/contests/awc0153/tasks/awc0153_a"
+    },
     {
       "after": {
         "contest_id": "awc0164",
