@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790595316,
-  "generated_iso": "2026-09-28T11:35:16+00:00",
+  "generated_epoch": 1790621064,
+  "generated_iso": "2026-09-28T18:44:24+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -172,6 +172,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790620898,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 334,
+      "current_submission_id": 79611879,
+      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790620898,
+      "last_acquired_epoch": 1790620898,
+      "problem_id": "awc0166_d",
+      "problem_index": "D",
+      "problem_name": "Eroding Ruins",
+      "problem_title": "D. Eroding Ruins",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_d",
+      "status": "holding",
+      "target_epoch_second": 1790620898,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 334,
+      "target_submission_id": 79611879,
+      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790596702,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 196,
+      "current_submission_id": 79606505,
+      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606505",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790596702,
+      "last_acquired_epoch": 1790596702,
+      "problem_id": "awc0166_c",
+      "problem_index": "C",
+      "problem_name": "Distribution of Water",
+      "problem_title": "C. Distribution of Water",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_c",
+      "status": "holding",
+      "target_epoch_second": 1790596702,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 196,
+      "target_submission_id": 79606505,
+      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606505"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790596328,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 118,
+      "current_submission_id": 79606358,
+      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606358",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790596328,
+      "last_acquired_epoch": 1790596328,
+      "problem_id": "awc0166_b",
+      "problem_index": "B",
+      "problem_name": "Ticket Counter Service",
+      "problem_title": "B. Ticket Counter Service",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_b",
+      "status": "holding",
+      "target_epoch_second": 1790596328,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 118,
+      "target_submission_id": 79606358,
+      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606358"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790403796,
@@ -5651,19 +5717,117 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-28",
-  "recommendations": [],
+  "recommendation_day": "2026-09-29",
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788011421,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 78829962,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78829962",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc473_c",
+      "problem_name": "Change Schools",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_c"
+    },
+    {
+      "current": {
+        "contest_id": "arc229",
+        "epoch_second": 1788623205,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 133,
+        "submission_id": 78987452,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987452",
+        "user_id": "miztom"
+      },
+      "problem_id": "arc229_d",
+      "problem_name": "Nim_k ?",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_d"
+    }
+  ],
   "summary": {
     "active_update_count": 7,
-    "ever_held_count": 249,
-    "holding_count": 242,
+    "ever_held_count": 252,
+    "holding_count": 245,
     "loss_event_count": 7,
     "lost_count": 7,
-    "update_log_count": 172,
+    "update_log_count": 175,
     "updated_count": 7
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790620898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 334,
+        "submission_id": 79611879,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790599242,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 692,
+        "submission_id": 79607354,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79607354",
+        "user_id": "sasa8uyauya"
+      },
+      "problem_id": "awc0166_d",
+      "problem_name": "Eroding Ruins",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790596702,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 196,
+        "submission_id": 79606505,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606505",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790594942,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 486,
+        "submission_id": 79605762,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79605762",
+        "user_id": "kamekiti_mars"
+      },
+      "problem_id": "awc0166_c",
+      "problem_name": "Distribution of Water",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790596328,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 118,
+        "submission_id": 79606358,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606358",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790595952,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 364,
+        "submission_id": 79606188,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606188",
+        "user_id": "Sugu_04_11"
+      },
+      "problem_id": "awc0166_b",
+      "problem_name": "Ticket Counter Service",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_b"
+    },
     {
       "after": {
         "contest_id": "awc0153",
