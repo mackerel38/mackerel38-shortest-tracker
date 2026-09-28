@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790621064,
-  "generated_iso": "2026-09-28T18:44:24+00:00",
+  "generated_epoch": 1790638432,
+  "generated_iso": "2026-09-28T23:33:52+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -174,11 +174,33 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1790620898,
+      "current_epoch_second": 1790621226,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 334,
-      "current_submission_id": 79611879,
-      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879",
+      "current_length": 286,
+      "current_submission_id": 79611913,
+      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611913",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790621226,
+      "last_acquired_epoch": 1790621226,
+      "problem_id": "awc0166_e",
+      "problem_index": "E",
+      "problem_name": "Dungeon Exploration",
+      "problem_title": "E. Dungeon Exploration",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_e",
+      "status": "holding",
+      "target_epoch_second": 1790621226,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 286,
+      "target_submission_id": 79611913,
+      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611913"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790621245,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 329,
+      "current_submission_id": 79611918,
+      "current_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611918",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1790620898,
       "last_acquired_epoch": 1790620898,
@@ -188,11 +210,11 @@
       "problem_title": "D. Eroding Ruins",
       "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_d",
       "status": "holding",
-      "target_epoch_second": 1790620898,
+      "target_epoch_second": 1790621245,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 334,
-      "target_submission_id": 79611879,
-      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879"
+      "target_length": 329,
+      "target_submission_id": 79611918,
+      "target_submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611918"
     },
     {
       "acquisition_count": 1,
@@ -5750,15 +5772,61 @@
   ],
   "summary": {
     "active_update_count": 7,
-    "ever_held_count": 252,
-    "holding_count": 245,
+    "ever_held_count": 253,
+    "holding_count": 246,
     "loss_event_count": 7,
     "lost_count": 7,
-    "update_log_count": 175,
+    "update_log_count": 177,
     "updated_count": 7
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790621245,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 329,
+        "submission_id": 79611918,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611918",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790620898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 334,
+        "submission_id": 79611879,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611879",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0166_d",
+      "problem_name": "Eroding Ruins",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790621226,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 286,
+        "submission_id": 79611913,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79611913",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790596139,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 428,
+        "submission_id": 79606273,
+        "submission_url": "https://atcoder.jp/contests/awc0166/submissions/79606273",
+        "user_id": "Dareon"
+      },
+      "problem_id": "awc0166_e",
+      "problem_name": "Dungeon Exploration",
+      "problem_url": "https://atcoder.jp/contests/awc0166/tasks/awc0166_e"
+    },
     {
       "after": {
         "contest_id": "awc0166",

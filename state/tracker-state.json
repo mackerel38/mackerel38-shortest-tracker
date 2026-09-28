@@ -44402,19 +44402,19 @@
     },
     "awc0166_d": {
       "contest_id": "awc0166",
-      "epoch_second": 1790620898,
+      "epoch_second": 1790621245,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 334,
-      "submission_id": 79611879,
+      "length": 329,
+      "submission_id": 79611918,
       "user_id": "mackerel38"
     },
     "awc0166_e": {
       "contest_id": "awc0166",
-      "epoch_second": 1790596139,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 428,
-      "submission_id": 79606273,
-      "user_id": "Dareon"
+      "epoch_second": 1790621226,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 286,
+      "submission_id": 79611913,
+      "user_id": "mackerel38"
     },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
@@ -78931,10 +78931,20 @@
       "first_acquired_epoch": 1790620898,
       "last_acquired_epoch": 1790620898,
       "target_contest_id": "awc0166",
-      "target_epoch_second": 1790620898,
+      "target_epoch_second": 1790621245,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 334,
-      "target_submission_id": 79611879
+      "target_length": 329,
+      "target_submission_id": 79611918
+    },
+    "awc0166_e": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1790621226,
+      "last_acquired_epoch": 1790621226,
+      "target_contest_id": "awc0166",
+      "target_epoch_second": 1790621226,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 286,
+      "target_submission_id": 79611913
     },
     "codequeen2026_a": {
       "acquisition_count": 1,
@@ -78948,7 +78958,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790621064,
+  "last_checked_epoch": 1790638432,
   "recommendation_day": "2026-09-29",
   "recommendations": [
     "abc473_c",
@@ -88186,6 +88196,14 @@
     "79611879": {
       "epoch_second": 1790620898,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79611913": {
+      "epoch_second": 1790621226,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79611918": {
+      "epoch_second": 1790621245,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -91962,6 +91980,9 @@
     "awc0166_d": [
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
+    "awc0166_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
     "codefestival_2016_qualB_b": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -93396,6 +93417,8 @@
     "awc0166_b:79606358",
     "awc0166_c:79606505",
     "awc0166_d:79611879",
+    "awc0166_d:79611918",
+    "awc0166_e:79611913",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -96724,6 +96747,44 @@
         "length": 692,
         "submission_id": 79607354,
         "user_id": "sasa8uyauya"
+      },
+      "problem_id": "awc0166_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790621226,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 286,
+        "submission_id": 79611913,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790596139,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 428,
+        "submission_id": 79606273,
+        "user_id": "Dareon"
+      },
+      "problem_id": "awc0166_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790621245,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 329,
+        "submission_id": 79611918,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0166",
+        "epoch_second": 1790620898,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 334,
+        "submission_id": 79611879,
+        "user_id": "mackerel38"
       },
       "problem_id": "awc0166_d"
     }
