@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790767444,
-  "generated_iso": "2026-09-30T11:24:04+00:00",
+  "generated_epoch": 1790787485,
+  "generated_iso": "2026-09-30T16:58:05+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5827,21 +5827,35 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-09-30",
+  "recommendation_day": "2026-10-01",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc229",
-        "epoch_second": 1788617580,
-        "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)",
-        "length": 235,
-        "submission_id": 78985478,
-        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78985478",
-        "user_id": "pengweixiang"
+        "contest_id": "arc202",
+        "epoch_second": 1789548546,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 493,
+        "submission_id": 79293821,
+        "submission_url": "https://atcoder.jp/contests/arc202/submissions/79293821",
+        "user_id": "qhr2024"
       },
-      "problem_id": "arc229_f",
-      "problem_name": "Angst for All Pairs 2",
-      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_f"
+      "problem_id": "arc202_a",
+      "problem_name": "Merge and Increment",
+      "problem_url": "https://atcoder.jp/contests/arc202/tasks/arc202_a"
+    },
+    {
+      "current": {
+        "contest_id": "abc193",
+        "epoch_second": 1788684357,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 272,
+        "submission_id": 79034918,
+        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
+        "user_id": "x20"
+      },
+      "problem_id": "abc193_f",
+      "problem_name": "Zebraness",
+      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
     }
   ],
   "summary": {
