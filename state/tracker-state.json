@@ -35162,11 +35162,11 @@
     },
     "arc179_a": {
       "contest_id": "arc179",
-      "epoch_second": null,
-      "language": null,
-      "length": 100,
-      "submission_id": 54199434,
-      "user_id": "Pine"
+      "epoch_second": 1790753108,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 58,
+      "submission_id": 79637053,
+      "user_id": "mackerel38"
     },
     "arc179_b": {
       "contest_id": "arc179",
@@ -44426,11 +44426,11 @@
     },
     "awc0167_b": {
       "contest_id": "awc0167",
-      "epoch_second": 1790680331,
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 81,
-      "submission_id": 79623962,
-      "user_id": "kaisoku2416"
+      "epoch_second": 1790738695,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 46,
+      "submission_id": 79633935,
+      "user_id": "shogo314"
     },
     "awc0167_c": {
       "contest_id": "awc0167",
@@ -44450,11 +44450,11 @@
     },
     "awc0167_e": {
       "contest_id": "awc0167",
-      "epoch_second": 1790716637,
-      "language": "Python (CPython 3.13.7)",
-      "length": 52,
-      "submission_id": 79631275,
-      "user_id": "okudeottu"
+      "epoch_second": 1790739203,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 30,
+      "submission_id": 79634013,
+      "user_id": "shogo314"
     },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
@@ -54450,11 +54450,11 @@
     },
     "joi2024ho_b": {
       "contest_id": "joi2024ho",
-      "epoch_second": null,
-      "language": null,
-      "length": 558,
-      "submission_id": 52758704,
-      "user_id": "Rssll_Krkgrd"
+      "epoch_second": 1790736278,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 507,
+      "submission_id": 79633466,
+      "user_id": "kino0402"
     },
     "joi2024ho_c": {
       "contest_id": "joi2024ho",
@@ -76786,6 +76786,16 @@
       "target_length": 107,
       "target_submission_id": 77918430
     },
+    "arc179_a": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1790753108,
+      "last_acquired_epoch": 1790753108,
+      "target_contest_id": "arc179",
+      "target_epoch_second": 1790753108,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 58,
+      "target_submission_id": 79637053
+    },
     "arc192_b": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1746959487,
@@ -79028,7 +79038,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790727298,
+  "last_checked_epoch": 1790767444,
   "recommendation_day": "2026-09-30",
   "recommendations": [
     "arc229_f"
@@ -88413,6 +88423,26 @@
     "79631515": {
       "epoch_second": 1790720862,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79633466": {
+      "epoch_second": 1790736278,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79633935": {
+      "epoch_second": 1790738695,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "79633968": {
+      "epoch_second": 1790738903,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "79634013": {
+      "epoch_second": 1790739203,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "79637053": {
+      "epoch_second": 1790753108,
+      "language": "A言語 (interpreter af48a2a)"
     }
   },
   "target_language_index_complete": true,
@@ -91026,6 +91056,9 @@
     "arc172_c": [
       "C++23 (GCC 15.2.0)"
     ],
+    "arc179_a": [
+      "A言語 (interpreter af48a2a)"
+    ],
     "arc188_b": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -93480,6 +93513,7 @@
     "abc469_f:78071858",
     "abc469_g:78073368",
     "abc476_d:79445247",
+    "arc179_a:79637053",
     "arc229_e:79038071",
     "arc229_e:79038111",
     "arc229_e:79038906",
@@ -97085,6 +97119,25 @@
         "user_id": "miztom"
       },
       "problem_id": "awc0160_c"
+    },
+    {
+      "after": {
+        "contest_id": "arc179",
+        "epoch_second": 1790753108,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 58,
+        "submission_id": 79637053,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc179",
+        "epoch_second": null,
+        "language": null,
+        "length": 100,
+        "submission_id": 54199434,
+        "user_id": "Pine"
+      },
+      "problem_id": "arc179_a"
     }
   ],
   "version": 2
