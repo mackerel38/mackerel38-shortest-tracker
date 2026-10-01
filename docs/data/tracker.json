@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790865045,
-  "generated_iso": "2026-10-01T14:30:45+00:00",
+  "generated_epoch": 1790884315,
+  "generated_iso": "2026-10-01T19:51:55+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -174,11 +174,33 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1790854543,
+      "current_epoch_second": 1790868204,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 356,
-      "current_submission_id": 79658714,
-      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714",
+      "current_length": 265,
+      "current_submission_id": 79662417,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79662417",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790868204,
+      "last_acquired_epoch": 1790868204,
+      "problem_id": "awc0169_e",
+      "problem_index": "E",
+      "problem_name": "Traveling with Discount Coupons",
+      "problem_title": "E. Traveling with Discount Coupons",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_e",
+      "status": "holding",
+      "target_epoch_second": 1790868204,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 265,
+      "target_submission_id": 79662417,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79662417"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790865789,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 327,
+      "current_submission_id": 79661897,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661897",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1790854543,
       "last_acquired_epoch": 1790854543,
@@ -188,11 +210,11 @@
       "problem_title": "D. Disruption of Communication Network",
       "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_d",
       "status": "holding",
-      "target_epoch_second": 1790854543,
+      "target_epoch_second": 1790865789,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 356,
-      "target_submission_id": 79658714,
-      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714"
+      "target_length": 327,
+      "target_submission_id": 79661897,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661897"
     },
     {
       "acquisition_count": 1,
@@ -5915,48 +5937,80 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-01",
+  "recommendation_day": "2026-10-02",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc202",
-        "epoch_second": 1789548546,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 493,
-        "submission_id": 79293821,
-        "submission_url": "https://atcoder.jp/contests/arc202/submissions/79293821",
-        "user_id": "qhr2024"
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
+        "user_id": "negativesquare"
       },
-      "problem_id": "arc202_a",
-      "problem_name": "Merge and Increment",
-      "problem_url": "https://atcoder.jp/contests/arc202/tasks/arc202_a"
-    },
-    {
-      "current": {
-        "contest_id": "abc193",
-        "epoch_second": 1788684357,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 272,
-        "submission_id": 79034918,
-        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
-        "user_id": "x20"
-      },
-      "problem_id": "abc193_f",
-      "problem_name": "Zebraness",
-      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
     }
   ],
   "summary": {
     "active_update_count": 7,
-    "ever_held_count": 261,
-    "holding_count": 254,
+    "ever_held_count": 262,
+    "holding_count": 255,
     "loss_event_count": 7,
     "lost_count": 7,
-    "update_log_count": 189,
+    "update_log_count": 191,
     "updated_count": 7
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790868204,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 265,
+        "submission_id": 79662417,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79662417",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790860713,
+        "language": "Python (CPython 3.13.7)",
+        "length": 531,
+        "submission_id": 79660558,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79660558",
+        "user_id": "sasa8uyauya"
+      },
+      "problem_id": "awc0169_e",
+      "problem_name": "Traveling with Discount Coupons",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790865789,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 327,
+        "submission_id": 79661897,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661897",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790854543,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 356,
+        "submission_id": 79658714,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0169_d",
+      "problem_name": "Disruption of Communication Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_d"
+    },
     {
       "after": {
         "contest_id": "awc0169",

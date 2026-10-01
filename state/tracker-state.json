@@ -44522,19 +44522,19 @@
     },
     "awc0169_d": {
       "contest_id": "awc0169",
-      "epoch_second": 1790854543,
+      "epoch_second": 1790865789,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 356,
-      "submission_id": 79658714,
+      "length": 327,
+      "submission_id": 79661897,
       "user_id": "mackerel38"
     },
     "awc0169_e": {
       "contest_id": "awc0169",
-      "epoch_second": 1790860713,
-      "language": "Python (CPython 3.13.7)",
-      "length": 531,
-      "submission_id": 79660558,
-      "user_id": "sasa8uyauya"
+      "epoch_second": 1790868204,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 265,
+      "submission_id": 79662417,
+      "user_id": "mackerel38"
     },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
@@ -79141,10 +79141,20 @@
       "first_acquired_epoch": 1790854543,
       "last_acquired_epoch": 1790854543,
       "target_contest_id": "awc0169",
-      "target_epoch_second": 1790854543,
+      "target_epoch_second": 1790865789,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 356,
-      "target_submission_id": 79658714
+      "target_length": 327,
+      "target_submission_id": 79661897
+    },
+    "awc0169_e": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1790868204,
+      "last_acquired_epoch": 1790868204,
+      "target_contest_id": "awc0169",
+      "target_epoch_second": 1790868204,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 265,
+      "target_submission_id": 79662417
     },
     "codequeen2026_a": {
       "acquisition_count": 1,
@@ -79158,11 +79168,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790865045,
-  "recommendation_day": "2026-10-01",
+  "last_checked_epoch": 1790884315,
+  "recommendation_day": "2026-10-02",
   "recommendations": [
-    "arc202_a",
-    "abc193_f"
+    "arc227_a"
   ],
   "submission_details": {
     "50666051": {
@@ -88764,6 +88773,14 @@
     "79661624": {
       "epoch_second": 1790864678,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79661897": {
+      "epoch_second": 1790865789,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79662417": {
+      "epoch_second": 1790868204,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -92568,6 +92585,9 @@
     "awc0169_d": [
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
+    "awc0169_e": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
     "codefestival_2016_qualB_b": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -94016,6 +94036,8 @@
     "awc0169_c:79658260",
     "awc0169_c:79661624",
     "awc0169_d:79658714",
+    "awc0169_d:79661897",
+    "awc0169_e:79662417",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -97612,6 +97634,44 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0169_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790865789,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 327,
+        "submission_id": 79661897,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790854543,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 356,
+        "submission_id": 79658714,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0169_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790868204,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 265,
+        "submission_id": 79662417,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790860713,
+        "language": "Python (CPython 3.13.7)",
+        "length": 531,
+        "submission_id": 79660558,
+        "user_id": "sasa8uyauya"
+      },
+      "problem_id": "awc0169_e"
     }
   ],
   "version": 2
