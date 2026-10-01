@@ -162,8 +162,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790787485,
-  "generated_iso": "2026-09-30T16:58:05+00:00",
+  "generated_epoch": 1790865045,
+  "generated_iso": "2026-10-01T14:30:45+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -172,6 +172,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790854543,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 356,
+      "current_submission_id": 79658714,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790854543,
+      "last_acquired_epoch": 1790854543,
+      "problem_id": "awc0169_d",
+      "problem_index": "D",
+      "problem_name": "Disruption of Communication Network",
+      "problem_title": "D. Disruption of Communication Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_d",
+      "status": "holding",
+      "target_epoch_second": 1790854543,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 356,
+      "target_submission_id": 79658714,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790864678,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 211,
+      "current_submission_id": 79661624,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661624",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790853443,
+      "last_acquired_epoch": 1790853443,
+      "problem_id": "awc0169_c",
+      "problem_index": "C",
+      "problem_name": "Pairing Network",
+      "problem_title": "C. Pairing Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_c",
+      "status": "holding",
+      "target_epoch_second": 1790864678,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 211,
+      "target_submission_id": 79661624,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661624"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790863903,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 60,
+      "current_submission_id": 79661439,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661439",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790853026,
+      "last_acquired_epoch": 1790853026,
+      "problem_id": "awc0169_b",
+      "problem_index": "B",
+      "problem_name": "Selection of Delivery Trucks",
+      "problem_title": "B. Selection of Delivery Trucks",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_b",
+      "status": "holding",
+      "target_epoch_second": 1790863903,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 60,
+      "target_submission_id": 79661439,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661439"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1790862909,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 31,
+      "current_submission_id": 79661178,
+      "current_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661178",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790852765,
+      "last_acquired_epoch": 1790852765,
+      "problem_id": "awc0169_a",
+      "problem_index": "A",
+      "problem_name": "Loading and Unloading",
+      "problem_title": "A. Loading and Unloading",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_a",
+      "status": "holding",
+      "target_epoch_second": 1790862909,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 31,
+      "target_submission_id": 79661178,
+      "target_submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661178"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790753108,
@@ -4715,9 +4803,9 @@
       "first_acquired_epoch": 1785030513,
       "last_acquired_epoch": 1785030513,
       "problem_id": "abc466_e",
-      "problem_index": "E",
+      "problem_index": "H",
       "problem_name": "Range Flip",
-      "problem_title": "E. Range Flip",
+      "problem_title": "H. Range Flip",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_e",
       "status": "holding",
       "target_epoch_second": 1785030513,
@@ -5860,15 +5948,176 @@
   ],
   "summary": {
     "active_update_count": 7,
-    "ever_held_count": 257,
-    "holding_count": 250,
+    "ever_held_count": 261,
+    "holding_count": 254,
     "loss_event_count": 7,
     "lost_count": 7,
-    "update_log_count": 182,
+    "update_log_count": 189,
     "updated_count": 7
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790864678,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 211,
+        "submission_id": 79661624,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661624",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790853443,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 214,
+        "submission_id": 79658260,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658260",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0169_c",
+      "problem_name": "Pairing Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790863903,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 60,
+        "submission_id": 79661439,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661439",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790853026,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 62,
+        "submission_id": 79658101,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658101",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0169_b",
+      "problem_name": "Selection of Delivery Trucks",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790862909,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 31,
+        "submission_id": 79661178,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79661178",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790852765,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 79657965,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79657965",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0169_a",
+      "problem_name": "Loading and Unloading",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790854543,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 356,
+        "submission_id": 79658714,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658714",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790853177,
+        "language": "Python (Codon 0.19.3)",
+        "length": 765,
+        "submission_id": 79658152,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658152",
+        "user_id": "kidodesuyo"
+      },
+      "problem_id": "awc0169_d",
+      "problem_name": "Disruption of Communication Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790853443,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 214,
+        "submission_id": 79658260,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658260",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790852841,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 671,
+        "submission_id": 79658013,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658013",
+        "user_id": "kidodesuyo"
+      },
+      "problem_id": "awc0169_c",
+      "problem_name": "Pairing Network",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790853026,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 62,
+        "submission_id": 79658101,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79658101",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790852741,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 133,
+        "submission_id": 79657948,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79657948",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0169_b",
+      "problem_name": "Selection of Delivery Trucks",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790852765,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 79657965,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79657965",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0169",
+        "epoch_second": 1790852615,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 104,
+        "submission_id": 79657879,
+        "submission_url": "https://atcoder.jp/contests/awc0169/submissions/79657879",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0169_a",
+      "problem_name": "Loading and Unloading",
+      "problem_url": "https://atcoder.jp/contests/awc0169/tasks/awc0169_a"
+    },
     {
       "after": {
         "contest_id": "arc179",
