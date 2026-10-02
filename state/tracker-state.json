@@ -44546,11 +44546,11 @@
     },
     "awc0170_b": {
       "contest_id": "awc0170",
-      "epoch_second": 1790944667,
+      "epoch_second": 1790972158,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 46,
-      "submission_id": 79678158,
-      "user_id": "shogo314"
+      "length": 45,
+      "submission_id": 79682984,
+      "user_id": "mackerel38"
     },
     "awc0170_c": {
       "contest_id": "awc0170",
@@ -79277,14 +79277,14 @@
       "target_submission_id": 79677026
     },
     "awc0170_b": {
-      "acquisition_count": 1,
+      "acquisition_count": 2,
       "first_acquired_epoch": 1790941359,
-      "last_acquired_epoch": 1790941359,
+      "last_acquired_epoch": 1790972158,
       "target_contest_id": "awc0170",
-      "target_epoch_second": 1790941776,
+      "target_epoch_second": 1790972158,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 65,
-      "target_submission_id": 79677301
+      "target_length": 45,
+      "target_submission_id": 79682984
     },
     "awc0170_c": {
       "acquisition_count": 1,
@@ -79328,7 +79328,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790959187,
+  "last_checked_epoch": 1790974878,
   "recommendation_day": "2026-10-03",
   "recommendations": [
     "abc396_f",
@@ -89102,6 +89102,10 @@
     "79679222": {
       "epoch_second": 1790948348,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79682984": {
+      "epoch_second": 1790972158,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -92937,7 +92941,8 @@
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "awc0170_a": [
-      "A言語 (interpreter af48a2a)"
+      "A言語 (interpreter af48a2a)",
+      "Uiua (uiua 0.16.2)"
     ],
     "awc0170_b": [
       "Uiua (uiua 0.16.2)"
@@ -94414,6 +94419,7 @@
     "awc0170_b:79677147",
     "awc0170_b:79677301",
     "awc0170_b:79678158",
+    "awc0170_b:79682984",
     "awc0170_c:79677360",
     "awc0170_c:79677655",
     "awc0170_c:79679222",
@@ -98376,6 +98382,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "awc0170_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790972158,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 45,
+        "submission_id": 79682984,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790944667,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 46,
+        "submission_id": 79678158,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0170_b"
     }
   ],
   "version": 2

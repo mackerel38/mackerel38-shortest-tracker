@@ -48,29 +48,6 @@
     },
     {
       "after": {
-        "contest_id": "awc0170",
-        "epoch_second": 1790944667,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 46,
-        "submission_id": 79678158,
-        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678158",
-        "user_id": "shogo314"
-      },
-      "before": {
-        "contest_id": "awc0170",
-        "epoch_second": 1790941776,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 65,
-        "submission_id": 79677301,
-        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677301",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0170_b",
-      "problem_name": "Fair Distribution of Sweets",
-      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b"
-    },
-    {
-      "after": {
         "contest_id": "awc0164",
         "epoch_second": 1790302008,
         "language": "A言語 (interpreter af48a2a)",
@@ -231,8 +208,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790959187,
-  "generated_iso": "2026-10-02T16:39:47+00:00",
+  "generated_epoch": 1790974878,
+  "generated_iso": "2026-10-02T21:01:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -241,6 +218,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1790972158,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 45,
+      "current_submission_id": 79682984,
+      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790941359,
+      "last_acquired_epoch": 1790972158,
+      "problem_id": "awc0170_b",
+      "problem_index": "B",
+      "problem_name": "Fair Distribution of Sweets",
+      "problem_title": "B. Fair Distribution of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b",
+      "status": "holding",
+      "target_epoch_second": 1790972158,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 45,
+      "target_submission_id": 79682984,
+      "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1790944931,
@@ -306,28 +305,6 @@
       "target_length": 69,
       "target_submission_id": 79677655,
       "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677655"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1790944667,
-      "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 46,
-      "current_submission_id": 79678158,
-      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678158",
-      "current_user_id": "shogo314",
-      "first_acquired_epoch": 1790941359,
-      "last_acquired_epoch": 1790941359,
-      "problem_id": "awc0170_b",
-      "problem_index": "B",
-      "problem_name": "Fair Distribution of Sweets",
-      "problem_title": "B. Fair Distribution of Sweets",
-      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b",
-      "status": "updated",
-      "target_epoch_second": 1790941776,
-      "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 65,
-      "target_submission_id": 79677301,
-      "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677301"
     },
     {
       "acquisition_count": 1,
@@ -6302,16 +6279,39 @@
     }
   ],
   "summary": {
-    "active_update_count": 10,
+    "active_update_count": 9,
     "ever_held_count": 274,
-    "holding_count": 264,
-    "loss_event_count": 10,
-    "lost_count": 10,
-    "update_log_count": 208,
-    "updated_count": 10
+    "holding_count": 265,
+    "loss_event_count": 9,
+    "lost_count": 9,
+    "update_log_count": 209,
+    "updated_count": 9
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790972158,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 45,
+        "submission_id": 79682984,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790944667,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 46,
+        "submission_id": 79678158,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678158",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0170_b",
+      "problem_name": "Fair Distribution of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b"
+    },
     {
       "after": {
         "contest_id": "awc0170",
