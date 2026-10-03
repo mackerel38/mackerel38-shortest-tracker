@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790987515,
-  "generated_iso": "2026-10-03T00:31:55+00:00",
+  "generated_epoch": 1791026786,
+  "generated_iso": "2026-10-03T11:26:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791022924,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 59,
+      "current_submission_id": 79693106,
+      "current_submission_url": "https://atcoder.jp/contests/arc171/submissions/79693106",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791022924,
+      "last_acquired_epoch": 1791022924,
+      "problem_id": "arc171_a",
+      "problem_index": "A",
+      "problem_name": "No Attacking",
+      "problem_title": "A. No Attacking",
+      "problem_url": "https://atcoder.jp/contests/arc171/tasks/arc171_a",
+      "status": "holding",
+      "target_epoch_second": 1791022924,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 59,
+      "target_submission_id": 79693106,
+      "target_submission_url": "https://atcoder.jp/contests/arc171/submissions/79693106"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1790980192,
@@ -6257,15 +6279,38 @@
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 274,
-    "holding_count": 266,
+    "ever_held_count": 275,
+    "holding_count": 267,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 210,
+    "update_log_count": 211,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "arc171",
+        "epoch_second": 1791022924,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 59,
+        "submission_id": 79693106,
+        "submission_url": "https://atcoder.jp/contests/arc171/submissions/79693106",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc171",
+        "epoch_second": null,
+        "language": null,
+        "length": 114,
+        "submission_id": 58526571,
+        "submission_url": "https://atcoder.jp/contests/arc171/submissions/58526571",
+        "user_id": "l_s_t"
+      },
+      "problem_id": "arc171_a",
+      "problem_name": "No Attacking",
+      "problem_url": "https://atcoder.jp/contests/arc171/tasks/arc171_a"
+    },
     {
       "after": {
         "contest_id": "awc0170",
