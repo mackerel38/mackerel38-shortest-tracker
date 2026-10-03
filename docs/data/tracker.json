@@ -3,29 +3,6 @@
     {
       "after": {
         "contest_id": "awc0170",
-        "epoch_second": 1790948348,
-        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-        "length": 59,
-        "submission_id": 79679222,
-        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79679222",
-        "user_id": "shogo314"
-      },
-      "before": {
-        "contest_id": "awc0170",
-        "epoch_second": 1790942933,
-        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-        "length": 69,
-        "submission_id": 79677655,
-        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677655",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0170_c",
-      "problem_name": "Snack Distribution",
-      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_c"
-    },
-    {
-      "after": {
-        "contest_id": "awc0170",
         "epoch_second": 1790945456,
         "language": "A言語 (interpreter af48a2a)",
         "length": 29,
@@ -208,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1790974878,
-  "generated_iso": "2026-10-02T21:01:18+00:00",
+  "generated_epoch": 1790987515,
+  "generated_iso": "2026-10-03T00:31:55+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -218,6 +195,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1790980192,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 35,
+      "current_submission_id": 79683391,
+      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79683391",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1790942003,
+      "last_acquired_epoch": 1790980192,
+      "problem_id": "awc0170_c",
+      "problem_index": "C",
+      "problem_name": "Snack Distribution",
+      "problem_title": "C. Snack Distribution",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_c",
+      "status": "holding",
+      "target_epoch_second": 1790980192,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 35,
+      "target_submission_id": 79683391,
+      "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79683391"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1790972158,
@@ -283,28 +282,6 @@
       "target_length": 183,
       "target_submission_id": 79677456,
       "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677456"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1790948348,
-      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 59,
-      "current_submission_id": 79679222,
-      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79679222",
-      "current_user_id": "shogo314",
-      "first_acquired_epoch": 1790942003,
-      "last_acquired_epoch": 1790942003,
-      "problem_id": "awc0170_c",
-      "problem_index": "C",
-      "problem_name": "Snack Distribution",
-      "problem_title": "C. Snack Distribution",
-      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_c",
-      "status": "updated",
-      "target_epoch_second": 1790942933,
-      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 69,
-      "target_submission_id": 79677655,
-      "target_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79677655"
     },
     {
       "acquisition_count": 1,
@@ -6279,16 +6256,39 @@
     }
   ],
   "summary": {
-    "active_update_count": 9,
+    "active_update_count": 8,
     "ever_held_count": 274,
-    "holding_count": 265,
-    "loss_event_count": 9,
-    "lost_count": 9,
-    "update_log_count": 209,
-    "updated_count": 9
+    "holding_count": 266,
+    "loss_event_count": 8,
+    "lost_count": 8,
+    "update_log_count": 210,
+    "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790980192,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 35,
+        "submission_id": 79683391,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79683391",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790948348,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 59,
+        "submission_id": 79679222,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79679222",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0170_c",
+      "problem_name": "Snack Distribution",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_c"
+    },
     {
       "after": {
         "contest_id": "awc0170",

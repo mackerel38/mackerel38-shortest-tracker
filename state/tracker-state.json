@@ -44554,11 +44554,11 @@
     },
     "awc0170_c": {
       "contest_id": "awc0170",
-      "epoch_second": 1790948348,
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 59,
-      "submission_id": 79679222,
-      "user_id": "shogo314"
+      "epoch_second": 1790980192,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 35,
+      "submission_id": 79683391,
+      "user_id": "mackerel38"
     },
     "awc0170_d": {
       "contest_id": "awc0170",
@@ -79287,14 +79287,14 @@
       "target_submission_id": 79682984
     },
     "awc0170_c": {
-      "acquisition_count": 1,
+      "acquisition_count": 2,
       "first_acquired_epoch": 1790942003,
-      "last_acquired_epoch": 1790942003,
+      "last_acquired_epoch": 1790980192,
       "target_contest_id": "awc0170",
-      "target_epoch_second": 1790942933,
-      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "target_length": 69,
-      "target_submission_id": 79677655
+      "target_epoch_second": 1790980192,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 35,
+      "target_submission_id": 79683391
     },
     "awc0170_d": {
       "acquisition_count": 1,
@@ -79328,7 +79328,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1790974878,
+  "last_checked_epoch": 1790987515,
   "recommendation_day": "2026-10-03",
   "recommendations": [
     "abc396_f",
@@ -89106,6 +89106,10 @@
     "79682984": {
       "epoch_second": 1790972158,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "79683391": {
+      "epoch_second": 1790980192,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -92949,6 +92953,7 @@
     ],
     "awc0170_c": [
       "Ruby 3.4 (ruby 3.4.5)",
+      "Uiua (uiua 0.16.2)",
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "awc0170_d": [
@@ -94423,6 +94428,7 @@
     "awc0170_c:79677360",
     "awc0170_c:79677655",
     "awc0170_c:79679222",
+    "awc0170_c:79683391",
     "awc0170_d:79678239",
     "awc0170_e:79677456",
     "codequeen2026_a:77993562",
@@ -98401,6 +98407,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0170_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790980192,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 35,
+        "submission_id": 79683391,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790948348,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 59,
+        "submission_id": 79679222,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0170_c"
     }
   ],
   "version": 2
