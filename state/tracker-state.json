@@ -49602,11 +49602,11 @@
     },
     "game_f": {
       "contest_id": "game-24",
-      "epoch_second": 1791097571,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 307,
-      "submission_id": 79764466,
-      "user_id": "yura1685"
+      "epoch_second": 1791153480,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 133,
+      "submission_id": 79785090,
+      "user_id": "mackerel38"
     },
     "game_g": {
       "contest_id": "game-24",
@@ -79644,6 +79644,16 @@
       "target_length": 39,
       "target_submission_id": 79783154
     },
+    "game_f": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1791146024,
+      "last_acquired_epoch": 1791146024,
+      "target_contest_id": "game-24",
+      "target_epoch_second": 1791153480,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 133,
+      "target_submission_id": 79785090
+    },
     "game_g": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1791140410,
@@ -79656,7 +79666,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791144713,
+  "last_checked_epoch": 1791155698,
   "recommendation_day": "2026-10-05",
   "recommendations": [
     "arc229_d",
@@ -90267,6 +90277,14 @@
     "79784311": {
       "epoch_second": 1791140410,
       "language": "A言語 (interpreter af48a2a)"
+    },
+    "79784657": {
+      "epoch_second": 1791146024,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79785090": {
+      "epoch_second": 1791153480,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
@@ -94270,6 +94288,9 @@
     "game_d": [
       "A言語 (interpreter af48a2a)"
     ],
+    "game_f": [
+      "Ruby 3.4 (ruby 3.4.5)"
+    ],
     "game_g": [
       "A言語 (interpreter af48a2a)"
     ],
@@ -95639,6 +95660,8 @@
     "codequeen2026_a:77993989",
     "game_b:79782272",
     "game_d:79783154",
+    "game_f:79784657",
+    "game_f:79785090",
     "game_g:79784311"
   ],
   "updates": [
@@ -99707,6 +99730,44 @@
         "user_id": "Rssll_Krkgrd"
       },
       "problem_id": "game_g"
+    },
+    {
+      "after": {
+        "contest_id": "game-24",
+        "epoch_second": 1791146024,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 135,
+        "submission_id": 79784657,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "game-24",
+        "epoch_second": 1791097571,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 307,
+        "submission_id": 79764466,
+        "user_id": "yura1685"
+      },
+      "problem_id": "game_f"
+    },
+    {
+      "after": {
+        "contest_id": "game-24",
+        "epoch_second": 1791153480,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 133,
+        "submission_id": 79785090,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "game-24",
+        "epoch_second": 1791146024,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 135,
+        "submission_id": 79784657,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "game_f"
     }
   ],
   "version": 2
