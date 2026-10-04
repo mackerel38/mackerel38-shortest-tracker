@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791040367,
-  "generated_iso": "2026-10-03T15:12:47+00:00",
+  "generated_epoch": 1791133405,
+  "generated_iso": "2026-10-04T17:03:25+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791130633,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 39,
+      "current_submission_id": 79783154,
+      "current_submission_url": "https://atcoder.jp/contests/game-24/submissions/79783154",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791130633,
+      "last_acquired_epoch": 1791130633,
+      "problem_id": "game_d",
+      "problem_index": "D",
+      "problem_name": "Parallel Nim",
+      "problem_title": "D. Parallel Nim",
+      "problem_url": "https://atcoder.jp/contests/game-24/tasks/game_d",
+      "status": "holding",
+      "target_epoch_second": 1791130633,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 39,
+      "target_submission_id": 79783154,
+      "target_submission_url": "https://atcoder.jp/contests/game-24/submissions/79783154"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791126656,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 73,
+      "current_submission_id": 79782272,
+      "current_submission_url": "https://atcoder.jp/contests/game-24/submissions/79782272",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791126656,
+      "last_acquired_epoch": 1791126656,
+      "problem_id": "game_b",
+      "problem_index": "B",
+      "problem_name": "Chocolate",
+      "problem_title": "B. Chocolate",
+      "problem_url": "https://atcoder.jp/contests/game-24/tasks/game_b",
+      "status": "holding",
+      "target_epoch_second": 1791126656,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 73,
+      "target_submission_id": 79782272,
+      "target_submission_url": "https://atcoder.jp/contests/game-24/submissions/79782272"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791022924,
@@ -6246,34 +6290,108 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-04",
+  "recommendation_day": "2026-10-05",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc398",
-        "epoch_second": 1787036334,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 451,
-        "submission_id": 78503215,
-        "submission_url": "https://atcoder.jp/contests/abc398/submissions/78503215",
-        "user_id": "YY0707"
+        "contest_id": "arc229",
+        "epoch_second": 1788623205,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 133,
+        "submission_id": 78987452,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987452",
+        "user_id": "miztom"
       },
-      "problem_id": "abc398_g",
-      "problem_name": "Not Only Tree Game",
-      "problem_url": "https://atcoder.jp/contests/abc398/tasks/abc398_g"
+      "problem_id": "arc229_d",
+      "problem_name": "Nim_k ?",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_d"
+    },
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788012046,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 452,
+        "submission_id": 78830816,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78830816",
+        "user_id": "zbl314"
+      },
+      "problem_id": "abc473_g",
+      "problem_name": "Wipeout",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_g"
+    },
+    {
+      "current": {
+        "contest_id": "abc478",
+        "epoch_second": 1791120581,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 50,
+        "submission_id": 79778017,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79778017",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc478_b",
+      "problem_name": "Topping",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_b"
     }
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 275,
-    "holding_count": 267,
+    "ever_held_count": 277,
+    "holding_count": 269,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 211,
+    "update_log_count": 213,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "game-24",
+        "epoch_second": 1791130633,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 39,
+        "submission_id": 79783154,
+        "submission_url": "https://atcoder.jp/contests/game-24/submissions/79783154",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "game-24",
+        "epoch_second": null,
+        "language": null,
+        "length": 41,
+        "submission_id": 79761417,
+        "submission_url": "https://atcoder.jp/contests/game-24/submissions/79761417",
+        "user_id": "shogo314"
+      },
+      "problem_id": "game_d",
+      "problem_name": "Parallel Nim",
+      "problem_url": "https://atcoder.jp/contests/game-24/tasks/game_d"
+    },
+    {
+      "after": {
+        "contest_id": "game-24",
+        "epoch_second": 1791126656,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 73,
+        "submission_id": 79782272,
+        "submission_url": "https://atcoder.jp/contests/game-24/submissions/79782272",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "game-24",
+        "epoch_second": null,
+        "language": null,
+        "length": 78,
+        "submission_id": 79759922,
+        "submission_url": "https://atcoder.jp/contests/game-24/submissions/79759922",
+        "user_id": "shogo314"
+      },
+      "problem_id": "game_b",
+      "problem_name": "Chocolate",
+      "problem_url": "https://atcoder.jp/contests/game-24/tasks/game_b"
+    },
     {
       "after": {
         "contest_id": "arc171",
