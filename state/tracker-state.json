@@ -37426,11 +37426,11 @@
     },
     "arc231_d": {
       "contest_id": "arc231",
-      "epoch_second": 1791127292,
+      "epoch_second": 1791135606,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 260,
-      "submission_id": 79782433,
-      "user_id": "glaceon1020"
+      "length": 227,
+      "submission_id": 79783866,
+      "user_id": "miztom"
     },
     "arc231_e": {
       "contest_id": "arc231",
@@ -49610,11 +49610,11 @@
     },
     "game_g": {
       "contest_id": "game-24",
-      "epoch_second": null,
-      "language": null,
-      "length": 219,
-      "submission_id": 79760479,
-      "user_id": "Rssll_Krkgrd"
+      "epoch_second": 1791140410,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 61,
+      "submission_id": 79784311,
+      "user_id": "mackerel38"
     },
     "game_h": {
       "contest_id": "game-24",
@@ -79643,10 +79643,20 @@
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 39,
       "target_submission_id": 79783154
+    },
+    "game_g": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1791140410,
+      "last_acquired_epoch": 1791140410,
+      "target_contest_id": "game-24",
+      "target_epoch_second": 1791140410,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 61,
+      "target_submission_id": 79784311
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791133405,
+  "last_checked_epoch": 1791144713,
   "recommendation_day": "2026-10-05",
   "recommendations": [
     "arc229_d",
@@ -90249,6 +90259,14 @@
     "79783154": {
       "epoch_second": 1791130633,
       "language": "A言語 (interpreter af48a2a)"
+    },
+    "79783866": {
+      "epoch_second": 1791135606,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79784311": {
+      "epoch_second": 1791140410,
+      "language": "A言語 (interpreter af48a2a)"
     }
   },
   "target_language_index_complete": true,
@@ -94252,6 +94270,9 @@
     "game_d": [
       "A言語 (interpreter af48a2a)"
     ],
+    "game_g": [
+      "A言語 (interpreter af48a2a)"
+    ],
     "gigacode_2019_a": [
       "dc (dc 1.07.1)"
     ],
@@ -95617,7 +95638,8 @@
     "codequeen2026_a:77993734",
     "codequeen2026_a:77993989",
     "game_b:79782272",
-    "game_d:79783154"
+    "game_d:79783154",
+    "game_g:79784311"
   ],
   "updates": [
     {
@@ -99666,6 +99688,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "game_d"
+    },
+    {
+      "after": {
+        "contest_id": "game-24",
+        "epoch_second": 1791140410,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 61,
+        "submission_id": 79784311,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "game-24",
+        "epoch_second": null,
+        "language": null,
+        "length": 219,
+        "submission_id": 79760479,
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "game_g"
     }
   ],
   "version": 2
