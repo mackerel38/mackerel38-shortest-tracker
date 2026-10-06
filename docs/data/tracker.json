@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791225046,
-  "generated_iso": "2026-10-05T18:30:46+00:00",
+  "generated_epoch": 1791246123,
+  "generated_iso": "2026-10-06T00:22:03+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791238484,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 57,
+      "current_submission_id": 79808620,
+      "current_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808620",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791238111,
+      "last_acquired_epoch": 1791238111,
+      "problem_id": "awc0171_c",
+      "problem_index": "C",
+      "problem_name": "Travel Plan",
+      "problem_title": "C. Travel Plan",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_c",
+      "status": "holding",
+      "target_epoch_second": 1791238484,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 57,
+      "target_submission_id": 79808620,
+      "target_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808620"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791236036,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 25,
+      "current_submission_id": 79808457,
+      "current_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808457",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791236036,
+      "last_acquired_epoch": 1791236036,
+      "problem_id": "awc0171_b",
+      "problem_index": "B",
+      "problem_name": "Seats in an Udon Restaurant",
+      "problem_title": "B. Seats in an Udon Restaurant",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_b",
+      "status": "holding",
+      "target_epoch_second": 1791236036,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 25,
+      "target_submission_id": 79808457,
+      "target_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808457"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791236269,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 10,
+      "current_submission_id": 79808475,
+      "current_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808475",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791233166,
+      "last_acquired_epoch": 1791233166,
+      "problem_id": "awc0171_a",
+      "problem_index": "A",
+      "problem_name": "Monitoring Peak",
+      "problem_title": "A. Monitoring Peak",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_a",
+      "status": "holding",
+      "target_epoch_second": 1791236269,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 10,
+      "target_submission_id": 79808475,
+      "target_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808475"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791153480,
@@ -6338,15 +6404,130 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 279,
-    "holding_count": 271,
+    "ever_held_count": 282,
+    "holding_count": 274,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 216,
+    "update_log_count": 221,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791238484,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 57,
+        "submission_id": 79808620,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808620",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791238111,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 65,
+        "submission_id": 79808593,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808593",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0171_c",
+      "problem_name": "Travel Plan",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791238111,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 65,
+        "submission_id": 79808593,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808593",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791198994,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 135,
+        "submission_id": 79799101,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79799101",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0171_c",
+      "problem_name": "Travel Plan",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791236269,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 10,
+        "submission_id": 79808475,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808475",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791233166,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 11,
+        "submission_id": 79808264,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808264",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0171_a",
+      "problem_name": "Monitoring Peak",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791236036,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 25,
+        "submission_id": 79808457,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808457",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791199866,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 33,
+        "submission_id": 79799631,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79799631",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0171_b",
+      "problem_name": "Seats in an Udon Restaurant",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791233166,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 11,
+        "submission_id": 79808264,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79808264",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791199011,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 14,
+        "submission_id": 79799113,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79799113",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0171_a",
+      "problem_name": "Monitoring Peak",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_a"
+    },
     {
       "after": {
         "contest_id": "game-24",
