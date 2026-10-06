@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791246123,
-  "generated_iso": "2026-10-06T00:22:03+00:00",
+  "generated_epoch": 1791269151,
+  "generated_iso": "2026-10-06T06:45:51+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791250053,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 226,
+      "current_submission_id": 79809791,
+      "current_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809791",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791250053,
+      "last_acquired_epoch": 1791250053,
+      "problem_id": "awc0171_e",
+      "problem_index": "E",
+      "problem_name": "Comfort of the Mountain Trail",
+      "problem_title": "E. Comfort of the Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_e",
+      "status": "holding",
+      "target_epoch_second": 1791250053,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 226,
+      "target_submission_id": 79809791,
+      "target_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809791"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791249345,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 234,
+      "current_submission_id": 79809651,
+      "current_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809651",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791249345,
+      "last_acquired_epoch": 1791249345,
+      "problem_id": "awc0171_d",
+      "problem_index": "D",
+      "problem_name": "Alternating Movement Robot",
+      "problem_title": "D. Alternating Movement Robot",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_d",
+      "status": "holding",
+      "target_epoch_second": 1791249345,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 234,
+      "target_submission_id": 79809651,
+      "target_submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809651"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791238484,
@@ -6404,15 +6448,61 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 282,
-    "holding_count": 274,
+    "ever_held_count": 284,
+    "holding_count": 276,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 221,
+    "update_log_count": 223,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791250053,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 226,
+        "submission_id": 79809791,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809791",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791202589,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 461,
+        "submission_id": 79800972,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79800972",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0171_e",
+      "problem_name": "Comfort of the Mountain Trail",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791249345,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 234,
+        "submission_id": 79809651,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79809651",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0171",
+        "epoch_second": 1791200653,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 313,
+        "submission_id": 79800072,
+        "submission_url": "https://atcoder.jp/contests/awc0171/submissions/79800072",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0171_d",
+      "problem_name": "Alternating Movement Robot",
+      "problem_url": "https://atcoder.jp/contests/awc0171/tasks/awc0171_d"
+    },
     {
       "after": {
         "contest_id": "awc0171",
