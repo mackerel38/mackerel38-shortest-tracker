@@ -44730,11 +44730,11 @@
     },
     "awc0172_a": {
       "contest_id": "awc0172",
-      "epoch_second": 1791285631,
-      "language": "A言語 (interpreter af48a2a)",
-      "length": 16,
-      "submission_id": 79821097,
-      "user_id": "shogo314"
+      "epoch_second": 1791325764,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "length": 14,
+      "submission_id": 79828457,
+      "user_id": "mackerel38"
     },
     "awc0172_b": {
       "contest_id": "awc0172",
@@ -79760,6 +79760,16 @@
       "target_length": 226,
       "target_submission_id": 79809791
     },
+    "awc0172_a": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1791325764,
+      "last_acquired_epoch": 1791325764,
+      "target_contest_id": "awc0172",
+      "target_epoch_second": 1791325764,
+      "target_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "target_length": 14,
+      "target_submission_id": 79828457
+    },
     "codequeen2026_a": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785580547,
@@ -79812,7 +79822,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791315225,
+  "last_checked_epoch": 1791328706,
   "recommendation_day": "2026-10-07",
   "recommendations": [
     "abc473_g",
@@ -90784,6 +90794,10 @@
     "79825825": {
       "epoch_second": 1791299844,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79828457": {
+      "epoch_second": 1791325764,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
     }
   },
   "target_language_index_complete": true,
@@ -94686,6 +94700,9 @@
     "awc0171_e": [
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
+    "awc0172_a": [
+      "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
     "codefestival_2016_qualB_b": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -96175,6 +96192,7 @@
     "awc0171_c:79808620",
     "awc0171_d:79809651",
     "awc0171_e:79809791",
+    "awc0172_a:79828457",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -100422,6 +100440,25 @@
         "user_id": "miztom"
       },
       "problem_id": "awc0171_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791325764,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 14,
+        "submission_id": 79828457,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791285631,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 16,
+        "submission_id": 79821097,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0172_a"
     }
   ],
   "version": 2
