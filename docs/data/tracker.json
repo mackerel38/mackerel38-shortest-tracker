@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791328706,
-  "generated_iso": "2026-10-06T23:18:26+00:00",
+  "generated_epoch": 1791340695,
+  "generated_iso": "2026-10-07T02:38:15+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791330893,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 19,
+      "current_submission_id": 79828796,
+      "current_submission_url": "https://atcoder.jp/contests/awc0172/submissions/79828796",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791330893,
+      "last_acquired_epoch": 1791330893,
+      "problem_id": "awc0172_b",
+      "problem_index": "B",
+      "problem_name": "Training Absences",
+      "problem_title": "B. Training Absences",
+      "problem_url": "https://atcoder.jp/contests/awc0172/tasks/awc0172_b",
+      "status": "holding",
+      "target_epoch_second": 1791330893,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 19,
+      "target_submission_id": 79828796,
+      "target_submission_url": "https://atcoder.jp/contests/awc0172/submissions/79828796"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791325764,
@@ -6527,15 +6549,38 @@
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 285,
-    "holding_count": 277,
+    "ever_held_count": 286,
+    "holding_count": 278,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 224,
+    "update_log_count": 225,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791330893,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 19,
+        "submission_id": 79828796,
+        "submission_url": "https://atcoder.jp/contests/awc0172/submissions/79828796",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791285717,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 29,
+        "submission_id": 79821135,
+        "submission_url": "https://atcoder.jp/contests/awc0172/submissions/79821135",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0172_b",
+      "problem_name": "Training Absences",
+      "problem_url": "https://atcoder.jp/contests/awc0172/tasks/awc0172_b"
+    },
     {
       "after": {
         "contest_id": "awc0172",

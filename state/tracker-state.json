@@ -44738,11 +44738,11 @@
     },
     "awc0172_b": {
       "contest_id": "awc0172",
-      "epoch_second": 1791285717,
+      "epoch_second": 1791330893,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 29,
-      "submission_id": 79821135,
-      "user_id": "shogo314"
+      "length": 19,
+      "submission_id": 79828796,
+      "user_id": "mackerel38"
     },
     "awc0172_c": {
       "contest_id": "awc0172",
@@ -79770,6 +79770,16 @@
       "target_length": 14,
       "target_submission_id": 79828457
     },
+    "awc0172_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1791330893,
+      "last_acquired_epoch": 1791330893,
+      "target_contest_id": "awc0172",
+      "target_epoch_second": 1791330893,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 19,
+      "target_submission_id": 79828796
+    },
     "codequeen2026_a": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785580547,
@@ -79822,7 +79832,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791328706,
+  "last_checked_epoch": 1791340695,
   "recommendation_day": "2026-10-07",
   "recommendations": [
     "abc473_g",
@@ -90798,6 +90808,10 @@
     "79828457": {
       "epoch_second": 1791325764,
       "language": "dc 1.5.2 (GNU bc 1.08.2)"
+    },
+    "79828796": {
+      "epoch_second": 1791330893,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -94703,6 +94717,9 @@
     "awc0172_a": [
       "dc 1.5.2 (GNU bc 1.08.2)"
     ],
+    "awc0172_b": [
+      "Uiua (uiua 0.16.2)"
+    ],
     "codefestival_2016_qualB_b": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -96193,6 +96210,7 @@
     "awc0171_d:79809651",
     "awc0171_e:79809791",
     "awc0172_a:79828457",
+    "awc0172_b:79828796",
     "codequeen2026_a:77993562",
     "codequeen2026_a:77993576",
     "codequeen2026_a:77993734",
@@ -100459,6 +100477,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0172_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791330893,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 19,
+        "submission_id": 79828796,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0172",
+        "epoch_second": 1791285717,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 29,
+        "submission_id": 79821135,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0172_b"
     }
   ],
   "version": 2
