@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791340695,
-  "generated_iso": "2026-10-07T02:38:15+00:00",
+  "generated_epoch": 1791391784,
+  "generated_iso": "2026-10-07T16:49:44+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791375543,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 25,
+      "current_submission_id": 79842825,
+      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791375543,
+      "last_acquired_epoch": 1791375543,
+      "problem_id": "awc0173_b",
+      "problem_index": "B",
+      "problem_name": "Sea Chart Lanes",
+      "problem_title": "B. Sea Chart Lanes",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_b",
+      "status": "holding",
+      "target_epoch_second": 1791375543,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 25,
+      "target_submission_id": 79842825,
+      "target_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791374971,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 28,
+      "current_submission_id": 79842632,
+      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842632",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791374971,
+      "last_acquired_epoch": 1791374971,
+      "problem_id": "awc0173_a",
+      "problem_index": "A",
+      "problem_name": "Expense Claims",
+      "problem_title": "A. Expense Claims",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_a",
+      "status": "holding",
+      "target_epoch_second": 1791374971,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 28,
+      "target_submission_id": 79842632,
+      "target_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842632"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791374292,
+      "current_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "current_length": 5,
+      "current_submission_id": 79842434,
+      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842434",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791374292,
+      "last_acquired_epoch": 1791374292,
+      "problem_id": "awc0173_c",
+      "problem_index": "C",
+      "problem_name": "Loading the Luggage",
+      "problem_title": "C. Loading the Luggage",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_c",
+      "status": "holding",
+      "target_epoch_second": 1791374292,
+      "target_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "target_length": 5,
+      "target_submission_id": 79842434,
+      "target_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842434"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791330893,
@@ -6488,76 +6554,131 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-07",
+  "recommendation_day": "2026-10-08",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788012046,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 452,
-        "submission_id": 78830816,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78830816",
-        "user_id": "zbl314"
+        "contest_id": "arc229",
+        "epoch_second": 1788625711,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 171,
+        "submission_id": 78987924,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987924",
+        "user_id": "miztom"
       },
-      "problem_id": "abc473_g",
-      "problem_name": "Wipeout",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_g"
+      "problem_id": "arc229_c",
+      "problem_name": "Sum of Average 2",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_c"
     },
     {
       "current": {
         "contest_id": "abc478",
-        "epoch_second": 1791192837,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 235,
-        "submission_id": 79796712,
-        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79796712",
-        "user_id": "negativesquare"
+        "epoch_second": 1791120581,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 50,
+        "submission_id": 79778017,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79778017",
+        "user_id": "Fleur"
       },
-      "problem_id": "abc478_e",
-      "problem_name": "lt and le",
-      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_e"
+      "problem_id": "abc478_b",
+      "problem_name": "Topping",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_b"
     },
     {
       "current": {
-        "contest_id": "abc403",
-        "epoch_second": 1789577888,
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
         "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 272,
-        "submission_id": 79301868,
-        "submission_url": "https://atcoder.jp/contests/abc403/submissions/79301868",
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
         "user_id": "negativesquare"
       },
-      "problem_id": "abc403_f",
-      "problem_name": "Shortest One Formula",
-      "problem_url": "https://atcoder.jp/contests/abc403/tasks/abc403_f"
-    },
-    {
-      "current": {
-        "contest_id": "abc398",
-        "epoch_second": 1787036334,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 451,
-        "submission_id": 78503215,
-        "submission_url": "https://atcoder.jp/contests/abc398/submissions/78503215",
-        "user_id": "YY0707"
-      },
-      "problem_id": "abc398_g",
-      "problem_name": "Not Only Tree Game",
-      "problem_url": "https://atcoder.jp/contests/abc398/tasks/abc398_g"
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
     }
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 286,
-    "holding_count": 278,
+    "ever_held_count": 289,
+    "holding_count": 281,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 225,
+    "update_log_count": 228,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791375543,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 25,
+        "submission_id": 79842825,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791374022,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 27,
+        "submission_id": 79842326,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842326",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0173_b",
+      "problem_name": "Sea Chart Lanes",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791374971,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 28,
+        "submission_id": 79842632,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842632",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791372696,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 30,
+        "submission_id": 79841739,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79841739",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0173_a",
+      "problem_name": "Expense Claims",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791374292,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 5,
+        "submission_id": 79842434,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842434",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791372014,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 11,
+        "submission_id": 79841360,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79841360",
+        "user_id": "frostflower"
+      },
+      "problem_id": "awc0173_c",
+      "problem_name": "Loading the Luggage",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_c"
+    },
     {
       "after": {
         "contest_id": "awc0172",
