@@ -23778,11 +23778,11 @@
     },
     "abc478_g": {
       "contest_id": "abc478",
-      "epoch_second": 1791064844,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 1895,
-      "submission_id": 79754924,
-      "user_id": "miztom"
+      "epoch_second": 1791451267,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 621,
+      "submission_id": 79857850,
+      "user_id": "mackerel38"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -44808,6 +44808,46 @@
       "submission_id": 79841244,
       "user_id": "miztom"
     },
+    "awc0174_a": {
+      "contest_id": "awc0174",
+      "epoch_second": 1791457354,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 9,
+      "submission_id": 79859633,
+      "user_id": "shogo314"
+    },
+    "awc0174_b": {
+      "contest_id": "awc0174",
+      "epoch_second": 1791457438,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 42,
+      "submission_id": 79859719,
+      "user_id": "shogo314"
+    },
+    "awc0174_c": {
+      "contest_id": "awc0174",
+      "epoch_second": 1791459672,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 135,
+      "submission_id": 79860860,
+      "user_id": "moon17"
+    },
+    "awc0174_d": {
+      "contest_id": "awc0174",
+      "epoch_second": 1791459872,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 527,
+      "submission_id": 79860961,
+      "user_id": "moon17"
+    },
+    "awc0174_e": {
+      "contest_id": "awc0174",
+      "epoch_second": 1791469671,
+      "language": "Python (Codon 0.19.3)",
+      "length": 924,
+      "submission_id": 79864840,
+      "user_id": "masasu"
+    },
     "awtf2024_a": {
       "contest_id": "awtf2024-open",
       "epoch_second": null,
@@ -49772,9 +49812,9 @@
       "contest_id": "game-24",
       "epoch_second": null,
       "language": null,
-      "length": 396,
-      "submission_id": 79760513,
-      "user_id": "hiryuN"
+      "length": 228,
+      "submission_id": 79853552,
+      "user_id": "lunyi"
     },
     "game_l": {
       "contest_id": "game-24",
@@ -49874,11 +49914,11 @@
     },
     "game_x": {
       "contest_id": "game-24",
-      "epoch_second": 1791103721,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 23482,
-      "submission_id": 79767534,
-      "user_id": "Nyaan"
+      "epoch_second": null,
+      "language": null,
+      "length": 8859,
+      "submission_id": 79852624,
+      "user_id": "hos_lyric"
     },
     "genocon2021_a": {
       "contest_id": "genocon2021",
@@ -61890,11 +61930,11 @@
     },
     "ndpc2026_p": {
       "contest_id": "ndpc",
-      "epoch_second": 1790472535,
+      "epoch_second": 1791450336,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 1129,
-      "submission_id": 79575726,
-      "user_id": "Felix_Skye"
+      "length": 973,
+      "submission_id": 79857451,
+      "user_id": "herman526"
     },
     "ndpc2026_q": {
       "contest_id": "ndpc",
@@ -77320,6 +77360,16 @@
       "target_length": 166,
       "target_submission_id": 79445247
     },
+    "abc478_g": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1791451267,
+      "last_acquired_epoch": 1791451267,
+      "target_contest_id": "abc478",
+      "target_epoch_second": 1791451267,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 621,
+      "target_submission_id": 79857850
+    },
     "arc148_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785231986,
@@ -79902,12 +79952,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791391784,
-  "recommendation_day": "2026-10-08",
+  "last_checked_epoch": 1791473950,
+  "recommendation_day": "2026-10-09",
   "recommendations": [
-    "arc229_c",
-    "abc478_b",
-    "arc227_a"
+    "abc403_f"
   ],
   "submission_details": {
     "50666051": {
@@ -91021,6 +91069,158 @@
     "79842921": {
       "epoch_second": 1791375851,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "79857451": {
+      "epoch_second": 1791450336,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79857850": {
+      "epoch_second": 1791451267,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "79859475": {
+      "epoch_second": 1791457217,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79859481": {
+      "epoch_second": 1791457227,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "79859485": {
+      "epoch_second": 1791457229,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859491": {
+      "epoch_second": 1791457234,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859502": {
+      "epoch_second": 1791457244,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "79859514": {
+      "epoch_second": 1791457251,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79859523": {
+      "epoch_second": 1791457261,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "79859549": {
+      "epoch_second": 1791457281,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "79859579": {
+      "epoch_second": 1791457308,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859582": {
+      "epoch_second": 1791457309,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859602": {
+      "epoch_second": 1791457323,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859616": {
+      "epoch_second": 1791457339,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859633": {
+      "epoch_second": 1791457354,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "79859719": {
+      "epoch_second": 1791457438,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "79859737": {
+      "epoch_second": 1791457459,
+      "language": "Rust (rustc 1.89.0)"
+    },
+    "79859757": {
+      "epoch_second": 1791457492,
+      "language": "Nim (Nim 1.6.20)"
+    },
+    "79859765": {
+      "epoch_second": 1791457506,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79859916": {
+      "epoch_second": 1791457729,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79860011": {
+      "epoch_second": 1791457878,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79860079": {
+      "epoch_second": 1791458016,
+      "language": "Rust (rustc 1.89.0)"
+    },
+    "79860093": {
+      "epoch_second": 1791458032,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79860106": {
+      "epoch_second": 1791458056,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79860318": {
+      "epoch_second": 1791458510,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79860660": {
+      "epoch_second": 1791459279,
+      "language": "Python (Codon 0.19.3)"
+    },
+    "79860759": {
+      "epoch_second": 1791459507,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "79860857": {
+      "epoch_second": 1791459666,
+      "language": "Python (Codon 0.19.3)"
+    },
+    "79860860": {
+      "epoch_second": 1791459672,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79860961": {
+      "epoch_second": 1791459872,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79861046": {
+      "epoch_second": 1791460029,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79861417": {
+      "epoch_second": 1791460690,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79861451": {
+      "epoch_second": 1791460737,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79861804": {
+      "epoch_second": 1791461608,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79861929": {
+      "epoch_second": 1791461927,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79862605": {
+      "epoch_second": 1791463610,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "79864092": {
+      "epoch_second": 1791467456,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "79864840": {
+      "epoch_second": 1791469671,
+      "language": "Python (Codon 0.19.3)"
     }
   },
   "target_language_index_complete": true,
@@ -93439,6 +93639,9 @@
       "C++23 (GCC 15.2.0)"
     ],
     "abc478_f": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    ],
+    "abc478_g": [
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "abl_c": [
@@ -96229,6 +96432,7 @@
     "abc469_f:78071858",
     "abc469_g:78073368",
     "abc476_d:79445247",
+    "abc478_g:79857850",
     "arc171_a:79693106",
     "arc179_a:79637053",
     "arc229_e:79038071",
@@ -100774,6 +100978,25 @@
         "user_id": "shogo314"
       },
       "problem_id": "awc0173_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc478",
+        "epoch_second": 1791451267,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 621,
+        "submission_id": 79857850,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc478",
+        "epoch_second": 1791064844,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 1895,
+        "submission_id": 79754924,
+        "user_id": "miztom"
+      },
+      "problem_id": "abc478_g"
     }
   ],
   "version": 2
