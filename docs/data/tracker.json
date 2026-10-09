@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791556447,
-  "generated_iso": "2026-10-09T14:34:07+00:00",
+  "generated_epoch": 1791575380,
+  "generated_iso": "2026-10-09T19:49:40+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,182 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791569819,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 399,
+      "current_submission_id": 79888061,
+      "current_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79888061",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791569819,
+      "last_acquired_epoch": 1791569819,
+      "problem_id": "awc0175_e",
+      "problem_index": "E",
+      "problem_name": "Area Illuminated by Street Lights",
+      "problem_title": "E. Area Illuminated by Street Lights",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_e",
+      "status": "holding",
+      "target_epoch_second": 1791569819,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 399,
+      "target_submission_id": 79888061,
+      "target_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79888061"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791567844,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 95,
+      "current_submission_id": 79887805,
+      "current_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887805",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791567844,
+      "last_acquired_epoch": 1791567844,
+      "problem_id": "awc0175_d",
+      "problem_index": "D",
+      "problem_name": "Transporting Cargo",
+      "problem_title": "D. Transporting Cargo",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_d",
+      "status": "holding",
+      "target_epoch_second": 1791567844,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 95,
+      "target_submission_id": 79887805,
+      "target_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887805"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791565582,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 31,
+      "current_submission_id": 79887517,
+      "current_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887517",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791565582,
+      "last_acquired_epoch": 1791565582,
+      "problem_id": "awc0175_c",
+      "problem_index": "C",
+      "problem_name": "Repairing Road Potholes",
+      "problem_title": "C. Repairing Road Potholes",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_c",
+      "status": "holding",
+      "target_epoch_second": 1791565582,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 31,
+      "target_submission_id": 79887517,
+      "target_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887517"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791564357,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 20,
+      "current_submission_id": 79887323,
+      "current_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887323",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791564357,
+      "last_acquired_epoch": 1791564357,
+      "problem_id": "awc0175_b",
+      "problem_index": "B",
+      "problem_name": "Vertical Reading of a Memoir",
+      "problem_title": "B. Vertical Reading of a Memoir",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_b",
+      "status": "holding",
+      "target_epoch_second": 1791564357,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 20,
+      "target_submission_id": 79887323,
+      "target_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887323"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791564846,
+      "current_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "current_length": 16,
+      "current_submission_id": 79887397,
+      "current_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887397",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791560802,
+      "last_acquired_epoch": 1791560802,
+      "problem_id": "awc0175_a",
+      "problem_index": "A",
+      "problem_name": "Two Water Bottles",
+      "problem_title": "A. Two Water Bottles",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_a",
+      "status": "holding",
+      "target_epoch_second": 1791564846,
+      "target_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "target_length": 16,
+      "target_submission_id": 79887397,
+      "target_submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887397"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791559620,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 578,
+      "current_submission_id": 79886396,
+      "current_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886396",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791559620,
+      "last_acquired_epoch": 1791559620,
+      "problem_id": "awc0174_e",
+      "problem_index": "E",
+      "problem_name": "Parenthesis Sequence and Stack Overflow",
+      "problem_title": "E. Parenthesis Sequence and Stack Overflow",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_e",
+      "status": "holding",
+      "target_epoch_second": 1791559620,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 578,
+      "target_submission_id": 79886396,
+      "target_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886396"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791559026,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 149,
+      "current_submission_id": 79886232,
+      "current_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886232",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791559026,
+      "last_acquired_epoch": 1791559026,
+      "problem_id": "awc0174_d",
+      "problem_index": "D",
+      "problem_name": "Road Construction and Shortest Path",
+      "problem_title": "D. Road Construction and Shortest Path",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_d",
+      "status": "holding",
+      "target_epoch_second": 1791559026,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 149,
+      "target_submission_id": 79886232,
+      "target_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886232"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791557402,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 134,
+      "current_submission_id": 79885747,
+      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79885747",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791557402,
+      "last_acquired_epoch": 1791557402,
+      "problem_id": "awc0173_e",
+      "problem_index": "E",
+      "problem_name": "Clay Crafting Contest",
+      "problem_title": "E. Clay Crafting Contest",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_e",
+      "status": "holding",
+      "target_epoch_second": 1791557402,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 134,
+      "target_submission_id": 79885747,
+      "target_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79885747"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791507607,
@@ -6730,34 +6906,226 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-09",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "abc193",
-        "epoch_second": 1788684357,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 272,
-        "submission_id": 79034918,
-        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
-        "user_id": "x20"
-      },
-      "problem_id": "abc193_f",
-      "problem_name": "Zebraness",
-      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
-    }
-  ],
+  "recommendation_day": "2026-10-10",
+  "recommendations": [],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 297,
-    "holding_count": 289,
+    "ever_held_count": 305,
+    "holding_count": 297,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 237,
+    "update_log_count": 246,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791569819,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 399,
+        "submission_id": 79888061,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79888061",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791551796,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 948,
+        "submission_id": 79883847,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79883847",
+        "user_id": "sasa8uyauya"
+      },
+      "problem_id": "awc0175_e",
+      "problem_name": "Area Illuminated by Street Lights",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791567844,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 95,
+        "submission_id": 79887805,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887805",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791558005,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 133,
+        "submission_id": 79885915,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79885915",
+        "user_id": "ds14050"
+      },
+      "problem_id": "awc0175_d",
+      "problem_name": "Transporting Cargo",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791565582,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 31,
+        "submission_id": 79887517,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887517",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791554134,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 43,
+        "submission_id": 79884721,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79884721",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0175_c",
+      "problem_name": "Repairing Road Potholes",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791564846,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 16,
+        "submission_id": 79887397,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887397",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791560802,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 17,
+        "submission_id": 79886713,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79886713",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0175_a",
+      "problem_name": "Two Water Bottles",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791564357,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 20,
+        "submission_id": 79887323,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79887323",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791553468,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 27,
+        "submission_id": 79884497,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79884497",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0175_b",
+      "problem_name": "Vertical Reading of a Memoir",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791560802,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 17,
+        "submission_id": 79886713,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79886713",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0175",
+        "epoch_second": 1791552229,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 18,
+        "submission_id": 79884016,
+        "submission_url": "https://atcoder.jp/contests/awc0175/submissions/79884016",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0175_a",
+      "problem_name": "Two Water Bottles",
+      "problem_url": "https://atcoder.jp/contests/awc0175/tasks/awc0175_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791559620,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 578,
+        "submission_id": 79886396,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886396",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791469671,
+        "language": "Python (Codon 0.19.3)",
+        "length": 924,
+        "submission_id": 79864840,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79864840",
+        "user_id": "masasu"
+      },
+      "problem_id": "awc0174_e",
+      "problem_name": "Parenthesis Sequence and Stack Overflow",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_e"
+    },
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791559026,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 149,
+        "submission_id": 79886232,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79886232",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791459872,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 527,
+        "submission_id": 79860961,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79860961",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0174_d",
+      "problem_name": "Road Construction and Shortest Path",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791557402,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 134,
+        "submission_id": 79885747,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79885747",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791371828,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 276,
+        "submission_id": 79841244,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79841244",
+        "user_id": "miztom"
+      },
+      "problem_id": "awc0173_e",
+      "problem_name": "Clay Crafting Contest",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_e"
+    },
     {
       "after": {
         "contest_id": "awc0174",
