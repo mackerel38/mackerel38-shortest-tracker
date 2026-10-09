@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791473950,
-  "generated_iso": "2026-10-08T15:39:10+00:00",
+  "generated_epoch": 1791507983,
+  "generated_iso": "2026-10-09T01:06:23+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,160 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791507607,
+      "current_language": "Perl (perl 5.38.2)",
+      "current_length": 46,
+      "current_submission_id": 79869431,
+      "current_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869431",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791507607,
+      "last_acquired_epoch": 1791507607,
+      "problem_id": "awc0174_c",
+      "problem_index": "C",
+      "problem_name": "Perfect Pairs",
+      "problem_title": "C. Perfect Pairs",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_c",
+      "status": "holding",
+      "target_epoch_second": 1791507607,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 46,
+      "target_submission_id": 79869431,
+      "target_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869431"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791506390,
+      "current_language": "Perl (perl 5.38.2)",
+      "current_length": 24,
+      "current_submission_id": 79869236,
+      "current_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869236",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791506390,
+      "last_acquired_epoch": 1791506390,
+      "problem_id": "awc0174_b",
+      "problem_index": "B",
+      "problem_name": "Beverage Vending Machine",
+      "problem_title": "B. Beverage Vending Machine",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_b",
+      "status": "holding",
+      "target_epoch_second": 1791506390,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 24,
+      "target_submission_id": 79869236,
+      "target_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869236"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791504173,
+      "current_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "current_length": 7,
+      "current_submission_id": 79868927,
+      "current_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79868927",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791496793,
+      "last_acquired_epoch": 1791496793,
+      "problem_id": "awc0174_a",
+      "problem_index": "A",
+      "problem_name": "Make It to the Station",
+      "problem_title": "A. Make It to the Station",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_a",
+      "status": "holding",
+      "target_epoch_second": 1791504173,
+      "target_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "target_length": 7,
+      "target_submission_id": 79868927,
+      "target_submission_url": "https://atcoder.jp/contests/awc0174/submissions/79868927"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791496720,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 46,
+      "current_submission_id": 79868566,
+      "current_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868566",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791496720,
+      "last_acquired_epoch": 1791496720,
+      "problem_id": "abc478_b",
+      "problem_index": "B",
+      "problem_name": "Topping",
+      "problem_title": "B. Topping",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_b",
+      "status": "holding",
+      "target_epoch_second": 1791496720,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 46,
+      "target_submission_id": 79868566,
+      "target_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868566"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791494977,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 50,
+      "current_submission_id": 79868476,
+      "current_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868476",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791494977,
+      "last_acquired_epoch": 1791494977,
+      "problem_id": "abc478_c",
+      "problem_index": "C",
+      "problem_name": "Sort Subarray",
+      "problem_title": "C. Sort Subarray",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_c",
+      "status": "holding",
+      "target_epoch_second": 1791494977,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 50,
+      "target_submission_id": 79868476,
+      "target_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868476"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791494581,
+      "current_language": "Ruby 3.4 (ruby 3.4.5)",
+      "current_length": 157,
+      "current_submission_id": 79868457,
+      "current_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868457",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791494581,
+      "last_acquired_epoch": 1791494581,
+      "problem_id": "abc478_d",
+      "problem_index": "D",
+      "problem_name": "Range Set Insertion Query",
+      "problem_title": "D. Range Set Insertion Query",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_d",
+      "status": "holding",
+      "target_epoch_second": 1791494581,
+      "target_language": "Ruby 3.4 (ruby 3.4.5)",
+      "target_length": 157,
+      "target_submission_id": 79868457,
+      "target_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868457"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1791493527,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 175,
+      "current_submission_id": 79868386,
+      "current_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868386",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1791493527,
+      "last_acquired_epoch": 1791493527,
+      "problem_id": "abc478_e",
+      "problem_index": "E",
+      "problem_name": "lt and le",
+      "problem_title": "E. lt and le",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_e",
+      "status": "holding",
+      "target_epoch_second": 1791493527,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 175,
+      "target_submission_id": 79868386,
+      "target_submission_url": "https://atcoder.jp/contests/abc478/submissions/79868386"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791451267,
@@ -6580,30 +6734,214 @@
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc403",
-        "epoch_second": 1789577888,
-        "language": "Python (PyPy 3.11-v7.3.20)",
+        "contest_id": "abc193",
+        "epoch_second": 1788684357,
+        "language": "C++23 (GCC 15.2.0)",
         "length": 272,
-        "submission_id": 79301868,
-        "submission_url": "https://atcoder.jp/contests/abc403/submissions/79301868",
-        "user_id": "negativesquare"
+        "submission_id": 79034918,
+        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
+        "user_id": "x20"
       },
-      "problem_id": "abc403_f",
-      "problem_name": "Shortest One Formula",
-      "problem_url": "https://atcoder.jp/contests/abc403/tasks/abc403_f"
+      "problem_id": "abc193_f",
+      "problem_name": "Zebraness",
+      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
     }
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 290,
-    "holding_count": 282,
+    "ever_held_count": 297,
+    "holding_count": 289,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 229,
+    "update_log_count": 237,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791507607,
+        "language": "Perl (perl 5.38.2)",
+        "length": 46,
+        "submission_id": 79869431,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869431",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791459672,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 135,
+        "submission_id": 79860860,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79860860",
+        "user_id": "moon17"
+      },
+      "problem_id": "awc0174_c",
+      "problem_name": "Perfect Pairs",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791506390,
+        "language": "Perl (perl 5.38.2)",
+        "length": 24,
+        "submission_id": 79869236,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79869236",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791457438,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 42,
+        "submission_id": 79859719,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79859719",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0174_b",
+      "problem_name": "Beverage Vending Machine",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791504173,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 7,
+        "submission_id": 79868927,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79868927",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791496793,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 8,
+        "submission_id": 79868572,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79868572",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0174_a",
+      "problem_name": "Make It to the Station",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_a"
+    },
+    {
+      "after": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791496793,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 8,
+        "submission_id": 79868572,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79868572",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0174",
+        "epoch_second": 1791457354,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 9,
+        "submission_id": 79859633,
+        "submission_url": "https://atcoder.jp/contests/awc0174/submissions/79859633",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0174_a",
+      "problem_name": "Make It to the Station",
+      "problem_url": "https://atcoder.jp/contests/awc0174/tasks/awc0174_a"
+    },
+    {
+      "after": {
+        "contest_id": "abc478",
+        "epoch_second": 1791496720,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 46,
+        "submission_id": 79868566,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79868566",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc478",
+        "epoch_second": 1791120581,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 50,
+        "submission_id": 79778017,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79778017",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc478_b",
+      "problem_name": "Topping",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc478",
+        "epoch_second": 1791494977,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 50,
+        "submission_id": 79868476,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79868476",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc478",
+        "epoch_second": 1791054611,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 55,
+        "submission_id": 79754213,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79754213",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc478_c",
+      "problem_name": "Sort Subarray",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc478",
+        "epoch_second": 1791494581,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 157,
+        "submission_id": 79868457,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79868457",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc478",
+        "epoch_second": 1791272438,
+        "language": "Python (CPython 3.13.7)",
+        "length": 193,
+        "submission_id": 79816180,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79816180",
+        "user_id": "chmpro"
+      },
+      "problem_id": "abc478_d",
+      "problem_name": "Range Set Insertion Query",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc478",
+        "epoch_second": 1791493527,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 175,
+        "submission_id": 79868386,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79868386",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc478",
+        "epoch_second": 1791192837,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 235,
+        "submission_id": 79796712,
+        "submission_url": "https://atcoder.jp/contests/abc478/submissions/79796712",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc478_e",
+      "problem_name": "lt and le",
+      "problem_url": "https://atcoder.jp/contests/abc478/tasks/abc478_e"
+    },
     {
       "after": {
         "contest_id": "abc478",
