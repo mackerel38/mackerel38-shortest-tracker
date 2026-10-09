@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1791507983,
-  "generated_iso": "2026-10-09T01:06:23+00:00",
+  "generated_epoch": 1791556447,
+  "generated_iso": "2026-10-09T14:34:07+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -5574,9 +5574,9 @@
       "first_acquired_epoch": 1785031789,
       "last_acquired_epoch": 1785031789,
       "problem_id": "abc466_b",
-      "problem_index": "C",
+      "problem_index": "D",
       "problem_name": "Representative Balls",
-      "problem_title": "C. Representative Balls",
+      "problem_title": "D. Representative Balls",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_b",
       "status": "holding",
       "target_epoch_second": 1785031789,
