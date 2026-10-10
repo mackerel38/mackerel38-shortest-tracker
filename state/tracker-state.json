@@ -80182,10 +80182,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791649218,
+  "last_checked_epoch": 1791663349,
   "recommendation_day": "2026-10-11",
   "recommendations": [
-    "abc473_g"
+    "abc473_c"
   ],
   "submission_details": {
     "50666051": {
@@ -93893,7 +93893,8 @@
       "C++23 (GCC 15.2.0)"
     ],
     "abc457_a": [
-      "C++23 (GCC 15.2.0)"
+      "C++23 (GCC 15.2.0)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
     ],
     "abc457_b": [
       "C++23 (GCC 15.2.0)"
@@ -93926,7 +93927,8 @@
       "C++23 (GCC 15.2.0)"
     ],
     "abc459_a": [
-      "C++23 (GCC 15.2.0)"
+      "C++23 (GCC 15.2.0)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
     ],
     "abc459_b": [
       "C++23 (GCC 15.2.0)"
