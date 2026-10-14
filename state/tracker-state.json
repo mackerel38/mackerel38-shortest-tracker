@@ -770,11 +770,11 @@
     },
     "aalc001_p": {
       "contest_id": "aalc001",
-      "epoch_second": 1791851673,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 677,
-      "submission_id": 80003033,
-      "user_id": "zhanglewei4598"
+      "epoch_second": null,
+      "language": null,
+      "length": 606,
+      "submission_id": 80020610,
+      "user_id": "sasa8uyauya"
     },
     "aalc001_q": {
       "contest_id": "aalc001",
@@ -18356,9 +18356,9 @@
       "contest_id": "abc378",
       "epoch_second": null,
       "language": null,
-      "length": 160,
-      "submission_id": 59390353,
-      "user_id": "Rssll_Krkgrd"
+      "length": 159,
+      "submission_id": 80022611,
+      "user_id": "negativesquare"
     },
     "abc378_f": {
       "contest_id": "abc378",
@@ -32922,11 +32922,11 @@
     },
     "arc125_f": {
       "contest_id": "arc125",
-      "epoch_second": null,
-      "language": null,
-      "length": 552,
-      "submission_id": 57570559,
-      "user_id": "qbf"
+      "epoch_second": 1791949094,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 530,
+      "submission_id": 80028383,
+      "user_id": "liuqiangdong"
     },
     "arc126_a": {
       "contest_id": "arc126",
@@ -68346,35 +68346,35 @@
     },
     "past24_d": {
       "contest_id": "past24-open",
-      "epoch_second": 1791862170,
-      "language": "Pascal (fpc 3.2.2)",
-      "length": 803,
-      "submission_id": 80005509,
-      "user_id": "n_o_n_o_n"
+      "epoch_second": null,
+      "language": null,
+      "length": 456,
+      "submission_id": 80025502,
+      "user_id": "YuuPika"
     },
     "past24_e": {
       "contest_id": "past24-open",
-      "epoch_second": 1791862372,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 690,
-      "submission_id": 80005564,
-      "user_id": "n_o_n_o_n"
+      "epoch_second": null,
+      "language": null,
+      "length": 304,
+      "submission_id": 80025537,
+      "user_id": "YuuPika"
     },
     "past24_f": {
       "contest_id": "past24-open",
-      "epoch_second": 1791898652,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1572,
-      "submission_id": 80019648,
-      "user_id": "shobonvip"
+      "epoch_second": null,
+      "language": null,
+      "length": 454,
+      "submission_id": 80025569,
+      "user_id": "YuuPika"
     },
     "past24_g": {
       "contest_id": "past24-open",
-      "epoch_second": 1791898517,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1838,
-      "submission_id": 80019588,
-      "user_id": "shobonvip"
+      "epoch_second": null,
+      "language": null,
+      "length": 1079,
+      "submission_id": 80025772,
+      "user_id": "YuuPika"
     },
     "past24_h": {
       "contest_id": "past24-open",
@@ -68386,35 +68386,35 @@
     },
     "past24_i": {
       "contest_id": "past24-open",
-      "epoch_second": 1791898212,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1642,
-      "submission_id": 80019451,
-      "user_id": "shobonvip"
+      "epoch_second": null,
+      "language": null,
+      "length": 536,
+      "submission_id": 80025990,
+      "user_id": "YuuPika"
     },
     "past24_j": {
       "contest_id": "past24-open",
-      "epoch_second": 1791863321,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1322,
-      "submission_id": 80005800,
-      "user_id": "n_o_n_o_n"
+      "epoch_second": null,
+      "language": null,
+      "length": 588,
+      "submission_id": 80026103,
+      "user_id": "YuuPika"
     },
     "past24_k": {
       "contest_id": "past24-open",
-      "epoch_second": 1791897680,
+      "epoch_second": 1791940654,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 1869,
-      "submission_id": 80019234,
-      "user_id": "shobonvip"
+      "length": 844,
+      "submission_id": 80026222,
+      "user_id": "YuuPika"
     },
     "past24_l": {
       "contest_id": "past24-open",
-      "epoch_second": 1791863726,
+      "epoch_second": 1791941369,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 1196,
-      "submission_id": 80005888,
-      "user_id": "n_o_n_o_n"
+      "length": 929,
+      "submission_id": 80026415,
+      "user_id": "YuuPika"
     },
     "past24_m": {
       "contest_id": "past24-open",
@@ -68434,11 +68434,11 @@
     },
     "past24_o": {
       "contest_id": "past24-open",
-      "epoch_second": 1791899255,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 2822,
-      "submission_id": 80019901,
-      "user_id": "shobonvip"
+      "epoch_second": null,
+      "language": null,
+      "length": 1284,
+      "submission_id": 80024266,
+      "user_id": "sasa8uyauya"
     },
     "practice2_a": {
       "contest_id": "practice2",
@@ -80814,11 +80814,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1791913742,
+  "last_checked_epoch": 1791959783,
   "recommendation_day": "2026-10-14",
   "recommendations": [
-    "abc473_b",
-    "abc396_f"
+    "abc473_d"
   ],
   "submission_details": {
     "50666051": {
@@ -93876,6 +93875,22 @@
     "80020562": {
       "epoch_second": 1791901318,
       "language": "C23 (GCC 14.2.0)"
+    },
+    "80026222": {
+      "epoch_second": 1791940654,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80026415": {
+      "epoch_second": 1791941369,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80028375": {
+      "epoch_second": 1791949054,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80028383": {
+      "epoch_second": 1791949094,
+      "language": "C++23 (GCC 15.2.0)"
     }
   },
   "target_language_index_complete": true,
@@ -95906,13 +95921,21 @@
       "C++23 (GCC 15.2.0)"
     ],
     "abc447_a": [
-      "C++23 (GCC 15.2.0)"
+      "C++23 (GCC 15.2.0)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
     ],
     "abc447_b": [
       "C++23 (GCC 15.2.0)"
     ],
+    "abc448_a": [
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
+    "abc449_a": [
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
+    ],
     "abc450_a": [
-      "C++23 (GCC 15.2.0)"
+      "C++23 (GCC 15.2.0)",
+      "Piet (your-diary/piet_programming_language 3.0.0) (PPM image)"
     ],
     "abc450_b": [
       "C++23 (GCC 15.2.0)"
