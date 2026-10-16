@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792088444,
-  "generated_iso": "2026-10-15T18:20:44+00:00",
+  "generated_epoch": 1792173471,
+  "generated_iso": "2026-10-16T17:57:51+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -6906,51 +6906,8 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-16",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "abc405",
-        "epoch_second": 1789576111,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 212,
-        "submission_id": 79301587,
-        "submission_url": "https://atcoder.jp/contests/abc405/submissions/79301587",
-        "user_id": "negativesquare"
-      },
-      "problem_id": "abc405_f",
-      "problem_name": "Chord Crossing",
-      "problem_url": "https://atcoder.jp/contests/abc405/tasks/abc405_f"
-    },
-    {
-      "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788012046,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 452,
-        "submission_id": 78830816,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78830816",
-        "user_id": "zbl314"
-      },
-      "problem_id": "abc473_g",
-      "problem_name": "Wipeout",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_g"
-    },
-    {
-      "current": {
-        "contest_id": "abc473",
-        "epoch_second": 1788007928,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 31,
-        "submission_id": 78809584,
-        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78809584",
-        "user_id": "Rssll_Krkgrd"
-      },
-      "problem_id": "abc473_b",
-      "problem_name": "Old Maid",
-      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_b"
-    }
-  ],
+  "recommendation_day": "2026-10-17",
+  "recommendations": [],
   "summary": {
     "active_update_count": 8,
     "ever_held_count": 305,
