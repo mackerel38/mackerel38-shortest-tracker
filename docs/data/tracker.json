@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792257236,
-  "generated_iso": "2026-10-17T17:13:56+00:00",
+  "generated_epoch": 1792323912,
+  "generated_iso": "2026-10-18T11:45:12+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792318905,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 70,
+      "current_submission_id": 80176714,
+      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792318905,
+      "last_acquired_epoch": 1792318905,
+      "problem_id": "abc480_c",
+      "problem_index": "C",
+      "problem_name": "Self-Stopping Shower",
+      "problem_title": "C. Self-Stopping Shower",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_c",
+      "status": "holding",
+      "target_epoch_second": 1792318905,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 70,
+      "target_submission_id": 80176714,
+      "target_submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792305002,
+      "current_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "current_length": 16,
+      "current_submission_id": 80171038,
+      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80171038",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792305002,
+      "last_acquired_epoch": 1792305002,
+      "problem_id": "abc480_a",
+      "problem_index": "A",
+      "problem_name": "ADjacent",
+      "problem_title": "A. ADjacent",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_a",
+      "status": "holding",
+      "target_epoch_second": 1792305002,
+      "target_language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "target_length": 16,
+      "target_submission_id": 80171038,
+      "target_submission_url": "https://atcoder.jp/contests/abc480/submissions/80171038"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1791569819,
@@ -6939,15 +6983,61 @@
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 305,
-    "holding_count": 297,
+    "ever_held_count": 307,
+    "holding_count": 299,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 246,
+    "update_log_count": 248,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1792318905,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 70,
+        "submission_id": 80176714,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792251530,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 76,
+        "submission_id": 80161433,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80161433",
+        "user_id": "kuratsuji"
+      },
+      "problem_id": "abc480_c",
+      "problem_name": "Self-Stopping Shower",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1792305002,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 16,
+        "submission_id": 80171038,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80171038",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792247642,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 21,
+        "submission_id": 80159694,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80159694",
+        "user_id": "kukone"
+      },
+      "problem_id": "abc480_a",
+      "problem_name": "ADjacent",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_a"
+    },
     {
       "after": {
         "contest_id": "awc0175",
