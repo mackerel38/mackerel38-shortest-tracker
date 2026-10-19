@@ -24042,11 +24042,11 @@
     },
     "abc480_b": {
       "contest_id": "abc480",
-      "epoch_second": 1792296329,
-      "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 167,
-      "submission_id": 80168610,
-      "user_id": "denkyuu1"
+      "epoch_second": 1792380219,
+      "language": "Perl (perl 5.38.2)",
+      "length": 96,
+      "submission_id": 80188859,
+      "user_id": "mackerel38"
     },
     "abc480_c": {
       "contest_id": "abc480",
@@ -78324,6 +78324,16 @@
       "target_length": 16,
       "target_submission_id": 80171038
     },
+    "abc480_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792380219,
+      "last_acquired_epoch": 1792380219,
+      "target_contest_id": "abc480",
+      "target_epoch_second": 1792380219,
+      "target_language": "Perl (perl 5.38.2)",
+      "target_length": 96,
+      "target_submission_id": 80188859
+    },
     "abc480_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792318905,
@@ -81036,7 +81046,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792372717,
+  "last_checked_epoch": 1792392019,
   "recommendation_day": "2026-10-19",
   "recommendations": [],
   "submission_details": {
@@ -94887,6 +94897,10 @@
     "80185713": {
       "epoch_second": 1792367044,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80188859": {
+      "epoch_second": 1792380219,
+      "language": "Perl (perl 5.38.2)"
     }
   },
   "target_language_index_complete": true,
@@ -97327,6 +97341,9 @@
     ],
     "abc480_a": [
       "dc 1.5.2 (GNU bc 1.08.2)"
+    ],
+    "abc480_b": [
+      "Perl (perl 5.38.2)"
     ],
     "abc480_c": [
       "Uiua (uiua 0.16.2)"
@@ -100164,6 +100181,7 @@
     "abc478_e:79868386",
     "abc478_g:79857850",
     "abc480_a:80171038",
+    "abc480_b:80188859",
     "abc480_c:80176714",
     "abc480_c:80185654",
     "abc480_e:80185713",
@@ -105143,6 +105161,25 @@
         "user_id": "negativesquare"
       },
       "problem_id": "abc480_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1792380219,
+        "language": "Perl (perl 5.38.2)",
+        "length": 96,
+        "submission_id": 80188859,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792296329,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 167,
+        "submission_id": 80168610,
+        "user_id": "denkyuu1"
+      },
+      "problem_id": "abc480_b"
     }
   ],
   "version": 2
