@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792338104,
-  "generated_iso": "2026-10-18T15:41:44+00:00",
+  "generated_epoch": 1792372717,
+  "generated_iso": "2026-10-19T01:18:37+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -197,11 +197,33 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792318905,
+      "current_epoch_second": 1792367044,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 91,
+      "current_submission_id": 80185713,
+      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80185713",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792367044,
+      "last_acquired_epoch": 1792367044,
+      "problem_id": "abc480_e",
+      "problem_index": "E",
+      "problem_name": "Product-Bounded Arithmetic Sequences",
+      "problem_title": "E. Product-Bounded Arithmetic Sequences",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_e",
+      "status": "holding",
+      "target_epoch_second": 1792367044,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 91,
+      "target_submission_id": 80185713,
+      "target_submission_url": "https://atcoder.jp/contests/abc480/submissions/80185713"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792366214,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 70,
-      "current_submission_id": 80176714,
-      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714",
+      "current_length": 52,
+      "current_submission_id": 80185654,
+      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80185654",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1792318905,
       "last_acquired_epoch": 1792318905,
@@ -211,11 +233,11 @@
       "problem_title": "C. Self-Stopping Shower",
       "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_c",
       "status": "holding",
-      "target_epoch_second": 1792318905,
+      "target_epoch_second": 1792366214,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 70,
-      "target_submission_id": 80176714,
-      "target_submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714"
+      "target_length": 52,
+      "target_submission_id": 80185654,
+      "target_submission_url": "https://atcoder.jp/contests/abc480/submissions/80185654"
     },
     {
       "acquisition_count": 1,
@@ -6954,15 +6976,61 @@
   "recommendations": [],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 307,
-    "holding_count": 299,
+    "ever_held_count": 308,
+    "holding_count": 300,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 248,
+    "update_log_count": 250,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1792367044,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 91,
+        "submission_id": 80185713,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80185713",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792251274,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 187,
+        "submission_id": 80161354,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80161354",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc480_e",
+      "problem_name": "Product-Bounded Arithmetic Sequences",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1792366214,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 52,
+        "submission_id": 80185654,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80185654",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792318905,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 70,
+        "submission_id": 80176714,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80176714",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc480_c",
+      "problem_name": "Self-Stopping Shower",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_c"
+    },
     {
       "after": {
         "contest_id": "abc480",
