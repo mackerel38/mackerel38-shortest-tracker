@@ -37802,19 +37802,19 @@
     },
     "arc232_d": {
       "contest_id": "arc232",
-      "epoch_second": 1791981258,
+      "epoch_second": 1792419692,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 1017,
-      "submission_id": 80041654,
-      "user_id": "zhujianheng"
+      "length": 928,
+      "submission_id": 80202126,
+      "user_id": "xwd456"
     },
     "arc232_e": {
       "contest_id": "arc232",
-      "epoch_second": 1791719007,
+      "epoch_second": 1792419407,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 637,
-      "submission_id": 79924481,
-      "user_id": "aaron_mid"
+      "length": 592,
+      "submission_id": 80202040,
+      "user_id": "xwd456"
     },
     "asaporo2_a": {
       "contest_id": "cf17-tournament-round2-open",
@@ -45466,11 +45466,11 @@
     },
     "awc0181_c": {
       "contest_id": "awc0181",
-      "epoch_second": 1792414639,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 126,
-      "submission_id": 80200329,
-      "user_id": "moon17"
+      "epoch_second": 1792435390,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 34,
+      "submission_id": 80204716,
+      "user_id": "shogo314"
     },
     "awc0181_d": {
       "contest_id": "awc0181",
@@ -45994,10 +45994,10 @@
     },
     "bogosortcontest_div2_e": {
       "contest_id": "bogosortcontest_div2",
-      "epoch_second": 1792332308,
-      "language": "C++23 (Clang 21.1.0)",
-      "length": 1962,
-      "submission_id": 80181702,
+      "epoch_second": null,
+      "language": null,
+      "length": 394,
+      "submission_id": 80198930,
       "user_id": "mono_1729"
     },
     "bogosortcontest_div2_f": {
@@ -51098,11 +51098,11 @@
     },
     "highrate2025_b": {
       "contest_id": "highrate2025-parallel",
-      "epoch_second": null,
-      "language": null,
-      "length": 32,
-      "submission_id": 71220924,
-      "user_id": "i_taku"
+      "epoch_second": 1792420227,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 30,
+      "submission_id": 80202276,
+      "user_id": "mackerel38"
     },
     "highrate2025_c": {
       "contest_id": "highrate2025-parallel",
@@ -76825,12 +76825,12 @@
       "user_id": "pes"
     },
     "xmascon16_d": {
-      "contest_id": "xmascon16midnight",
+      "contest_id": "xmascon16noon",
       "epoch_second": null,
       "language": null,
-      "length": 1088,
-      "submission_id": 55411094,
-      "user_id": "Rubikun"
+      "length": 1068,
+      "submission_id": 80199622,
+      "user_id": "bgrand"
     },
     "xmascon16_e": {
       "contest_id": "xmascon16",
@@ -81134,6 +81134,16 @@
       "target_length": 61,
       "target_submission_id": 79784311
     },
+    "highrate2025_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792420227,
+      "last_acquired_epoch": 1792420227,
+      "target_contest_id": "highrate2025-parallel",
+      "target_epoch_second": 1792420227,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 30,
+      "target_submission_id": 80202276
+    },
     "math_and_algorithm_av": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792412140,
@@ -81146,10 +81156,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792418401,
-  "recommendation_day": "2026-10-19",
+  "last_checked_epoch": 1792439330,
+  "recommendation_day": "2026-10-20",
   "recommendations": [
-    "abc473_d"
+    "arc227_a"
   ],
   "submission_details": {
     "50666051": {
@@ -95159,6 +95169,26 @@
     "80201122": {
       "epoch_second": 1792416691,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "80202040": {
+      "epoch_second": 1792419407,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80202126": {
+      "epoch_second": 1792419692,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80202276": {
+      "epoch_second": 1792420227,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "80204561": {
+      "epoch_second": 1792433709,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80204716": {
+      "epoch_second": 1792435390,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -99276,6 +99306,9 @@
     "gigacode_2019_a": [
       "dc (dc 1.07.1)"
     ],
+    "highrate2025_b": [
+      "A言語 (interpreter af48a2a)"
+    ],
     "iroha2019_day3_j": [
       "C++ 20 (gcc 12.2)",
       "Nibbles (literate form) (nibbles 1.01)",
@@ -100685,6 +100718,7 @@
     "game_f:79784657",
     "game_f:79785090",
     "game_g:79784311",
+    "highrate2025_b:80202276",
     "math_and_algorithm_av:80199496",
     "math_and_algorithm_av:80200219"
   ],
@@ -105590,6 +105624,25 @@
         "user_id": "Fleur"
       },
       "problem_id": "abc397_c"
+    },
+    {
+      "after": {
+        "contest_id": "highrate2025-parallel",
+        "epoch_second": 1792420227,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 30,
+        "submission_id": 80202276,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "highrate2025-parallel",
+        "epoch_second": null,
+        "language": null,
+        "length": 32,
+        "submission_id": 71220924,
+        "user_id": "i_taku"
+      },
+      "problem_id": "highrate2025_b"
     }
   ],
   "version": 2
