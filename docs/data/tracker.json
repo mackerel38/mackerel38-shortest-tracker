@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792392019,
-  "generated_iso": "2026-10-19T06:40:19+00:00",
+  "generated_epoch": 1792418401,
+  "generated_iso": "2026-10-19T14:00:01+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,138 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792416691,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 47,
+      "current_submission_id": 80201122,
+      "current_submission_url": "https://atcoder.jp/contests/abc397/submissions/80201122",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792416691,
+      "last_acquired_epoch": 1792416691,
+      "problem_id": "abc397_c",
+      "problem_index": "F",
+      "problem_name": "Variety Split Easy",
+      "problem_title": "F. Variety Split Easy",
+      "problem_url": "https://atcoder.jp/contests/abc397/tasks/abc397_c",
+      "status": "holding",
+      "target_epoch_second": 1792416691,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 47,
+      "target_submission_id": 80201122,
+      "target_submission_url": "https://atcoder.jp/contests/abc397/submissions/80201122"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792415217,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 61,
+      "current_submission_id": 80200555,
+      "current_submission_url": "https://atcoder.jp/contests/arc219/submissions/80200555",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792415217,
+      "last_acquired_epoch": 1792415217,
+      "problem_id": "arc219_b",
+      "problem_index": "B",
+      "problem_name": "Reverse Permutation",
+      "problem_title": "B. Reverse Permutation",
+      "problem_url": "https://atcoder.jp/contests/arc219/tasks/arc219_b",
+      "status": "holding",
+      "target_epoch_second": 1792415217,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 61,
+      "target_submission_id": 80200555,
+      "target_submission_url": "https://atcoder.jp/contests/arc219/submissions/80200555"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792413862,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 44,
+      "current_submission_id": 80200046,
+      "current_submission_url": "https://atcoder.jp/contests/awc0040/submissions/80200046",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792413862,
+      "last_acquired_epoch": 1792413862,
+      "problem_id": "awc0040_a",
+      "problem_index": "A",
+      "problem_name": "Flea Market Sales Management",
+      "problem_title": "A. Flea Market Sales Management",
+      "problem_url": "https://atcoder.jp/contests/awc0040/tasks/awc0040_a",
+      "status": "holding",
+      "target_epoch_second": 1792413862,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 44,
+      "target_submission_id": 80200046,
+      "target_submission_url": "https://atcoder.jp/contests/awc0040/submissions/80200046"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792412811,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 96,
+      "current_submission_id": 80199721,
+      "current_submission_url": "https://atcoder.jp/contests/arc218/submissions/80199721",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792412811,
+      "last_acquired_epoch": 1792412811,
+      "problem_id": "arc218_b",
+      "problem_index": "B",
+      "problem_name": "All Minus",
+      "problem_title": "B. All Minus",
+      "problem_url": "https://atcoder.jp/contests/arc218/tasks/arc218_b",
+      "status": "holding",
+      "target_epoch_second": 1792412811,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 96,
+      "target_submission_id": 80199721,
+      "target_submission_url": "https://atcoder.jp/contests/arc218/submissions/80199721"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792414357,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 66,
+      "current_submission_id": 80200219,
+      "current_submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80200219",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792412140,
+      "last_acquired_epoch": 1792412140,
+      "problem_id": "math_and_algorithm_av",
+      "problem_index": "056",
+      "problem_name": "Recurrence Formula 2",
+      "problem_title": "056. Recurrence Formula 2",
+      "problem_url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_av",
+      "status": "holding",
+      "target_epoch_second": 1792414357,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 66,
+      "target_submission_id": 80200219,
+      "target_submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80200219"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792411345,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 84,
+      "current_submission_id": 80199178,
+      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792411345,
+      "last_acquired_epoch": 1792411345,
+      "problem_id": "awc0012_c",
+      "problem_index": "C",
+      "problem_name": "Team Formation",
+      "problem_title": "C. Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
+      "status": "holding",
+      "target_epoch_second": 1792411345,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 84,
+      "target_submission_id": 80199178,
+      "target_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792380219,
@@ -6995,18 +7127,194 @@
     }
   ],
   "recommendation_day": "2026-10-19",
-  "recommendations": [],
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1788186682,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 134,
+        "submission_id": 78869255,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/78869255",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc473_d",
+      "problem_name": "Coefficient Stair",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_d"
+    }
+  ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 309,
-    "holding_count": 301,
+    "ever_held_count": 315,
+    "holding_count": 307,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 251,
+    "update_log_count": 258,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc397",
+        "epoch_second": 1792416691,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 47,
+        "submission_id": 80201122,
+        "submission_url": "https://atcoder.jp/contests/abc397/submissions/80201122",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc397",
+        "epoch_second": null,
+        "language": null,
+        "length": 72,
+        "submission_id": 64210131,
+        "submission_url": "https://atcoder.jp/contests/abc397/submissions/64210131",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc397_c",
+      "problem_name": "Variety Split Easy",
+      "problem_url": "https://atcoder.jp/contests/abc397/tasks/abc397_c"
+    },
+    {
+      "after": {
+        "contest_id": "arc219",
+        "epoch_second": 1792415217,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 61,
+        "submission_id": 80200555,
+        "submission_url": "https://atcoder.jp/contests/arc219/submissions/80200555",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc219",
+        "epoch_second": null,
+        "language": null,
+        "length": 65,
+        "submission_id": 76184155,
+        "submission_url": "https://atcoder.jp/contests/arc219/submissions/76184155",
+        "user_id": "Not_Leonian"
+      },
+      "problem_id": "arc219_b",
+      "problem_name": "Reverse Permutation",
+      "problem_url": "https://atcoder.jp/contests/arc219/tasks/arc219_b"
+    },
+    {
+      "after": {
+        "contest_id": "math-and-algorithm",
+        "epoch_second": 1792414357,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 66,
+        "submission_id": 80200219,
+        "submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80200219",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "math-and-algorithm",
+        "epoch_second": 1792412140,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 67,
+        "submission_id": 80199496,
+        "submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80199496",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "math_and_algorithm_av",
+      "problem_name": "Recurrence Formula 2",
+      "problem_url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_av"
+    },
+    {
+      "after": {
+        "contest_id": "awc0040",
+        "epoch_second": 1792413862,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 44,
+        "submission_id": 80200046,
+        "submission_url": "https://atcoder.jp/contests/awc0040/submissions/80200046",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0040",
+        "epoch_second": null,
+        "language": null,
+        "length": 46,
+        "submission_id": 75557628,
+        "submission_url": "https://atcoder.jp/contests/awc0040/submissions/75557628",
+        "user_id": "Fleur"
+      },
+      "problem_id": "awc0040_a",
+      "problem_name": "Flea Market Sales Management",
+      "problem_url": "https://atcoder.jp/contests/awc0040/tasks/awc0040_a"
+    },
+    {
+      "after": {
+        "contest_id": "arc218",
+        "epoch_second": 1792412811,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 96,
+        "submission_id": 80199721,
+        "submission_url": "https://atcoder.jp/contests/arc218/submissions/80199721",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc218",
+        "epoch_second": null,
+        "language": null,
+        "length": 130,
+        "submission_id": 76179812,
+        "submission_url": "https://atcoder.jp/contests/arc218/submissions/76179812",
+        "user_id": "Not_Leonian"
+      },
+      "problem_id": "arc218_b",
+      "problem_name": "All Minus",
+      "problem_url": "https://atcoder.jp/contests/arc218/tasks/arc218_b"
+    },
+    {
+      "after": {
+        "contest_id": "math-and-algorithm",
+        "epoch_second": 1792412140,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 67,
+        "submission_id": 80199496,
+        "submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80199496",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "math-and-algorithm",
+        "epoch_second": null,
+        "language": null,
+        "length": 80,
+        "submission_id": 53943731,
+        "submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/53943731",
+        "user_id": "i_taku"
+      },
+      "problem_id": "math_and_algorithm_av",
+      "problem_name": "Recurrence Formula 2",
+      "problem_url": "https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_av"
+    },
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792411345,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 84,
+        "submission_id": 80199178,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": null,
+        "language": null,
+        "length": 94,
+        "submission_id": 73602000,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/73602000",
+        "user_id": "Fleur"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
     {
       "after": {
         "contest_id": "abc480",
