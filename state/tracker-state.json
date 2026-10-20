@@ -10834,11 +10834,11 @@
     },
     "abc252_f": {
       "contest_id": "abc252",
-      "epoch_second": null,
-      "language": null,
-      "length": 148,
-      "submission_id": 31885019,
-      "user_id": "Rssll_Krkgrd"
+      "epoch_second": 1792468035,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 124,
+      "submission_id": 80208758,
+      "user_id": "mackerel38"
     },
     "abc252_g": {
       "contest_id": "abc252",
@@ -31745,11 +31745,11 @@
       "user_id": "hiensumi"
     },
     "arc098_a": {
-      "contest_id": "arc098",
-      "epoch_second": 1792439166,
-      "language": "Uiua (uiua 0.16.2)",
+      "contest_id": "abc098",
+      "epoch_second": null,
+      "language": null,
       "length": 33,
-      "submission_id": 80204964,
+      "submission_id": 80204962,
       "user_id": "Fleur"
     },
     "arc098_b": {
@@ -49028,9 +49028,9 @@
       "contest_id": "ddcc2020-final",
       "epoch_second": null,
       "language": null,
-      "length": 5479,
-      "submission_id": 80191442,
-      "user_id": "CandyBar"
+      "length": 5350,
+      "submission_id": 80206662,
+      "user_id": "xuan_never"
     },
     "ddcc2020_qual_a": {
       "contest_id": "ddcc2020-qual",
@@ -69946,11 +69946,11 @@
     },
     "scpc2026_div3_c": {
       "contest_id": "scpc2026-div3",
-      "epoch_second": null,
-      "language": null,
-      "length": 97,
-      "submission_id": 75992598,
-      "user_id": "Rssll_Krkgrd"
+      "epoch_second": 1792465213,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 76,
+      "submission_id": 80208126,
+      "user_id": "kino0402"
     },
     "scpc2026_div3_d": {
       "contest_id": "scpc2026-div3",
@@ -78004,6 +78004,16 @@
       "target_length": 95,
       "target_submission_id": 80205334
     },
+    "abc252_f": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792468035,
+      "last_acquired_epoch": 1792468035,
+      "target_contest_id": "abc252",
+      "target_epoch_second": 1792468035,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 124,
+      "target_submission_id": 80208758
+    },
     "abc365_g": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1785042945,
@@ -81186,7 +81196,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792461727,
+  "last_checked_epoch": 1792481858,
   "recommendation_day": "2026-10-20",
   "recommendations": [
     "abc396_f",
@@ -95236,6 +95246,14 @@
     "80206598": {
       "epoch_second": 1792458429,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80208126": {
+      "epoch_second": 1792465213,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80208758": {
+      "epoch_second": 1792468035,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -95895,6 +95913,9 @@
     ],
     "abc252_d": [
       "C++ 20 (gcc 12.2)"
+    ],
+    "abc252_f": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "abc256_b": [
       "C++ 20 (gcc 12.2)"
@@ -100515,6 +100536,7 @@
   "target_user": "mackerel38",
   "update_keys": [
     "abc151_e:80205334",
+    "abc252_f:80208758",
     "abc392_c:80206261",
     "abc397_c:80201122",
     "abc468_f:77939958",
@@ -105755,6 +105777,25 @@
         "user_id": "kotatsugame"
       },
       "problem_id": "arc114_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc252",
+        "epoch_second": 1792468035,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 124,
+        "submission_id": 80208758,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc252",
+        "epoch_second": null,
+        "language": null,
+        "length": 148,
+        "submission_id": 31885019,
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc252_f"
     }
   ],
   "version": 2
