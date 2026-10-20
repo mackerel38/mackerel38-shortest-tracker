@@ -13874,10 +13874,10 @@
     },
     "abc300_b": {
       "contest_id": "abc300",
-      "epoch_second": null,
-      "language": null,
-      "length": 89,
-      "submission_id": 41090168,
+      "epoch_second": 1792510937,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 66,
+      "submission_id": 80223721,
       "user_id": "Fleur"
     },
     "abc300_c": {
@@ -34914,11 +34914,11 @@
     },
     "arc165_f": {
       "contest_id": "arc165",
-      "epoch_second": null,
-      "language": null,
-      "length": 752,
-      "submission_id": 57478385,
-      "user_id": "Nityacke"
+      "epoch_second": 1792505558,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 671,
+      "submission_id": 80222267,
+      "user_id": "cosf"
     },
     "arc166_a": {
       "contest_id": "arc166",
@@ -36258,11 +36258,11 @@
     },
     "arc196_a": {
       "contest_id": "arc196",
-      "epoch_second": null,
-      "language": null,
-      "length": 532,
-      "submission_id": 66653252,
-      "user_id": "mutualns"
+      "epoch_second": 1792503981,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 525,
+      "submission_id": 80221748,
+      "user_id": "Rssll_Krkgrd"
     },
     "arc196_b": {
       "contest_id": "arc196",
@@ -46034,10 +46034,10 @@
     },
     "bogosortcontest_div2_e": {
       "contest_id": "bogosortcontest_div2",
-      "epoch_second": null,
-      "language": null,
-      "length": 394,
-      "submission_id": 80198930,
+      "epoch_second": 1792507152,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 164,
+      "submission_id": 80222777,
       "user_id": "mono_1729"
     },
     "bogosortcontest_div2_f": {
@@ -63354,11 +63354,11 @@
     },
     "npcapc_2024_o": {
       "contest_id": "npcapc_2024",
-      "epoch_second": null,
-      "language": null,
-      "length": 2455,
-      "submission_id": 54898930,
-      "user_id": "Olerkzc"
+      "epoch_second": 1792503302,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 2449,
+      "submission_id": 80221493,
+      "user_id": "maojun"
     },
     "npcapc_2024_p": {
       "contest_id": "npcapc_2024",
@@ -81326,11 +81326,12 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792501294,
-  "recommendation_day": "2026-10-20",
+  "last_checked_epoch": 1792519175,
+  "recommendation_day": "2026-10-21",
   "recommendations": [
-    "arc229_d",
-    "arc229_f"
+    "arc229_b",
+    "abc403_f",
+    "awc0046_a"
   ],
   "submission_details": {
     "50666051": {
@@ -95556,6 +95557,26 @@
     "80219905": {
       "epoch_second": 1792499682,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80221493": {
+      "epoch_second": 1792503302,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80221748": {
+      "epoch_second": 1792503981,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80222267": {
+      "epoch_second": 1792505558,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80222777": {
+      "epoch_second": 1792507152,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80223721": {
+      "epoch_second": 1792510937,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
