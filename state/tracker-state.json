@@ -19122,11 +19122,11 @@
     },
     "abc392_c": {
       "contest_id": "abc392",
-      "epoch_second": null,
-      "language": null,
-      "length": 55,
-      "submission_id": 62623817,
-      "user_id": "Fleur"
+      "epoch_second": 1792456591,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 46,
+      "submission_id": 80206261,
+      "user_id": "mackerel38"
     },
     "abc392_d": {
       "contest_id": "abc392",
@@ -32426,11 +32426,11 @@
     },
     "arc114_b": {
       "contest_id": "arc114",
-      "epoch_second": null,
-      "language": null,
-      "length": 88,
-      "submission_id": 20951549,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792458429,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 85,
+      "submission_id": 80206598,
+      "user_id": "mackerel38"
     },
     "arc114_c": {
       "contest_id": "arc114",
@@ -78014,6 +78014,16 @@
       "target_length": 386,
       "target_submission_id": 77875986
     },
+    "abc392_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792456591,
+      "last_acquired_epoch": 1792456591,
+      "target_contest_id": "abc392",
+      "target_epoch_second": 1792456591,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 46,
+      "target_submission_id": 80206261
+    },
     "abc397_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792416691,
@@ -78413,6 +78423,16 @@
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 91,
       "target_submission_id": 80185713
+    },
+    "arc114_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792458429,
+      "last_acquired_epoch": 1792458429,
+      "target_contest_id": "arc114",
+      "target_epoch_second": 1792458429,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 85,
+      "target_submission_id": 80206598
     },
     "arc148_c": {
       "acquisition_count": 1,
@@ -81166,9 +81186,12 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792452585,
+  "last_checked_epoch": 1792461727,
   "recommendation_day": "2026-10-20",
-  "recommendations": [],
+  "recommendations": [
+    "abc396_f",
+    "arc227_a"
+  ],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -95205,6 +95228,14 @@
     "80205334": {
       "epoch_second": 1792447225,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80206261": {
+      "epoch_second": 1792456591,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80206598": {
+      "epoch_second": 1792458429,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
     }
   },
   "target_language_index_complete": true,
@@ -96535,7 +96566,8 @@
       "C++ 20 (gcc 12.2)"
     ],
     "abc392_c": [
-      "C++ 20 (gcc 12.2)"
+      "C++ 20 (gcc 12.2)",
+      "Uiua (uiua 0.16.2)"
     ],
     "abc392_d": [
       "C++ 20 (gcc 12.2)"
@@ -97847,6 +97879,9 @@
     ],
     "arc110_b": [
       "C++ 20 (gcc 12.2)"
+    ],
+    "arc114_b": [
+      "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "arc122_a": [
       "C++ 23 (gcc 12.2)"
@@ -100480,6 +100515,7 @@
   "target_user": "mackerel38",
   "update_keys": [
     "abc151_e:80205334",
+    "abc392_c:80206261",
     "abc397_c:80201122",
     "abc468_f:77939958",
     "abc469_b:78058470",
@@ -100507,6 +100543,7 @@
     "abc480_c:80176714",
     "abc480_c:80185654",
     "abc480_e:80185713",
+    "arc114_b:80206598",
     "arc171_a:79693106",
     "arc179_a:79637053",
     "arc218_b:80199721",
@@ -105680,6 +105717,44 @@
         "user_id": "Rssll_Krkgrd"
       },
       "problem_id": "abc151_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc392",
+        "epoch_second": 1792456591,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 46,
+        "submission_id": 80206261,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc392",
+        "epoch_second": null,
+        "language": null,
+        "length": 55,
+        "submission_id": 62623817,
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc392_c"
+    },
+    {
+      "after": {
+        "contest_id": "arc114",
+        "epoch_second": 1792458429,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 85,
+        "submission_id": 80206598,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc114",
+        "epoch_second": null,
+        "language": null,
+        "length": 88,
+        "submission_id": 20951549,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc114_b"
     }
   ],
   "version": 2

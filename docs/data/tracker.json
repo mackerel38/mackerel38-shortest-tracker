@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792452585,
-  "generated_iso": "2026-10-19T23:29:45+00:00",
+  "generated_epoch": 1792461727,
+  "generated_iso": "2026-10-20T02:02:07+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,50 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792458429,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 85,
+      "current_submission_id": 80206598,
+      "current_submission_url": "https://atcoder.jp/contests/arc114/submissions/80206598",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792458429,
+      "last_acquired_epoch": 1792458429,
+      "problem_id": "arc114_b",
+      "problem_index": "B",
+      "problem_name": "Special Subsets",
+      "problem_title": "B. Special Subsets",
+      "problem_url": "https://atcoder.jp/contests/arc114/tasks/arc114_b",
+      "status": "holding",
+      "target_epoch_second": 1792458429,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 85,
+      "target_submission_id": 80206598,
+      "target_submission_url": "https://atcoder.jp/contests/arc114/submissions/80206598"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792456591,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 46,
+      "current_submission_id": 80206261,
+      "current_submission_url": "https://atcoder.jp/contests/abc392/submissions/80206261",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792456591,
+      "last_acquired_epoch": 1792456591,
+      "problem_id": "abc392_c",
+      "problem_index": "E",
+      "problem_name": "Bib",
+      "problem_title": "E. Bib",
+      "problem_url": "https://atcoder.jp/contests/abc392/tasks/abc392_c",
+      "status": "holding",
+      "target_epoch_second": 1792456591,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 46,
+      "target_submission_id": 80206261,
+      "target_submission_url": "https://atcoder.jp/contests/abc392/submissions/80206261"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792447225,
@@ -7171,18 +7215,93 @@
     }
   ],
   "recommendation_day": "2026-10-20",
-  "recommendations": [],
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc396",
+        "epoch_second": 1789528105,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 181,
+        "submission_id": 79288905,
+        "submission_url": "https://atcoder.jp/contests/abc396/submissions/79288905",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc396_f",
+      "problem_name": "Rotated Inversions",
+      "problem_url": "https://atcoder.jp/contests/abc396/tasks/abc396_f"
+    },
+    {
+      "current": {
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
+    }
+  ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 317,
-    "holding_count": 309,
+    "ever_held_count": 319,
+    "holding_count": 311,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 260,
+    "update_log_count": 262,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "arc114",
+        "epoch_second": 1792458429,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 85,
+        "submission_id": 80206598,
+        "submission_url": "https://atcoder.jp/contests/arc114/submissions/80206598",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc114",
+        "epoch_second": null,
+        "language": null,
+        "length": 88,
+        "submission_id": 20951549,
+        "submission_url": "https://atcoder.jp/contests/arc114/submissions/20951549",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc114_b",
+      "problem_name": "Special Subsets",
+      "problem_url": "https://atcoder.jp/contests/arc114/tasks/arc114_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc392",
+        "epoch_second": 1792456591,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 46,
+        "submission_id": 80206261,
+        "submission_url": "https://atcoder.jp/contests/abc392/submissions/80206261",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc392",
+        "epoch_second": null,
+        "language": null,
+        "length": 55,
+        "submission_id": 62623817,
+        "submission_url": "https://atcoder.jp/contests/abc392/submissions/62623817",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc392_c",
+      "problem_name": "Bib",
+      "problem_url": "https://atcoder.jp/contests/abc392/tasks/abc392_c"
+    },
     {
       "after": {
         "contest_id": "abc151",
