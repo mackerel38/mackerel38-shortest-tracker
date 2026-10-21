@@ -208,8 +208,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792576596,
-  "generated_iso": "2026-10-21T09:56:36+00:00",
+  "generated_epoch": 1792594967,
+  "generated_iso": "2026-10-21T15:02:47+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -218,6 +218,116 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792591464,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 60,
+      "current_submission_id": 80242294,
+      "current_submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792591464,
+      "last_acquired_epoch": 1792591464,
+      "problem_id": "abc328_c",
+      "problem_index": "F",
+      "problem_name": "Consecutive",
+      "problem_title": "F. Consecutive",
+      "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c",
+      "status": "holding",
+      "target_epoch_second": 1792591464,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 60,
+      "target_submission_id": 80242294,
+      "target_submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792586271,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 36,
+      "current_submission_id": 80240158,
+      "current_submission_url": "https://atcoder.jp/contests/abc352/submissions/80240158",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792586271,
+      "last_acquired_epoch": 1792586271,
+      "problem_id": "abc352_b",
+      "problem_index": "C",
+      "problem_name": "Typing",
+      "problem_title": "C. Typing",
+      "problem_url": "https://atcoder.jp/contests/abc352/tasks/abc352_b",
+      "status": "holding",
+      "target_epoch_second": 1792586271,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 36,
+      "target_submission_id": 80240158,
+      "target_submission_url": "https://atcoder.jp/contests/abc352/submissions/80240158"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792584382,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 62,
+      "current_submission_id": 80239326,
+      "current_submission_url": "https://atcoder.jp/contests/abc123/submissions/80239326",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792584382,
+      "last_acquired_epoch": 1792584382,
+      "problem_id": "abc123_d",
+      "problem_index": "D",
+      "problem_name": "Cake 123",
+      "problem_title": "D. Cake 123",
+      "problem_url": "https://atcoder.jp/contests/abc123/tasks/abc123_d",
+      "status": "holding",
+      "target_epoch_second": 1792584382,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 62,
+      "target_submission_id": 80239326,
+      "target_submission_url": "https://atcoder.jp/contests/abc123/submissions/80239326"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792583498,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 57,
+      "current_submission_id": 80238835,
+      "current_submission_url": "https://atcoder.jp/contests/abc395/submissions/80238835",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792583498,
+      "last_acquired_epoch": 1792583498,
+      "problem_id": "abc395_c",
+      "problem_index": "E",
+      "problem_name": "Shortest Duplicate Subarray",
+      "problem_title": "E. Shortest Duplicate Subarray",
+      "problem_url": "https://atcoder.jp/contests/abc395/tasks/abc395_c",
+      "status": "holding",
+      "target_epoch_second": 1792583498,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 57,
+      "target_submission_id": 80238835,
+      "target_submission_url": "https://atcoder.jp/contests/abc395/submissions/80238835"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792578829,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 62,
+      "current_submission_id": 80236613,
+      "current_submission_url": "https://atcoder.jp/contests/abc452/submissions/80236613",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792578829,
+      "last_acquired_epoch": 1792578829,
+      "problem_id": "abc452_d",
+      "problem_index": "G",
+      "problem_name": "No-Subsequence Substring",
+      "problem_title": "G. No-Subsequence Substring",
+      "problem_url": "https://atcoder.jp/contests/abc452/tasks/abc452_d",
+      "status": "holding",
+      "target_epoch_second": 1792578829,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 62,
+      "target_submission_id": 80236613,
+      "target_submission_url": "https://atcoder.jp/contests/abc452/submissions/80236613"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792564168,
@@ -7501,8 +7611,22 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-21",
+  "recommendation_day": "2026-10-22",
   "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc341",
+        "epoch_second": 1708171200,
+        "language": "Python (PyPy 3.10-v7.3.12)",
+        "length": 224,
+        "submission_id": 50666051,
+        "submission_url": "https://atcoder.jp/contests/abc341/submissions/50666051",
+        "user_id": "moon17"
+      },
+      "problem_id": "abc341_e",
+      "problem_name": "Alternating String",
+      "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_e"
+    },
     {
       "current": {
         "contest_id": "arc229",
@@ -7516,47 +7640,134 @@
       "problem_id": "arc229_b",
       "problem_name": "Halving Subtraction",
       "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_b"
-    },
-    {
-      "current": {
-        "contest_id": "abc403",
-        "epoch_second": 1789577888,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 272,
-        "submission_id": 79301868,
-        "submission_url": "https://atcoder.jp/contests/abc403/submissions/79301868",
-        "user_id": "negativesquare"
-      },
-      "problem_id": "abc403_f",
-      "problem_name": "Shortest One Formula",
-      "problem_url": "https://atcoder.jp/contests/abc403/tasks/abc403_f"
-    },
-    {
-      "current": {
-        "contest_id": "awc0046",
-        "epoch_second": 1787626579,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 41,
-        "submission_id": 78685355,
-        "submission_url": "https://atcoder.jp/contests/awc0046/submissions/78685355",
-        "user_id": "shogo314"
-      },
-      "problem_id": "awc0046_a",
-      "problem_name": "Optimal Practice Partner",
-      "problem_url": "https://atcoder.jp/contests/awc0046/tasks/awc0046_a"
     }
   ],
   "summary": {
     "active_update_count": 9,
-    "ever_held_count": 331,
-    "holding_count": 322,
+    "ever_held_count": 336,
+    "holding_count": 327,
     "loss_event_count": 9,
     "lost_count": 9,
-    "update_log_count": 275,
+    "update_log_count": 280,
     "updated_count": 9
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc328",
+        "epoch_second": 1792591464,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 60,
+        "submission_id": 80242294,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc328",
+        "epoch_second": null,
+        "language": null,
+        "length": 61,
+        "submission_id": 47628681,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/47628681",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc328_c",
+      "problem_name": "Consecutive",
+      "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc352",
+        "epoch_second": 1792586271,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 36,
+        "submission_id": 80240158,
+        "submission_url": "https://atcoder.jp/contests/abc352/submissions/80240158",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc352",
+        "epoch_second": null,
+        "language": null,
+        "length": 50,
+        "submission_id": 53178115,
+        "submission_url": "https://atcoder.jp/contests/abc352/submissions/53178115",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc352_b",
+      "problem_name": "Typing",
+      "problem_url": "https://atcoder.jp/contests/abc352/tasks/abc352_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc123",
+        "epoch_second": 1792584382,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 62,
+        "submission_id": 80239326,
+        "submission_url": "https://atcoder.jp/contests/abc123/submissions/80239326",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc123",
+        "epoch_second": null,
+        "language": null,
+        "length": 82,
+        "submission_id": 17519747,
+        "submission_url": "https://atcoder.jp/contests/abc123/submissions/17519747",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc123_d",
+      "problem_name": "Cake 123",
+      "problem_url": "https://atcoder.jp/contests/abc123/tasks/abc123_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc395",
+        "epoch_second": 1792583498,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 57,
+        "submission_id": 80238835,
+        "submission_url": "https://atcoder.jp/contests/abc395/submissions/80238835",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc395",
+        "epoch_second": null,
+        "language": null,
+        "length": 60,
+        "submission_id": 63327879,
+        "submission_url": "https://atcoder.jp/contests/abc395/submissions/63327879",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc395_c",
+      "problem_name": "Shortest Duplicate Subarray",
+      "problem_url": "https://atcoder.jp/contests/abc395/tasks/abc395_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc452",
+        "epoch_second": 1792578829,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 62,
+        "submission_id": 80236613,
+        "submission_url": "https://atcoder.jp/contests/abc452/submissions/80236613",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc452",
+        "epoch_second": null,
+        "language": null,
+        "length": 95,
+        "submission_id": 76300824,
+        "submission_url": "https://atcoder.jp/contests/abc452/submissions/76300824",
+        "user_id": "Not_Leonian"
+      },
+      "problem_id": "abc452_d",
+      "problem_name": "No-Subsequence Substring",
+      "problem_url": "https://atcoder.jp/contests/abc452/tasks/abc452_d"
+    },
     {
       "after": {
         "contest_id": "abc301",
