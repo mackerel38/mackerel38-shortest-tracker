@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792545380,
+        "language": "Bash (bash 5.3)",
+        "length": 79,
+        "submission_id": 80227257,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792411345,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 84,
+        "submission_id": 80199178,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
+    {
+      "after": {
         "contest_id": "awc0170",
         "epoch_second": 1790945456,
         "language": "A言語 (interpreter af48a2a)",
@@ -185,8 +208,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792519175,
-  "generated_iso": "2026-10-20T17:59:35+00:00",
+  "generated_epoch": 1792558418,
+  "generated_iso": "2026-10-21T04:53:38+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -615,12 +638,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792411345,
-      "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 84,
-      "current_submission_id": 80199178,
-      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1792545380,
+      "current_language": "Bash (bash 5.3)",
+      "current_length": 79,
+      "current_submission_id": 80227257,
+      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1792411345,
       "last_acquired_epoch": 1792411345,
       "problem_id": "awc0012_c",
@@ -628,7 +651,7 @@
       "problem_name": "Team Formation",
       "problem_title": "C. Team Formation",
       "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792411345,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 84,
@@ -7480,16 +7503,39 @@
     }
   ],
   "summary": {
-    "active_update_count": 8,
+    "active_update_count": 9,
     "ever_held_count": 329,
-    "holding_count": 321,
-    "loss_event_count": 8,
-    "lost_count": 8,
-    "update_log_count": 272,
-    "updated_count": 8
+    "holding_count": 320,
+    "loss_event_count": 9,
+    "lost_count": 9,
+    "update_log_count": 273,
+    "updated_count": 9
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792545380,
+        "language": "Bash (bash 5.3)",
+        "length": 79,
+        "submission_id": 80227257,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792411345,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 84,
+        "submission_id": 80199178,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
     {
       "after": {
         "contest_id": "abc224",
