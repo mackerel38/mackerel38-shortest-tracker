@@ -208,8 +208,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792594967,
-  "generated_iso": "2026-10-21T15:02:47+00:00",
+  "generated_epoch": 1792648645,
+  "generated_iso": "2026-10-22T05:57:25+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -218,6 +218,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792644064,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 113,
+      "current_submission_id": 80250118,
+      "current_submission_url": "https://atcoder.jp/contests/abc363/submissions/80250118",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792644064,
+      "last_acquired_epoch": 1792644064,
+      "problem_id": "abc363_c",
+      "problem_index": "F",
+      "problem_name": "Avoid K Palindrome 2",
+      "problem_title": "F. Avoid K Palindrome 2",
+      "problem_url": "https://atcoder.jp/contests/abc363/tasks/abc363_c",
+      "status": "holding",
+      "target_epoch_second": 1792644064,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 113,
+      "target_submission_id": 80250118,
+      "target_submission_url": "https://atcoder.jp/contests/abc363/submissions/80250118"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792643650,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 77,
+      "current_submission_id": 80250024,
+      "current_submission_url": "https://atcoder.jp/contests/abc413/submissions/80250024",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792643650,
+      "last_acquired_epoch": 1792643650,
+      "problem_id": "abc413_e",
+      "problem_index": "H",
+      "problem_name": "Reverse 2^i",
+      "problem_title": "H. Reverse 2^i",
+      "problem_url": "https://atcoder.jp/contests/abc413/tasks/abc413_e",
+      "status": "holding",
+      "target_epoch_second": 1792643650,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 77,
+      "target_submission_id": 80250024,
+      "target_submission_url": "https://atcoder.jp/contests/abc413/submissions/80250024"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792634513,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 59,
+      "current_submission_id": 80248069,
+      "current_submission_url": "https://atcoder.jp/contests/abc391/submissions/80248069",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792634513,
+      "last_acquired_epoch": 1792634513,
+      "problem_id": "abc391_e",
+      "problem_index": "H",
+      "problem_name": "Hierarchical Majority Vote",
+      "problem_title": "H. Hierarchical Majority Vote",
+      "problem_url": "https://atcoder.jp/contests/abc391/tasks/abc391_e",
+      "status": "holding",
+      "target_epoch_second": 1792634513,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 59,
+      "target_submission_id": 80248069,
+      "target_submission_url": "https://atcoder.jp/contests/abc391/submissions/80248069"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792631494,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 52,
+      "current_submission_id": 80247537,
+      "current_submission_url": "https://atcoder.jp/contests/abc134/submissions/80247537",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792631494,
+      "last_acquired_epoch": 1792631494,
+      "problem_id": "abc134_e",
+      "problem_index": "E",
+      "problem_name": "Sequence Decomposing",
+      "problem_title": "E. Sequence Decomposing",
+      "problem_url": "https://atcoder.jp/contests/abc134/tasks/abc134_e",
+      "status": "holding",
+      "target_epoch_second": 1792631494,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 52,
+      "target_submission_id": 80247537,
+      "target_submission_url": "https://atcoder.jp/contests/abc134/submissions/80247537"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792591464,
@@ -7615,6 +7703,34 @@
   "recommendations": [
     {
       "current": {
+        "contest_id": "arc196",
+        "epoch_second": 1792503981,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 525,
+        "submission_id": 80221748,
+        "submission_url": "https://atcoder.jp/contests/arc196/submissions/80221748",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "arc196_a",
+      "problem_name": "Adjacent Delete",
+      "problem_url": "https://atcoder.jp/contests/arc196/tasks/arc196_a"
+    },
+    {
+      "current": {
+        "contest_id": "abc396",
+        "epoch_second": 1789528105,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 181,
+        "submission_id": 79288905,
+        "submission_url": "https://atcoder.jp/contests/abc396/submissions/79288905",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc396_f",
+      "problem_name": "Rotated Inversions",
+      "problem_url": "https://atcoder.jp/contests/abc396/tasks/abc396_f"
+    },
+    {
+      "current": {
         "contest_id": "abc341",
         "epoch_second": 1708171200,
         "language": "Python (PyPy 3.10-v7.3.12)",
@@ -7626,33 +7742,111 @@
       "problem_id": "abc341_e",
       "problem_name": "Alternating String",
       "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_e"
-    },
-    {
-      "current": {
-        "contest_id": "arc229",
-        "epoch_second": 1788662422,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 138,
-        "submission_id": 78993018,
-        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78993018",
-        "user_id": "kokkun1"
-      },
-      "problem_id": "arc229_b",
-      "problem_name": "Halving Subtraction",
-      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_b"
     }
   ],
   "summary": {
     "active_update_count": 9,
-    "ever_held_count": 336,
-    "holding_count": 327,
+    "ever_held_count": 340,
+    "holding_count": 331,
     "loss_event_count": 9,
     "lost_count": 9,
-    "update_log_count": 280,
+    "update_log_count": 284,
     "updated_count": 9
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc363",
+        "epoch_second": 1792644064,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 113,
+        "submission_id": 80250118,
+        "submission_url": "https://atcoder.jp/contests/abc363/submissions/80250118",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc363",
+        "epoch_second": null,
+        "language": null,
+        "length": 154,
+        "submission_id": 55839325,
+        "submission_url": "https://atcoder.jp/contests/abc363/submissions/55839325",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc363_c",
+      "problem_name": "Avoid K Palindrome 2",
+      "problem_url": "https://atcoder.jp/contests/abc363/tasks/abc363_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc413",
+        "epoch_second": 1792643650,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 77,
+        "submission_id": 80250024,
+        "submission_url": "https://atcoder.jp/contests/abc413/submissions/80250024",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc413",
+        "epoch_second": null,
+        "language": null,
+        "length": 84,
+        "submission_id": 67386288,
+        "submission_url": "https://atcoder.jp/contests/abc413/submissions/67386288",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc413_e",
+      "problem_name": "Reverse 2^i",
+      "problem_url": "https://atcoder.jp/contests/abc413/tasks/abc413_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc391",
+        "epoch_second": 1792634513,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 59,
+        "submission_id": 80248069,
+        "submission_url": "https://atcoder.jp/contests/abc391/submissions/80248069",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc391",
+        "epoch_second": null,
+        "language": null,
+        "length": 113,
+        "submission_id": 62354031,
+        "submission_url": "https://atcoder.jp/contests/abc391/submissions/62354031",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "abc391_e",
+      "problem_name": "Hierarchical Majority Vote",
+      "problem_url": "https://atcoder.jp/contests/abc391/tasks/abc391_e"
+    },
+    {
+      "after": {
+        "contest_id": "abc134",
+        "epoch_second": 1792631494,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 52,
+        "submission_id": 80247537,
+        "submission_url": "https://atcoder.jp/contests/abc134/submissions/80247537",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc134",
+        "epoch_second": null,
+        "language": null,
+        "length": 67,
+        "submission_id": 28033718,
+        "submission_url": "https://atcoder.jp/contests/abc134/submissions/28033718",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc134_e",
+      "problem_name": "Sequence Decomposing",
+      "problem_url": "https://atcoder.jp/contests/abc134/tasks/abc134_e"
+    },
     {
       "after": {
         "contest_id": "abc328",
