@@ -2,29 +2,6 @@
   "active_updates": [
     {
       "after": {
-        "contest_id": "awc0012",
-        "epoch_second": 1792545380,
-        "language": "Bash (bash 5.3)",
-        "length": 79,
-        "submission_id": 80227257,
-        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
-        "user_id": "Fleur"
-      },
-      "before": {
-        "contest_id": "awc0012",
-        "epoch_second": 1792411345,
-        "language": "A言語 (interpreter af48a2a)",
-        "length": 84,
-        "submission_id": 80199178,
-        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0012_c",
-      "problem_name": "Team Formation",
-      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
-    },
-    {
-      "after": {
         "contest_id": "awc0170",
         "epoch_second": 1790945456,
         "language": "A言語 (interpreter af48a2a)",
@@ -208,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792648645,
-  "generated_iso": "2026-10-22T05:57:25+00:00",
+  "generated_epoch": 1792669106,
+  "generated_iso": "2026-10-22T11:38:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -218,6 +195,72 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792659338,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 68,
+      "current_submission_id": 80254741,
+      "current_submission_url": "https://atcoder.jp/contests/abc079/submissions/80254741",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792659338,
+      "last_acquired_epoch": 1792659338,
+      "problem_id": "abc079_d",
+      "problem_index": "D",
+      "problem_name": "Wall",
+      "problem_title": "D. Wall",
+      "problem_url": "https://atcoder.jp/contests/abc079/tasks/abc079_d",
+      "status": "holding",
+      "target_epoch_second": 1792659338,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 68,
+      "target_submission_id": 80254741,
+      "target_submission_url": "https://atcoder.jp/contests/abc079/submissions/80254741"
+    },
+    {
+      "acquisition_count": 2,
+      "current_epoch_second": 1792655307,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 77,
+      "current_submission_id": 80253252,
+      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792411345,
+      "last_acquired_epoch": 1792655307,
+      "problem_id": "awc0012_c",
+      "problem_index": "C",
+      "problem_name": "Team Formation",
+      "problem_title": "C. Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
+      "status": "holding",
+      "target_epoch_second": 1792655307,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 77,
+      "target_submission_id": 80253252,
+      "target_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792654428,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 64,
+      "current_submission_id": 80252920,
+      "current_submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792654428,
+      "last_acquired_epoch": 1792654428,
+      "problem_id": "abc300_b",
+      "problem_index": "D",
+      "problem_name": "Same Map in the RPG World",
+      "problem_title": "D. Same Map in the RPG World",
+      "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b",
+      "status": "holding",
+      "target_epoch_second": 1792654428,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 64,
+      "target_submission_id": 80252920,
+      "target_submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792644064,
@@ -572,11 +615,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792484424,
+      "current_epoch_second": 1792657290,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 70,
-      "current_submission_id": 80214227,
-      "current_submission_url": "https://atcoder.jp/contests/abc409/submissions/80214227",
+      "current_length": 58,
+      "current_submission_id": 80253989,
+      "current_submission_url": "https://atcoder.jp/contests/abc409/submissions/80253989",
       "current_user_id": "mackerel38",
       "first_acquired_epoch": 1792484424,
       "last_acquired_epoch": 1792484424,
@@ -586,11 +629,11 @@
       "problem_title": "E. Equilateral Triangle",
       "problem_url": "https://atcoder.jp/contests/abc409/tasks/abc409_c",
       "status": "holding",
-      "target_epoch_second": 1792484424,
+      "target_epoch_second": 1792657290,
       "target_language": "Uiua (uiua 0.16.2)",
-      "target_length": 70,
-      "target_submission_id": 80214227,
-      "target_submission_url": "https://atcoder.jp/contests/abc409/submissions/80214227"
+      "target_length": 58,
+      "target_submission_id": 80253989,
+      "target_submission_url": "https://atcoder.jp/contests/abc409/submissions/80253989"
     },
     {
       "acquisition_count": 1,
@@ -877,28 +920,6 @@
       "target_length": 66,
       "target_submission_id": 80200219,
       "target_submission_url": "https://atcoder.jp/contests/math-and-algorithm/submissions/80200219"
-    },
-    {
-      "acquisition_count": 1,
-      "current_epoch_second": 1792545380,
-      "current_language": "Bash (bash 5.3)",
-      "current_length": 79,
-      "current_submission_id": 80227257,
-      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
-      "current_user_id": "Fleur",
-      "first_acquired_epoch": 1792411345,
-      "last_acquired_epoch": 1792411345,
-      "problem_id": "awc0012_c",
-      "problem_index": "C",
-      "problem_name": "Team Formation",
-      "problem_title": "C. Team Formation",
-      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
-      "status": "updated",
-      "target_epoch_second": 1792411345,
-      "target_language": "A言語 (interpreter af48a2a)",
-      "target_length": 84,
-      "target_submission_id": 80199178,
-      "target_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80199178"
     },
     {
       "acquisition_count": 1,
@@ -6389,9 +6410,9 @@
       "first_acquired_epoch": 1785088774,
       "last_acquired_epoch": 1785088774,
       "problem_id": "abc464_c",
-      "problem_index": "E",
+      "problem_index": "F",
       "problem_name": "Plumage Palette",
-      "problem_title": "E. Plumage Palette",
+      "problem_title": "F. Plumage Palette",
       "problem_url": "https://atcoder.jp/contests/abc464/tasks/abc464_c",
       "status": "holding",
       "target_epoch_second": 1785088774,
@@ -7745,16 +7766,108 @@
     }
   ],
   "summary": {
-    "active_update_count": 9,
-    "ever_held_count": 340,
-    "holding_count": 331,
-    "loss_event_count": 9,
-    "lost_count": 9,
-    "update_log_count": 284,
-    "updated_count": 9
+    "active_update_count": 8,
+    "ever_held_count": 342,
+    "holding_count": 334,
+    "loss_event_count": 8,
+    "lost_count": 8,
+    "update_log_count": 288,
+    "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc079",
+        "epoch_second": 1792659338,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 68,
+        "submission_id": 80254741,
+        "submission_url": "https://atcoder.jp/contests/abc079/submissions/80254741",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc079",
+        "epoch_second": null,
+        "language": null,
+        "length": 98,
+        "submission_id": 8792587,
+        "submission_url": "https://atcoder.jp/contests/abc079/submissions/8792587",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc079_d",
+      "problem_name": "Wall",
+      "problem_url": "https://atcoder.jp/contests/abc079/tasks/abc079_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc409",
+        "epoch_second": 1792657290,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 58,
+        "submission_id": 80253989,
+        "submission_url": "https://atcoder.jp/contests/abc409/submissions/80253989",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc409",
+        "epoch_second": 1792484424,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 70,
+        "submission_id": 80214227,
+        "submission_url": "https://atcoder.jp/contests/abc409/submissions/80214227",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc409_c",
+      "problem_name": "Equilateral Triangle",
+      "problem_url": "https://atcoder.jp/contests/abc409/tasks/abc409_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792655307,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 77,
+        "submission_id": 80253252,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792545380,
+        "language": "Bash (bash 5.3)",
+        "length": 79,
+        "submission_id": 80227257,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80227257",
+        "user_id": "Fleur"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc300",
+        "epoch_second": 1792654428,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 64,
+        "submission_id": 80252920,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc300",
+        "epoch_second": 1792510937,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 66,
+        "submission_id": 80223721,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80223721",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc300_b",
+      "problem_name": "Same Map in the RPG World",
+      "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b"
+    },
     {
       "after": {
         "contest_id": "abc363",
