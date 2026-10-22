@@ -2,6 +2,52 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc328",
+        "epoch_second": 1792687330,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 58,
+        "submission_id": 80263774,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/80263774",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc328",
+        "epoch_second": 1792591464,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 60,
+        "submission_id": 80242294,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc328_c",
+      "problem_name": "Consecutive",
+      "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792685685,
+        "language": "Bash (bash 5.3)",
+        "length": 76,
+        "submission_id": 80263506,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792655307,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 77,
+        "submission_id": 80253252,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
+    {
+      "after": {
         "contest_id": "awc0170",
         "epoch_second": 1790945456,
         "language": "A言語 (interpreter af48a2a)",
@@ -185,8 +231,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792684992,
-  "generated_iso": "2026-10-22T16:03:12+00:00",
+  "generated_epoch": 1792699773,
+  "generated_iso": "2026-10-22T20:09:33+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -219,12 +265,12 @@
     },
     {
       "acquisition_count": 2,
-      "current_epoch_second": 1792655307,
-      "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 77,
-      "current_submission_id": 80253252,
-      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1792685685,
+      "current_language": "Bash (bash 5.3)",
+      "current_length": 76,
+      "current_submission_id": 80263506,
+      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1792411345,
       "last_acquired_epoch": 1792655307,
       "problem_id": "awc0012_c",
@@ -232,7 +278,7 @@
       "problem_name": "Team Formation",
       "problem_title": "C. Team Formation",
       "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792655307,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 77,
@@ -351,12 +397,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792591464,
-      "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 60,
-      "current_submission_id": 80242294,
-      "current_submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1792687330,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 58,
+      "current_submission_id": 80263774,
+      "current_submission_url": "https://atcoder.jp/contests/abc328/submissions/80263774",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1792591464,
       "last_acquired_epoch": 1792591464,
       "problem_id": "abc328_c",
@@ -364,7 +410,7 @@
       "problem_name": "Consecutive",
       "problem_title": "F. Consecutive",
       "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792591464,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 60,
@@ -7752,16 +7798,62 @@
     }
   ],
   "summary": {
-    "active_update_count": 8,
+    "active_update_count": 10,
     "ever_held_count": 342,
-    "holding_count": 334,
-    "loss_event_count": 8,
-    "lost_count": 8,
-    "update_log_count": 288,
-    "updated_count": 8
+    "holding_count": 332,
+    "loss_event_count": 10,
+    "lost_count": 10,
+    "update_log_count": 290,
+    "updated_count": 10
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc328",
+        "epoch_second": 1792687330,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 58,
+        "submission_id": 80263774,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/80263774",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc328",
+        "epoch_second": 1792591464,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 60,
+        "submission_id": 80242294,
+        "submission_url": "https://atcoder.jp/contests/abc328/submissions/80242294",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc328_c",
+      "problem_name": "Consecutive",
+      "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792685685,
+        "language": "Bash (bash 5.3)",
+        "length": 76,
+        "submission_id": 80263506,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792655307,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 77,
+        "submission_id": 80253252,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
     {
       "after": {
         "contest_id": "abc079",
