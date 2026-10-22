@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792669106,
-  "generated_iso": "2026-10-22T11:38:26+00:00",
+  "generated_epoch": 1792684992,
+  "generated_iso": "2026-10-22T16:03:12+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -7720,49 +7720,35 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-22",
+  "recommendation_day": "2026-10-23",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc196",
-        "epoch_second": 1792503981,
+        "contest_id": "abc405",
+        "epoch_second": 1789576111,
         "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 525,
-        "submission_id": 80221748,
-        "submission_url": "https://atcoder.jp/contests/arc196/submissions/80221748",
-        "user_id": "Rssll_Krkgrd"
-      },
-      "problem_id": "arc196_a",
-      "problem_name": "Adjacent Delete",
-      "problem_url": "https://atcoder.jp/contests/arc196/tasks/arc196_a"
-    },
-    {
-      "current": {
-        "contest_id": "abc396",
-        "epoch_second": 1789528105,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 181,
-        "submission_id": 79288905,
-        "submission_url": "https://atcoder.jp/contests/abc396/submissions/79288905",
+        "length": 212,
+        "submission_id": 79301587,
+        "submission_url": "https://atcoder.jp/contests/abc405/submissions/79301587",
         "user_id": "negativesquare"
       },
-      "problem_id": "abc396_f",
-      "problem_name": "Rotated Inversions",
-      "problem_url": "https://atcoder.jp/contests/abc396/tasks/abc396_f"
+      "problem_id": "abc405_f",
+      "problem_name": "Chord Crossing",
+      "problem_url": "https://atcoder.jp/contests/abc405/tasks/abc405_f"
     },
     {
       "current": {
-        "contest_id": "abc341",
-        "epoch_second": 1708171200,
-        "language": "Python (PyPy 3.10-v7.3.12)",
-        "length": 224,
-        "submission_id": 50666051,
-        "submission_url": "https://atcoder.jp/contests/abc341/submissions/50666051",
-        "user_id": "moon17"
+        "contest_id": "arc227",
+        "epoch_second": 1786888846,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 234,
+        "submission_id": 78472913,
+        "submission_url": "https://atcoder.jp/contests/arc227/submissions/78472913",
+        "user_id": "negativesquare"
       },
-      "problem_id": "abc341_e",
-      "problem_name": "Alternating String",
-      "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_e"
+      "problem_id": "arc227_a",
+      "problem_name": "Fermat Point of Binary Strings",
+      "problem_url": "https://atcoder.jp/contests/arc227/tasks/arc227_a"
     }
   ],
   "summary": {
