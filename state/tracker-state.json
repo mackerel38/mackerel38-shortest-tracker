@@ -4178,11 +4178,11 @@
     },
     "abc127_d": {
       "contest_id": "abc127",
-      "epoch_second": null,
-      "language": null,
-      "length": 92,
-      "submission_id": 5620620,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792715792,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 81,
+      "submission_id": 80266409,
+      "user_id": "mackerel38"
     },
     "abc127_e": {
       "contest_id": "abc127",
@@ -78134,6 +78134,16 @@
       "target_length": 62,
       "target_submission_id": 80239326
     },
+    "abc127_d": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792715792,
+      "last_acquired_epoch": 1792715792,
+      "target_contest_id": "abc127",
+      "target_epoch_second": 1792715792,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 81,
+      "target_submission_id": 80266409
+    },
     "abc134_e": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792631494,
@@ -81536,11 +81546,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792699773,
+  "last_checked_epoch": 1792720082,
   "recommendation_day": "2026-10-23",
   "recommendations": [
-    "abc405_f",
-    "arc227_a"
+    "arc202_a"
   ],
   "submission_details": {
     "50666051": {
@@ -96078,6 +96087,10 @@
     "80263774": {
       "epoch_second": 1792687330,
       "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80266409": {
+      "epoch_second": 1792715792,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -96513,7 +96526,8 @@
       "C++ 20 (gcc 12.2)"
     ],
     "abc127_d": [
-      "C++ 20 (gcc 12.2)"
+      "C++ 20 (gcc 12.2)",
+      "Uiua (uiua 0.16.2)"
     ],
     "abc127_f": [
       "C++ 20 (gcc 12.2)"
@@ -101410,6 +101424,7 @@
   "update_keys": [
     "abc079_d:80254741",
     "abc123_d:80239326",
+    "abc127_d:80266409",
     "abc134_e:80247537",
     "abc151_e:80205334",
     "abc177_d:80213035",
@@ -107209,6 +107224,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "abc328_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc127",
+        "epoch_second": 1792715792,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 81,
+        "submission_id": 80266409,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc127",
+        "epoch_second": null,
+        "language": null,
+        "length": 92,
+        "submission_id": 5620620,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc127_d"
     }
   ],
   "version": 2
