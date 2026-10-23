@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc300",
+        "epoch_second": 1792754506,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 63,
+        "submission_id": 80277650,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80277650",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc300",
+        "epoch_second": 1792654428,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 64,
+        "submission_id": 80252920,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc300_b",
+      "problem_name": "Same Map in the RPG World",
+      "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b"
+    },
+    {
+      "after": {
         "contest_id": "abc328",
         "epoch_second": 1792687330,
         "language": "AWK (GNU awk 5.2.1)",
@@ -22,29 +45,6 @@
       "problem_id": "abc328_c",
       "problem_name": "Consecutive",
       "problem_url": "https://atcoder.jp/contests/abc328/tasks/abc328_c"
-    },
-    {
-      "after": {
-        "contest_id": "awc0012",
-        "epoch_second": 1792685685,
-        "language": "Bash (bash 5.3)",
-        "length": 76,
-        "submission_id": 80263506,
-        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
-        "user_id": "Fleur"
-      },
-      "before": {
-        "contest_id": "awc0012",
-        "epoch_second": 1792655307,
-        "language": "A言語 (interpreter af48a2a)",
-        "length": 77,
-        "submission_id": 80253252,
-        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0012_c",
-      "problem_name": "Team Formation",
-      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
     },
     {
       "after": {
@@ -231,8 +231,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792740009,
-  "generated_iso": "2026-10-23T07:20:09+00:00",
+  "generated_epoch": 1792759664,
+  "generated_iso": "2026-10-23T12:47:44+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -241,6 +241,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 3,
+      "current_epoch_second": 1792753623,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 75,
+      "current_submission_id": 80277225,
+      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80277225",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792411345,
+      "last_acquired_epoch": 1792753623,
+      "problem_id": "awc0012_c",
+      "problem_index": "C",
+      "problem_name": "Team Formation",
+      "problem_title": "C. Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
+      "status": "holding",
+      "target_epoch_second": 1792753623,
+      "target_language": "A言語 (interpreter af48a2a)",
+      "target_length": 75,
+      "target_submission_id": 80277225,
+      "target_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80277225"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792749834,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 116,
+      "current_submission_id": 80276226,
+      "current_submission_url": "https://atcoder.jp/contests/abc057/submissions/80276226",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792749834,
+      "last_acquired_epoch": 1792749834,
+      "problem_id": "abc057_d",
+      "problem_index": "D",
+      "problem_name": "Maximum Average Sets",
+      "problem_title": "D. Maximum Average Sets",
+      "problem_url": "https://atcoder.jp/contests/abc057/tasks/abc057_d",
+      "status": "holding",
+      "target_epoch_second": 1792749834,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 116,
+      "target_submission_id": 80276226,
+      "target_submission_url": "https://atcoder.jp/contests/abc057/submissions/80276226"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792741779,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 90,
+      "current_submission_id": 80273214,
+      "current_submission_url": "https://atcoder.jp/contests/abc362/submissions/80273214",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792741779,
+      "last_acquired_epoch": 1792741779,
+      "problem_id": "abc362_c",
+      "problem_index": "E",
+      "problem_name": "Sum = 0",
+      "problem_title": "E. Sum = 0",
+      "problem_url": "https://atcoder.jp/contests/abc362/tasks/abc362_c",
+      "status": "holding",
+      "target_epoch_second": 1792741779,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 90,
+      "target_submission_id": 80273214,
+      "target_submission_url": "https://atcoder.jp/contests/abc362/submissions/80273214"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792740705,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 75,
+      "current_submission_id": 80272810,
+      "current_submission_url": "https://atcoder.jp/contests/abc104/submissions/80272810",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792740705,
+      "last_acquired_epoch": 1792740705,
+      "problem_id": "abc104_d",
+      "problem_index": "D",
+      "problem_name": "We Love ABC",
+      "problem_title": "D. We Love ABC",
+      "problem_url": "https://atcoder.jp/contests/abc104/tasks/abc104_d",
+      "status": "holding",
+      "target_epoch_second": 1792740705,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 75,
+      "target_submission_id": 80272810,
+      "target_submission_url": "https://atcoder.jp/contests/abc104/submissions/80272810"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792732700,
@@ -374,35 +462,13 @@
       "target_submission_url": "https://atcoder.jp/contests/abc079/submissions/80254741"
     },
     {
-      "acquisition_count": 2,
-      "current_epoch_second": 1792685685,
-      "current_language": "Bash (bash 5.3)",
-      "current_length": 76,
-      "current_submission_id": 80263506,
-      "current_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
-      "current_user_id": "Fleur",
-      "first_acquired_epoch": 1792411345,
-      "last_acquired_epoch": 1792655307,
-      "problem_id": "awc0012_c",
-      "problem_index": "C",
-      "problem_name": "Team Formation",
-      "problem_title": "C. Team Formation",
-      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c",
-      "status": "updated",
-      "target_epoch_second": 1792655307,
-      "target_language": "A言語 (interpreter af48a2a)",
-      "target_length": 77,
-      "target_submission_id": 80253252,
-      "target_submission_url": "https://atcoder.jp/contests/awc0012/submissions/80253252"
-    },
-    {
       "acquisition_count": 1,
-      "current_epoch_second": 1792654428,
+      "current_epoch_second": 1792754506,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 64,
-      "current_submission_id": 80252920,
-      "current_submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920",
-      "current_user_id": "mackerel38",
+      "current_length": 63,
+      "current_submission_id": 80277650,
+      "current_submission_url": "https://atcoder.jp/contests/abc300/submissions/80277650",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1792654428,
       "last_acquired_epoch": 1792654428,
       "problem_id": "abc300_b",
@@ -410,7 +476,7 @@
       "problem_name": "Same Map in the RPG World",
       "problem_title": "D. Same Map in the RPG World",
       "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792654428,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 64,
@@ -2694,9 +2760,9 @@
       "first_acquired_epoch": 1790119935,
       "last_acquired_epoch": 1790119935,
       "problem_id": "abc476_d",
-      "problem_index": "D",
+      "problem_index": "G",
       "problem_name": "Automat",
-      "problem_title": "D. Automat",
+      "problem_title": "G. Automat",
       "problem_url": "https://atcoder.jp/contests/abc476/tasks/abc476_d",
       "status": "holding",
       "target_epoch_second": 1790119935,
@@ -7895,15 +7961,130 @@
   ],
   "summary": {
     "active_update_count": 10,
-    "ever_held_count": 347,
-    "holding_count": 337,
+    "ever_held_count": 350,
+    "holding_count": 340,
     "loss_event_count": 10,
     "lost_count": 10,
-    "update_log_count": 295,
+    "update_log_count": 300,
     "updated_count": 10
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc300",
+        "epoch_second": 1792754506,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 63,
+        "submission_id": 80277650,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80277650",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc300",
+        "epoch_second": 1792654428,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 64,
+        "submission_id": 80252920,
+        "submission_url": "https://atcoder.jp/contests/abc300/submissions/80252920",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc300_b",
+      "problem_name": "Same Map in the RPG World",
+      "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792753623,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 75,
+        "submission_id": 80277225,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80277225",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "awc0012",
+        "epoch_second": 1792685685,
+        "language": "Bash (bash 5.3)",
+        "length": 76,
+        "submission_id": 80263506,
+        "submission_url": "https://atcoder.jp/contests/awc0012/submissions/80263506",
+        "user_id": "Fleur"
+      },
+      "problem_id": "awc0012_c",
+      "problem_name": "Team Formation",
+      "problem_url": "https://atcoder.jp/contests/awc0012/tasks/awc0012_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc057",
+        "epoch_second": 1792749834,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 116,
+        "submission_id": 80276226,
+        "submission_url": "https://atcoder.jp/contests/abc057/submissions/80276226",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc057",
+        "epoch_second": null,
+        "language": null,
+        "length": 150,
+        "submission_id": 9408266,
+        "submission_url": "https://atcoder.jp/contests/abc057/submissions/9408266",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc057_d",
+      "problem_name": "Maximum Average Sets",
+      "problem_url": "https://atcoder.jp/contests/abc057/tasks/abc057_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc362",
+        "epoch_second": 1792741779,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 90,
+        "submission_id": 80273214,
+        "submission_url": "https://atcoder.jp/contests/abc362/submissions/80273214",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc362",
+        "epoch_second": null,
+        "language": null,
+        "length": 98,
+        "submission_id": 55725554,
+        "submission_url": "https://atcoder.jp/contests/abc362/submissions/55725554",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc362_c",
+      "problem_name": "Sum = 0",
+      "problem_url": "https://atcoder.jp/contests/abc362/tasks/abc362_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc104",
+        "epoch_second": 1792740705,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 75,
+        "submission_id": 80272810,
+        "submission_url": "https://atcoder.jp/contests/abc104/submissions/80272810",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc104",
+        "epoch_second": null,
+        "language": null,
+        "length": 81,
+        "submission_id": 26659724,
+        "submission_url": "https://atcoder.jp/contests/abc104/submissions/26659724",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc104_d",
+      "problem_name": "We Love ABC",
+      "problem_url": "https://atcoder.jp/contests/abc104/tasks/abc104_d"
+    },
     {
       "after": {
         "contest_id": "abc267",
