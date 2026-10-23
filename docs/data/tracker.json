@@ -231,8 +231,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792759664,
-  "generated_iso": "2026-10-23T12:47:44+00:00",
+  "generated_epoch": 1792777713,
+  "generated_iso": "2026-10-23T17:48:33+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -241,6 +241,116 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792767412,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 122,
+      "current_submission_id": 80281595,
+      "current_submission_url": "https://atcoder.jp/contests/abc099/submissions/80281595",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792767412,
+      "last_acquired_epoch": 1792767412,
+      "problem_id": "abc099_d",
+      "problem_index": "D",
+      "problem_name": "Good Grid",
+      "problem_title": "D. Good Grid",
+      "problem_url": "https://atcoder.jp/contests/abc099/tasks/abc099_d",
+      "status": "holding",
+      "target_epoch_second": 1792767412,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 122,
+      "target_submission_id": 80281595,
+      "target_submission_url": "https://atcoder.jp/contests/abc099/submissions/80281595"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792766548,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 150,
+      "current_submission_id": 80281371,
+      "current_submission_url": "https://atcoder.jp/contests/abc073/submissions/80281371",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792766548,
+      "last_acquired_epoch": 1792766548,
+      "problem_id": "abc073_d",
+      "problem_index": "D",
+      "problem_name": "joisino's travel",
+      "problem_title": "D. joisino's travel",
+      "problem_url": "https://atcoder.jp/contests/abc073/tasks/abc073_d",
+      "status": "holding",
+      "target_epoch_second": 1792766548,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 150,
+      "target_submission_id": 80281371,
+      "target_submission_url": "https://atcoder.jp/contests/abc073/submissions/80281371"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792765744,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 122,
+      "current_submission_id": 80281143,
+      "current_submission_url": "https://atcoder.jp/contests/abc051/submissions/80281143",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792765744,
+      "last_acquired_epoch": 1792765744,
+      "problem_id": "abc051_d",
+      "problem_index": "D",
+      "problem_name": "Candidates of No Shortest Paths",
+      "problem_title": "D. Candidates of No Shortest Paths",
+      "problem_url": "https://atcoder.jp/contests/abc051/tasks/abc051_d",
+      "status": "holding",
+      "target_epoch_second": 1792765744,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 122,
+      "target_submission_id": 80281143,
+      "target_submission_url": "https://atcoder.jp/contests/abc051/submissions/80281143"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792764347,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 117,
+      "current_submission_id": 80280751,
+      "current_submission_url": "https://atcoder.jp/contests/abc012/submissions/80280751",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792764347,
+      "last_acquired_epoch": 1792764347,
+      "problem_id": "abc012_4",
+      "problem_index": "D",
+      "problem_name": "バスと避けられない運命",
+      "problem_title": "D. バスと避けられない運命",
+      "problem_url": "https://atcoder.jp/contests/abc012/tasks/abc012_4",
+      "status": "holding",
+      "target_epoch_second": 1792764347,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 117,
+      "target_submission_id": 80280751,
+      "target_submission_url": "https://atcoder.jp/contests/abc012/submissions/80280751"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792760786,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 82,
+      "current_submission_id": 80279741,
+      "current_submission_url": "https://atcoder.jp/contests/abc207/submissions/80279741",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792760786,
+      "last_acquired_epoch": 1792760786,
+      "problem_id": "abc207_c",
+      "problem_index": "C",
+      "problem_name": "Many Segments",
+      "problem_title": "C. Many Segments",
+      "problem_url": "https://atcoder.jp/contests/abc207/tasks/abc207_c",
+      "status": "holding",
+      "target_epoch_second": 1792760786,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 82,
+      "target_submission_id": 80279741,
+      "target_submission_url": "https://atcoder.jp/contests/abc207/submissions/80279741"
+    },
     {
       "acquisition_count": 3,
       "current_epoch_second": 1792753623,
@@ -7942,34 +8052,149 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-10-23",
+  "recommendation_day": "2026-10-24",
   "recommendations": [
     {
       "current": {
-        "contest_id": "arc202",
-        "epoch_second": 1789548546,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 493,
-        "submission_id": 79293821,
-        "submission_url": "https://atcoder.jp/contests/arc202/submissions/79293821",
-        "user_id": "qhr2024"
+        "contest_id": "arc229",
+        "epoch_second": 1788625711,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 171,
+        "submission_id": 78987924,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987924",
+        "user_id": "miztom"
       },
-      "problem_id": "arc202_a",
-      "problem_name": "Merge and Increment",
-      "problem_url": "https://atcoder.jp/contests/arc202/tasks/arc202_a"
+      "problem_id": "arc229_c",
+      "problem_name": "Sum of Average 2",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_c"
     }
   ],
   "summary": {
     "active_update_count": 10,
-    "ever_held_count": 350,
-    "holding_count": 340,
+    "ever_held_count": 355,
+    "holding_count": 345,
     "loss_event_count": 10,
     "lost_count": 10,
-    "update_log_count": 300,
+    "update_log_count": 305,
     "updated_count": 10
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc099",
+        "epoch_second": 1792767412,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 122,
+        "submission_id": 80281595,
+        "submission_url": "https://atcoder.jp/contests/abc099/submissions/80281595",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc099",
+        "epoch_second": null,
+        "language": null,
+        "length": 170,
+        "submission_id": 15384529,
+        "submission_url": "https://atcoder.jp/contests/abc099/submissions/15384529",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc099_d",
+      "problem_name": "Good Grid",
+      "problem_url": "https://atcoder.jp/contests/abc099/tasks/abc099_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc073",
+        "epoch_second": 1792766548,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 150,
+        "submission_id": 80281371,
+        "submission_url": "https://atcoder.jp/contests/abc073/submissions/80281371",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc073",
+        "epoch_second": null,
+        "language": null,
+        "length": 183,
+        "submission_id": 3772291,
+        "submission_url": "https://atcoder.jp/contests/abc073/submissions/3772291",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc073_d",
+      "problem_name": "joisino's travel",
+      "problem_url": "https://atcoder.jp/contests/abc073/tasks/abc073_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc051",
+        "epoch_second": 1792765744,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 122,
+        "submission_id": 80281143,
+        "submission_url": "https://atcoder.jp/contests/abc051/submissions/80281143",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc051",
+        "epoch_second": null,
+        "language": null,
+        "length": 133,
+        "submission_id": 30111444,
+        "submission_url": "https://atcoder.jp/contests/abc051/submissions/30111444",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc051_d",
+      "problem_name": "Candidates of No Shortest Paths",
+      "problem_url": "https://atcoder.jp/contests/abc051/tasks/abc051_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc012",
+        "epoch_second": 1792764347,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 117,
+        "submission_id": 80280751,
+        "submission_url": "https://atcoder.jp/contests/abc012/submissions/80280751",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc012",
+        "epoch_second": null,
+        "language": null,
+        "length": 132,
+        "submission_id": 23994224,
+        "submission_url": "https://atcoder.jp/contests/abc012/submissions/23994224",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc012_4",
+      "problem_name": "バスと避けられない運命",
+      "problem_url": "https://atcoder.jp/contests/abc012/tasks/abc012_4"
+    },
+    {
+      "after": {
+        "contest_id": "abc207",
+        "epoch_second": 1792760786,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 82,
+        "submission_id": 80279741,
+        "submission_url": "https://atcoder.jp/contests/abc207/submissions/80279741",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc207",
+        "epoch_second": null,
+        "language": null,
+        "length": 91,
+        "submission_id": 23802455,
+        "submission_url": "https://atcoder.jp/contests/abc207/submissions/23802455",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc207_c",
+      "problem_name": "Many Segments",
+      "problem_url": "https://atcoder.jp/contests/abc207/tasks/abc207_c"
+    },
     {
       "after": {
         "contest_id": "abc300",
