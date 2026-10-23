@@ -231,8 +231,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792720082,
-  "generated_iso": "2026-10-23T01:48:02+00:00",
+  "generated_epoch": 1792740009,
+  "generated_iso": "2026-10-23T07:20:09+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -241,6 +241,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792732700,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 63,
+      "current_submission_id": 80270278,
+      "current_submission_url": "https://atcoder.jp/contests/abc267/submissions/80270278",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792732700,
+      "last_acquired_epoch": 1792732700,
+      "problem_id": "abc267_c",
+      "problem_index": "F",
+      "problem_name": "Index × A(Continuous ver.)",
+      "problem_title": "F. Index × A(Continuous ver.)",
+      "problem_url": "https://atcoder.jp/contests/abc267/tasks/abc267_c",
+      "status": "holding",
+      "target_epoch_second": 1792732700,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 63,
+      "target_submission_id": 80270278,
+      "target_submission_url": "https://atcoder.jp/contests/abc267/submissions/80270278"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792731223,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 57,
+      "current_submission_id": 80269868,
+      "current_submission_url": "https://atcoder.jp/contests/abc255/submissions/80269868",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792731223,
+      "last_acquired_epoch": 1792731223,
+      "problem_id": "abc255_b",
+      "problem_index": "C",
+      "problem_name": "Light It Up",
+      "problem_title": "C. Light It Up",
+      "problem_url": "https://atcoder.jp/contests/abc255/tasks/abc255_b",
+      "status": "holding",
+      "target_epoch_second": 1792731223,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 57,
+      "target_submission_id": 80269868,
+      "target_submission_url": "https://atcoder.jp/contests/abc255/submissions/80269868"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792729704,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 82,
+      "current_submission_id": 80269450,
+      "current_submission_url": "https://atcoder.jp/contests/abc222/submissions/80269450",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792729704,
+      "last_acquired_epoch": 1792729704,
+      "problem_id": "abc222_d",
+      "problem_index": "G",
+      "problem_name": "Between Two Arrays",
+      "problem_title": "G. Between Two Arrays",
+      "problem_url": "https://atcoder.jp/contests/abc222/tasks/abc222_d",
+      "status": "holding",
+      "target_epoch_second": 1792729704,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 82,
+      "target_submission_id": 80269450,
+      "target_submission_url": "https://atcoder.jp/contests/abc222/submissions/80269450"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792729436,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 56,
+      "current_submission_id": 80269417,
+      "current_submission_url": "https://atcoder.jp/contests/abc141/submissions/80269417",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792729436,
+      "last_acquired_epoch": 1792729436,
+      "problem_id": "abc141_d",
+      "problem_index": "D",
+      "problem_name": "Powerful Discount Tickets",
+      "problem_title": "D. Powerful Discount Tickets",
+      "problem_url": "https://atcoder.jp/contests/abc141/tasks/abc141_d",
+      "status": "holding",
+      "target_epoch_second": 1792729436,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 56,
+      "target_submission_id": 80269417,
+      "target_submission_url": "https://atcoder.jp/contests/abc141/submissions/80269417"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792715792,
@@ -7807,15 +7895,107 @@
   ],
   "summary": {
     "active_update_count": 10,
-    "ever_held_count": 343,
-    "holding_count": 333,
+    "ever_held_count": 347,
+    "holding_count": 337,
     "loss_event_count": 10,
     "lost_count": 10,
-    "update_log_count": 291,
+    "update_log_count": 295,
     "updated_count": 10
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc267",
+        "epoch_second": 1792732700,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 63,
+        "submission_id": 80270278,
+        "submission_url": "https://atcoder.jp/contests/abc267/submissions/80270278",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc267",
+        "epoch_second": null,
+        "language": null,
+        "length": 77,
+        "submission_id": 34585151,
+        "submission_url": "https://atcoder.jp/contests/abc267/submissions/34585151",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc267_c",
+      "problem_name": "Index × A(Continuous ver.)",
+      "problem_url": "https://atcoder.jp/contests/abc267/tasks/abc267_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc255",
+        "epoch_second": 1792731223,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 57,
+        "submission_id": 80269868,
+        "submission_url": "https://atcoder.jp/contests/abc255/submissions/80269868",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc255",
+        "epoch_second": null,
+        "language": null,
+        "length": 87,
+        "submission_id": 32408318,
+        "submission_url": "https://atcoder.jp/contests/abc255/submissions/32408318",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc255_b",
+      "problem_name": "Light It Up",
+      "problem_url": "https://atcoder.jp/contests/abc255/tasks/abc255_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc222",
+        "epoch_second": 1792729704,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 82,
+        "submission_id": 80269450,
+        "submission_url": "https://atcoder.jp/contests/abc222/submissions/80269450",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc222",
+        "epoch_second": null,
+        "language": null,
+        "length": 99,
+        "submission_id": 26474786,
+        "submission_url": "https://atcoder.jp/contests/abc222/submissions/26474786",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc222_d",
+      "problem_name": "Between Two Arrays",
+      "problem_url": "https://atcoder.jp/contests/abc222/tasks/abc222_d"
+    },
+    {
+      "after": {
+        "contest_id": "abc141",
+        "epoch_second": 1792729436,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 56,
+        "submission_id": 80269417,
+        "submission_url": "https://atcoder.jp/contests/abc141/submissions/80269417",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc141",
+        "epoch_second": null,
+        "language": null,
+        "length": 109,
+        "submission_id": 14511631,
+        "submission_url": "https://atcoder.jp/contests/abc141/submissions/14511631",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc141_d",
+      "problem_name": "Powerful Discount Tickets",
+      "problem_url": "https://atcoder.jp/contests/abc141/tasks/abc141_d"
+    },
     {
       "after": {
         "contest_id": "abc127",
