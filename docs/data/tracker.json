@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1792806901,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 19,
+        "submission_id": 80286027,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/80286027",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790252248,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 21,
+        "submission_id": 79472176,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472176",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0164_a",
+      "problem_name": "Weighting a Tree",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
+    },
+    {
+      "after": {
         "contest_id": "awc0170",
         "epoch_second": 1790945456,
         "language": "A言語 (interpreter af48a2a)",
@@ -22,29 +45,6 @@
       "problem_id": "awc0170_a",
       "problem_name": "Cooking Contest",
       "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_a"
-    },
-    {
-      "after": {
-        "contest_id": "awc0164",
-        "epoch_second": 1790302008,
-        "language": "A言語 (interpreter af48a2a)",
-        "length": 20,
-        "submission_id": 79477917,
-        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79477917",
-        "user_id": "shogo314"
-      },
-      "before": {
-        "contest_id": "awc0164",
-        "epoch_second": 1790252248,
-        "language": "AWK (GNU awk 5.2.1)",
-        "length": 21,
-        "submission_id": 79472176,
-        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79472176",
-        "user_id": "mackerel38"
-      },
-      "problem_id": "awc0164_a",
-      "problem_name": "Weighting a Tree",
-      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
     },
     {
       "after": {
@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792799825,
-  "generated_iso": "2026-10-23T23:57:05+00:00",
+  "generated_epoch": 1792815803,
+  "generated_iso": "2026-10-24T04:23:23+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792813953,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 136,
+      "current_submission_id": 80287431,
+      "current_submission_url": "https://atcoder.jp/contests/abc112/submissions/80287431",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792813953,
+      "last_acquired_epoch": 1792813953,
+      "problem_id": "abc112_c",
+      "problem_index": "C",
+      "problem_name": "Pyramid",
+      "problem_title": "C. Pyramid",
+      "problem_url": "https://atcoder.jp/contests/abc112/tasks/abc112_c",
+      "status": "holding",
+      "target_epoch_second": 1792813953,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 136,
+      "target_submission_id": 80287431,
+      "target_submission_url": "https://atcoder.jp/contests/abc112/submissions/80287431"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1792795511,
@@ -2705,12 +2727,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1790302008,
-      "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 20,
-      "current_submission_id": 79477917,
-      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/79477917",
-      "current_user_id": "shogo314",
+      "current_epoch_second": 1792806901,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 19,
+      "current_submission_id": 80286027,
+      "current_submission_url": "https://atcoder.jp/contests/awc0164/submissions/80286027",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1790249720,
       "last_acquired_epoch": 1790249720,
       "problem_id": "awc0164_a",
@@ -8025,15 +8047,61 @@
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 355,
-    "holding_count": 347,
+    "ever_held_count": 356,
+    "holding_count": 348,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 307,
+    "update_log_count": 309,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc112",
+        "epoch_second": 1792813953,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 136,
+        "submission_id": 80287431,
+        "submission_url": "https://atcoder.jp/contests/abc112/submissions/80287431",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc112",
+        "epoch_second": null,
+        "language": null,
+        "length": 144,
+        "submission_id": 15562197,
+        "submission_url": "https://atcoder.jp/contests/abc112/submissions/15562197",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc112_c",
+      "problem_name": "Pyramid",
+      "problem_url": "https://atcoder.jp/contests/abc112/tasks/abc112_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1792806901,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 19,
+        "submission_id": 80286027,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/80286027",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790302008,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 20,
+        "submission_id": 79477917,
+        "submission_url": "https://atcoder.jp/contests/awc0164/submissions/79477917",
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0164_a",
+      "problem_name": "Weighting a Tree",
+      "problem_url": "https://atcoder.jp/contests/awc0164/tasks/awc0164_a"
+    },
     {
       "after": {
         "contest_id": "abc328",

@@ -3674,11 +3674,11 @@
     },
     "abc112_c": {
       "contest_id": "abc112",
-      "epoch_second": null,
-      "language": null,
-      "length": 144,
-      "submission_id": 15562197,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792813953,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 136,
+      "submission_id": 80287431,
+      "user_id": "mackerel38"
     },
     "abc112_d": {
       "contest_id": "abc112",
@@ -23986,10 +23986,10 @@
     },
     "abc479_b": {
       "contest_id": "abc479",
-      "epoch_second": 1791733009,
+      "epoch_second": 1792807081,
       "language": "Bash (bash 5.3)",
-      "length": 17,
-      "submission_id": 79970437,
+      "length": 16,
+      "submission_id": 80286061,
       "user_id": "Fleur"
     },
     "abc479_c": {
@@ -44770,11 +44770,11 @@
     },
     "awc0164_a": {
       "contest_id": "awc0164",
-      "epoch_second": 1790302008,
-      "language": "A言語 (interpreter af48a2a)",
-      "length": 20,
-      "submission_id": 79477917,
-      "user_id": "shogo314"
+      "epoch_second": 1792806901,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 19,
+      "submission_id": 80286027,
+      "user_id": "Fleur"
     },
     "awc0164_b": {
       "contest_id": "awc0164",
@@ -45490,19 +45490,19 @@
     },
     "awc0182_a": {
       "contest_id": "awc0182",
-      "epoch_second": 1792494134,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 55,
-      "submission_id": 80217000,
-      "user_id": "shogo314"
+      "epoch_second": 1792809077,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 43,
+      "submission_id": 80286482,
+      "user_id": "Fleur"
     },
     "awc0182_b": {
       "contest_id": "awc0182",
-      "epoch_second": 1792494269,
+      "epoch_second": 1792809794,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 25,
-      "submission_id": 80217142,
-      "user_id": "shogo314"
+      "length": 23,
+      "submission_id": 80286618,
+      "user_id": "Fleur"
     },
     "awc0182_c": {
       "contest_id": "awc0182",
@@ -45618,11 +45618,11 @@
     },
     "awc0185_b": {
       "contest_id": "awc0185",
-      "epoch_second": 1792759554,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 27,
-      "submission_id": 80279381,
-      "user_id": "shogo314"
+      "epoch_second": 1792808401,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 19,
+      "submission_id": 80286310,
+      "user_id": "Fleur"
     },
     "awc0185_c": {
       "contest_id": "awc0185",
@@ -78224,6 +78224,16 @@
       "target_length": 75,
       "target_submission_id": 80272810
     },
+    "abc112_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792813953,
+      "last_acquired_epoch": 1792813953,
+      "target_contest_id": "abc112",
+      "target_epoch_second": 1792813953,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 136,
+      "target_submission_id": 80287431
+    },
     "abc123_d": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792584382,
@@ -81706,7 +81716,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792799825,
+  "last_checked_epoch": 1792815803,
   "recommendation_day": "2026-10-24",
   "recommendations": [
     "arc229_c"
@@ -96435,6 +96445,34 @@
     "80284743": {
       "epoch_second": 1792795511,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "80286027": {
+      "epoch_second": 1792806901,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80286061": {
+      "epoch_second": 1792807081,
+      "language": "Bash (bash 5.3)"
+    },
+    "80286301": {
+      "epoch_second": 1792808356,
+      "language": "Bash (bash 5.3)"
+    },
+    "80286310": {
+      "epoch_second": 1792808401,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80286482": {
+      "epoch_second": 1792809077,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80286618": {
+      "epoch_second": 1792809794,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80287431": {
+      "epoch_second": 1792813953,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -96864,6 +96902,9 @@
     ],
     "abc110_d": [
       "C++ 20 (gcc 12.2)"
+    ],
+    "abc112_c": [
+      "Uiua (uiua 0.16.2)"
     ],
     "abc119_d": [
       "C++ 20 (gcc 12.2)"
@@ -101805,6 +101846,7 @@
     "abc079_d:80254741",
     "abc099_d:80281595",
     "abc104_d:80272810",
+    "abc112_c:80287431",
     "abc123_d:80239326",
     "abc127_d:80266409",
     "abc134_e:80247537",
@@ -102028,6 +102070,7 @@
     "awc0164_a:79471780",
     "awc0164_a:79472176",
     "awc0164_a:79477917",
+    "awc0164_a:80286027",
     "awc0164_b:79471621",
     "awc0164_b:79477817",
     "awc0164_c:79471839",
@@ -107939,6 +107982,44 @@
         "user_id": "Fleur"
       },
       "problem_id": "abc328_c"
+    },
+    {
+      "after": {
+        "contest_id": "awc0164",
+        "epoch_second": 1792806901,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 19,
+        "submission_id": 80286027,
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0164",
+        "epoch_second": 1790302008,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 20,
+        "submission_id": 79477917,
+        "user_id": "shogo314"
+      },
+      "problem_id": "awc0164_a"
+    },
+    {
+      "after": {
+        "contest_id": "abc112",
+        "epoch_second": 1792813953,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 136,
+        "submission_id": 80287431,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc112",
+        "epoch_second": null,
+        "language": null,
+        "length": 144,
+        "submission_id": 15562197,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc112_c"
     }
   ],
   "version": 2
