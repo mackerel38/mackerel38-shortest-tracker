@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792815803,
-  "generated_iso": "2026-10-24T04:23:23+00:00",
+  "generated_epoch": 1792832558,
+  "generated_iso": "2026-10-24T09:02:38+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,160 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792828312,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 59,
+      "current_submission_id": 80291456,
+      "current_submission_url": "https://atcoder.jp/contests/arc135/submissions/80291456",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792828312,
+      "last_acquired_epoch": 1792828312,
+      "problem_id": "arc135_c",
+      "problem_index": "C",
+      "problem_name": "XOR to All",
+      "problem_title": "C. XOR to All",
+      "problem_url": "https://atcoder.jp/contests/arc135/tasks/arc135_c",
+      "status": "holding",
+      "target_epoch_second": 1792828312,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 59,
+      "target_submission_id": 80291456,
+      "target_submission_url": "https://atcoder.jp/contests/arc135/submissions/80291456"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792822790,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 77,
+      "current_submission_id": 80289467,
+      "current_submission_url": "https://atcoder.jp/contests/agc008/submissions/80289467",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792822790,
+      "last_acquired_epoch": 1792822790,
+      "problem_id": "agc008_b",
+      "problem_index": "B",
+      "problem_name": "Contiguous Repainting",
+      "problem_title": "B. Contiguous Repainting",
+      "problem_url": "https://atcoder.jp/contests/agc008/tasks/agc008_b",
+      "status": "holding",
+      "target_epoch_second": 1792822790,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 77,
+      "target_submission_id": 80289467,
+      "target_submission_url": "https://atcoder.jp/contests/agc008/submissions/80289467"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792822261,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 85,
+      "current_submission_id": 80289290,
+      "current_submission_url": "https://atcoder.jp/contests/abc183/submissions/80289290",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792822261,
+      "last_acquired_epoch": 1792822261,
+      "problem_id": "abc183_c",
+      "problem_index": "C",
+      "problem_name": "Travel",
+      "problem_title": "C. Travel",
+      "problem_url": "https://atcoder.jp/contests/abc183/tasks/abc183_c",
+      "status": "holding",
+      "target_epoch_second": 1792822261,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 85,
+      "target_submission_id": 80289290,
+      "target_submission_url": "https://atcoder.jp/contests/abc183/submissions/80289290"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792821804,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 112,
+      "current_submission_id": 80289154,
+      "current_submission_url": "https://atcoder.jp/contests/abc293/submissions/80289154",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792821804,
+      "last_acquired_epoch": 1792821804,
+      "problem_id": "abc293_c",
+      "problem_index": "F",
+      "problem_name": "Make Takahashi Happy ",
+      "problem_title": "F. Make Takahashi Happy ",
+      "problem_url": "https://atcoder.jp/contests/abc293/tasks/abc293_c",
+      "status": "holding",
+      "target_epoch_second": 1792821804,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 112,
+      "target_submission_id": 80289154,
+      "target_submission_url": "https://atcoder.jp/contests/abc293/submissions/80289154"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792820179,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 83,
+      "current_submission_id": 80288704,
+      "current_submission_url": "https://atcoder.jp/contests/abc190/submissions/80288704",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792820179,
+      "last_acquired_epoch": 1792820179,
+      "problem_id": "abc190_c",
+      "problem_index": "C",
+      "problem_name": "Bowls and Dishes",
+      "problem_title": "C. Bowls and Dishes",
+      "problem_url": "https://atcoder.jp/contests/abc190/tasks/abc190_c",
+      "status": "holding",
+      "target_epoch_second": 1792820179,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 83,
+      "target_submission_id": 80288704,
+      "target_submission_url": "https://atcoder.jp/contests/abc190/submissions/80288704"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792818540,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 120,
+      "current_submission_id": 80288326,
+      "current_submission_url": "https://atcoder.jp/contests/abc264/submissions/80288326",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792818540,
+      "last_acquired_epoch": 1792818540,
+      "problem_id": "abc264_c",
+      "problem_index": "E",
+      "problem_name": "Matrix Reducing",
+      "problem_title": "E. Matrix Reducing",
+      "problem_url": "https://atcoder.jp/contests/abc264/tasks/abc264_c",
+      "status": "holding",
+      "target_epoch_second": 1792818540,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 120,
+      "target_submission_id": 80288326,
+      "target_submission_url": "https://atcoder.jp/contests/abc264/submissions/80288326"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792815972,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 88,
+      "current_submission_id": 80287819,
+      "current_submission_url": "https://atcoder.jp/contests/abc002/submissions/80287819",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792815972,
+      "last_acquired_epoch": 1792815972,
+      "problem_id": "abc002_4",
+      "problem_index": "D",
+      "problem_name": "派閥",
+      "problem_title": "D. 派閥",
+      "problem_url": "https://atcoder.jp/contests/abc002/tasks/abc002_4",
+      "status": "holding",
+      "target_epoch_second": 1792815972,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 88,
+      "target_submission_id": 80287819,
+      "target_submission_url": "https://atcoder.jp/contests/abc002/submissions/80287819"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792813953,
@@ -8029,33 +8183,179 @@
     }
   ],
   "recommendation_day": "2026-10-24",
-  "recommendations": [
-    {
-      "current": {
-        "contest_id": "arc229",
-        "epoch_second": 1788625711,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 171,
-        "submission_id": 78987924,
-        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78987924",
-        "user_id": "miztom"
-      },
-      "problem_id": "arc229_c",
-      "problem_name": "Sum of Average 2",
-      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_c"
-    }
-  ],
+  "recommendations": [],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 356,
-    "holding_count": 348,
+    "ever_held_count": 363,
+    "holding_count": 355,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 309,
+    "update_log_count": 316,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "arc135",
+        "epoch_second": 1792828312,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 59,
+        "submission_id": 80291456,
+        "submission_url": "https://atcoder.jp/contests/arc135/submissions/80291456",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc135",
+        "epoch_second": null,
+        "language": null,
+        "length": 106,
+        "submission_id": 29317474,
+        "submission_url": "https://atcoder.jp/contests/arc135/submissions/29317474",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc135_c",
+      "problem_name": "XOR to All",
+      "problem_url": "https://atcoder.jp/contests/arc135/tasks/arc135_c"
+    },
+    {
+      "after": {
+        "contest_id": "agc008",
+        "epoch_second": 1792822790,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 77,
+        "submission_id": 80289467,
+        "submission_url": "https://atcoder.jp/contests/agc008/submissions/80289467",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc008",
+        "epoch_second": null,
+        "language": null,
+        "length": 116,
+        "submission_id": 24702845,
+        "submission_url": "https://atcoder.jp/contests/agc008/submissions/24702845",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "agc008_b",
+      "problem_name": "Contiguous Repainting",
+      "problem_url": "https://atcoder.jp/contests/agc008/tasks/agc008_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc183",
+        "epoch_second": 1792822261,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 85,
+        "submission_id": 80289290,
+        "submission_url": "https://atcoder.jp/contests/abc183/submissions/80289290",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc183",
+        "epoch_second": null,
+        "language": null,
+        "length": 97,
+        "submission_id": 18137112,
+        "submission_url": "https://atcoder.jp/contests/abc183/submissions/18137112",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc183_c",
+      "problem_name": "Travel",
+      "problem_url": "https://atcoder.jp/contests/abc183/tasks/abc183_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc293",
+        "epoch_second": 1792821804,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 112,
+        "submission_id": 80289154,
+        "submission_url": "https://atcoder.jp/contests/abc293/submissions/80289154",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc293",
+        "epoch_second": null,
+        "language": null,
+        "length": 116,
+        "submission_id": 39653068,
+        "submission_url": "https://atcoder.jp/contests/abc293/submissions/39653068",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc293_c",
+      "problem_name": "Make Takahashi Happy ",
+      "problem_url": "https://atcoder.jp/contests/abc293/tasks/abc293_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc190",
+        "epoch_second": 1792820179,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 83,
+        "submission_id": 80288704,
+        "submission_url": "https://atcoder.jp/contests/abc190/submissions/80288704",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc190",
+        "epoch_second": null,
+        "language": null,
+        "length": 101,
+        "submission_id": 19821799,
+        "submission_url": "https://atcoder.jp/contests/abc190/submissions/19821799",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc190_c",
+      "problem_name": "Bowls and Dishes",
+      "problem_url": "https://atcoder.jp/contests/abc190/tasks/abc190_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc264",
+        "epoch_second": 1792818540,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 120,
+        "submission_id": 80288326,
+        "submission_url": "https://atcoder.jp/contests/abc264/submissions/80288326",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc264",
+        "epoch_second": null,
+        "language": null,
+        "length": 123,
+        "submission_id": 34042332,
+        "submission_url": "https://atcoder.jp/contests/abc264/submissions/34042332",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc264_c",
+      "problem_name": "Matrix Reducing",
+      "problem_url": "https://atcoder.jp/contests/abc264/tasks/abc264_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc002",
+        "epoch_second": 1792815972,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 88,
+        "submission_id": 80287819,
+        "submission_url": "https://atcoder.jp/contests/abc002/submissions/80287819",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc002",
+        "epoch_second": null,
+        "language": null,
+        "length": 93,
+        "submission_id": 14460399,
+        "submission_url": "https://atcoder.jp/contests/abc002/submissions/14460399",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc002_4",
+      "problem_name": "派閥",
+      "problem_url": "https://atcoder.jp/contests/abc002/tasks/abc002_4"
+    },
     {
       "after": {
         "contest_id": "abc112",

@@ -898,11 +898,11 @@
     },
     "abc002_4": {
       "contest_id": "abc002",
-      "epoch_second": null,
-      "language": null,
-      "length": 93,
-      "submission_id": 14460399,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792815972,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 88,
+      "submission_id": 80287819,
+      "user_id": "mackerel38"
     },
     "abc003_1": {
       "contest_id": "abc003",
@@ -6858,11 +6858,11 @@
     },
     "abc183_c": {
       "contest_id": "abc183",
-      "epoch_second": null,
-      "language": null,
-      "length": 97,
-      "submission_id": 18137112,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792822261,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 85,
+      "submission_id": 80289290,
+      "user_id": "mackerel38"
     },
     "abc183_d": {
       "contest_id": "abc183",
@@ -7194,11 +7194,11 @@
     },
     "abc190_c": {
       "contest_id": "abc190",
-      "epoch_second": null,
-      "language": null,
-      "length": 101,
-      "submission_id": 19821799,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792820179,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 83,
+      "submission_id": 80288704,
+      "user_id": "mackerel38"
     },
     "abc190_d": {
       "contest_id": "abc190",
@@ -11578,11 +11578,11 @@
     },
     "abc264_c": {
       "contest_id": "abc264",
-      "epoch_second": null,
-      "language": null,
-      "length": 123,
-      "submission_id": 34042332,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792818540,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 120,
+      "submission_id": 80288326,
+      "user_id": "mackerel38"
     },
     "abc264_d": {
       "contest_id": "abc264",
@@ -13434,11 +13434,11 @@
     },
     "abc293_c": {
       "contest_id": "abc293",
-      "epoch_second": null,
-      "language": null,
-      "length": 116,
-      "submission_id": 39653068,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792821804,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 112,
+      "submission_id": 80289154,
+      "user_id": "mackerel38"
     },
     "abc293_d": {
       "contest_id": "abc293",
@@ -24530,11 +24530,11 @@
     },
     "agc008_b": {
       "contest_id": "agc008",
-      "epoch_second": null,
-      "language": null,
-      "length": 116,
-      "submission_id": 24702845,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792822790,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 77,
+      "submission_id": 80289467,
+      "user_id": "mackerel38"
     },
     "agc008_c": {
       "contest_id": "agc008",
@@ -33450,11 +33450,11 @@
     },
     "arc135_c": {
       "contest_id": "arc135",
-      "epoch_second": null,
-      "language": null,
-      "length": 106,
-      "submission_id": 29317474,
-      "user_id": "kotatsugame"
+      "epoch_second": 1792828312,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 59,
+      "submission_id": 80291456,
+      "user_id": "mackerel38"
     },
     "arc135_d": {
       "contest_id": "arc135",
@@ -45570,19 +45570,19 @@
     },
     "awc0184_a": {
       "contest_id": "awc0184",
-      "epoch_second": 1792668989,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 36,
-      "submission_id": 80258329,
-      "user_id": "shogo314"
+      "epoch_second": null,
+      "language": null,
+      "length": 24,
+      "submission_id": 80286366,
+      "user_id": "Fleur"
     },
     "awc0184_b": {
       "contest_id": "awc0184",
-      "epoch_second": 1792670186,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 18,
-      "submission_id": 80258878,
-      "user_id": "shogo314"
+      "epoch_second": null,
+      "language": null,
+      "length": 17,
+      "submission_id": 80286441,
+      "user_id": "Fleur"
     },
     "awc0184_c": {
       "contest_id": "awc0184",
@@ -78154,6 +78154,16 @@
     }
   },
   "ever_held": {
+    "abc002_4": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792815972,
+      "last_acquired_epoch": 1792815972,
+      "target_contest_id": "abc002",
+      "target_epoch_second": 1792815972,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 88,
+      "target_submission_id": 80287819
+    },
     "abc012_4": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792764347,
@@ -78294,6 +78304,26 @@
       "target_length": 76,
       "target_submission_id": 80213035
     },
+    "abc183_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792822261,
+      "last_acquired_epoch": 1792822261,
+      "target_contest_id": "abc183",
+      "target_epoch_second": 1792822261,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 85,
+      "target_submission_id": 80289290
+    },
+    "abc190_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792820179,
+      "last_acquired_epoch": 1792820179,
+      "target_contest_id": "abc190",
+      "target_epoch_second": 1792820179,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 83,
+      "target_submission_id": 80288704
+    },
     "abc207_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792760786,
@@ -78354,6 +78384,16 @@
       "target_length": 57,
       "target_submission_id": 80269868
     },
+    "abc264_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792818540,
+      "last_acquired_epoch": 1792818540,
+      "target_contest_id": "abc264",
+      "target_epoch_second": 1792818540,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 120,
+      "target_submission_id": 80288326
+    },
     "abc267_c": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792732700,
@@ -78363,6 +78403,16 @@
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 63,
       "target_submission_id": 80270278
+    },
+    "abc293_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792821804,
+      "last_acquired_epoch": 1792821804,
+      "target_contest_id": "abc293",
+      "target_epoch_second": 1792821804,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 112,
+      "target_submission_id": 80289154
     },
     "abc300_b": {
       "acquisition_count": 2,
@@ -78934,6 +78984,16 @@
       "target_length": 91,
       "target_submission_id": 80185713
     },
+    "agc008_b": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792822790,
+      "last_acquired_epoch": 1792822790,
+      "target_contest_id": "agc008",
+      "target_epoch_second": 1792822790,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 77,
+      "target_submission_id": 80289467
+    },
     "arc114_b": {
       "acquisition_count": 1,
       "first_acquired_epoch": 1792458429,
@@ -78943,6 +79003,16 @@
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 85,
       "target_submission_id": 80206598
+    },
+    "arc135_c": {
+      "acquisition_count": 1,
+      "first_acquired_epoch": 1792828312,
+      "last_acquired_epoch": 1792828312,
+      "target_contest_id": "arc135",
+      "target_epoch_second": 1792828312,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 59,
+      "target_submission_id": 80291456
     },
     "arc148_c": {
       "acquisition_count": 1,
@@ -81716,11 +81786,9 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792815803,
+  "last_checked_epoch": 1792832558,
   "recommendation_day": "2026-10-24",
-  "recommendations": [
-    "arc229_c"
-  ],
+  "recommendations": [],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -96473,6 +96541,34 @@
     "80287431": {
       "epoch_second": 1792813953,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "80287819": {
+      "epoch_second": 1792815972,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80288326": {
+      "epoch_second": 1792818540,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80288704": {
+      "epoch_second": 1792820179,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80289154": {
+      "epoch_second": 1792821804,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80289290": {
+      "epoch_second": 1792822261,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80289467": {
+      "epoch_second": 1792822790,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80291456": {
+      "epoch_second": 1792828312,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -96507,7 +96603,8 @@
       "C++ 20 (gcc 12.2)"
     ],
     "abc002_4": [
-      "C++ 20 (gcc 12.2)"
+      "C++ 20 (gcc 12.2)",
+      "Uiua (uiua 0.16.2)"
     ],
     "abc003_1": [
       "C++ 20 (gcc 12.2)",
@@ -97045,6 +97142,9 @@
     "abc180_e": [
       "C++ 20 (gcc 12.2)"
     ],
+    "abc183_c": [
+      "Uiua (uiua 0.16.2)"
+    ],
     "abc183_d": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -97053,6 +97153,9 @@
     ],
     "abc187_e": [
       "C++ 20 (gcc 12.2)"
+    ],
+    "abc190_c": [
+      "Uiua (uiua 0.16.2)"
     ],
     "abc193_f": [
       "C++ 20 (gcc 12.2)"
@@ -97199,6 +97302,9 @@
     "abc263_f": [
       "C++ 20 (gcc 12.2)"
     ],
+    "abc264_c": [
+      "Uiua (uiua 0.16.2)"
+    ],
     "abc265_a": [
       "C++ 20 (gcc 12.2)"
     ],
@@ -97293,6 +97399,9 @@
     ],
     "abc292_d": [
       "C++23 (GCC 15.2.0)"
+    ],
+    "abc293_c": [
+      "Uiua (uiua 0.16.2)"
     ],
     "abc293_g": [
       "C++ 20 (gcc 12.2)"
@@ -99021,6 +99130,9 @@
     "agc001_a": [
       "Nibbles (literate form) (nibbles 1.01)"
     ],
+    "agc008_b": [
+      "Uiua (uiua 0.16.2)"
+    ],
     "agc011_a": [
       "C++ 23 (gcc 12.2)"
     ],
@@ -99214,6 +99326,9 @@
     ],
     "arc133_d": [
       "C++ 23 (gcc 12.2)"
+    ],
+    "arc135_c": [
+      "Uiua (uiua 0.16.2)"
     ],
     "arc142_c": [
       "C++ 23 (gcc 12.2)"
@@ -101839,6 +101954,7 @@
   },
   "target_user": "mackerel38",
   "update_keys": [
+    "abc002_4:80287819",
     "abc012_4:80280751",
     "abc051_d:80281143",
     "abc057_d:80276226",
@@ -101853,13 +101969,17 @@
     "abc141_d:80269417",
     "abc151_e:80205334",
     "abc177_d:80213035",
+    "abc183_c:80289290",
+    "abc190_c:80288704",
     "abc207_c:80279741",
     "abc222_d:80269450",
     "abc224_b:80215175",
     "abc252_f:80208758",
     "abc253_e:80214541",
     "abc255_b:80269868",
+    "abc264_c:80288326",
     "abc267_c:80270278",
+    "abc293_c:80289154",
     "abc300_b:80252920",
     "abc300_b:80277650",
     "abc300_b:80284616",
@@ -101908,7 +102028,9 @@
     "abc480_c:80176714",
     "abc480_c:80185654",
     "abc480_e:80185713",
+    "agc008_b:80289467",
     "arc114_b:80206598",
+    "arc135_c:80291456",
     "arc171_a:79693106",
     "arc179_a:79637053",
     "arc218_b:80199721",
@@ -108020,6 +108142,139 @@
         "user_id": "kotatsugame"
       },
       "problem_id": "abc112_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc002",
+        "epoch_second": 1792815972,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 88,
+        "submission_id": 80287819,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc002",
+        "epoch_second": null,
+        "language": null,
+        "length": 93,
+        "submission_id": 14460399,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc002_4"
+    },
+    {
+      "after": {
+        "contest_id": "abc264",
+        "epoch_second": 1792818540,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 120,
+        "submission_id": 80288326,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc264",
+        "epoch_second": null,
+        "language": null,
+        "length": 123,
+        "submission_id": 34042332,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc264_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc190",
+        "epoch_second": 1792820179,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 83,
+        "submission_id": 80288704,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc190",
+        "epoch_second": null,
+        "language": null,
+        "length": 101,
+        "submission_id": 19821799,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc190_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc293",
+        "epoch_second": 1792821804,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 112,
+        "submission_id": 80289154,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc293",
+        "epoch_second": null,
+        "language": null,
+        "length": 116,
+        "submission_id": 39653068,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc293_c"
+    },
+    {
+      "after": {
+        "contest_id": "abc183",
+        "epoch_second": 1792822261,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 85,
+        "submission_id": 80289290,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc183",
+        "epoch_second": null,
+        "language": null,
+        "length": 97,
+        "submission_id": 18137112,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "abc183_c"
+    },
+    {
+      "after": {
+        "contest_id": "agc008",
+        "epoch_second": 1792822790,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 77,
+        "submission_id": 80289467,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc008",
+        "epoch_second": null,
+        "language": null,
+        "length": 116,
+        "submission_id": 24702845,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "agc008_b"
+    },
+    {
+      "after": {
+        "contest_id": "arc135",
+        "epoch_second": 1792828312,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 59,
+        "submission_id": 80291456,
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc135",
+        "epoch_second": null,
+        "language": null,
+        "length": 106,
+        "submission_id": 29317474,
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc135_c"
     }
   ],
   "version": 2
