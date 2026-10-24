@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792832558,
-  "generated_iso": "2026-10-24T09:02:38+00:00",
+  "generated_epoch": 1792848081,
+  "generated_iso": "2026-10-24T13:21:21+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,94 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792835809,
+      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "current_length": 124,
+      "current_submission_id": 80293989,
+      "current_submission_url": "https://atcoder.jp/contests/agc025/submissions/80293989",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792835809,
+      "last_acquired_epoch": 1792835809,
+      "problem_id": "agc025_b",
+      "problem_index": "B",
+      "problem_name": "RGB Coloring",
+      "problem_title": "B. RGB Coloring",
+      "problem_url": "https://atcoder.jp/contests/agc025/tasks/agc025_b",
+      "status": "holding",
+      "target_epoch_second": 1792835809,
+      "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "target_length": 124,
+      "target_submission_id": 80293989,
+      "target_submission_url": "https://atcoder.jp/contests/agc025/submissions/80293989"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792834674,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 125,
+      "current_submission_id": 80293630,
+      "current_submission_url": "https://atcoder.jp/contests/agc066/submissions/80293630",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792834674,
+      "last_acquired_epoch": 1792834674,
+      "problem_id": "agc066_a",
+      "problem_index": "A",
+      "problem_name": "Adjacent Difference",
+      "problem_title": "A. Adjacent Difference",
+      "problem_url": "https://atcoder.jp/contests/agc066/tasks/agc066_a",
+      "status": "holding",
+      "target_epoch_second": 1792834674,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 125,
+      "target_submission_id": 80293630,
+      "target_submission_url": "https://atcoder.jp/contests/agc066/submissions/80293630"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792833016,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 113,
+      "current_submission_id": 80293069,
+      "current_submission_url": "https://atcoder.jp/contests/arc083/submissions/80293069",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792833016,
+      "last_acquired_epoch": 1792833016,
+      "problem_id": "arc083_b",
+      "problem_index": "D",
+      "problem_name": "Restoring Road Network",
+      "problem_title": "D. Restoring Road Network",
+      "problem_url": "https://atcoder.jp/contests/arc083/tasks/arc083_b",
+      "status": "holding",
+      "target_epoch_second": 1792833016,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 113,
+      "target_submission_id": 80293069,
+      "target_submission_url": "https://atcoder.jp/contests/arc083/submissions/80293069"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792832289,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 82,
+      "current_submission_id": 80292818,
+      "current_submission_url": "https://atcoder.jp/contests/agc033/submissions/80292818",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792832289,
+      "last_acquired_epoch": 1792832289,
+      "problem_id": "agc033_a",
+      "problem_index": "A",
+      "problem_name": "Darker and Darker",
+      "problem_title": "A. Darker and Darker",
+      "problem_url": "https://atcoder.jp/contests/agc033/tasks/agc033_a",
+      "status": "holding",
+      "target_epoch_second": 1792832289,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 82,
+      "target_submission_id": 80292818,
+      "target_submission_url": "https://atcoder.jp/contests/agc033/submissions/80292818"
+    },
     {
       "acquisition_count": 1,
       "current_epoch_second": 1792828312,
@@ -8183,18 +8271,125 @@
     }
   ],
   "recommendation_day": "2026-10-24",
-  "recommendations": [],
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc398",
+        "epoch_second": 1787036334,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 451,
+        "submission_id": 78503215,
+        "submission_url": "https://atcoder.jp/contests/abc398/submissions/78503215",
+        "user_id": "YY0707"
+      },
+      "problem_id": "abc398_g",
+      "problem_name": "Not Only Tree Game",
+      "problem_url": "https://atcoder.jp/contests/abc398/tasks/abc398_g"
+    }
+  ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 363,
-    "holding_count": 355,
+    "ever_held_count": 367,
+    "holding_count": 359,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 316,
+    "update_log_count": 320,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "agc025",
+        "epoch_second": 1792835809,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 124,
+        "submission_id": 80293989,
+        "submission_url": "https://atcoder.jp/contests/agc025/submissions/80293989",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc025",
+        "epoch_second": null,
+        "language": null,
+        "length": 153,
+        "submission_id": 16791442,
+        "submission_url": "https://atcoder.jp/contests/agc025/submissions/16791442",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "agc025_b",
+      "problem_name": "RGB Coloring",
+      "problem_url": "https://atcoder.jp/contests/agc025/tasks/agc025_b"
+    },
+    {
+      "after": {
+        "contest_id": "agc066",
+        "epoch_second": 1792834674,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 125,
+        "submission_id": 80293630,
+        "submission_url": "https://atcoder.jp/contests/agc066/submissions/80293630",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc066",
+        "epoch_second": null,
+        "language": null,
+        "length": 248,
+        "submission_id": 71989534,
+        "submission_url": "https://atcoder.jp/contests/agc066/submissions/71989534",
+        "user_id": "Rssll_Krkgrd"
+      },
+      "problem_id": "agc066_a",
+      "problem_name": "Adjacent Difference",
+      "problem_url": "https://atcoder.jp/contests/agc066/tasks/agc066_a"
+    },
+    {
+      "after": {
+        "contest_id": "arc083",
+        "epoch_second": 1792833016,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 113,
+        "submission_id": 80293069,
+        "submission_url": "https://atcoder.jp/contests/arc083/submissions/80293069",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc083",
+        "epoch_second": null,
+        "language": null,
+        "length": 134,
+        "submission_id": 14901913,
+        "submission_url": "https://atcoder.jp/contests/arc083/submissions/14901913",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc083_b",
+      "problem_name": "Restoring Road Network",
+      "problem_url": "https://atcoder.jp/contests/arc083/tasks/arc083_b"
+    },
+    {
+      "after": {
+        "contest_id": "agc033",
+        "epoch_second": 1792832289,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 82,
+        "submission_id": 80292818,
+        "submission_url": "https://atcoder.jp/contests/agc033/submissions/80292818",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc033",
+        "epoch_second": null,
+        "language": null,
+        "length": 108,
+        "submission_id": 36658772,
+        "submission_url": "https://atcoder.jp/contests/agc033/submissions/36658772",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "agc033_a",
+      "problem_name": "Darker and Darker",
+      "problem_url": "https://atcoder.jp/contests/agc033/tasks/agc033_a"
+    },
     {
       "after": {
         "contest_id": "arc135",
