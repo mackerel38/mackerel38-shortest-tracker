@@ -24098,11 +24098,11 @@
     },
     "abc481_b": {
       "contest_id": "abc481",
-      "epoch_second": 1792854819,
-      "language": "Uiua (uiua 0.16.2)",
-      "length": 41,
-      "submission_id": 80354993,
-      "user_id": "mackerel38"
+      "epoch_second": 1792861831,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 37,
+      "submission_id": 80357215,
+      "user_id": "kukone"
     },
     "abc481_c": {
       "contest_id": "abc481",
@@ -24130,10 +24130,10 @@
     },
     "abc481_f": {
       "contest_id": "abc481",
-      "epoch_second": 1792856766,
+      "epoch_second": 1792862760,
       "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 285,
-      "submission_id": 80355796,
+      "length": 274,
+      "submission_id": 80357400,
       "user_id": "negativesquare"
     },
     "abc481_g": {
@@ -81892,7 +81892,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792860682,
+  "last_checked_epoch": 1792869659,
   "recommendation_day": "2026-10-25",
   "recommendations": [
     "abc473_d"
@@ -96909,6 +96909,18 @@
     "80355796": {
       "epoch_second": 1792856766,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80356893": {
+      "epoch_second": 1792860571,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80357215": {
+      "epoch_second": 1792861831,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "80357400": {
+      "epoch_second": 1792862760,
+      "language": "Python (PyPy 3.11-v7.3.20)"
     }
   },
   "target_language_index_complete": true,
@@ -102386,6 +102398,7 @@
     "abc480_e:80185713",
     "abc481_b:80354231",
     "abc481_b:80354993",
+    "abc481_b:80357215",
     "agc008_b:80289467",
     "agc025_b:80293989",
     "agc033_a:80292818",
@@ -108748,6 +108761,25 @@
         "language": "Uiua (uiua 0.16.2)",
         "length": 48,
         "submission_id": 80354231,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc481_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792861831,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 37,
+        "submission_id": 80357215,
+        "user_id": "kukone"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792854819,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 41,
+        "submission_id": 80354993,
         "user_id": "mackerel38"
       },
       "problem_id": "abc481_b"
