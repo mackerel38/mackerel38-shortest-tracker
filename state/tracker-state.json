@@ -24098,11 +24098,11 @@
     },
     "abc481_b": {
       "contest_id": "abc481",
-      "epoch_second": 1792861831,
-      "language": "A言語 (interpreter af48a2a)",
-      "length": 37,
-      "submission_id": 80357215,
-      "user_id": "kukone"
+      "epoch_second": 1792875839,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)",
+      "length": 36,
+      "submission_id": 80358778,
+      "user_id": "Fleur"
     },
     "abc481_c": {
       "contest_id": "abc481",
@@ -68780,9 +68780,9 @@
       "contest_id": "past24-open",
       "epoch_second": null,
       "language": null,
-      "length": 80,
-      "submission_id": 80051539,
-      "user_id": "sasa8uyauya"
+      "length": 75,
+      "submission_id": 80355431,
+      "user_id": "l_s_t"
     },
     "past24_c": {
       "contest_id": "past24-open",
@@ -81892,7 +81892,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792869659,
+  "last_checked_epoch": 1792878460,
   "recommendation_day": "2026-10-25",
   "recommendations": [
     "abc473_d"
@@ -96921,6 +96921,10 @@
     "80357400": {
       "epoch_second": 1792862760,
       "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80358778": {
+      "epoch_second": 1792875839,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
     }
   },
   "target_language_index_complete": true,
@@ -102399,6 +102403,7 @@
     "abc481_b:80354231",
     "abc481_b:80354993",
     "abc481_b:80357215",
+    "abc481_b:80358778",
     "agc008_b:80289467",
     "agc025_b:80293989",
     "agc033_a:80292818",
@@ -108781,6 +108786,25 @@
         "length": 41,
         "submission_id": 80354993,
         "user_id": "mackerel38"
+      },
+      "problem_id": "abc481_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792875839,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 36,
+        "submission_id": 80358778,
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792861831,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 37,
+        "submission_id": 80357215,
+        "user_id": "kukone"
       },
       "problem_id": "abc481_b"
     }
