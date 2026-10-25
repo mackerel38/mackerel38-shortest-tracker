@@ -185,8 +185,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792921220,
-  "generated_iso": "2026-10-25T09:40:20+00:00",
+  "generated_epoch": 1792936573,
+  "generated_iso": "2026-10-25T13:56:13+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -195,6 +195,28 @@
     "Recommendedは、mackerel38の提出言語がC++だけで、現在のShortest言語が指定除外言語ではない問題から選びます。"
   ],
   "problems": [
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792923839,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 97,
+      "current_submission_id": 80385244,
+      "current_submission_url": "https://atcoder.jp/contests/arc017/submissions/80385244",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792923839,
+      "last_acquired_epoch": 1792923839,
+      "problem_id": "arc017_3",
+      "problem_index": "C",
+      "problem_name": "無駄なものが嫌いな人",
+      "problem_title": "C. 無駄なものが嫌いな人",
+      "problem_url": "https://atcoder.jp/contests/arc017/tasks/arc017_3",
+      "status": "holding",
+      "target_epoch_second": 1792923839,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 97,
+      "target_submission_id": 80385244,
+      "target_submission_url": "https://atcoder.jp/contests/arc017/submissions/80385244"
+    },
     {
       "acquisition_count": 2,
       "current_epoch_second": 1792917619,
@@ -8377,15 +8399,38 @@
   ],
   "summary": {
     "active_update_count": 8,
-    "ever_held_count": 371,
-    "holding_count": 363,
+    "ever_held_count": 372,
+    "holding_count": 364,
     "loss_event_count": 8,
     "lost_count": 8,
-    "update_log_count": 330,
+    "update_log_count": 331,
     "updated_count": 8
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "arc017",
+        "epoch_second": 1792923839,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 97,
+        "submission_id": 80385244,
+        "submission_url": "https://atcoder.jp/contests/arc017/submissions/80385244",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc017",
+        "epoch_second": null,
+        "language": null,
+        "length": 118,
+        "submission_id": 4434791,
+        "submission_url": "https://atcoder.jp/contests/arc017/submissions/4434791",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc017_3",
+      "problem_name": "無駄なものが嫌いな人",
+      "problem_url": "https://atcoder.jp/contests/arc017/tasks/arc017_3"
+    },
     {
       "after": {
         "contest_id": "abc481",
