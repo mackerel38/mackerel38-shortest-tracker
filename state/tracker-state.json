@@ -37872,6 +37872,38 @@
       "submission_id": 80202040,
       "user_id": "xwd456"
     },
+    "arc233_a": {
+      "contest_id": "arc233",
+      "epoch_second": 1792937925,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 750,
+      "submission_id": 80392322,
+      "user_id": "Rssll_Krkgrd"
+    },
+    "arc233_b": {
+      "contest_id": "arc233",
+      "epoch_second": 1792937752,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 758,
+      "submission_id": 80392215,
+      "user_id": "LosMem"
+    },
+    "arc233_c": {
+      "contest_id": "arc233",
+      "epoch_second": null,
+      "language": null,
+      "length": 1357,
+      "submission_id": 80388830,
+      "user_id": "myfjchx"
+    },
+    "arc233_d": {
+      "contest_id": "arc233",
+      "epoch_second": null,
+      "language": null,
+      "length": 2379,
+      "submission_id": 80390379,
+      "user_id": "apiad"
+    },
     "asaporo2_a": {
       "contest_id": "cf17-tournament-round2-open",
       "epoch_second": null,
@@ -45514,27 +45546,27 @@
     },
     "awc0181_b": {
       "contest_id": "awc0181",
-      "epoch_second": 1792412083,
+      "epoch_second": 1792937532,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 27,
-      "submission_id": 80199482,
+      "length": 26,
+      "submission_id": 80392082,
       "user_id": "shogo314"
     },
     "awc0181_c": {
       "contest_id": "awc0181",
-      "epoch_second": 1792435390,
+      "epoch_second": 1792937562,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 34,
-      "submission_id": 80204716,
+      "length": 30,
+      "submission_id": 80392099,
       "user_id": "shogo314"
     },
     "awc0181_d": {
       "contest_id": "awc0181",
-      "epoch_second": 1792413357,
-      "language": "Python (CPython 3.13.7)",
-      "length": 315,
-      "submission_id": 80199876,
-      "user_id": "sasa8uyauya"
+      "epoch_second": 1792937600,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 78,
+      "submission_id": 80392118,
+      "user_id": "shogo314"
     },
     "awc0181_e": {
       "contest_id": "awc0181",
@@ -45562,19 +45594,19 @@
     },
     "awc0182_c": {
       "contest_id": "awc0182",
-      "epoch_second": 1792568352,
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 146,
-      "submission_id": 80232599,
-      "user_id": "kino0402"
+      "epoch_second": null,
+      "language": null,
+      "length": 145,
+      "submission_id": 80385792,
+      "user_id": "shogo314"
     },
     "awc0182_d": {
       "contest_id": "awc0182",
-      "epoch_second": 1792498076,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 410,
-      "submission_id": 80219222,
-      "user_id": "sasa8uyauya"
+      "epoch_second": null,
+      "language": null,
+      "length": 98,
+      "submission_id": 80385811,
+      "user_id": "shogo314"
     },
     "awc0182_e": {
       "contest_id": "awc0182",
@@ -45994,11 +46026,11 @@
     },
     "birthday0410_x": {
       "contest_id": "birthday0410",
-      "epoch_second": null,
-      "language": null,
-      "length": 2717,
-      "submission_id": 68476432,
-      "user_id": "ToUNVRSe"
+      "epoch_second": 1792936499,
+      "language": "Python (CPython 3.13.7)",
+      "length": 1735,
+      "submission_id": 80391408,
+      "user_id": "WYD1"
     },
     "bitflyer2018_final_a": {
       "contest_id": "bitflyer2018-final",
@@ -81932,10 +81964,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1792936573,
-  "recommendation_day": "2026-10-25",
+  "last_checked_epoch": 1792949629,
+  "recommendation_day": "2026-10-26",
   "recommendations": [
-    "abc473_d"
+    "arc227_a"
   ],
   "submission_details": {
     "50666051": {
@@ -97041,6 +97073,86 @@
     "80385732": {
       "epoch_second": 1792925712,
       "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391046": {
+      "epoch_second": 1792935976,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391067": {
+      "epoch_second": 1792936004,
+      "language": "Python (Codon 0.19.3)"
+    },
+    "80391081": {
+      "epoch_second": 1792936022,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391087": {
+      "epoch_second": 1792936035,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391205": {
+      "epoch_second": 1792936207,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391214": {
+      "epoch_second": 1792936219,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80391224": {
+      "epoch_second": 1792936234,
+      "language": "C++23 (Clang 21.1.0)"
+    },
+    "80391267": {
+      "epoch_second": 1792936289,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391344": {
+      "epoch_second": 1792936409,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80391408": {
+      "epoch_second": 1792936499,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "80391456": {
+      "epoch_second": 1792936588,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391569": {
+      "epoch_second": 1792936741,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391783": {
+      "epoch_second": 1792937050,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80391981": {
+      "epoch_second": 1792937378,
+      "language": "C++23 (Clang 21.1.0)"
+    },
+    "80392082": {
+      "epoch_second": 1792937532,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80392099": {
+      "epoch_second": 1792937562,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80392118": {
+      "epoch_second": 1792937600,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80392215": {
+      "epoch_second": 1792937752,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80392322": {
+      "epoch_second": 1792937925,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80393293": {
+      "epoch_second": 1792939883,
+      "language": "C++23 (GCC 15.2.0)"
     }
   },
   "target_language_index_complete": true,
@@ -100065,6 +100177,9 @@
       "cLay (cLay 20250308-1 (GCC 15.2.0))"
     ],
     "arc229_f": [
+      "C++23 (GCC 15.2.0)"
+    ],
+    "arc233_b": [
       "C++23 (GCC 15.2.0)"
     ],
     "awc0001_a": [
