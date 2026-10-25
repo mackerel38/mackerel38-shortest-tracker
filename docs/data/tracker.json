@@ -3,12 +3,12 @@
     {
       "after": {
         "contest_id": "abc481",
-        "epoch_second": 1792875839,
-        "language": "dc 1.5.2 (GNU bc 1.08.2)",
-        "length": 36,
-        "submission_id": 80358778,
-        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80358778",
-        "user_id": "Fleur"
+        "epoch_second": 1792889640,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 30,
+        "submission_id": 80360175,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80360175",
+        "user_id": "kukone"
       },
       "before": {
         "contest_id": "abc481",
@@ -208,8 +208,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792878460,
-  "generated_iso": "2026-10-24T21:47:40+00:00",
+  "generated_epoch": 1792903585,
+  "generated_iso": "2026-10-25T04:46:25+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -220,12 +220,78 @@
   "problems": [
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792875839,
-      "current_language": "dc 1.5.2 (GNU bc 1.08.2)",
-      "current_length": 36,
-      "current_submission_id": 80358778,
-      "current_submission_url": "https://atcoder.jp/contests/abc481/submissions/80358778",
-      "current_user_id": "Fleur",
+      "current_epoch_second": 1792900238,
+      "current_language": "AWK (GNU awk 5.2.1)",
+      "current_length": 21,
+      "current_submission_id": 80363970,
+      "current_submission_url": "https://atcoder.jp/contests/abc481/submissions/80363970",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792900238,
+      "last_acquired_epoch": 1792900238,
+      "problem_id": "abc481_c",
+      "problem_index": "C",
+      "problem_name": "Bank Accounts",
+      "problem_title": "C. Bank Accounts",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_c",
+      "status": "holding",
+      "target_epoch_second": 1792900238,
+      "target_language": "AWK (GNU awk 5.2.1)",
+      "target_length": 21,
+      "target_submission_id": 80363970,
+      "target_submission_url": "https://atcoder.jp/contests/abc481/submissions/80363970"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792900084,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 108,
+      "current_submission_id": 80363915,
+      "current_submission_url": "https://atcoder.jp/contests/agc026/submissions/80363915",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792900084,
+      "last_acquired_epoch": 1792900084,
+      "problem_id": "agc026_c",
+      "problem_index": "C",
+      "problem_name": "String Coloring",
+      "problem_title": "C. String Coloring",
+      "problem_url": "https://atcoder.jp/contests/agc026/tasks/agc026_c",
+      "status": "holding",
+      "target_epoch_second": 1792900084,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 108,
+      "target_submission_id": 80363915,
+      "target_submission_url": "https://atcoder.jp/contests/agc026/submissions/80363915"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792896164,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 79,
+      "current_submission_id": 80362351,
+      "current_submission_url": "https://atcoder.jp/contests/arc020/submissions/80362351",
+      "current_user_id": "mackerel38",
+      "first_acquired_epoch": 1792896164,
+      "last_acquired_epoch": 1792896164,
+      "problem_id": "arc020_2",
+      "problem_index": "B",
+      "problem_name": "縞模様",
+      "problem_title": "B. 縞模様",
+      "problem_url": "https://atcoder.jp/contests/arc020/tasks/arc020_2",
+      "status": "holding",
+      "target_epoch_second": 1792896164,
+      "target_language": "Uiua (uiua 0.16.2)",
+      "target_length": 79,
+      "target_submission_id": 80362351,
+      "target_submission_url": "https://atcoder.jp/contests/arc020/submissions/80362351"
+    },
+    {
+      "acquisition_count": 1,
+      "current_epoch_second": 1792889640,
+      "current_language": "A言語 (interpreter af48a2a)",
+      "current_length": 30,
+      "current_submission_id": 80360175,
+      "current_submission_url": "https://atcoder.jp/contests/abc481/submissions/80360175",
+      "current_user_id": "kukone",
       "first_acquired_epoch": 1792853268,
       "last_acquired_epoch": 1792853268,
       "problem_id": "abc481_b",
@@ -8334,15 +8400,130 @@
   ],
   "summary": {
     "active_update_count": 9,
-    "ever_held_count": 368,
-    "holding_count": 359,
+    "ever_held_count": 371,
+    "holding_count": 362,
     "loss_event_count": 9,
     "lost_count": 9,
-    "update_log_count": 324,
+    "update_log_count": 329,
     "updated_count": 9
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792900238,
+        "language": "AWK (GNU awk 5.2.1)",
+        "length": 21,
+        "submission_id": 80363970,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80363970",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": null,
+        "language": null,
+        "length": 24,
+        "submission_id": 80329681,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80329681",
+        "user_id": "climpet"
+      },
+      "problem_id": "abc481_c",
+      "problem_name": "Bank Accounts",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_c"
+    },
+    {
+      "after": {
+        "contest_id": "agc026",
+        "epoch_second": 1792900084,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 108,
+        "submission_id": 80363915,
+        "submission_url": "https://atcoder.jp/contests/agc026/submissions/80363915",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "agc026",
+        "epoch_second": null,
+        "language": null,
+        "length": 126,
+        "submission_id": 28086858,
+        "submission_url": "https://atcoder.jp/contests/agc026/submissions/28086858",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "agc026_c",
+      "problem_name": "String Coloring",
+      "problem_url": "https://atcoder.jp/contests/agc026/tasks/agc026_c"
+    },
+    {
+      "after": {
+        "contest_id": "arc020",
+        "epoch_second": 1792896164,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 79,
+        "submission_id": 80362351,
+        "submission_url": "https://atcoder.jp/contests/arc020/submissions/80362351",
+        "user_id": "mackerel38"
+      },
+      "before": {
+        "contest_id": "arc020",
+        "epoch_second": null,
+        "language": null,
+        "length": 90,
+        "submission_id": 14651613,
+        "submission_url": "https://atcoder.jp/contests/arc020/submissions/14651613",
+        "user_id": "kotatsugame"
+      },
+      "problem_id": "arc020_2",
+      "problem_name": "縞模様",
+      "problem_url": "https://atcoder.jp/contests/arc020/tasks/arc020_2"
+    },
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792889640,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 30,
+        "submission_id": 80360175,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80360175",
+        "user_id": "kukone"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792889330,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 80360104,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80360104",
+        "user_id": "kukone"
+      },
+      "problem_id": "abc481_b",
+      "problem_name": "Polyline",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_b"
+    },
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792889330,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 32,
+        "submission_id": 80360104,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80360104",
+        "user_id": "kukone"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792875839,
+        "language": "dc 1.5.2 (GNU bc 1.08.2)",
+        "length": 36,
+        "submission_id": 80358778,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80358778",
+        "user_id": "Fleur"
+      },
+      "problem_id": "abc481_b",
+      "problem_name": "Polyline",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_b"
+    },
     {
       "after": {
         "contest_id": "abc481",
