@@ -2,6 +2,75 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792998414,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 27,
+        "submission_id": 80403818,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80403818",
+        "user_id": "kukone"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792917619,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 29,
+        "submission_id": 80383372,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80383372",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc481_b",
+      "problem_name": "Polyline",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1792996227,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 149,
+        "submission_id": 80402888,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402888",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790944931,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 255,
+        "submission_id": 79678239,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678239",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0170_d",
+      "problem_name": "Triangle with Integer Area",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1792996106,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 44,
+        "submission_id": 80402842,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402842",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790972158,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 45,
+        "submission_id": 79682984,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0170_b",
+      "problem_name": "Fair Distribution of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b"
+    },
+    {
+      "after": {
         "contest_id": "awc0164",
         "epoch_second": 1792806901,
         "language": "AWK (GNU awk 5.2.1)",
@@ -185,8 +254,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1792949629,
-  "generated_iso": "2026-10-25T17:33:49+00:00",
+  "generated_epoch": 1793013989,
+  "generated_iso": "2026-10-26T11:26:29+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -219,12 +288,12 @@
     },
     {
       "acquisition_count": 2,
-      "current_epoch_second": 1792917619,
+      "current_epoch_second": 1792998414,
       "current_language": "A言語 (interpreter af48a2a)",
-      "current_length": 29,
-      "current_submission_id": 80383372,
-      "current_submission_url": "https://atcoder.jp/contests/abc481/submissions/80383372",
-      "current_user_id": "mackerel38",
+      "current_length": 27,
+      "current_submission_id": 80403818,
+      "current_submission_url": "https://atcoder.jp/contests/abc481/submissions/80403818",
+      "current_user_id": "kukone",
       "first_acquired_epoch": 1792853268,
       "last_acquired_epoch": 1792917619,
       "problem_id": "abc481_b",
@@ -232,7 +301,7 @@
       "problem_name": "Polyline",
       "problem_title": "B. Polyline",
       "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_b",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792917619,
       "target_language": "A言語 (interpreter af48a2a)",
       "target_length": 29,
@@ -2375,12 +2444,12 @@
     },
     {
       "acquisition_count": 2,
-      "current_epoch_second": 1790972158,
+      "current_epoch_second": 1792996106,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 45,
-      "current_submission_id": 79682984,
-      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984",
-      "current_user_id": "mackerel38",
+      "current_length": 44,
+      "current_submission_id": 80402842,
+      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402842",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1790941359,
       "last_acquired_epoch": 1790972158,
       "problem_id": "awc0170_b",
@@ -2388,7 +2457,7 @@
       "problem_name": "Fair Distribution of Sweets",
       "problem_title": "B. Fair Distribution of Sweets",
       "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1790972158,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 45,
@@ -2397,12 +2466,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1790944931,
-      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 255,
-      "current_submission_id": 79678239,
-      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678239",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1792996227,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 149,
+      "current_submission_id": 80402888,
+      "current_submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402888",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1790944931,
       "last_acquired_epoch": 1790944931,
       "problem_id": "awc0170_d",
@@ -2410,7 +2479,7 @@
       "problem_name": "Triangle with Integer Area",
       "problem_title": "D. Triangle with Integer Area",
       "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_d",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1790944931,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 255,
@@ -8398,16 +8467,85 @@
     }
   ],
   "summary": {
-    "active_update_count": 8,
+    "active_update_count": 11,
     "ever_held_count": 372,
-    "holding_count": 364,
-    "loss_event_count": 8,
-    "lost_count": 8,
-    "update_log_count": 331,
-    "updated_count": 8
+    "holding_count": 361,
+    "loss_event_count": 11,
+    "lost_count": 11,
+    "update_log_count": 334,
+    "updated_count": 11
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc481",
+        "epoch_second": 1792998414,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 27,
+        "submission_id": 80403818,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80403818",
+        "user_id": "kukone"
+      },
+      "before": {
+        "contest_id": "abc481",
+        "epoch_second": 1792917619,
+        "language": "A言語 (interpreter af48a2a)",
+        "length": 29,
+        "submission_id": 80383372,
+        "submission_url": "https://atcoder.jp/contests/abc481/submissions/80383372",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc481_b",
+      "problem_name": "Polyline",
+      "problem_url": "https://atcoder.jp/contests/abc481/tasks/abc481_b"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1792996227,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 149,
+        "submission_id": 80402888,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402888",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790944931,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 255,
+        "submission_id": 79678239,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79678239",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0170_d",
+      "problem_name": "Triangle with Integer Area",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_d"
+    },
+    {
+      "after": {
+        "contest_id": "awc0170",
+        "epoch_second": 1792996106,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 44,
+        "submission_id": 80402842,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/80402842",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "awc0170",
+        "epoch_second": 1790972158,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 45,
+        "submission_id": 79682984,
+        "submission_url": "https://atcoder.jp/contests/awc0170/submissions/79682984",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0170_b",
+      "problem_name": "Fair Distribution of Sweets",
+      "problem_url": "https://atcoder.jp/contests/awc0170/tasks/awc0170_b"
+    },
     {
       "after": {
         "contest_id": "arc017",
