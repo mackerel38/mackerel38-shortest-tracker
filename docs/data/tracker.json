@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1793041334,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 23,
+        "submission_id": 80415895,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/80415895",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791375543,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 25,
+        "submission_id": 79842825,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0173_b",
+      "problem_name": "Sea Chart Lanes",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_b"
+    },
+    {
+      "after": {
         "contest_id": "abc481",
         "epoch_second": 1792998414,
         "language": "A言語 (interpreter af48a2a)",
@@ -254,8 +277,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1793036085,
-  "generated_iso": "2026-10-26T17:34:45+00:00",
+  "generated_epoch": 1793051653,
+  "generated_iso": "2026-10-26T21:54:13+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -2092,12 +2115,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1791375543,
+      "current_epoch_second": 1793041334,
       "current_language": "Uiua (uiua 0.16.2)",
-      "current_length": 25,
-      "current_submission_id": 79842825,
-      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825",
-      "current_user_id": "mackerel38",
+      "current_length": 23,
+      "current_submission_id": 80415895,
+      "current_submission_url": "https://atcoder.jp/contests/awc0173/submissions/80415895",
+      "current_user_id": "Fleur",
       "first_acquired_epoch": 1791375543,
       "last_acquired_epoch": 1791375543,
       "problem_id": "awc0173_b",
@@ -2105,7 +2128,7 @@
       "problem_name": "Sea Chart Lanes",
       "problem_title": "B. Sea Chart Lanes",
       "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_b",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1791375543,
       "target_language": "Uiua (uiua 0.16.2)",
       "target_length": 25,
@@ -8452,16 +8475,39 @@
   "recommendation_day": "2026-10-27",
   "recommendations": [],
   "summary": {
-    "active_update_count": 11,
+    "active_update_count": 12,
     "ever_held_count": 372,
-    "holding_count": 361,
-    "loss_event_count": 11,
-    "lost_count": 11,
-    "update_log_count": 334,
-    "updated_count": 11
+    "holding_count": 360,
+    "loss_event_count": 12,
+    "lost_count": 12,
+    "update_log_count": 335,
+    "updated_count": 12
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "awc0173",
+        "epoch_second": 1793041334,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 23,
+        "submission_id": 80415895,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/80415895",
+        "user_id": "Fleur"
+      },
+      "before": {
+        "contest_id": "awc0173",
+        "epoch_second": 1791375543,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 25,
+        "submission_id": 79842825,
+        "submission_url": "https://atcoder.jp/contests/awc0173/submissions/79842825",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "awc0173_b",
+      "problem_name": "Sea Chart Lanes",
+      "problem_url": "https://atcoder.jp/contests/awc0173/tasks/awc0173_b"
+    },
     {
       "after": {
         "contest_id": "abc481",
