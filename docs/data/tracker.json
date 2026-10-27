@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1793070341,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 67,
+        "submission_id": 80418813,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80418813",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792380219,
+        "language": "Perl (perl 5.38.2)",
+        "length": 96,
+        "submission_id": 80188859,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80188859",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc480_b",
+      "problem_name": "Invalid Vote",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_b"
+    },
+    {
+      "after": {
         "contest_id": "awc0173",
         "epoch_second": 1793041334,
         "language": "Uiua (uiua 0.16.2)",
@@ -277,8 +300,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1793051653,
-  "generated_iso": "2026-10-26T21:54:13+00:00",
+  "generated_epoch": 1793083398,
+  "generated_iso": "2026-10-27T06:43:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -1675,12 +1698,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1792380219,
-      "current_language": "Perl (perl 5.38.2)",
-      "current_length": 96,
-      "current_submission_id": 80188859,
-      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80188859",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1793070341,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 67,
+      "current_submission_id": 80418813,
+      "current_submission_url": "https://atcoder.jp/contests/abc480/submissions/80418813",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1792380219,
       "last_acquired_epoch": 1792380219,
       "problem_id": "abc480_b",
@@ -1688,7 +1711,7 @@
       "problem_name": "Invalid Vote",
       "problem_title": "B. Invalid Vote",
       "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_b",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1792380219,
       "target_language": "Perl (perl 5.38.2)",
       "target_length": 96,
@@ -8475,16 +8498,39 @@
   "recommendation_day": "2026-10-27",
   "recommendations": [],
   "summary": {
-    "active_update_count": 12,
+    "active_update_count": 13,
     "ever_held_count": 372,
-    "holding_count": 360,
-    "loss_event_count": 12,
-    "lost_count": 12,
-    "update_log_count": 335,
-    "updated_count": 12
+    "holding_count": 359,
+    "loss_event_count": 13,
+    "lost_count": 13,
+    "update_log_count": 336,
+    "updated_count": 13
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc480",
+        "epoch_second": 1793070341,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 67,
+        "submission_id": 80418813,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80418813",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc480",
+        "epoch_second": 1792380219,
+        "language": "Perl (perl 5.38.2)",
+        "length": 96,
+        "submission_id": 80188859,
+        "submission_url": "https://atcoder.jp/contests/abc480/submissions/80188859",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc480_b",
+      "problem_name": "Invalid Vote",
+      "problem_url": "https://atcoder.jp/contests/abc480/tasks/abc480_b"
+    },
     {
       "after": {
         "contest_id": "awc0173",
