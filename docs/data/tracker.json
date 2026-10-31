@@ -2,6 +2,29 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1793440264,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 116,
+        "submission_id": 80492388,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/80492388",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785752997,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 119,
+        "submission_id": 78094499,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_e",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e"
+    },
+    {
+      "after": {
         "contest_id": "abc476",
         "epoch_second": 1793262206,
         "language": "Uiua (uiua 0.16.2)",
@@ -323,8 +346,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1793378192,
-  "generated_iso": "2026-10-30T16:36:32+00:00",
+  "generated_epoch": 1793453366,
+  "generated_iso": "2026-10-31T13:29:26+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4317,12 +4340,12 @@
     },
     {
       "acquisition_count": 2,
-      "current_epoch_second": 1785752997,
-      "current_language": "Ruby 3.4 (ruby 3.4.5)",
-      "current_length": 119,
-      "current_submission_id": 78094499,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1793440264,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 116,
+      "current_submission_id": 80492388,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/80492388",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785638448,
       "last_acquired_epoch": 1785752997,
       "problem_id": "abc469_e",
@@ -4330,7 +4353,7 @@
       "problem_name": "Pro Exam Eligibility",
       "problem_title": "H. Pro Exam Eligibility",
       "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785752997,
       "target_language": "Ruby 3.4 (ruby 3.4.5)",
       "target_length": 119,
@@ -8521,16 +8544,39 @@
   "recommendation_day": "2026-10-31",
   "recommendations": [],
   "summary": {
-    "active_update_count": 14,
+    "active_update_count": 15,
     "ever_held_count": 372,
-    "holding_count": 358,
-    "loss_event_count": 14,
-    "lost_count": 14,
-    "update_log_count": 338,
-    "updated_count": 14
+    "holding_count": 357,
+    "loss_event_count": 15,
+    "lost_count": 15,
+    "update_log_count": 339,
+    "updated_count": 15
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1793440264,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 116,
+        "submission_id": 80492388,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/80492388",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785752997,
+        "language": "Ruby 3.4 (ruby 3.4.5)",
+        "length": 119,
+        "submission_id": 78094499,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78094499",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_e",
+      "problem_name": "Pro Exam Eligibility",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_e"
+    },
     {
       "after": {
         "contest_id": "abc476",
