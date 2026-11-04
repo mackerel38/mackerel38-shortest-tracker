@@ -2,6 +2,52 @@
   "active_updates": [
     {
       "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793766348,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 140,
+        "submission_id": 80589101,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc466",
+        "epoch_second": 1785030636,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 160,
+        "submission_id": 77872860,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/77872860",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc466_f",
+      "problem_name": "Many Mod Calculation",
+      "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793766330,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 53,
+        "submission_id": 80589094,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589094",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc466",
+        "epoch_second": 1785030513,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 94,
+        "submission_id": 77872832,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/77872832",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc466_e",
+      "problem_name": "Range Flip",
+      "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_e"
+    },
+    {
+      "after": {
         "contest_id": "abc469",
         "epoch_second": 1793440264,
         "language": "Uiua (uiua 0.16.2)",
@@ -346,8 +392,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1793726071,
-  "generated_iso": "2026-11-03T17:14:31+00:00",
+  "generated_epoch": 1793786021,
+  "generated_iso": "2026-11-04T09:53:41+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -7398,12 +7444,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785030636,
+      "current_epoch_second": 1793766348,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 160,
-      "current_submission_id": 77872860,
-      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/77872860",
-      "current_user_id": "mackerel38",
+      "current_length": 140,
+      "current_submission_id": 80589101,
+      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785030636,
       "last_acquired_epoch": 1785030636,
       "problem_id": "abc466_f",
@@ -7411,7 +7457,7 @@
       "problem_name": "Many Mod Calculation",
       "problem_title": "F. Many Mod Calculation",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_f",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785030636,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 160,
@@ -7420,12 +7466,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785030513,
-      "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 94,
-      "current_submission_id": 77872832,
-      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/77872832",
-      "current_user_id": "mackerel38",
+      "current_epoch_second": 1793766330,
+      "current_language": "Uiua (uiua 0.16.2)",
+      "current_length": 53,
+      "current_submission_id": 80589094,
+      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/80589094",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785030513,
       "last_acquired_epoch": 1785030513,
       "problem_id": "abc466_e",
@@ -7433,7 +7479,7 @@
       "problem_name": "Range Flip",
       "problem_title": "H. Range Flip",
       "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_e",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785030513,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 94,
@@ -8544,16 +8590,62 @@
   "recommendation_day": "2026-11-04",
   "recommendations": [],
   "summary": {
-    "active_update_count": 15,
+    "active_update_count": 17,
     "ever_held_count": 372,
-    "holding_count": 357,
-    "loss_event_count": 15,
-    "lost_count": 15,
-    "update_log_count": 339,
-    "updated_count": 15
+    "holding_count": 355,
+    "loss_event_count": 17,
+    "lost_count": 17,
+    "update_log_count": 341,
+    "updated_count": 17
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793766348,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 140,
+        "submission_id": 80589101,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc466",
+        "epoch_second": 1785030636,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 160,
+        "submission_id": 77872860,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/77872860",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc466_f",
+      "problem_name": "Many Mod Calculation",
+      "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793766330,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 53,
+        "submission_id": 80589094,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589094",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc466",
+        "epoch_second": 1785030513,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 94,
+        "submission_id": 77872832,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/77872832",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc466_e",
+      "problem_name": "Range Flip",
+      "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_e"
+    },
     {
       "after": {
         "contest_id": "abc469",
