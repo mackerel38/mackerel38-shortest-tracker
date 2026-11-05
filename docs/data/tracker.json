@@ -2,12 +2,35 @@
   "active_updates": [
     {
       "after": {
-        "contest_id": "abc466",
-        "epoch_second": 1793766348,
+        "contest_id": "abc469",
+        "epoch_second": 1793868115,
         "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-        "length": 140,
-        "submission_id": 80589101,
-        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+        "length": 108,
+        "submission_id": 80609691,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/80609691",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785661156,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 112,
+        "submission_id": 78071858,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_f",
+      "problem_name": "GCD Maximum Spanning Tree",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793868063,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 138,
+        "submission_id": 80609679,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80609679",
         "user_id": "shogo314"
       },
       "before": {
@@ -392,8 +415,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1793814842,
-  "generated_iso": "2026-11-04T17:54:02+00:00",
+  "generated_epoch": 1793878499,
+  "generated_iso": "2026-11-05T11:34:59+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -4452,12 +4475,12 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1785661156,
+      "current_epoch_second": 1793868115,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 112,
-      "current_submission_id": 78071858,
-      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858",
-      "current_user_id": "mackerel38",
+      "current_length": 108,
+      "current_submission_id": 80609691,
+      "current_submission_url": "https://atcoder.jp/contests/abc469/submissions/80609691",
+      "current_user_id": "shogo314",
       "first_acquired_epoch": 1785643951,
       "last_acquired_epoch": 1785643951,
       "problem_id": "abc469_f",
@@ -4465,7 +4488,7 @@
       "problem_name": "GCD Maximum Spanning Tree",
       "problem_title": "F. GCD Maximum Spanning Tree",
       "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f",
-      "status": "holding",
+      "status": "updated",
       "target_epoch_second": 1785661156,
       "target_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
       "target_length": 112,
@@ -7444,11 +7467,11 @@
     },
     {
       "acquisition_count": 1,
-      "current_epoch_second": 1793766348,
+      "current_epoch_second": 1793868063,
       "current_language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "current_length": 140,
-      "current_submission_id": 80589101,
-      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+      "current_length": 138,
+      "current_submission_id": 80609679,
+      "current_submission_url": "https://atcoder.jp/contests/abc466/submissions/80609679",
       "current_user_id": "shogo314",
       "first_acquired_epoch": 1785030636,
       "last_acquired_epoch": 1785030636,
@@ -8605,16 +8628,62 @@
     }
   ],
   "summary": {
-    "active_update_count": 17,
+    "active_update_count": 18,
     "ever_held_count": 372,
-    "holding_count": 355,
-    "loss_event_count": 17,
-    "lost_count": 17,
-    "update_log_count": 341,
-    "updated_count": 17
+    "holding_count": 354,
+    "loss_event_count": 18,
+    "lost_count": 18,
+    "update_log_count": 343,
+    "updated_count": 18
   },
   "target_user": "mackerel38",
   "update_log": [
+    {
+      "after": {
+        "contest_id": "abc469",
+        "epoch_second": 1793868115,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 108,
+        "submission_id": 80609691,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/80609691",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc469",
+        "epoch_second": 1785661156,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 112,
+        "submission_id": 78071858,
+        "submission_url": "https://atcoder.jp/contests/abc469/submissions/78071858",
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc469_f",
+      "problem_name": "GCD Maximum Spanning Tree",
+      "problem_url": "https://atcoder.jp/contests/abc469/tasks/abc469_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc466",
+        "epoch_second": 1793868063,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 138,
+        "submission_id": 80609679,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80609679",
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc466",
+        "epoch_second": 1793766348,
+        "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+        "length": 140,
+        "submission_id": 80589101,
+        "submission_url": "https://atcoder.jp/contests/abc466/submissions/80589101",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc466_f",
+      "problem_name": "Many Mod Calculation",
+      "problem_url": "https://atcoder.jp/contests/abc466/tasks/abc466_f"
+    },
     {
       "after": {
         "contest_id": "abc466",
