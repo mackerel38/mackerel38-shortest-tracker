@@ -21410,11 +21410,11 @@
     },
     "abc433_b": {
       "contest_id": "abc433",
-      "epoch_second": null,
-      "language": null,
-      "length": 35,
-      "submission_id": 71218013,
-      "user_id": "i_taku"
+      "epoch_second": 1793989057,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 33,
+      "submission_id": 80636292,
+      "user_id": "shogo314"
     },
     "abc433_c": {
       "contest_id": "abc433",
@@ -21434,11 +21434,11 @@
     },
     "abc433_e": {
       "contest_id": "abc433",
-      "epoch_second": null,
-      "language": null,
-      "length": 439,
-      "submission_id": 71432620,
-      "user_id": "negativesquare"
+      "epoch_second": 1793989086,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 200,
+      "submission_id": 80636298,
+      "user_id": "shogo314"
     },
     "abc433_f": {
       "contest_id": "abc433",
@@ -21482,19 +21482,19 @@
     },
     "abc434_d": {
       "contest_id": "abc434",
-      "epoch_second": null,
-      "language": null,
-      "length": 353,
-      "submission_id": 75172524,
-      "user_id": "miztom"
+      "epoch_second": 1793998932,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
+      "length": 188,
+      "submission_id": 80637567,
+      "user_id": "shogo314"
     },
     "abc434_e": {
       "contest_id": "abc434",
-      "epoch_second": null,
-      "language": null,
-      "length": 242,
-      "submission_id": 76417467,
-      "user_id": "kino0402"
+      "epoch_second": 1793997547,
+      "language": "AWK (GNU awk 5.2.1)",
+      "length": 122,
+      "submission_id": 80637415,
+      "user_id": "shogo314"
     },
     "abc434_f": {
       "contest_id": "abc434",
@@ -21530,11 +21530,11 @@
     },
     "abc435_c": {
       "contest_id": "abc435",
-      "epoch_second": null,
-      "language": null,
-      "length": 33,
-      "submission_id": 71564438,
-      "user_id": "i_taku"
+      "epoch_second": 1794009305,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 31,
+      "submission_id": 80638682,
+      "user_id": "shogo314"
     },
     "abc435_d": {
       "contest_id": "abc435",
@@ -21546,19 +21546,19 @@
     },
     "abc435_e": {
       "contest_id": "abc435",
-      "epoch_second": null,
-      "language": null,
-      "length": 261,
-      "submission_id": 72797964,
-      "user_id": "negativesquare"
+      "epoch_second": 1794009339,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 145,
+      "submission_id": 80638689,
+      "user_id": "shogo314"
     },
     "abc435_f": {
       "contest_id": "abc435",
-      "epoch_second": null,
-      "language": null,
-      "length": 255,
-      "submission_id": 75197175,
-      "user_id": "negativesquare"
+      "epoch_second": 1794009394,
+      "language": "A言語 (interpreter af48a2a)",
+      "length": 113,
+      "submission_id": 80638696,
+      "user_id": "shogo314"
     },
     "abc435_g": {
       "contest_id": "abc435",
@@ -24199,6 +24199,62 @@
       "length": 1249,
       "submission_id": 80529376,
       "user_id": "reoreo21"
+    },
+    "abc483_a": {
+      "contest_id": "abc483",
+      "epoch_second": null,
+      "language": null,
+      "length": 5,
+      "submission_id": 80647726,
+      "user_id": "kotatsugame"
+    },
+    "abc483_b": {
+      "contest_id": "abc483",
+      "epoch_second": 1794059191,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 44,
+      "submission_id": 80691658,
+      "user_id": "shogo314"
+    },
+    "abc483_c": {
+      "contest_id": "abc483",
+      "epoch_second": 1794067682,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 159,
+      "submission_id": 80696588,
+      "user_id": "shogo314"
+    },
+    "abc483_d": {
+      "contest_id": "abc483",
+      "epoch_second": 1794067698,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 70,
+      "submission_id": 80696590,
+      "user_id": "shogo314"
+    },
+    "abc483_e": {
+      "contest_id": "abc483",
+      "epoch_second": 1794067713,
+      "language": "Uiua (uiua 0.16.2)",
+      "length": 127,
+      "submission_id": 80696598,
+      "user_id": "shogo314"
+    },
+    "abc483_f": {
+      "contest_id": "abc483",
+      "epoch_second": 1794064894,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 292,
+      "submission_id": 80695591,
+      "user_id": "DeltaStruct"
+    },
+    "abc483_g": {
+      "contest_id": "abc483",
+      "epoch_second": null,
+      "language": null,
+      "length": 645,
+      "submission_id": 80684984,
+      "user_id": "Hamburger998"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -37058,19 +37114,19 @@
     },
     "arc213_c": {
       "contest_id": "arc213",
-      "epoch_second": null,
-      "language": null,
-      "length": 2830,
-      "submission_id": 74206824,
-      "user_id": "LosMem"
+      "epoch_second": 1794036362,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 2762,
+      "submission_id": 80643666,
+      "user_id": "LoplopScandi"
     },
     "arc213_d": {
       "contest_id": "arc213",
-      "epoch_second": null,
-      "language": null,
-      "length": 1331,
-      "submission_id": 76003779,
-      "user_id": "syf0"
+      "epoch_second": 1794036316,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 960,
+      "submission_id": 80643654,
+      "user_id": "LoplopScandi"
     },
     "arc214_a": {
       "contest_id": "arc214",
@@ -37106,19 +37162,19 @@
     },
     "arc214_e": {
       "contest_id": "arc214",
-      "epoch_second": null,
-      "language": null,
-      "length": 1167,
-      "submission_id": 73600472,
-      "user_id": "DaiRuiChen007"
+      "epoch_second": 1794036159,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 990,
+      "submission_id": 80643609,
+      "user_id": "LoplopScandi"
     },
     "arc214_f": {
       "contest_id": "arc214",
-      "epoch_second": null,
-      "language": null,
-      "length": 1004,
-      "submission_id": 75367513,
-      "user_id": "LosMem"
+      "epoch_second": 1794036186,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 926,
+      "submission_id": 80643616,
+      "user_id": "LoplopScandi"
     },
     "arc215_a": {
       "contest_id": "arc215",
@@ -37162,11 +37218,11 @@
     },
     "arc215_f": {
       "contest_id": "arc215",
-      "epoch_second": null,
-      "language": null,
-      "length": 2005,
-      "submission_id": 75324741,
-      "user_id": "LosMem"
+      "epoch_second": 1794036032,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1864,
+      "submission_id": 80643573,
+      "user_id": "LoplopScandi"
     },
     "arc216_a": {
       "contest_id": "arc216",
@@ -37196,17 +37252,17 @@
       "contest_id": "arc216",
       "epoch_second": null,
       "language": null,
-      "length": 1132,
-      "submission_id": 74366018,
-      "user_id": "LosMem"
+      "length": 1011,
+      "submission_id": 80643514,
+      "user_id": "LoplopScandi"
     },
     "arc216_e": {
       "contest_id": "arc216",
       "epoch_second": null,
       "language": null,
-      "length": 1454,
-      "submission_id": 74593445,
-      "user_id": "syf0"
+      "length": 1181,
+      "submission_id": 80643527,
+      "user_id": "LoplopScandi"
     },
     "arc217_a": {
       "contest_id": "arc217",
@@ -37482,11 +37538,11 @@
     },
     "arc222_f": {
       "contest_id": "arc222",
-      "epoch_second": null,
-      "language": null,
-      "length": 1502,
-      "submission_id": 76734229,
-      "user_id": "iastm"
+      "epoch_second": 1794035143,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1219,
+      "submission_id": 80643313,
+      "user_id": "LoplopScandi"
     },
     "arc223_a": {
       "contest_id": "arc223",
@@ -37530,11 +37586,11 @@
     },
     "arc223_f": {
       "contest_id": "arc223",
-      "epoch_second": null,
-      "language": null,
-      "length": 1867,
-      "submission_id": 77060455,
-      "user_id": "LosMem"
+      "epoch_second": 1794035051,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1687,
+      "submission_id": 80643286,
+      "user_id": "LoplopScandi"
     },
     "arc224_a": {
       "contest_id": "arc224",
@@ -37604,9 +37660,9 @@
       "contest_id": "arc225",
       "epoch_second": null,
       "language": null,
-      "length": 752,
-      "submission_id": 77712711,
-      "user_id": "ds14050"
+      "length": 741,
+      "submission_id": 80637159,
+      "user_id": "LoplopScandi"
     },
     "arc225_d": {
       "contest_id": "arc225",
@@ -37714,11 +37770,11 @@
     },
     "arc228_a": {
       "contest_id": "arc228",
-      "epoch_second": 1788177388,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 1477,
-      "submission_id": 78866460,
-      "user_id": "qiuyuanzhi"
+      "epoch_second": null,
+      "language": null,
+      "length": 1215,
+      "submission_id": 80637060,
+      "user_id": "LoplopScandi"
     },
     "arc228_b": {
       "contest_id": "arc228",
@@ -37746,11 +37802,11 @@
     },
     "arc228_e": {
       "contest_id": "arc228",
-      "epoch_second": 1789974087,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 2349,
-      "submission_id": 79416195,
-      "user_id": "yingjingxu"
+      "epoch_second": null,
+      "language": null,
+      "length": 1827,
+      "submission_id": 80637074,
+      "user_id": "LoplopScandi"
     },
     "arc229_a": {
       "contest_id": "arc229",
@@ -37818,11 +37874,11 @@
     },
     "arc230_c": {
       "contest_id": "arc230",
-      "epoch_second": null,
-      "language": null,
-      "length": 1240,
-      "submission_id": 79487964,
-      "user_id": "yniji"
+      "epoch_second": 1793994417,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 1112,
+      "submission_id": 80637026,
+      "user_id": "LoplopScandi"
     },
     "arc230_d": {
       "contest_id": "arc230",
@@ -37834,11 +37890,11 @@
     },
     "arc230_e": {
       "contest_id": "arc230",
-      "epoch_second": 1790492504,
+      "epoch_second": 1793994472,
       "language": "C++23 (GCC 15.2.0)",
-      "length": 1359,
-      "submission_id": 79581045,
-      "user_id": "nikangle"
+      "length": 965,
+      "submission_id": 80637036,
+      "user_id": "LoplopScandi"
     },
     "arc231_a": {
       "contest_id": "arc231",
@@ -37890,19 +37946,19 @@
     },
     "arc232_a": {
       "contest_id": "arc232",
-      "epoch_second": 1791639569,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 921,
-      "submission_id": 79904944,
-      "user_id": "zhongyujie"
+      "epoch_second": null,
+      "language": null,
+      "length": 756,
+      "submission_id": 80636968,
+      "user_id": "LoplopScandi"
     },
     "arc232_b": {
       "contest_id": "arc232",
-      "epoch_second": 1791638950,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 562,
-      "submission_id": 79904335,
-      "user_id": "undeadliberty"
+      "epoch_second": null,
+      "language": null,
+      "length": 533,
+      "submission_id": 80636971,
+      "user_id": "LoplopScandi"
     },
     "arc232_c": {
       "contest_id": "arc232",
@@ -37914,19 +37970,19 @@
     },
     "arc232_d": {
       "contest_id": "arc232",
-      "epoch_second": 1792419692,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 928,
-      "submission_id": 80202126,
-      "user_id": "xwd456"
+      "epoch_second": null,
+      "language": null,
+      "length": 773,
+      "submission_id": 80636982,
+      "user_id": "LoplopScandi"
     },
     "arc232_e": {
       "contest_id": "arc232",
       "epoch_second": null,
       "language": null,
-      "length": 586,
-      "submission_id": 80407675,
-      "user_id": "mahuateng"
+      "length": 539,
+      "submission_id": 80636987,
+      "user_id": "LoplopScandi"
     },
     "arc233_a": {
       "contest_id": "arc233",
@@ -37954,11 +38010,11 @@
     },
     "arc233_d": {
       "contest_id": "arc233",
-      "epoch_second": 1793377809,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 1422,
-      "submission_id": 80483615,
-      "user_id": "Jeroenodb"
+      "epoch_second": null,
+      "language": null,
+      "length": 1282,
+      "submission_id": 80636940,
+      "user_id": "LoplopScandi"
     },
     "asaporo2_a": {
       "contest_id": "cf17-tournament-round2-open",
@@ -46154,11 +46210,11 @@
     },
     "awc0195_a": {
       "contest_id": "awc0195",
-      "epoch_second": 1793964065,
+      "epoch_second": 1793985562,
       "language": "dc 1.5.2 (GNU bc 1.08.2)",
-      "length": 17,
-      "submission_id": 80630102,
-      "user_id": "yamadanull"
+      "length": 16,
+      "submission_id": 80635828,
+      "user_id": "Fleur"
     },
     "awc0195_b": {
       "contest_id": "awc0195",
@@ -46655,6 +46711,14 @@
       "length": 4125,
       "submission_id": 79919410,
       "user_id": "yuma220284"
+    },
+    "bogosortcontest_div1_j": {
+      "contest_id": "bogosortcontest_div1",
+      "epoch_second": 1794046071,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 97863,
+      "submission_id": 80646147,
+      "user_id": "PCTprobability"
     },
     "bogosortcontest_div1_k": {
       "contest_id": "bogosortcontest_div1",
@@ -82476,10 +82540,11 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1793977780,
-  "recommendation_day": "2026-11-07",
+  "last_checked_epoch": 1794076549,
+  "recommendation_day": "2026-11-08",
   "recommendations": [
-    "abc430_f"
+    "abc405_f",
+    "arc196_a"
   ],
   "submission_details": {
     "50666051": {
@@ -99829,6 +99894,246 @@
     "80631471": {
       "epoch_second": 1793967994,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80635828": {
+      "epoch_second": 1793985562,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
+    },
+    "80635893": {
+      "epoch_second": 1793986128,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80636292": {
+      "epoch_second": 1793989057,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "80636298": {
+      "epoch_second": 1793989086,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80637026": {
+      "epoch_second": 1793994417,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80637036": {
+      "epoch_second": 1793994472,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80637415": {
+      "epoch_second": 1793997547,
+      "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80637567": {
+      "epoch_second": 1793998932,
+      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "80638682": {
+      "epoch_second": 1794009305,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80638689": {
+      "epoch_second": 1794009339,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "80638696": {
+      "epoch_second": 1794009394,
+      "language": "A言語 (interpreter af48a2a)"
+    },
+    "80643286": {
+      "epoch_second": 1794035051,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643313": {
+      "epoch_second": 1794035143,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643573": {
+      "epoch_second": 1794036032,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643609": {
+      "epoch_second": 1794036159,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643616": {
+      "epoch_second": 1794036186,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643654": {
+      "epoch_second": 1794036316,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80643666": {
+      "epoch_second": 1794036362,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80646147": {
+      "epoch_second": 1794046071,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691325": {
+      "epoch_second": 1794058999,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "80691327": {
+      "epoch_second": 1794059000,
+      "language": "Java24 (OpenJDK 24.0.2)"
+    },
+    "80691329": {
+      "epoch_second": 1794059000,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691331": {
+      "epoch_second": 1794059001,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691332": {
+      "epoch_second": 1794059001,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691338": {
+      "epoch_second": 1794059003,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80691342": {
+      "epoch_second": 1794059006,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691364": {
+      "epoch_second": 1794059016,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691383": {
+      "epoch_second": 1794059027,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691384": {
+      "epoch_second": 1794059028,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691389": {
+      "epoch_second": 1794059029,
+      "language": "C++23 (Clang 21.1.0)"
+    },
+    "80691405": {
+      "epoch_second": 1794059036,
+      "language": "Python (CPython 3.13.7)"
+    },
+    "80691416": {
+      "epoch_second": 1794059045,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691435": {
+      "epoch_second": 1794059057,
+      "language": "dc 1.5.2 (GNU bc 1.08.2)"
+    },
+    "80691457": {
+      "epoch_second": 1794059069,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691472": {
+      "epoch_second": 1794059078,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691513": {
+      "epoch_second": 1794059103,
+      "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)"
+    },
+    "80691589": {
+      "epoch_second": 1794059152,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691626": {
+      "epoch_second": 1794059176,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80691633": {
+      "epoch_second": 1794059178,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691658": {
+      "epoch_second": 1794059191,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80691659": {
+      "epoch_second": 1794059192,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691662": {
+      "epoch_second": 1794059193,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691684": {
+      "epoch_second": 1794059205,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691707": {
+      "epoch_second": 1794059219,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80691719": {
+      "epoch_second": 1794059227,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80691805": {
+      "epoch_second": 1794059292,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80691910": {
+      "epoch_second": 1794059348,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80692185": {
+      "epoch_second": 1794059529,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80692573": {
+      "epoch_second": 1794059864,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80693210": {
+      "epoch_second": 1794060511,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80693624": {
+      "epoch_second": 1794061024,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80693931": {
+      "epoch_second": 1794061533,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80694349": {
+      "epoch_second": 1794062201,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80695591": {
+      "epoch_second": 1794064894,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80695648": {
+      "epoch_second": 1794065040,
+      "language": "C++23 (GCC 15.2.0)"
+    },
+    "80696160": {
+      "epoch_second": 1794066404,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80696279": {
+      "epoch_second": 1794066767,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80696588": {
+      "epoch_second": 1794067682,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80696590": {
+      "epoch_second": 1794067698,
+      "language": "Uiua (uiua 0.16.2)"
+    },
+    "80696598": {
+      "epoch_second": 1794067713,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
