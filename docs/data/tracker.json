@@ -415,8 +415,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1794076549,
-  "generated_iso": "2026-11-07T18:35:49+00:00",
+  "generated_epoch": 1794150959,
+  "generated_iso": "2026-11-08T15:15:59+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -8610,7 +8610,7 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-11-08",
+  "recommendation_day": "2026-11-09",
   "recommendations": [
     {
       "current": {
@@ -8625,20 +8625,6 @@
       "problem_id": "abc405_f",
       "problem_name": "Chord Crossing",
       "problem_url": "https://atcoder.jp/contests/abc405/tasks/abc405_f"
-    },
-    {
-      "current": {
-        "contest_id": "arc196",
-        "epoch_second": 1792503981,
-        "language": "Python (PyPy 3.11-v7.3.20)",
-        "length": 525,
-        "submission_id": 80221748,
-        "submission_url": "https://atcoder.jp/contests/arc196/submissions/80221748",
-        "user_id": "Rssll_Krkgrd"
-      },
-      "problem_id": "arc196_a",
-      "problem_name": "Adjacent Delete",
-      "problem_url": "https://atcoder.jp/contests/arc196/tasks/arc196_a"
     }
   ],
   "summary": {

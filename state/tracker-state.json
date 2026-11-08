@@ -24250,11 +24250,11 @@
     },
     "abc483_g": {
       "contest_id": "abc483",
-      "epoch_second": null,
-      "language": null,
-      "length": 645,
-      "submission_id": 80684984,
-      "user_id": "Hamburger998"
+      "epoch_second": 1794137637,
+      "language": "C++23 (GCC 15.2.0)",
+      "length": 574,
+      "submission_id": 80711371,
+      "user_id": "herman526"
     },
     "abl_a": {
       "contest_id": "abl",
@@ -46786,11 +46786,11 @@
     },
     "bogosortcontest_div2_g": {
       "contest_id": "bogosortcontest_div2",
-      "epoch_second": 1791700626,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 1104,
-      "submission_id": 79917889,
-      "user_id": "Z__atcoder"
+      "epoch_second": 1794110150,
+      "language": "Python (Codon 0.19.3)",
+      "length": 1046,
+      "submission_id": 80704253,
+      "user_id": "l_s_t"
     },
     "bogosortcontest_div2_h": {
       "contest_id": "bogosortcontest_div2",
@@ -82540,11 +82540,10 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1794076549,
-  "recommendation_day": "2026-11-08",
+  "last_checked_epoch": 1794150959,
+  "recommendation_day": "2026-11-09",
   "recommendations": [
-    "abc405_f",
-    "arc196_a"
+    "abc405_f"
   ],
   "submission_details": {
     "50666051": {
@@ -100134,6 +100133,14 @@
     "80696598": {
       "epoch_second": 1794067713,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "80704253": {
+      "epoch_second": 1794110150,
+      "language": "Python (Codon 0.19.3)"
+    },
+    "80711371": {
+      "epoch_second": 1794137637,
+      "language": "C++23 (GCC 15.2.0)"
     }
   },
   "target_language_index_complete": true,
