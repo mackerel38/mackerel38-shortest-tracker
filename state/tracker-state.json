@@ -19290,11 +19290,11 @@
     },
     "abc395_c": {
       "contest_id": "abc395",
-      "epoch_second": 1792583498,
+      "epoch_second": 1794479216,
       "language": "Uiua (uiua 0.16.2)",
-      "length": 57,
-      "submission_id": 80238835,
-      "user_id": "mackerel38"
+      "length": 52,
+      "submission_id": 80778293,
+      "user_id": "shogo314"
     },
     "abc395_d": {
       "contest_id": "abc395",
@@ -25188,9 +25188,9 @@
       "contest_id": "agc018",
       "epoch_second": null,
       "language": null,
-      "length": 537,
-      "submission_id": 28333300,
-      "user_id": "psz2007"
+      "length": 514,
+      "submission_id": 80766925,
+      "user_id": "Joker_sen"
     },
     "agc018_e": {
       "contest_id": "agc018",
@@ -37700,9 +37700,9 @@
       "contest_id": "arc225",
       "epoch_second": null,
       "language": null,
-      "length": 741,
-      "submission_id": 80637159,
-      "user_id": "LoplopScandi"
+      "length": 352,
+      "submission_id": 80765218,
+      "user_id": "negativesquare"
     },
     "arc225_d": {
       "contest_id": "arc225",
@@ -37746,11 +37746,11 @@
     },
     "arc226_d": {
       "contest_id": "arc226",
-      "epoch_second": null,
-      "language": null,
-      "length": 532,
-      "submission_id": 78457949,
-      "user_id": "herman526"
+      "epoch_second": 1794474454,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 423,
+      "submission_id": 80777200,
+      "user_id": "negativesquare"
     },
     "arc226_e": {
       "contest_id": "arc226",
@@ -45546,18 +45546,18 @@
     },
     "awc0177_c": {
       "contest_id": "awc0177",
-      "epoch_second": null,
-      "language": null,
-      "length": 94,
-      "submission_id": 80753765,
+      "epoch_second": 1794465706,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 93,
+      "submission_id": 80774381,
       "user_id": "yamadanull"
     },
     "awc0177_d": {
       "contest_id": "awc0177",
-      "epoch_second": 1794349206,
+      "epoch_second": 1794465650,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 94,
-      "submission_id": 80753311,
+      "length": 93,
+      "submission_id": 80774373,
       "user_id": "yamadanull"
     },
     "awc0177_e": {
@@ -45802,10 +45802,10 @@
     },
     "awc0183_e": {
       "contest_id": "awc0183",
-      "epoch_second": null,
-      "language": null,
-      "length": 464,
-      "submission_id": 80753519,
+      "epoch_second": 1794465567,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 463,
+      "submission_id": 80774353,
       "user_id": "yamadanull"
     },
     "awc0184_a": {
@@ -46895,6 +46895,14 @@
       "length": 1166,
       "submission_id": 79917316,
       "user_id": "m_99"
+    },
+    "bogosortcontest_div1_m": {
+      "contest_id": "bogosortcontest_div1",
+      "epoch_second": null,
+      "language": null,
+      "length": 48804,
+      "submission_id": 80762165,
+      "user_id": "hos_lyric"
     },
     "bogosortcontest_div2_a": {
       "contest_id": "bogosortcontest_div2",
@@ -82700,7 +82708,7 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1794410411,
+  "last_checked_epoch": 1794482369,
   "recommendation_day": "2026-11-12",
   "recommendations": [
     "abc403_f",
@@ -100866,6 +100874,30 @@
     "80767718": {
       "epoch_second": 1794409395,
       "language": "AWK (GNU awk 5.2.1)"
+    },
+    "80772519": {
+      "epoch_second": 1794455720,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80774353": {
+      "epoch_second": 1794465567,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80774373": {
+      "epoch_second": 1794465650,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80774381": {
+      "epoch_second": 1794465706,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "80777200": {
+      "epoch_second": 1794474454,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "80778293": {
+      "epoch_second": 1794479216,
+      "language": "Uiua (uiua 0.16.2)"
     }
   },
   "target_language_index_complete": true,
@@ -106327,6 +106359,7 @@
     "abc391_e:80248069",
     "abc392_c:80206261",
     "abc395_c:80238835",
+    "abc395_c:80778293",
     "abc397_c:80201122",
     "abc399_c:80214382",
     "abc403_d:80214628",
@@ -113148,6 +113181,25 @@
         "user_id": "mackerel38"
       },
       "problem_id": "abc469_f"
+    },
+    {
+      "after": {
+        "contest_id": "abc395",
+        "epoch_second": 1794479216,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 52,
+        "submission_id": 80778293,
+        "user_id": "shogo314"
+      },
+      "before": {
+        "contest_id": "abc395",
+        "epoch_second": 1792583498,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 57,
+        "submission_id": 80238835,
+        "user_id": "mackerel38"
+      },
+      "problem_id": "abc395_c"
     }
   ],
   "version": 2
