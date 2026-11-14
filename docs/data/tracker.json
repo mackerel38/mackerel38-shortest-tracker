@@ -438,8 +438,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1794583544,
-  "generated_iso": "2026-11-13T15:25:44+00:00",
+  "generated_epoch": 1794670848,
+  "generated_iso": "2026-11-14T15:40:48+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -8633,8 +8633,37 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-11-14",
-  "recommendations": [],
+  "recommendation_day": "2026-11-15",
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "abc396",
+        "epoch_second": 1789528105,
+        "language": "Python (PyPy 3.11-v7.3.20)",
+        "length": 181,
+        "submission_id": 79288905,
+        "submission_url": "https://atcoder.jp/contests/abc396/submissions/79288905",
+        "user_id": "negativesquare"
+      },
+      "problem_id": "abc396_f",
+      "problem_name": "Rotated Inversions",
+      "problem_url": "https://atcoder.jp/contests/abc396/tasks/abc396_f"
+    },
+    {
+      "current": {
+        "contest_id": "abc193",
+        "epoch_second": 1788684357,
+        "language": "C++23 (GCC 15.2.0)",
+        "length": 272,
+        "submission_id": 79034918,
+        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
+        "user_id": "x20"
+      },
+      "problem_id": "abc193_f",
+      "problem_name": "Zebraness",
+      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
+    }
+  ],
   "summary": {
     "active_update_count": 19,
     "ever_held_count": 372,
