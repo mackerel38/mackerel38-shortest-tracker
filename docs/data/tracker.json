@@ -438,8 +438,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1794920925,
-  "generated_iso": "2026-11-17T13:08:45+00:00",
+  "generated_epoch": 1794952082,
+  "generated_iso": "2026-11-17T21:48:02+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -8633,8 +8633,37 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-11-17",
-  "recommendations": [],
+  "recommendation_day": "2026-11-18",
+  "recommendations": [
+    {
+      "current": {
+        "contest_id": "arc229",
+        "epoch_second": 1788617580,
+        "language": "C++ IOI-Style(GNU++20) (GCC 14.2.0)",
+        "length": 235,
+        "submission_id": 78985478,
+        "submission_url": "https://atcoder.jp/contests/arc229/submissions/78985478",
+        "user_id": "pengweixiang"
+      },
+      "problem_id": "arc229_f",
+      "problem_name": "Angst for All Pairs 2",
+      "problem_url": "https://atcoder.jp/contests/arc229/tasks/arc229_f"
+    },
+    {
+      "current": {
+        "contest_id": "abc473",
+        "epoch_second": 1793383361,
+        "language": "Uiua (uiua 0.16.2)",
+        "length": 28,
+        "submission_id": 80484313,
+        "submission_url": "https://atcoder.jp/contests/abc473/submissions/80484313",
+        "user_id": "shogo314"
+      },
+      "problem_id": "abc473_b",
+      "problem_name": "Old Maid",
+      "problem_url": "https://atcoder.jp/contests/abc473/tasks/abc473_b"
+    }
+  ],
   "summary": {
     "active_update_count": 19,
     "ever_held_count": 372,
