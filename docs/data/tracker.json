@@ -438,8 +438,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1795035011,
-  "generated_iso": "2026-11-18T20:50:11+00:00",
+  "generated_epoch": 1795115418,
+  "generated_iso": "2026-11-19T19:10:18+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -8633,35 +8633,21 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-11-19",
+  "recommendation_day": "2026-11-20",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc193",
-        "epoch_second": 1788684357,
-        "language": "C++23 (GCC 15.2.0)",
-        "length": 272,
-        "submission_id": 79034918,
-        "submission_url": "https://atcoder.jp/contests/abc193/submissions/79034918",
-        "user_id": "x20"
+        "contest_id": "abc341",
+        "epoch_second": 1708171200,
+        "language": "Python (PyPy 3.10-v7.3.12)",
+        "length": 224,
+        "submission_id": 50666051,
+        "submission_url": "https://atcoder.jp/contests/abc341/submissions/50666051",
+        "user_id": "moon17"
       },
-      "problem_id": "abc193_f",
-      "problem_name": "Zebraness",
-      "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_f"
-    },
-    {
-      "current": {
-        "contest_id": "awc0046",
-        "epoch_second": 1787626579,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 41,
-        "submission_id": 78685355,
-        "submission_url": "https://atcoder.jp/contests/awc0046/submissions/78685355",
-        "user_id": "shogo314"
-      },
-      "problem_id": "awc0046_a",
-      "problem_name": "Optimal Practice Partner",
-      "problem_url": "https://atcoder.jp/contests/awc0046/tasks/awc0046_a"
+      "problem_id": "abc341_e",
+      "problem_name": "Alternating String",
+      "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_e"
     }
   ],
   "summary": {
