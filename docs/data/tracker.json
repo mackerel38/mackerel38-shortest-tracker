@@ -438,8 +438,8 @@
       "problem_url": "https://atcoder.jp/contests/abc468/tasks/abc468_a"
     }
   ],
-  "generated_epoch": 1795364302,
-  "generated_iso": "2026-11-22T16:18:22+00:00",
+  "generated_epoch": 1795473656,
+  "generated_iso": "2026-11-23T22:40:56+00:00",
   "notes": [
     "初回導入時は、その時点で保持していたShortestを登録します。",
     "一度でもmackerel38がShortestを取った問題は、以後、更新者が誰であってもShortestの更新を記録します。",
@@ -8633,35 +8633,21 @@
       "target_submission_url": "https://atcoder.jp/contests/arc192/submissions/65717458"
     }
   ],
-  "recommendation_day": "2026-11-23",
+  "recommendation_day": "2026-11-24",
   "recommendations": [
     {
       "current": {
-        "contest_id": "abc430",
-        "epoch_second": 1793927918,
-        "language": "Uiua (uiua 0.16.2)",
-        "length": 100,
-        "submission_id": 80621361,
-        "submission_url": "https://atcoder.jp/contests/abc430/submissions/80621361",
-        "user_id": "shogo314"
-      },
-      "problem_id": "abc430_f",
-      "problem_name": "Back and Forth Filling ",
-      "problem_url": "https://atcoder.jp/contests/abc430/tasks/abc430_f"
-    },
-    {
-      "current": {
-        "contest_id": "joi2022ho",
-        "epoch_second": 1795338700,
+        "contest_id": "arc233",
+        "epoch_second": 1795180110,
         "language": "C++23 (GCC 15.2.0)",
-        "length": 1465,
-        "submission_id": 81030218,
-        "submission_url": "https://atcoder.jp/contests/joi2022ho/submissions/81030218",
-        "user_id": "hamu_chan"
+        "length": 716,
+        "submission_id": 80953581,
+        "submission_url": "https://atcoder.jp/contests/arc233/submissions/80953581",
+        "user_id": "Timothy07"
       },
-      "problem_id": "joi2022ho_d",
-      "problem_name": "鉄道旅行 2 (Railway Trip 2)",
-      "problem_url": "https://atcoder.jp/contests/joi2022ho/tasks/joi2022ho_d"
+      "problem_id": "arc233_b",
+      "problem_name": "Count of Euclid Function Call",
+      "problem_url": "https://atcoder.jp/contests/arc233/tasks/arc233_b"
     }
   ],
   "summary": {
