@@ -38186,10 +38186,10 @@
     },
     "arc234_c": {
       "contest_id": "arc234",
-      "epoch_second": 1795371523,
-      "language": "Perl (perl 5.38.2)",
-      "length": 102,
-      "submission_id": 81038259,
+      "epoch_second": 1795620882,
+      "language": "PowerShell (PowerShell 7.5.2)",
+      "length": 72,
+      "submission_id": 81082142,
       "user_id": "ika_no_osushi"
     },
     "arc234_d": {
@@ -46986,10 +46986,10 @@
     },
     "awc0207_e": {
       "contest_id": "awc0207",
-      "epoch_second": 1795539898,
-      "language": "cLay (cLay 20250308-1 (GCC 15.2.0))",
-      "length": 381,
-      "submission_id": 81068501,
+      "epoch_second": 1795545262,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 357,
+      "submission_id": 81068995,
       "user_id": "yamadanull"
     },
     "awtf2024_a": {
@@ -83316,8 +83316,8 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1795543900,
-  "recommendation_day": "2026-11-25",
+  "last_checked_epoch": 1795642105,
+  "recommendation_day": "2026-11-26",
   "recommendations": [],
   "submission_details": {
     "50666051": {
@@ -104027,6 +104027,30 @@
     "81068501": {
       "epoch_second": 1795539898,
       "language": "cLay (cLay 20250308-1 (GCC 15.2.0))"
+    },
+    "81068906": {
+      "epoch_second": 1795544349,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81068942": {
+      "epoch_second": 1795544671,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81068962": {
+      "epoch_second": 1795544904,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81068995": {
+      "epoch_second": 1795545262,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81082131": {
+      "epoch_second": 1795620842,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81082142": {
+      "epoch_second": 1795620882,
+      "language": "PowerShell (PowerShell 7.5.2)"
     }
   },
   "target_language_index_complete": true,
