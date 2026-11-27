@@ -18538,10 +18538,10 @@
     },
     "abc381_g": {
       "contest_id": "abc381",
-      "epoch_second": null,
-      "language": null,
-      "length": 1385,
-      "submission_id": 77258362,
+      "epoch_second": 1795793458,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 1161,
+      "submission_id": 81109519,
       "user_id": "Not_Leonian"
     },
     "abc382_a": {
@@ -45330,19 +45330,19 @@
     },
     "awc0168_c": {
       "contest_id": "awc0168",
-      "epoch_second": 1794536608,
-      "language": "Python (PyPy 3.11-v7.3.20)",
-      "length": 188,
-      "submission_id": 80785941,
-      "user_id": "l_s_t"
+      "epoch_second": 1795799757,
+      "language": "Ruby 3.4 (ruby 3.4.5)",
+      "length": 186,
+      "submission_id": 81110183,
+      "user_id": "yamadanull"
     },
     "awc0168_d": {
       "contest_id": "awc0168",
-      "epoch_second": 1790779393,
+      "epoch_second": 1795803084,
       "language": "Ruby 3.4 (ruby 3.4.5)",
-      "length": 345,
-      "submission_id": 79644664,
-      "user_id": "ds14050"
+      "length": 197,
+      "submission_id": 81110451,
+      "user_id": "yamadanull"
     },
     "awc0168_e": {
       "contest_id": "awc0168",
@@ -52378,11 +52378,11 @@
     },
     "game_t": {
       "contest_id": "game-24",
-      "epoch_second": 1791824310,
-      "language": "C++23 (GCC 15.2.0)",
-      "length": 897,
-      "submission_id": 80000296,
-      "user_id": "legendchen"
+      "epoch_second": null,
+      "language": null,
+      "length": 279,
+      "submission_id": 81107123,
+      "user_id": "Not_Leonian"
     },
     "game_u": {
       "contest_id": "game-24",
@@ -54226,10 +54226,10 @@
     },
     "icpc2015summer_day4_e": {
       "contest_id": "jag2015summer-day4",
-      "epoch_second": null,
-      "language": null,
-      "length": 1505,
-      "submission_id": 77258311,
+      "epoch_second": 1795792630,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 1172,
+      "submission_id": 81109390,
       "user_id": "Not_Leonian"
     },
     "icpc2015summer_day4_f": {
@@ -62266,10 +62266,10 @@
     },
     "kupc2017_f": {
       "contest_id": "kupc2017",
-      "epoch_second": null,
-      "language": null,
-      "length": 1034,
-      "submission_id": 77259062,
+      "epoch_second": 1795794663,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 677,
+      "submission_id": 81109694,
       "user_id": "Not_Leonian"
     },
     "kupc2017_g": {
@@ -70260,9 +70260,9 @@
       "contest_id": "past23-open",
       "epoch_second": null,
       "language": null,
-      "length": 510,
-      "submission_id": 73808119,
-      "user_id": "Rssll_Krkgrd"
+      "length": 268,
+      "submission_id": 81107537,
+      "user_id": "Not_Leonian"
     },
     "past23_o": {
       "contest_id": "past23-open",
@@ -74410,10 +74410,10 @@
     },
     "tkppc2015_i": {
       "contest_id": "tkppc",
-      "epoch_second": null,
-      "language": null,
-      "length": 1121,
-      "submission_id": 77334051,
+      "epoch_second": 1795794078,
+      "language": "Python (PyPy 3.11-v7.3.20)",
+      "length": 892,
+      "submission_id": 81109619,
       "user_id": "Not_Leonian"
     },
     "tkppc2015_j": {
@@ -79544,6 +79544,86 @@
       "submission_id": 9664992,
       "user_id": "kotatsugame"
     },
+    "ycpc2026_a": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 218,
+      "submission_id": 81103401,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_b": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 138,
+      "submission_id": 81103474,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_c": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 232,
+      "submission_id": 81103536,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_d": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 1172,
+      "submission_id": 81104340,
+      "user_id": "flappybird"
+    },
+    "ycpc2026_e": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 646,
+      "submission_id": 81104206,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_f": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 360,
+      "submission_id": 81104368,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_g": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 618,
+      "submission_id": 81104887,
+      "user_id": "ecubic"
+    },
+    "ycpc2026_h": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 3051,
+      "submission_id": 81106768,
+      "user_id": "gmroh"
+    },
+    "ycpc2026_i": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 3327,
+      "submission_id": 81106190,
+      "user_id": "flappybird"
+    },
+    "ycpc2026_j": {
+      "contest_id": "ycpc2026",
+      "epoch_second": null,
+      "language": null,
+      "length": 6662,
+      "submission_id": 81104627,
+      "user_id": "Lulusphere"
+    },
     "yuha_c83_01": {
       "contest_id": "yuha-c83",
       "epoch_second": null,
@@ -83446,12 +83526,9 @@
     }
   },
   "initialized_at": 1785118603,
-  "last_checked_epoch": 1795788799,
-  "recommendation_day": "2026-11-27",
-  "recommendations": [
-    "arc227_a",
-    "abc193_f"
-  ],
+  "last_checked_epoch": 1795819544,
+  "recommendation_day": "2026-11-28",
+  "recommendations": [],
   "submission_details": {
     "50666051": {
       "epoch_second": 1708171200,
@@ -104632,6 +104709,30 @@
     "81108480": {
       "epoch_second": 1795787544,
       "language": "Uiua (uiua 0.16.2)"
+    },
+    "81109390": {
+      "epoch_second": 1795792630,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81109519": {
+      "epoch_second": 1795793458,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81109619": {
+      "epoch_second": 1795794078,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81109694": {
+      "epoch_second": 1795794663,
+      "language": "Python (PyPy 3.11-v7.3.20)"
+    },
+    "81110183": {
+      "epoch_second": 1795799757,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
+    },
+    "81110451": {
+      "epoch_second": 1795803084,
+      "language": "Ruby 3.4 (ruby 3.4.5)"
     }
   },
   "target_language_index_complete": true,
